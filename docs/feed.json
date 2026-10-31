@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T19:38:07Z",
+ "generated": "2026-10-31T20:08:05Z",
  "count": 1608,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 18,
    "repos": 0,
-   "points": 183,
+   "points": 224,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -16,15 +16,15 @@
    "last_seen": "2026-10-31T19:16:30Z",
    "items": [
     "hn:50299182",
+    "hn:50319143",
     "hn:50287647",
     "hn:50298526",
     "hn:50314397",
-    "hn:50312858",
     "lobsters:mp8yqt",
+    "hn:50312858",
     "hn:50297892",
     "hn:50305855",
     "lobsters:1sni1w",
-    "hn:50319143",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
@@ -296,21 +296,6 @@
    ]
   },
   {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -471,6 +456,24 @@
     "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
     "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
    ]
+  },
+  {
+   "name": "Integer",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-107891",
+    "CVE-2026-111496"
+   ],
+   "last_seen": "2026-10-29T05:00:00Z",
+   "items": [
+    "hn:50230132",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
+    "blog:https://seclists.org/oss-sec/2026/q4/421"
+   ]
   }
  ],
  "items": [
@@ -480,8 +483,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 3,
-   "comments": 1,
+   "points": 40,
+   "comments": 14,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -754,8 +757,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 256,
-   "comments": 154,
+   "points": 260,
+   "comments": 158,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -787,8 +790,8 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 14,
-   "comments": 0,
+   "points": 17,
+   "comments": 1,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
    "cves": [
@@ -2221,7 +2224,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 13,
+   "points": 14,
    "comments": 1,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -5588,7 +5591,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -18198,7 +18201,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 100,
+   "points": 101,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "kev_exploited",
