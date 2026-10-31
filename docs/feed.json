@@ -1,19 +1,19 @@
 {
- "generated": "2026-10-31T21:08:05Z",
- "count": 1608,
+ "generated": "2026-10-31T21:38:07Z",
+ "count": 1609,
  "topics": [
   {
-   "name": "Use-After-Free",
-   "threads": 18,
+   "name": "Ubuntu",
+   "threads": 19,
    "repos": 0,
-   "points": 310,
+   "points": 341,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-10-31T19:16:30Z",
+   "last_seen": "2026-10-31T21:19:08Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
@@ -25,6 +25,7 @@
     "hn:50297892",
     "hn:50305855",
     "lobsters:1sni1w",
+    "hn:50320349",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
@@ -234,7 +235,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 71,
+   "points": 72,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -478,13 +479,48 @@
  ],
  "items": [
   {
+   "id": "hn:50320349",
+   "source": "hackernews",
+   "title": "CVE-2026-98432: blocking the Linux TCP bug until Ubuntu and Red Hat ship a fix",
+   "url": "https://getrff.com/blog/cve-2026-98432-linux-tcp-ip-options-block/",
+   "discussion": "https://news.ycombinator.com/item?id=50320349",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-31T21:19:08Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T21:19:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T21:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-98432: blocking the Linux TCP bug until Ubuntu and Red Hat ship a fix",
+    "at": "2026-10-31T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50319143",
    "source": "hackernews",
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 124,
-   "comments": 63,
+   "points": 152,
+   "comments": 74,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -757,8 +793,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 275,
-   "comments": 159,
+   "points": 279,
+   "comments": 161,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -790,7 +826,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 18,
+   "points": 19,
    "comments": 1,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -1906,7 +1942,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 59,
+   "points": 60,
    "comments": 7,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -3115,7 +3151,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 165,
+   "points": 166,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3493,7 +3529,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 63,
-   "comments": 42,
+   "comments": 43,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
