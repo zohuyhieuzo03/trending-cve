@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T15:38:07Z",
+ "generated": "2026-10-31T16:08:07Z",
  "count": 1605,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 169,
+   "points": 171,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -53,8 +53,8 @@
     "hn:50312858",
     "lobsters:mp8yqt",
     "hn:50297892",
-    "hn:50305855",
     "hn:50314397",
+    "hn:50305855",
     "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
@@ -98,7 +98,7 @@
    "name": "5.4-5.6",
    "threads": 8,
    "repos": 0,
-   "points": 17,
+   "points": 19,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -296,6 +296,21 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -457,21 +472,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:https://seclists.org/oss-sec/2026/q4/421"
    ]
-  },
-  {
-   "name": "CoreGraphics",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-27T14:23:58Z",
-   "items": [
-    "hn:50259864",
-    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-   ]
   }
  ],
  "items": [
@@ -481,7 +481,7 @@
    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
-   "points": 1,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-31T15:35:30Z",
    "label": "public_exploit_reported",
@@ -619,7 +619,7 @@
    "title": "Bitcoin Core discloses TCP out-of-memory vulnerability",
    "url": "https://bitcoincore.org/en/2026/10/28/disclose-tcp-oom/",
    "discussion": "https://news.ycombinator.com/item?id=50316251",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-31T13:57:44Z",
    "label": "security_news",
@@ -649,11 +649,11 @@
   {
    "id": "hn:50314666",
    "source": "hackernews",
-   "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+   "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 151,
-   "comments": 97,
+   "points": 167,
+   "comments": 114,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -666,12 +666,12 @@
     }
    ],
    "llm": {
-    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-    "at": "2026-10-31T10:37:07Z",
+    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+    "at": "2026-10-31T16:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.6
+      "confidence": 0.7
      }
     },
     "consensus": "unclear",
@@ -685,7 +685,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -854,7 +854,7 @@
    "title": "Go programs are vulnerable to CVE-2026-98432 (Linux RCE)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50312858",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-10-31T03:07:32Z",
    "label": "related",
@@ -3010,7 +3010,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 160,
+   "points": 161,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -18272,7 +18272,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 968,
+   "points": 969,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -18494,7 +18494,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 228,
+   "points": 229,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20707,7 +20707,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1915,
+   "points": 1916,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
