@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T20:08:05Z",
+ "generated": "2026-10-31T20:37:19Z",
  "count": 1608,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 18,
    "repos": 0,
-   "points": 224,
+   "points": 267,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -15,8 +15,8 @@
    ],
    "last_seen": "2026-10-31T19:16:30Z",
    "items": [
-    "hn:50299182",
     "hn:50319143",
+    "hn:50299182",
     "hn:50287647",
     "hn:50298526",
     "hn:50314397",
@@ -98,7 +98,7 @@
    "name": "5.4-5.6",
    "threads": 8,
    "repos": 0,
-   "points": 19,
+   "points": 20,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -234,7 +234,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 70,
+   "points": 71,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -293,6 +293,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -456,24 +471,6 @@
     "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
     "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
    ]
-  },
-  {
-   "name": "Integer",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-107891",
-    "CVE-2026-111496"
-   ],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "hn:50230132",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
-    "blog:https://seclists.org/oss-sec/2026/q4/421"
-   ]
   }
  ],
  "items": [
@@ -483,8 +480,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 40,
-   "comments": 14,
+   "points": 82,
+   "comments": 42,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -586,7 +583,7 @@
    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-31T15:35:30Z",
    "label": "public_exploit_reported",
@@ -757,7 +754,7 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 260,
+   "points": 266,
    "comments": 158,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
@@ -790,7 +787,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 17,
+   "points": 18,
    "comments": 1,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -1906,7 +1903,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 58,
+   "points": 59,
    "comments": 7,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -3493,7 +3490,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 63,
-   "comments": 41,
+   "comments": 42,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -18599,7 +18596,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 239,
+   "points": 240,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20553,7 +20550,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 97,
+   "points": 98,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
@@ -20742,7 +20739,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1053,
+   "points": 1052,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
