@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:37:45Z",
+ "generated": "2026-10-31T19:08:07Z",
  "count": 1605,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 178,
+   "points": 179,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -50,9 +50,9 @@
     "hn:50299182",
     "hn:50287647",
     "hn:50298526",
+    "hn:50314397",
     "hn:50312858",
     "lobsters:mp8yqt",
-    "hn:50314397",
     "hn:50297892",
     "hn:50305855",
     "lobsters:1sni1w",
@@ -295,21 +295,6 @@
    ]
   },
   {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -468,6 +453,21 @@
     "hn:50230132",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:https://seclists.org/oss-sec/2026/q4/421"
+   ]
+  },
+  {
+   "name": "CoreGraphics",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T14:23:58Z",
+   "items": [
+    "hn:50259864",
+    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
   }
  ],
@@ -649,8 +649,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 237,
-   "comments": 143,
+   "points": 245,
+   "comments": 150,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -682,7 +682,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -18491,7 +18491,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 236,
+   "points": 237,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
