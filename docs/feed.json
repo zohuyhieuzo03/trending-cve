@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T14:08:07Z",
+ "generated": "2026-10-31T14:38:07Z",
  "count": 1601,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 167,
+   "points": 168,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -229,22 +229,6 @@
    ]
   },
   {
-   "name": "Secure",
-   "threads": 4,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T11:50:00Z",
-   "items": [
-    "hn:50266919",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
-    "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-   ]
-  },
-  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -274,22 +258,6 @@
     "hn:50227138",
     "hn:50232492",
     "tailscale:ts-2026-014"
-   ]
-  },
-  {
-   "name": "firewall",
-   "threads": 4,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T07:27:05Z",
-   "items": [
-    "hn:50289274",
-    "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "blog:https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
    ]
   },
   {
@@ -323,6 +291,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -408,21 +391,6 @@
    ]
   },
   {
-   "name": "Drupal",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
-  },
-  {
    "name": "wild",
    "threads": 3,
    "repos": 0,
@@ -455,6 +423,21 @@
    ]
   },
   {
+   "name": "devices",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T14:05:36Z",
+   "items": [
+    "hn:50289274",
+    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+   ]
+  },
+  {
    "name": "Integer",
    "threads": 3,
    "repos": 0,
@@ -470,6 +453,21 @@
     "hn:50230132",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:https://seclists.org/oss-sec/2026/q4/421"
+   ]
+  },
+  {
+   "name": "CoreGraphics",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T14:23:58Z",
+   "items": [
+    "hn:50259864",
+    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
   }
  ],
@@ -513,8 +511,8 @@
    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 99,
-   "comments": 59,
+   "points": 117,
+   "comments": 70,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -2871,7 +2869,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 159,
+   "points": 160,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3280,7 +3278,7 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 19,
+   "points": 20,
    "comments": 6,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
@@ -17748,7 +17746,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 192,
+   "points": 193,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -18355,7 +18353,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 224,
+   "points": 226,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
