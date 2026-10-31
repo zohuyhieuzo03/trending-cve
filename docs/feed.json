@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T13:38:07Z",
- "count": 1600,
+ "generated": "2026-10-31T14:08:07Z",
+ "count": 1601,
  "topics": [
   {
    "name": "Untrusted",
@@ -475,13 +475,46 @@
  ],
  "items": [
   {
+   "id": "hn:50316251",
+   "source": "hackernews",
+   "title": "Bitcoin Core discloses TCP out-of-memory vulnerability",
+   "url": "https://bitcoincore.org/en/2026/10/28/disclose-tcp-oom/",
+   "discussion": "https://news.ycombinator.com/item?id=50316251",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-31T13:57:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-31T13:57:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T14:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Bitcoin Core discloses TCP out-of-memory vulnerability",
+    "at": "2026-10-31T14:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50314666",
    "source": "hackernews",
    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 85,
-   "comments": 44,
+   "points": 99,
+   "comments": 59,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -12837,7 +12870,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 85,
+   "points": 84,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
@@ -17715,7 +17748,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 191,
+   "points": 192,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -18322,7 +18355,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 220,
+   "points": 224,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20535,7 +20568,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1913,
+   "points": 1914,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
