@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T22:08:07Z",
+ "generated": "2026-10-31T22:38:07Z",
  "count": 1609,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 19,
    "repos": 0,
-   "points": 370,
+   "points": 401,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -97,7 +97,7 @@
   },
   {
    "name": "5.4-5.6",
-   "threads": 8,
+   "threads": 7,
    "repos": 0,
    "points": 20,
    "kev": true,
@@ -116,8 +116,7 @@
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
     "blog:https://seclists.org/oss-sec/2026/q4/392",
-    "blog:https://seclists.org/oss-sec/2026/q4/386",
-    "blog:https://seclists.org/oss-sec/2026/q4/376"
+    "blog:https://seclists.org/oss-sec/2026/q4/386"
    ]
   },
   {
@@ -312,24 +311,6 @@
    ]
   },
   {
-   "name": "Multiple",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111813"
-   ],
-   "last_seen": "2026-10-30T00:28:43Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/438",
-    "blog:https://seclists.org/oss-sec/2026/q4/404",
-    "blog:https://seclists.org/oss-sec/2026/q4/403",
-    "blog:https://seclists.org/oss-sec/2026/q4/374"
-   ]
-  },
-  {
    "name": "Local",
    "threads": 4,
    "repos": 1,
@@ -475,6 +456,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:https://seclists.org/oss-sec/2026/q4/421"
    ]
+  },
+  {
+   "name": "CoreGraphics",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T14:23:58Z",
+   "items": [
+    "hn:50259864",
+    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+   ]
   }
  ],
  "items": [
@@ -484,7 +480,7 @@
    "title": "CVE-2026-98432: blocking the Linux TCP bug until Ubuntu and Red Hat ship a fix",
    "url": "https://getrff.com/blog/cve-2026-98432-linux-tcp-ip-options-block/",
    "discussion": "https://news.ycombinator.com/item?id=50320349",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-31T21:19:08Z",
    "label": "related",
@@ -519,8 +515,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 180,
-   "comments": 88,
+   "points": 210,
+   "comments": 98,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -793,8 +789,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 286,
-   "comments": 163,
+   "points": 287,
+   "comments": 167,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -3151,7 +3147,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 166,
+   "points": 167,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
