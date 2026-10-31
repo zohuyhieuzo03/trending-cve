@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T13:08:07Z",
+ "generated": "2026-10-31T13:38:07Z",
  "count": 1600,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 166,
+   "points": 167,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -67,22 +67,24 @@
    ]
   },
   {
-   "name": "Broccoli2Shell",
-   "threads": 9,
+   "name": "decoder",
+   "threads": 10,
    "repos": 2,
-   "points": 13,
+   "points": 15,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497"
+    "CVE-2026-111497",
+    "CVE-2026-102479"
    ],
-   "last_seen": "2026-10-28T10:48:14Z",
+   "last_seen": "2026-10-28T18:14:55Z",
    "items": [
     "ghpoc:assetnote/node2shell-scanner",
     "ghpoc:syrex1013/CVE-2026-111497-node2shell",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "hn:50221110",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "blog:https://seclists.org/oss-sec/2026/q4/426",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
@@ -93,9 +95,9 @@
   },
   {
    "name": "5.4-5.6",
-   "threads": 7,
+   "threads": 8,
    "repos": 0,
-   "points": 16,
+   "points": 20,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -106,6 +108,7 @@
    "last_seen": "2026-10-29T18:38:43Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
@@ -259,21 +262,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -420,6 +408,21 @@
    ]
   },
   {
+   "name": "Drupal",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
+  },
+  {
    "name": "wild",
    "threads": 3,
    "repos": 0,
@@ -477,8 +480,8 @@
    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 69,
-   "comments": 30,
+   "points": 85,
+   "comments": 44,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -1944,8 +1947,8 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 11,
-   "comments": 0,
+   "points": 12,
+   "comments": 1,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
    "cves": [
@@ -18319,7 +18322,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 216,
+   "points": 220,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
