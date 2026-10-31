@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T15:07:12Z",
- "count": 1601,
+ "generated": "2026-10-31T15:38:07Z",
+ "count": 1605,
  "topics": [
   {
    "name": "Untrusted",
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 168,
+   "points": 169,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -68,9 +68,9 @@
   },
   {
    "name": "decoder",
-   "threads": 10,
+   "threads": 11,
    "repos": 2,
-   "points": 15,
+   "points": 19,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -84,6 +84,7 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "blog:https://seclists.org/oss-sec/2026/q4/426",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
@@ -97,18 +98,19 @@
    "name": "5.4-5.6",
    "threads": 8,
    "repos": 0,
-   "points": 20,
+   "points": 17,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619",
+    "CVE-2026-58882",
     "CVE-2026-20127"
    ],
-   "last_seen": "2026-10-29T18:38:43Z",
+   "last_seen": "2026-10-31T15:35:30Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
@@ -343,6 +345,22 @@
    ]
   },
   {
+   "name": "Stack-based",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T05:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-821/"
+   ]
+  },
+  {
    "name": "unpatched",
    "threads": 3,
    "repos": 0,
@@ -373,21 +391,6 @@
     "hn:50309629",
     "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
     "blog:https://seclists.org/oss-sec/2026/q4/447"
-   ]
-  },
-  {
-   "name": "Drupal",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   },
   {
@@ -473,12 +476,150 @@
  ],
  "items": [
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+   "source": "bluesky",
+   "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-31T15:35:30Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T15:35:30Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T15:38:07Z",
+     "label": "public_exploit_reported"
+    }
+   ],
+   "llm": {
+    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
+    "at": "2026-10-31T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "lobsters:bnok4r",
+   "source": "lobsters",
+   "title": "CVE-2026-116155: ImageMagick Memory Leak via Crafted XMP Profile",
+   "url": "https://www.agilehunt.com/blog/imagemagick-cve-2026-116155-xmp-profile-parameter-entity-memory-leak",
+   "discussion": "https://lobste.rs/s/bnok4r/cve_2026_116155_imagemagick_memory_leak",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-31T10:24:18.253-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-116155"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T15:24:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T15:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-116155: ImageMagick Memory Leak via Crafted XMP Profile",
+    "at": "2026-10-31T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50316982",
+   "source": "hackernews",
+   "title": "SBoM creator and Vulnerability scanner (Threatclaw.ai)",
+   "url": "https://www.threatclaw.ai/free-tools",
+   "discussion": "https://news.ycombinator.com/item?id=50316982",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-31T15:21:57Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-31T15:21:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T15:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "SBoM creator and Vulnerability scanner (Threatclaw.ai)",
+    "at": "2026-10-31T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50316849",
+   "source": "hackernews",
+   "title": "CVE-2026-116155: ImageMagick Memory Leak via Crafted XMP Profile-VR by Agilehunt",
+   "url": "https://www.agilehunt.com/blog/imagemagick-cve-2026-116155-xmp-profile-parameter-entity-memory-leak",
+   "discussion": "https://news.ycombinator.com/item?id=50316849",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-31T15:07:57Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-116155"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T15:07:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T15:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-116155: ImageMagick Memory Leak via Crafted XMP Profile-VR by Agilehunt",
+    "at": "2026-10-31T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50316251",
    "source": "hackernews",
    "title": "Bitcoin Core discloses TCP out-of-memory vulnerability",
    "url": "https://bitcoincore.org/en/2026/10/28/disclose-tcp-oom/",
    "discussion": "https://news.ycombinator.com/item?id=50316251",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-31T13:57:44Z",
    "label": "security_news",
@@ -511,8 +652,8 @@
    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 127,
-   "comments": 78,
+   "points": 151,
+   "comments": 97,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -544,7 +685,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -5345,7 +5486,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -18353,7 +18494,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 227,
+   "points": 228,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
