@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T12:38:07Z",
+ "generated": "2026-11-01T13:08:07Z",
  "count": 1616,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 750,
+   "points": 758,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -294,21 +294,6 @@
    ]
   },
   {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -463,6 +448,24 @@
     "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
     "blog:https://seclists.org/oss-sec/2026/q4/447",
     "blog:https://seclists.org/oss-sec/2026/q4/414"
+   ]
+  },
+  {
+   "name": "HTTP",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116130",
+    "CVE-2026-115825"
+   ],
+   "last_seen": "2026-10-30T12:54:22Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/448",
+    "blog:https://seclists.org/oss-sec/2026/q4/427",
+    "blog:https://seclists.org/oss-sec/2026/q4/387"
    ]
   }
  ],
@@ -679,8 +682,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 548,
-   "comments": 252,
+   "points": 555,
+   "comments": 255,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -986,7 +989,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 26,
+   "points": 27,
    "comments": 3,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -18839,7 +18842,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 257,
+   "points": 258,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -21052,7 +21055,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1918,
+   "points": 1919,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
