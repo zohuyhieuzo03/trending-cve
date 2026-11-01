@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T10:08:07Z",
+ "generated": "2026-11-01T10:38:06Z",
  "count": 1616,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 707,
+   "points": 712,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -208,6 +208,26 @@
    ]
   },
   {
+   "name": "Local",
+   "threads": 5,
+   "repos": 1,
+   "points": 0,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-112445"
+   ],
+   "last_seen": "2026-10-29T05:00:00Z",
+   "items": [
+    "ghpoc:Mas0nShi/CVE-2026-112445",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/",
+    "tailscale:ts-2026-016"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -304,25 +324,6 @@
    ]
   },
   {
-   "name": "Local",
-   "threads": 4,
-   "repos": 1,
-   "points": 0,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-112445"
-   ],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "ghpoc:Mas0nShi/CVE-2026-112445",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/",
-    "tailscale:ts-2026-016"
-   ]
-  },
-  {
    "name": "Information",
    "threads": 4,
    "repos": 0,
@@ -385,6 +386,23 @@
    ]
   },
   {
+   "name": "TeamViewer",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111585"
+   ],
+   "last_seen": "2026-11-01T09:11:55Z",
+   "items": [
+    "hn:50323831",
+    "hn:50289790",
+    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+   ]
+  },
+  {
    "name": "wild",
    "threads": 3,
    "repos": 0,
@@ -397,23 +415,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
     "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
     "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
-   ]
-  },
-  {
-   "name": "TeamViewer",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111585"
-   ],
-   "last_seen": "2026-11-01T09:11:55Z",
-   "items": [
-    "hn:50323831",
-    "hn:50289790",
-    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
    ]
   },
   {
@@ -432,24 +433,6 @@
    ]
   },
   {
-   "name": "Integer",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-107891",
-    "CVE-2026-111496"
-   ],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "hn:50230132",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
-    "blog:https://seclists.org/oss-sec/2026/q4/421"
-   ]
-  },
-  {
    "name": "CoreGraphics",
    "threads": 3,
    "repos": 0,
@@ -463,6 +446,24 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
+  },
+  {
+   "name": "Clients",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118988",
+    "CVE-2026-83525"
+   ],
+   "last_seen": "2026-11-01T08:51:31Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/447",
+    "blog:https://seclists.org/oss-sec/2026/q4/414"
+   ]
   }
  ],
  "items": [
@@ -472,7 +473,7 @@
    "title": "TeamViewer RCE Vulnerability (CVE-2026-111585)",
    "url": "https://remedio.io/research/vulnerability-disclosures/remote-code-execution-in-teamviewer/",
    "discussion": "https://news.ycombinator.com/item?id=50323831",
-   "points": 1,
+   "points": 2,
    "comments": 2,
    "created": "2026-11-01T09:11:55Z",
    "label": "related",
@@ -678,8 +679,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 506,
-   "comments": 234,
+   "points": 511,
+   "comments": 238,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
