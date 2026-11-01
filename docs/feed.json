@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T18:08:07Z",
- "count": 1621,
+ "generated": "2026-11-01T18:37:07Z",
+ "count": 1622,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 825,
+   "points": 830,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -190,7 +190,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 204,
+   "points": 216,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -254,6 +254,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -284,21 +299,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -462,6 +462,39 @@
  ],
  "items": [
   {
+   "id": "hn:50328325",
+   "source": "hackernews",
+   "title": "Nintendo Switch exploit using Civ 7",
+   "url": "https://github.com/Gezine/CivSwitch",
+   "discussion": "https://news.ycombinator.com/item?id=50328325",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-01T18:36:24Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T18:36:24Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T18:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Nintendo Switch exploit using Civ 7",
+    "at": "2026-11-01T18:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/462",
    "source": "seclists.org",
    "title": "Google::Auth for Perl (2 CVEs)",
@@ -568,8 +601,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 37,
-   "comments": 24,
+   "points": 48,
+   "comments": 30,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -840,7 +873,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 620,
+   "points": 625,
    "comments": 304,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -3472,7 +3505,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 167,
+   "points": 168,
    "comments": 41,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
