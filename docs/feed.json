@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T13:08:07Z",
+ "generated": "2026-11-01T13:38:07Z",
  "count": 1616,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 758,
+   "points": 768,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -682,8 +682,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 555,
-   "comments": 255,
+   "points": 565,
+   "comments": 262,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
