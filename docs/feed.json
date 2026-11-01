@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T23:38:07Z",
+ "generated": "2026-11-01T00:08:07Z",
  "count": 1611,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 19,
    "repos": 0,
-   "points": 456,
+   "points": 471,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -69,23 +69,24 @@
    ]
   },
   {
-   "name": "known",
+   "name": "decoder",
    "threads": 10,
    "repos": 1,
-   "points": 21,
+   "points": 19,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497"
+    "CVE-2026-111497",
+    "CVE-2026-102479"
    ],
-   "last_seen": "2026-10-28T14:00:15Z",
+   "last_seen": "2026-10-28T18:14:55Z",
    "items": [
     "ghpoc:assetnote/node2shell-scanner",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "hn:50231787",
+    "blog:https://seclists.org/oss-sec/2026/q4/426",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
@@ -179,23 +180,6 @@
    ]
   },
   {
-   "name": "PHP2Shell",
-   "threads": 5,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:50:17Z",
-   "items": [
-    "hn:50240988",
-    "hn:50270348",
-    "hn:50226729",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 4,
    "repos": 0,
@@ -244,6 +228,22 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 4,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T05:50:17Z",
+   "items": [
+    "hn:50240988",
+    "hn:50270348",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -289,6 +289,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -452,21 +467,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:https://seclists.org/oss-sec/2026/q4/421"
    ]
-  },
-  {
-   "name": "CoreGraphics",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-27T14:23:58Z",
-   "items": [
-    "hn:50259864",
-    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-   ]
   }
  ],
  "items": [
@@ -544,8 +544,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 263,
-   "comments": 126,
+   "points": 277,
+   "comments": 137,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -818,8 +818,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 292,
-   "comments": 168,
+   "points": 293,
+   "comments": 172,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -851,7 +851,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 20,
+   "points": 21,
    "comments": 1,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -13303,7 +13303,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 50,
+   "points": 51,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "kev_exploited",
@@ -20031,7 +20031,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 150,
+   "points": 151,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "kev_exploited",
