@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T19:07:07Z",
- "count": 1622,
+ "generated": "2026-11-01T19:38:07Z",
+ "count": 1624,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 836,
+   "points": 841,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -190,7 +190,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 226,
+   "points": 235,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -462,6 +462,39 @@
  ],
  "items": [
   {
+   "id": "hn:50328923",
+   "source": "hackernews",
+   "title": "100% Increase in CVEs YoY",
+   "url": "https://app.opencve.io/statistics",
+   "discussion": "https://news.ycombinator.com/item?id=50328923",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-01T19:37:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T19:37:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T19:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "100% Increase in CVEs YoY",
+    "at": "2026-11-01T19:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50328325",
    "source": "hackernews",
    "title": "Nintendo Switch exploit using Civ 7",
@@ -601,8 +634,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 58,
-   "comments": 33,
+   "points": 67,
+   "comments": 46,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -873,8 +906,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 631,
-   "comments": 307,
+   "points": 636,
+   "comments": 309,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -1147,7 +1180,7 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 328,
+   "points": 329,
    "comments": 188,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
@@ -10811,6 +10844,28 @@
     {
      "at": "2026-10-27T14:26:04Z",
      "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:YuKongA/CVE-2026-98260",
+   "source": "github-poc",
+   "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
+   "url": "https://github.com/YuKongA/CVE-2026-98260",
+   "discussion": "https://github.com/YuKongA/CVE-2026-98260",
+   "points": 42,
+   "comments": 0,
+   "created": "2026-10-27T12:53:47Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-27T12:53:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T19:38:07Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
