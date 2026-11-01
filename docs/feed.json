@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T21:08:06Z",
+ "generated": "2026-11-01T21:37:49Z",
  "count": 1624,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 862,
+   "points": 867,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -174,7 +174,7 @@
    "name": "Attempted",
    "threads": 3,
    "repos": 0,
-   "points": 313,
+   "points": 314,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -191,7 +191,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 246,
+   "points": 250,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -255,6 +255,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -270,21 +285,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -468,7 +468,7 @@
    "title": "100% Increase in CVEs YoY",
    "url": "https://app.opencve.io/statistics",
    "discussion": "https://news.ycombinator.com/item?id=50328923",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-01T19:37:46Z",
    "label": "security_news",
@@ -635,8 +635,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 78,
-   "comments": 55,
+   "points": 81,
+   "comments": 60,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -668,7 +668,7 @@
    "title": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
-   "points": 8,
+   "points": 9,
    "comments": 1,
    "created": "2026-11-01T15:12:14Z",
    "label": "security_news",
@@ -907,8 +907,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 657,
-   "comments": 315,
+   "points": 662,
+   "comments": 318,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -3539,7 +3539,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 168,
+   "points": 169,
    "comments": 41,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
