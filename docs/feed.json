@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T00:38:07Z",
+ "generated": "2026-11-01T01:08:07Z",
  "count": 1611,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 19,
    "repos": 0,
-   "points": 493,
+   "points": 515,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -69,24 +69,23 @@
    ]
   },
   {
-   "name": "decoder",
+   "name": "known",
    "threads": 10,
    "repos": 1,
-   "points": 19,
+   "points": 21,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-102479"
+    "CVE-2026-111497"
    ],
-   "last_seen": "2026-10-28T18:14:55Z",
+   "last_seen": "2026-10-28T14:00:15Z",
    "items": [
     "ghpoc:assetnote/node2shell-scanner",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "blog:https://seclists.org/oss-sec/2026/q4/426",
+    "hn:50231787",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
@@ -241,21 +240,6 @@
     "hn:50270348",
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
-  },
-  {
-   "name": "Tailscale",
-   "threads": 3,
-   "repos": 0,
-   "points": 32,
-   "kev": false,
-   "vendor": true,
-   "cves": [],
-   "last_seen": "2026-10-26T00:00:00Z",
-   "items": [
-    "hn:50227138",
-    "hn:50232492",
-    "tailscale:ts-2026-014"
    ]
   },
   {
@@ -467,6 +451,24 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
+  },
+  {
+   "name": "HTTP",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116130",
+    "CVE-2026-115825"
+   ],
+   "last_seen": "2026-10-30T12:54:22Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/448",
+    "blog:https://seclists.org/oss-sec/2026/q4/427",
+    "blog:https://seclists.org/oss-sec/2026/q4/387"
+   ]
   }
  ],
  "items": [
@@ -544,8 +546,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 299,
-   "comments": 144,
+   "points": 321,
+   "comments": 154,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -818,8 +820,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 297,
-   "comments": 172,
+   "points": 299,
+   "comments": 175,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
