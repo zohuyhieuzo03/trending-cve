@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T06:08:07Z",
+ "generated": "2026-11-01T06:38:07Z",
  "count": 1614,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 20,
    "repos": 0,
-   "points": 640,
+   "points": 647,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -612,8 +612,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 440,
-   "comments": 205,
+   "points": 447,
+   "comments": 208,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -886,7 +886,7 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 316,
+   "points": 317,
    "comments": 184,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
@@ -3245,7 +3245,7 @@
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
    "points": 167,
-   "comments": 38,
+   "comments": 40,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -18550,7 +18550,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 970,
+   "points": 971,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
