@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T09:08:07Z",
- "count": 1614,
+ "generated": "2026-11-01T09:38:07Z",
+ "count": 1616,
  "topics": [
   {
    "name": "Use-After-Free",
-   "threads": 20,
+   "threads": 19,
    "repos": 0,
-   "points": 695,
+   "points": 702,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -30,7 +30,6 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
-    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
@@ -275,21 +274,6 @@
    ]
   },
   {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -371,24 +355,6 @@
    ]
   },
   {
-   "name": "Unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102764",
-    "CVE-2026-118988"
-   ],
-   "last_seen": "2026-10-30T20:22:31Z",
-   "items": [
-    "hn:50309629",
-    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
-    "blog:https://seclists.org/oss-sec/2026/q4/447"
-   ]
-  },
-  {
    "name": "Drupal",
    "threads": 3,
    "repos": 0,
@@ -416,6 +382,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
     "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
     "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+   ]
+  },
+  {
+   "name": "TeamViewer",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111585"
+   ],
+   "last_seen": "2026-11-01T09:11:55Z",
+   "items": [
+    "hn:50323831",
+    "hn:50289790",
+    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
    ]
   },
   {
@@ -465,9 +448,95 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
+  },
+  {
+   "name": "Clients",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118988",
+    "CVE-2026-83525"
+   ],
+   "last_seen": "2026-11-01T08:51:31Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/447",
+    "blog:https://seclists.org/oss-sec/2026/q4/414"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50323831",
+   "source": "hackernews",
+   "title": "TeamViewer RCE Vulnerability (CVE-2026-111585)",
+   "url": "https://remedio.io/research/vulnerability-disclosures/remote-code-execution-in-teamviewer/",
+   "discussion": "https://news.ycombinator.com/item?id=50323831",
+   "points": 1,
+   "comments": 2,
+   "created": "2026-11-01T09:11:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111585"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T09:11:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T09:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "TeamViewer RCE Vulnerability (CVE-2026-111585)",
+    "at": "2026-11-01T09:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "source": "thehackernews.com",
+   "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "discussion": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-01T08:51:31Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T08:51:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T09:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "at": "2026-11-01T09:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50322542",
    "source": "hackernews",
@@ -612,8 +681,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 494,
-   "comments": 226,
+   "points": 501,
+   "comments": 229,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -886,7 +955,7 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 320,
+   "points": 321,
    "comments": 184,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
