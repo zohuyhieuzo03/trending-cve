@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T02:07:07Z",
+ "generated": "2026-11-01T02:38:07Z",
  "count": 1612,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 19,
    "repos": 0,
-   "points": 547,
+   "points": 558,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -578,8 +578,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 352,
-   "comments": 168,
+   "points": 363,
+   "comments": 172,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -852,8 +852,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 307,
-   "comments": 181,
+   "points": 310,
+   "comments": 182,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -22637,7 +22637,7 @@
    "title": "ylh440104/InfinityCore-Android-CVE-2026-98260: CVE-2026-98260 (Timer) Android/ARM64 port",
    "url": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
    "discussion": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
-   "points": 41,
+   "points": 42,
    "comments": 0,
    "created": "2026-10-18T23:26:39Z",
    "label": "public_exploit_reported",
