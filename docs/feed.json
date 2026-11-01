@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T15:08:07Z",
- "count": 1616,
+ "generated": "2026-11-01T15:37:07Z",
+ "count": 1618,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 785,
+   "points": 788,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -158,25 +158,6 @@
    ]
   },
   {
-   "name": "GitLab",
-   "threads": 4,
-   "repos": 0,
-   "points": 305,
-   "kev": true,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-97229",
-    "CVE-2026-111943"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "gitlab:patch-release-gitlab-19-5-3-released"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 4,
    "repos": 0,
@@ -208,23 +189,37 @@
    ]
   },
   {
-   "name": "Local",
-   "threads": 5,
-   "repos": 1,
-   "points": 0,
-   "kev": false,
-   "vendor": true,
+   "name": "Attempted",
+   "threads": 3,
+   "repos": 0,
+   "points": 309,
+   "kev": true,
+   "vendor": false,
    "cves": [
-    "CVE-2026-112445"
+    "CVE-2026-97229"
    ],
-   "last_seen": "2026-10-29T05:00:00Z",
+   "last_seen": "2026-11-01T15:12:14Z",
    "items": [
-    "ghpoc:Mas0nShi/CVE-2026-112445",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/",
-    "tailscale:ts-2026-016"
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
+   ]
+  },
+  {
+   "name": "extensions",
+   "threads": 3,
+   "repos": 0,
+   "points": 168,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115644"
+   ],
+   "last_seen": "2026-11-01T15:33:49Z",
+   "items": [
+    "lobsters:ttp7aq",
+    "hn:50326609",
+    "blog:https://seclists.org/oss-sec/2026/q4/422"
    ]
   },
   {
@@ -261,21 +256,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -309,6 +289,21 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -321,6 +316,25 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
+   "name": "Local",
+   "threads": 4,
+   "repos": 1,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112445"
+   ],
+   "last_seen": "2026-10-29T05:00:00Z",
+   "items": [
+    "ghpoc:Mas0nShi/CVE-2026-112445",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
    ]
   },
   {
@@ -446,27 +460,75 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
-  },
-  {
-   "name": "Clients",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118988",
-    "CVE-2026-83525"
-   ],
-   "last_seen": "2026-11-01T08:51:31Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/447",
-    "blog:https://seclists.org/oss-sec/2026/q4/414"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50326609",
+   "source": "hackernews",
+   "title": "Landline phones will switch off across Britland in 100 days, no extensions",
+   "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
+   "discussion": "https://news.ycombinator.com/item?id=50326609",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-01T15:33:49Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T15:33:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T15:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
+    "at": "2026-11-01T15:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.95
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25",
+   "source": "bluesky",
+   "title": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-11-01T15:12:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T15:12:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T15:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to",
+    "at": "2026-11-01T15:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50323831",
    "source": "hackernews",
@@ -679,8 +741,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 581,
-   "comments": 281,
+   "points": 584,
+   "comments": 287,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -18617,7 +18679,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 971,
+   "points": 972,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -18839,7 +18901,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 259,
+   "points": 260,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -21052,7 +21114,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1919,
+   "points": 1920,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
