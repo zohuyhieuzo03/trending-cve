@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T22:07:12Z",
- "count": 1624,
+ "generated": "2026-11-01T22:37:07Z",
+ "count": 1625,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 882,
+   "points": 889,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -140,19 +140,18 @@
   },
   {
    "name": "Claude",
-   "threads": 5,
+   "threads": 4,
    "repos": 0,
-   "points": 34,
+   "points": 33,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T10:17:29Z",
+   "last_seen": "2026-10-29T13:35:22Z",
    "items": [
     "hn:50265205",
     "hn:50270131",
     "hn:50288798",
-    "hn:50281755",
-    "hn:50301944"
+    "hn:50281755"
    ]
   },
   {
@@ -191,7 +190,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 256,
+   "points": 268,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -255,21 +254,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -285,6 +269,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -463,6 +462,39 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/463",
+   "source": "seclists.org",
+   "title": "Apache Wicket: 19 CVEs fixed in 8.20.0, 9.25.0 and 10.12.0",
+   "url": "https://seclists.org/oss-sec/2026/q4/463",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/463",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-01T22:09:30Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T22:09:30Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T22:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Apache Wicket: 19 CVEs fixed in 8.20.0, 9.25.0 and 10.12.0",
+    "at": "2026-11-01T22:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50328923",
    "source": "hackernews",
    "title": "100% Increase in CVEs YoY",
@@ -635,8 +667,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 87,
-   "comments": 66,
+   "points": 99,
+   "comments": 80,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -907,8 +939,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 677,
-   "comments": 321,
+   "points": 684,
+   "comments": 322,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
