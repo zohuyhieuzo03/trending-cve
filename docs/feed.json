@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T17:38:07Z",
- "count": 1619,
+ "generated": "2026-11-01T18:08:07Z",
+ "count": 1621,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 817,
+   "points": 825,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -139,25 +139,6 @@
    ]
   },
   {
-   "name": "Ultralytics",
-   "threads": 7,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 4,
    "repos": 0,
@@ -209,7 +190,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 195,
+   "points": 204,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -220,6 +201,23 @@
     "lobsters:ttp7aq",
     "hn:50326609",
     "blog:https://seclists.org/oss-sec/2026/q4/422"
+   ]
+  },
+  {
+   "name": "Ultralytics",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T05:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
    ]
   },
   {
@@ -370,21 +368,6 @@
    ]
   },
   {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T16:41:23Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-   ]
-  },
-  {
    "name": "Drupal",
    "threads": 3,
    "repos": 0,
@@ -447,6 +430,21 @@
    ]
   },
   {
+   "name": "Oracle",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T12:48:03Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
+   ]
+  },
+  {
    "name": "CoreGraphics",
    "threads": 3,
    "repos": 0,
@@ -463,6 +461,74 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/462",
+   "source": "seclists.org",
+   "title": "Google::Auth for Perl (2 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/462",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/462",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-01T17:58:36Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-01T17:58:36Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T18:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Google::Auth for Perl (2 CVEs)",
+    "at": "2026-11-01T18:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/461",
+   "source": "seclists.org",
+   "title": "CVE-2026-13575: HTTP::Session versions before 0.54 for Perl allow memcached command injection via unfiltered session ids in HTTP::Session::Store::CHI",
+   "url": "https://seclists.org/oss-sec/2026/q4/461",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/461",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-01T17:55:20Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-13575"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T17:55:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T18:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-13575: HTTP::Session versions before 0.54 for Perl allow memcached command injection via unfiltered session ids in HTTP::Session::Store::CHI",
+    "at": "2026-11-01T18:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50327306",
    "source": "hackernews",
@@ -502,8 +568,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 28,
-   "comments": 12,
+   "points": 37,
+   "comments": 24,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -774,8 +840,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 613,
-   "comments": 303,
+   "points": 620,
+   "comments": 304,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -1081,7 +1147,7 @@
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 28,
+   "points": 29,
    "comments": 3,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -5904,7 +5970,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -7927,7 +7993,7 @@
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "points": 37,
+   "points": 38,
    "comments": 19,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
@@ -18934,7 +19000,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 262,
+   "points": 263,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
