@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T09:38:07Z",
+ "generated": "2026-11-01T10:08:07Z",
  "count": 1616,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 702,
+   "points": 707,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -274,6 +274,21 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -447,24 +462,6 @@
     "hn:50259864",
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-   ]
-  },
-  {
-   "name": "Clients",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118988",
-    "CVE-2026-83525"
-   ],
-   "last_seen": "2026-11-01T08:51:31Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/447",
-    "blog:https://seclists.org/oss-sec/2026/q4/414"
    ]
   }
  ],
@@ -681,8 +678,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 501,
-   "comments": 229,
+   "points": 506,
+   "comments": 234,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -18619,7 +18616,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 972,
+   "points": 971,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -20078,7 +20075,7 @@
    "title": "JoasASantos/php2shell-scanner: Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing",
    "url": "https://github.com/JoasASantos/php2shell-scanner",
    "discussion": "https://github.com/JoasASantos/php2shell-scanner",
-   "points": 111,
+   "points": 110,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
    "label": "kev_exploited",
@@ -21054,7 +21051,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1919,
+   "points": 1918,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
@@ -21284,7 +21281,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 120,
+   "points": 119,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "kev_exploited",
