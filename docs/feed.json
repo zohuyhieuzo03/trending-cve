@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T04:08:07Z",
+ "generated": "2026-11-01T04:38:07Z",
  "count": 1613,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 20,
    "repos": 0,
-   "points": 592,
+   "points": 605,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -70,21 +70,19 @@
    ]
   },
   {
-   "name": "known",
-   "threads": 10,
-   "repos": 1,
-   "points": 21,
+   "name": "Node2Shell",
+   "threads": 9,
+   "repos": 0,
+   "points": 17,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-111497"
    ],
-   "last_seen": "2026-10-28T14:00:15Z",
+   "last_seen": "2026-10-28T10:48:14Z",
    "items": [
-    "ghpoc:assetnote/node2shell-scanner",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50231787",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
@@ -277,6 +275,21 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -452,24 +465,6 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
-  },
-  {
-   "name": "HTTP",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116130",
-    "CVE-2026-115825"
-   ],
-   "last_seen": "2026-10-30T12:54:22Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/448",
-    "blog:https://seclists.org/oss-sec/2026/q4/427",
-    "blog:https://seclists.org/oss-sec/2026/q4/387"
-   ]
   }
  ],
  "items": [
@@ -479,7 +474,7 @@
    "title": "Mitigations for CVE-2026-98432 [IPv4 TCP handshake use-after-free]",
    "url": "https://blog.rodmena.com/entry/cve_2026_98432_and_the_ipv4_options_nobody_sends",
    "discussion": "https://news.ycombinator.com/item?id=50322542",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-01T03:51:13Z",
    "label": "related",
@@ -617,8 +612,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 393,
-   "comments": 184,
+   "points": 405,
+   "comments": 188,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -891,7 +886,7 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 312,
+   "points": 314,
    "comments": 182,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
@@ -18533,7 +18528,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 969,
+   "points": 970,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -18755,7 +18750,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 248,
+   "points": 249,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
