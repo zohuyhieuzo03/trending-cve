@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T01:38:07Z",
- "count": 1611,
+ "generated": "2026-11-01T02:07:07Z",
+ "count": 1612,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 19,
    "repos": 0,
-   "points": 532,
+   "points": 547,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -69,24 +69,23 @@
    ]
   },
   {
-   "name": "decoder",
+   "name": "known",
    "threads": 10,
    "repos": 1,
-   "points": 19,
+   "points": 21,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-102479"
+    "CVE-2026-111497"
    ],
-   "last_seen": "2026-10-28T18:14:55Z",
+   "last_seen": "2026-10-28T14:00:15Z",
    "items": [
     "ghpoc:assetnote/node2shell-scanner",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "blog:https://seclists.org/oss-sec/2026/q4/426",
+    "hn:50231787",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
@@ -471,6 +470,41 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/460",
+   "source": "seclists.org",
+   "title": "CVE-2026-115946: XS::ibbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder",
+   "url": "https://seclists.org/oss-sec/2026/q4/460",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/460",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-01T01:31:58Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115946"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T01:31:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-01T02:07:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-115946: XS::ibbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder",
+    "at": "2026-11-01T02:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50321012",
    "source": "hackernews",
    "title": "A CVE triage pipeline that keeps asking, because day one tells you nothing",
@@ -544,8 +578,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 337,
-   "comments": 158,
+   "points": 352,
+   "comments": 168,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -818,8 +852,8 @@
    "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 301,
-   "comments": 177,
+   "points": 307,
+   "comments": 181,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -18682,7 +18716,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 243,
+   "points": 244,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -22603,7 +22637,7 @@
    "title": "ylh440104/InfinityCore-Android-CVE-2026-98260: CVE-2026-98260 (Timer) Android/ARM64 port",
    "url": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
    "discussion": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-10-18T23:26:39Z",
    "label": "public_exploit_reported",
