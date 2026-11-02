@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T14:38:04Z",
- "count": 1634,
+ "generated": "2026-11-02T15:08:07Z",
+ "count": 1635,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 932,
+   "points": 933,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -62,7 +62,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 340,
+   "points": 341,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -158,21 +158,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -188,6 +173,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -435,6 +435,39 @@
   }
  ],
  "items": [
+  {
+   "id": "lobsters:0mdf8w",
+   "source": "lobsters",
+   "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+   "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
+   "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-02T09:06:38.656-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T15:06:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T15:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+    "at": "2026-11-02T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
    "source": "bluesky",
@@ -911,7 +944,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 170,
+   "points": 171,
    "comments": 139,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -1183,7 +1216,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 726,
+   "points": 727,
    "comments": 330,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -5851,7 +5884,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -21600,7 +21633,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1924,
+   "points": 1923,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
