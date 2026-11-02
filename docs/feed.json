@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T10:08:07Z",
- "count": 1630,
+ "generated": "2026-11-02T10:38:07Z",
+ "count": 1631,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -438,6 +438,39 @@
  ],
  "items": [
   {
+   "id": "hn:50335010",
+   "source": "hackernews",
+   "title": "Agentic Backdoors via Pretraining Poisoning",
+   "url": "https://pbb.sh/research/Agentic-Backdoor/",
+   "discussion": "https://news.ycombinator.com/item?id=50335010",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-02T10:16:48Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T10:16:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T10:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Agentic Backdoors via Pretraining Poisoning",
+    "at": "2026-11-02T10:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
    "source": "bluesky",
    "title": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least Oc",
@@ -776,7 +809,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 158,
-   "comments": 128,
+   "comments": 129,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1150,7 +1183,7 @@
    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-31T15:35:30Z",
    "label": "public_exploit_reported",
