@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T13:37:07Z",
+ "generated": "2026-11-02T14:07:32Z",
  "count": 1634,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 929,
+   "points": 930,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -78,7 +78,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 336,
+   "points": 338,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -206,6 +206,21 @@
    ]
   },
   {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T12:47:18Z",
+   "items": [
+    "hn:50291929",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -237,21 +252,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
-   ]
-  },
-  {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T12:47:18Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
    ]
   },
   {
@@ -441,7 +441,7 @@
    "title": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzde7xi7wb2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzde7xi7wb2h",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-02T12:47:18Z",
    "label": "exploited_reported",
@@ -911,8 +911,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 166,
-   "comments": 138,
+   "points": 168,
+   "comments": 139,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1183,7 +1183,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 723,
+   "points": 724,
    "comments": 329,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -5851,7 +5851,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -19165,7 +19165,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 977,
+   "points": 978,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
