@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T05:38:06Z",
+ "generated": "2026-11-02T06:08:07Z",
  "count": 1628,
  "topics": [
   {
@@ -110,7 +110,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 311,
+   "points": 313,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -739,7 +739,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 142,
+   "points": 144,
    "comments": 119,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
