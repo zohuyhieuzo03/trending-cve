@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T15:08:07Z",
- "count": 1635,
+ "generated": "2026-11-02T15:38:06Z",
+ "count": 1637,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -59,10 +59,27 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 5,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755"
+   ]
+  },
+  {
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 341,
+   "points": 342,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -73,22 +90,6 @@
     "hn:50326609",
     "lobsters:ttp7aq",
     "blog:https://seclists.org/oss-sec/2026/q4/422"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 4,
-   "repos": 0,
-   "points": 33,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T13:35:22Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50281755"
    ]
   },
   {
@@ -158,6 +159,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -173,21 +189,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -436,12 +437,78 @@
  ],
  "items": [
   {
+   "id": "hn:50338079",
+   "source": "hackernews",
+   "title": "Expat 2.10.0 released, fixes four vulnerabilities",
+   "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
+   "discussion": "https://news.ycombinator.com/item?id=50338079",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-02T15:23:47Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T15:23:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T15:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
+    "at": "2026-11-02T15:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50338054",
+   "source": "hackernews",
+   "title": "Discovering and Exploiting Vulnerabilities with Claude",
+   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "discussion": "https://news.ycombinator.com/item?id=50338054",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-02T15:22:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T15:22:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T15:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Discovering and Exploiting Vulnerabilities with Claude",
+    "at": "2026-11-02T15:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "lobsters:0mdf8w",
    "source": "lobsters",
    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
    "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
    "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
-   "points": 1,
+   "points": 0,
    "comments": 0,
    "created": "2026-11-02T09:06:38.656-06:00",
    "label": "security_news",
@@ -944,7 +1011,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 171,
+   "points": 172,
    "comments": 139,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -978,7 +1045,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
    "points": 9,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-01T15:12:14Z",
    "label": "security_news",
    "cves": [],
@@ -3968,7 +4035,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -5884,7 +5951,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 48,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -21485,7 +21552,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 64,
+   "points": 63,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "kev_exploited",
@@ -21633,7 +21700,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1923,
+   "points": 1922,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
