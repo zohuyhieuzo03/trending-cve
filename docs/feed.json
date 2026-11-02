@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T01:38:07Z",
+ "generated": "2026-11-02T02:08:07Z",
  "count": 1627,
  "topics": [
   {
@@ -70,7 +70,7 @@
   },
   {
    "name": "write",
-   "threads": 9,
+   "threads": 8,
    "repos": 0,
    "points": 9,
    "kev": true,
@@ -88,8 +88,7 @@
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-792/",
-    "blog:https://seclists.org/oss-sec/2026/q4/390",
-    "blog:https://seclists.org/oss-sec/2026/q4/389"
+    "blog:https://seclists.org/oss-sec/2026/q4/390"
    ]
   },
   {
@@ -166,7 +165,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 302,
+   "points": 303,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -729,8 +728,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 133,
-   "comments": 109,
+   "points": 134,
+   "comments": 114,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -5647,7 +5646,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -19183,7 +19182,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 267,
+   "points": 268,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
