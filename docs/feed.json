@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T11:08:07Z",
- "count": 1631,
+ "generated": "2026-11-02T11:38:06Z",
+ "count": 1632,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -59,22 +59,6 @@
    ]
   },
   {
-   "name": "Chained",
-   "threads": 4,
-   "repos": 0,
-   "points": 325,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T09:33:49Z",
-   "items": [
-    "hn:50286987",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 4,
    "repos": 0,
@@ -94,7 +78,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 331,
+   "points": 333,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -105,6 +89,21 @@
     "lobsters:ttp7aq",
     "hn:50326609",
     "blog:https://seclists.org/oss-sec/2026/q4/422"
+   ]
+  },
+  {
+   "name": "Chained",
+   "threads": 3,
+   "repos": 0,
+   "points": 323,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T13:59:48Z",
+   "items": [
+    "hn:50286987",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
    ]
   },
   {
@@ -273,6 +272,24 @@
    ]
   },
   {
+   "name": "Ivanti",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "last_seen": "2026-11-02T11:04:08Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+    "blog:https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+   ]
+  },
+  {
    "name": "TeamViewer",
    "threads": 3,
    "repos": 0,
@@ -415,28 +432,48 @@
     "blog:https://seclists.org/oss-sec/2026/q4/447",
     "blog:https://seclists.org/oss-sec/2026/q4/414"
    ]
-  },
-  {
-   "name": "MP4Box",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-60482",
-    "CVE-2025-60475",
-    "CVE-2025-60467"
-   ],
-   "last_seen": "2026-10-29T16:57:51Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/435",
-    "blog:https://seclists.org/oss-sec/2026/q4/409",
-    "blog:https://seclists.org/oss-sec/2026/q4/395"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+   "source": "rapid7.com",
+   "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+   "url": "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+   "discussion": "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T11:04:08Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "kev": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "first_seen": "2026-11-02T11:04:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T11:38:06Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+    "at": "2026-11-02T11:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50335010",
    "source": "hackernews",
@@ -476,7 +513,7 @@
    "title": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least Oc",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-02T09:33:49Z",
    "label": "zero_day_mention",
@@ -808,8 +845,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 161,
-   "comments": 131,
+   "points": 163,
+   "comments": 135,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -21497,7 +21534,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1923,
+   "points": 1924,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
