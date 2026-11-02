@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T06:08:07Z",
+ "generated": "2026-11-02T06:38:05Z",
  "count": 1628,
  "topics": [
   {
@@ -90,6 +90,23 @@
    ]
   },
   {
+   "name": "extensions",
+   "threads": 3,
+   "repos": 0,
+   "points": 314,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115644"
+   ],
+   "last_seen": "2026-11-01T15:33:49Z",
+   "items": [
+    "lobsters:ttp7aq",
+    "hn:50326609",
+    "blog:https://seclists.org/oss-sec/2026/q4/422"
+   ]
+  },
+  {
    "name": "Attempted",
    "threads": 3,
    "repos": 0,
@@ -104,23 +121,6 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
-   "name": "extensions",
-   "threads": 3,
-   "repos": 0,
-   "points": 313,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115644"
-   ],
-   "last_seen": "2026-11-01T15:33:49Z",
-   "items": [
-    "lobsters:ttp7aq",
-    "hn:50326609",
-    "blog:https://seclists.org/oss-sec/2026/q4/422"
    ]
   },
   {
@@ -193,6 +193,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -208,21 +223,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -739,8 +739,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 144,
-   "comments": 119,
+   "points": 145,
+   "comments": 121,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -19193,7 +19193,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 270,
+   "points": 272,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -21336,7 +21336,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1052,
+   "points": 1053,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
