@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T12:38:07Z",
- "count": 1632,
+ "generated": "2026-11-02T13:08:07Z",
+ "count": 1633,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -78,7 +78,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 334,
+   "points": 336,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -158,6 +158,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -173,21 +188,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -240,6 +240,21 @@
    ]
   },
   {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T12:47:18Z",
+   "items": [
+    "hn:50291929",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
+   ]
+  },
+  {
    "name": "CVE-2026-111497",
    "threads": 3,
    "repos": 0,
@@ -257,6 +272,24 @@
    ]
   },
   {
+   "name": "Ivanti",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "last_seen": "2026-11-02T11:04:08Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+    "blog:https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+   ]
+  },
+  {
    "name": "Drupal",
    "threads": 3,
    "repos": 0,
@@ -269,24 +302,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
-  },
-  {
-   "name": "Ivanti",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111357",
-    "CVE-2026-118527"
-   ],
-   "last_seen": "2026-11-02T11:04:08Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
-    "blog:https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
    ]
   },
   {
@@ -351,21 +366,6 @@
     "hn:50255635",
     "blog:https://seclists.org/oss-sec/2026/q4/423",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
-   ]
-  },
-  {
-   "name": "Oracle",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T12:48:03Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
    ]
   },
   {
@@ -435,6 +435,39 @@
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
+   "source": "bluesky",
+   "title": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzde7xi7wb2h",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzde7xi7wb2h",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-02T12:47:18Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T12:47:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T13:08:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.",
+    "at": "2026-11-02T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
    "source": "rapid7.com",
@@ -513,7 +546,7 @@
    "title": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least Oc",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-02T09:33:49Z",
    "label": "zero_day_mention",
@@ -845,7 +878,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 164,
+   "points": 166,
    "comments": 136,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -5785,7 +5818,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
