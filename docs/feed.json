@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T18:07:19Z",
- "count": 1644,
+ "generated": "2026-11-02T18:38:07Z",
+ "count": 1651,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -141,6 +141,28 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
     "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
+   "name": "Syncope",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114364",
+    "CVE-2026-113687",
+    "CVE-2026-113511",
+    "CVE-2026-110535"
+   ],
+   "last_seen": "2026-11-02T18:29:02Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/474",
+    "blog:https://seclists.org/oss-sec/2026/q4/473",
+    "blog:https://seclists.org/oss-sec/2026/q4/472",
+    "blog:https://seclists.org/oss-sec/2026/q4/471",
+    "blog:https://seclists.org/oss-sec/2026/q4/470"
    ]
   },
   {
@@ -293,6 +315,23 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "last_seen": "2026-11-02T16:57:56Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+   ]
+  },
+  {
    "name": "Ivanti",
    "threads": 3,
    "repos": 0,
@@ -405,42 +444,217 @@
     "blog:https://seclists.org/oss-sec/2026/q4/423",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
    ]
-  },
-  {
-   "name": "CoreGraphics",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-27T14:23:58Z",
-   "items": [
-    "hn:50259864",
-    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-   ]
-  },
-  {
-   "name": "Apache",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119641",
-    "CVE-2026-111422"
-   ],
-   "last_seen": "2026-11-02T17:30:53Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/463",
-    "blog:https://seclists.org/oss-sec/2026/q4/397"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/474",
+   "source": "seclists.org",
+   "title": "CVE-2026-114364: Apache Syncope: SQL injection via unsanitized opEvent in Audit Events search",
+   "url": "https://seclists.org/oss-sec/2026/q4/474",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/474",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T18:29:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-114364"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T18:29:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-114364: Apache Syncope: SQL injection via unsanitized opEvent in Audit Events search",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/473",
+   "source": "seclists.org",
+   "title": "CVE-2026-113687: Apache Syncope: RCE via ProcessGroovyMethodsSandbox bypass",
+   "url": "https://seclists.org/oss-sec/2026/q4/473",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/473",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T18:27:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-113687"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T18:27:11Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-113687: Apache Syncope: RCE via ProcessGroovyMethodsSandbox bypass",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/472",
+   "source": "seclists.org",
+   "title": "CVE-2026-113511: Apache Syncope: Delegated administration boundaries can be bypassed for Realm update",
+   "url": "https://seclists.org/oss-sec/2026/q4/472",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/472",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T18:25:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-113511"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T18:25:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-113511: Apache Syncope: Delegated administration boundaries can be bypassed for Realm update",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/471",
+   "source": "seclists.org",
+   "title": "CVE-2026-110535: Apache Syncope: AuthProfile value escalation via self-service update",
+   "url": "https://seclists.org/oss-sec/2026/q4/471",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/471",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T18:23:04Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-110535"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T18:23:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-110535: Apache Syncope: AuthProfile value escalation via self-service update",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/470",
+   "source": "seclists.org",
+   "title": "CVE-2026-109083: Apache Syncope: Remote Code Execution via Flowable JUEL expression",
+   "url": "https://seclists.org/oss-sec/2026/q4/470",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/470",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T18:21:07Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109083"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T18:21:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-109083: Apache Syncope: Remote Code Execution via Flowable JUEL expression",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50340970",
+   "source": "hackernews",
+   "title": "Linux Kernel TCP Flaw Rated 9.8 Gets a Remote-Root Exploit from an AI Model",
+   "url": "https://securityboulevard.com/2026/11/linux-kernel-tcp-flaw-rated-9-8-gets-a-remote-root-exploit-from-an-ai-model/",
+   "discussion": "https://news.ycombinator.com/item?id=50340970",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-02T18:09:13Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T18:09:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Linux Kernel TCP Flaw Rated 9.8 Gets a Remote-Root Exploit from an AI Model",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "github-advisory:GHSA-f9j6-8p6x-r9j6",
    "source": "github-advisory",
@@ -665,6 +879,39 @@
      "claude:haiku": {
       "status": "unclear",
       "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "source": "thehackernews.com",
+   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "discussion": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T16:57:56Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T16:57:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+    "at": "2026-11-02T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
      }
     },
     "consensus": "unclear",
@@ -1248,7 +1495,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 174,
-   "comments": 145,
+   "comments": 146,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -19501,7 +19748,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 978,
+   "points": 979,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
