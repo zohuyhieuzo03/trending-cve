@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T11:38:06Z",
+ "generated": "2026-11-02T12:08:07Z",
  "count": 1632,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 922,
+   "points": 928,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -158,6 +158,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -173,21 +188,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -846,7 +846,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 163,
-   "comments": 135,
+   "comments": 136,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1117,7 +1117,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 716,
+   "points": 722,
    "comments": 329,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -3869,7 +3869,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -6269,7 +6269,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 50,
+   "points": 51,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -21464,7 +21464,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1053,
+   "points": 1054,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
