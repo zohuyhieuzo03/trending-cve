@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T16:38:07Z",
+ "generated": "2026-11-02T17:07:37Z",
  "count": 1637,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 935,
+   "points": 937,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -76,10 +76,31 @@
    ]
   },
   {
+   "name": "decoder",
+   "threads": 5,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-115946",
+    "CVE-2026-102479"
+   ],
+   "last_seen": "2026-11-01T01:31:58Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "blog:https://seclists.org/oss-sec/2026/q4/460",
+    "blog:https://seclists.org/oss-sec/2026/q4/426",
+    "blog:https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder"
+   ]
+  },
+  {
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 342,
+   "points": 343,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -271,23 +292,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myu2bnpk6t2u",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398"
-   ]
-  },
-  {
-   "name": "CVE-2026-111497",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-10-28T10:48:14Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
-    "blog:https://seclists.org/oss-sec/2026/q4/393"
    ]
   },
   {
@@ -508,7 +512,7 @@
    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
    "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
    "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-02T09:06:38.656-06:00",
    "label": "security_news",
@@ -1011,7 +1015,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 172,
+   "points": 173,
    "comments": 141,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -1283,7 +1287,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 729,
+   "points": 731,
    "comments": 330,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -21630,7 +21634,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1054,
+   "points": 1055,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
