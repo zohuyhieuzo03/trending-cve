@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T06:38:05Z",
+ "generated": "2026-11-02T07:08:07Z",
  "count": 1628,
  "topics": [
   {
@@ -93,7 +93,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 314,
+   "points": 318,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -193,21 +193,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -223,6 +208,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -354,23 +354,6 @@
    ]
   },
   {
-   "name": "exposed",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116593"
-   ],
-   "last_seen": "2026-10-28T17:40:44Z",
-   "items": [
-    "hn:50255635",
-    "blog:https://seclists.org/oss-sec/2026/q4/423",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
-   ]
-  },
-  {
    "name": "Oracle",
    "threads": 3,
    "repos": 0,
@@ -430,6 +413,24 @@
     "blog:https://seclists.org/oss-sec/2026/q4/461",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/"
+   ]
+  },
+  {
+   "name": "Clients",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118988",
+    "CVE-2026-83525"
+   ],
+   "last_seen": "2026-11-01T08:51:31Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/447",
+    "blog:https://seclists.org/oss-sec/2026/q4/414"
    ]
   }
  ],
@@ -739,8 +740,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 145,
-   "comments": 121,
+   "points": 149,
+   "comments": 122,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -8165,7 +8166,7 @@
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
    "points": 38,
-   "comments": 19,
+   "comments": 20,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
    "cves": [],
@@ -21406,7 +21407,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1923,
+   "points": 1924,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
