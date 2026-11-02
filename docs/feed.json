@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T08:08:07Z",
- "count": 1628,
+ "generated": "2026-11-02T08:38:07Z",
+ "count": 1629,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -75,6 +75,23 @@
    ]
   },
   {
+   "name": "extensions",
+   "threads": 3,
+   "repos": 0,
+   "points": 324,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115644"
+   ],
+   "last_seen": "2026-11-01T15:33:49Z",
+   "items": [
+    "lobsters:ttp7aq",
+    "hn:50326609",
+    "blog:https://seclists.org/oss-sec/2026/q4/422"
+   ]
+  },
+  {
    "name": "Chained",
    "threads": 3,
    "repos": 0,
@@ -87,23 +104,6 @@
     "hn:50286987",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
     "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
-   ]
-  },
-  {
-   "name": "extensions",
-   "threads": 3,
-   "repos": 0,
-   "points": 322,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115644"
-   ],
-   "last_seen": "2026-11-01T15:33:49Z",
-   "items": [
-    "lobsters:ttp7aq",
-    "hn:50326609",
-    "blog:https://seclists.org/oss-sec/2026/q4/422"
    ]
   },
   {
@@ -473,7 +473,7 @@
    "title": "America's Sewer Systems Are Surprisingly Vulnerable to Cyber Attacks",
    "url": "https://policygradients.thefai.org/p/americas-sewer-systems-are-surprisingly",
    "discussion": "https://news.ycombinator.com/item?id=50330931",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-01T23:19:26Z",
    "label": "security_news",
@@ -739,8 +739,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 153,
-   "comments": 125,
+   "points": 154,
+   "comments": 126,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1012,7 +1012,7 @@
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
    "points": 711,
-   "comments": 328,
+   "comments": 329,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
@@ -1286,7 +1286,7 @@
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
    "points": 332,
-   "comments": 190,
+   "comments": 191,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -3643,7 +3643,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 169,
+   "points": 170,
    "comments": 41,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3756,6 +3756,28 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+   "source": "github-poc",
+   "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
+   "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+   "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+   "points": 43,
+   "comments": 0,
+   "created": "2026-10-30T09:29:03Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112705"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T09:29:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T08:38:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
