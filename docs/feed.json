@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T20:38:07Z",
- "count": 1652,
+ "generated": "2026-11-02T21:07:07Z",
+ "count": 1653,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -144,6 +144,21 @@
    ]
   },
   {
+   "name": "almost",
+   "threads": 3,
+   "repos": 0,
+   "points": 129,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T18:39:38Z",
+   "items": [
+    "hn:50341462",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "hn:50266919"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 5,
    "repos": 0,
@@ -180,21 +195,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
-   ]
-  },
-  {
-   "name": "almost",
-   "threads": 3,
-   "repos": 0,
-   "points": 94,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:39:38Z",
-   "items": [
-    "hn:50341462",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "hn:50266919"
    ]
   },
   {
@@ -448,13 +448,46 @@
  ],
  "items": [
   {
+   "id": "hn:50343432",
+   "source": "hackernews",
+   "title": "Alerts if your stack had security exploits",
+   "url": "https://devhunt.org/cve-tracker",
+   "discussion": "https://news.ycombinator.com/item?id=50343432",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-02T20:43:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T20:43:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T21:07:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Alerts if your stack had security exploits",
+    "at": "2026-11-02T21:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50341462",
    "source": "hackernews",
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 72,
-   "comments": 7,
+   "points": 107,
+   "comments": 14,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -4551,7 +4584,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
