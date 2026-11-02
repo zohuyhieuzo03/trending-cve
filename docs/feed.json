@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T08:38:07Z",
+ "generated": "2026-11-02T09:08:07Z",
  "count": 1629,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 917,
+   "points": 919,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -78,7 +78,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 324,
+   "points": 326,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -174,22 +174,6 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
-   ]
-  },
-  {
-   "name": "PHP2Shell",
-   "threads": 4,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:50:17Z",
-   "items": [
-    "hn:50240988",
-    "hn:50270348",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
   },
   {
@@ -351,6 +335,21 @@
     "hn:50289274",
     "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
     "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+   ]
+  },
+  {
+   "name": "PHP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T05:50:17Z",
+   "items": [
+    "hn:50270348",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
   },
   {
@@ -739,7 +738,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 154,
+   "points": 156,
    "comments": 126,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -1011,7 +1010,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 711,
+   "points": 713,
    "comments": 329,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
