@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T07:08:07Z",
+ "generated": "2026-11-02T07:38:07Z",
  "count": 1628,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 914,
+   "points": 917,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -93,7 +93,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 318,
+   "points": 320,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -354,6 +354,23 @@
    ]
   },
   {
+   "name": "exposed",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116593"
+   ],
+   "last_seen": "2026-10-28T17:40:44Z",
+   "items": [
+    "hn:50255635",
+    "blog:https://seclists.org/oss-sec/2026/q4/423",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
+   ]
+  },
+  {
    "name": "Oracle",
    "threads": 3,
    "repos": 0,
@@ -413,24 +430,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/461",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/"
-   ]
-  },
-  {
-   "name": "Clients",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118988",
-    "CVE-2026-83525"
-   ],
-   "last_seen": "2026-11-01T08:51:31Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/447",
-    "blog:https://seclists.org/oss-sec/2026/q4/414"
    ]
   }
  ],
@@ -740,8 +739,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 149,
-   "comments": 122,
+   "points": 151,
+   "comments": 123,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1012,7 +1011,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 708,
+   "points": 711,
    "comments": 328,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -18972,7 +18971,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 973,
+   "points": 974,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
