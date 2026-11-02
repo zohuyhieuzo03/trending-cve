@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T01:08:07Z",
+ "generated": "2026-11-02T01:38:07Z",
  "count": 1627,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 908,
+   "points": 909,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -166,7 +166,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 300,
+   "points": 302,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -729,8 +729,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 131,
-   "comments": 102,
+   "points": 133,
+   "comments": 109,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1001,7 +1001,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 702,
+   "points": 703,
    "comments": 325,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -12298,7 +12298,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 42,
+   "points": 43,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
