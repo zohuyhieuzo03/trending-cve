@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T04:08:08Z",
+ "generated": "2026-11-02T04:38:07Z",
  "count": 1627,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 911,
+   "points": 913,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -723,7 +723,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 141,
-   "comments": 116,
+   "comments": 117,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -994,8 +994,8 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 705,
-   "comments": 327,
+   "points": 707,
+   "comments": 328,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
    "cves": [
