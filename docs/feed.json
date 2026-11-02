@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T17:38:06Z",
- "count": 1640,
+ "generated": "2026-11-02T18:07:19Z",
+ "count": 1644,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 22,
    "repos": 0,
-   "points": 940,
+   "points": 941,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -82,7 +82,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 343,
+   "points": 344,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -422,22 +422,151 @@
    ]
   },
   {
-   "name": "Google",
+   "name": "Apache",
    "threads": 3,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-01T17:58:36Z",
+   "cves": [
+    "CVE-2026-119641",
+    "CVE-2026-111422"
+   ],
+   "last_seen": "2026-11-02T17:30:53Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/463",
+    "blog:https://seclists.org/oss-sec/2026/q4/397"
    ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-f9j6-8p6x-r9j6",
+   "source": "github-advisory",
+   "title": "SD JWT JS: Tampered disclosures silently dropped instead of rejected (npm/@sd-jwt/decode)",
+   "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+   "discussion": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T17:54:39Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62374"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-02T17:54:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:07:19Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/469",
+   "source": "seclists.org",
+   "title": "libexpat 2.10.0 fixes two vulnerabilities",
+   "url": "https://seclists.org/oss-sec/2026/q4/469",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/469",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T17:34:58Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T17:34:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:07:19Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "libexpat 2.10.0 fixes two vulnerabilities",
+    "at": "2026-11-02T18:07:19Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/468",
+   "source": "seclists.org",
+   "title": "CVE-2026-65059: Furl versions through 3.15 for Perl allow memory exhaustion via unbounded decompression of HTTP responses",
+   "url": "https://seclists.org/oss-sec/2026/q4/468",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/468",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T17:32:52Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-65059"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T17:32:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:07:19Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-65059: Furl versions through 3.15 for Perl allow memory exhaustion via unbounded decompression of HTTP responses",
+    "at": "2026-11-02T18:07:19Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/467",
+   "source": "seclists.org",
+   "title": "CVE-2026-119641: Apache Oozie: workflow rerun bypasses the per-job ACL and reassigns ownership",
+   "url": "https://seclists.org/oss-sec/2026/q4/467",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/467",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T17:30:53Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-119641"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T17:30:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T18:07:19Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-119641: Apache Oozie: workflow rerun bypasses the per-job ACL and reassigns ownership",
+    "at": "2026-11-02T18:07:19Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/466",
    "source": "seclists.org",
@@ -1118,8 +1247,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 173,
-   "comments": 144,
+   "points": 174,
+   "comments": 145,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1390,7 +1519,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 732,
+   "points": 733,
    "comments": 330,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -19594,7 +19723,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 273,
+   "points": 274,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -21807,7 +21936,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1922,
+   "points": 1923,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
