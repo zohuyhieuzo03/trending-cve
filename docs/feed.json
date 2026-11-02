@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T00:08:06Z",
+ "generated": "2026-11-02T00:38:07Z",
  "count": 1627,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 904,
+   "points": 905,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -93,32 +93,8 @@
    ]
   },
   {
-   "name": "5.4-5.6",
-   "threads": 7,
-   "repos": 0,
-   "points": 20,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619",
-    "CVE-2026-58882",
-    "CVE-2026-20127"
-   ],
-   "last_seen": "2026-10-31T15:35:30Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/401",
-    "blog:https://seclists.org/oss-sec/2026/q4/398",
-    "blog:https://seclists.org/oss-sec/2026/q4/392",
-    "blog:https://seclists.org/oss-sec/2026/q4/386"
-   ]
-  },
-  {
    "name": "Perl",
-   "threads": 8,
+   "threads": 7,
    "repos": 0,
    "points": 0,
    "kev": false,
@@ -135,8 +111,7 @@
     "blog:https://seclists.org/oss-sec/2026/q4/449",
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
-    "blog:https://seclists.org/oss-sec/2026/q4/428",
-    "blog:https://seclists.org/oss-sec/2026/q4/388"
+    "blog:https://seclists.org/oss-sec/2026/q4/428"
    ]
   },
   {
@@ -191,7 +166,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 291,
+   "points": 295,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -202,6 +177,25 @@
     "lobsters:ttp7aq",
     "hn:50326609",
     "blog:https://seclists.org/oss-sec/2026/q4/422"
+   ]
+  },
+  {
+   "name": "5.4-5.6",
+   "threads": 4,
+   "repos": 0,
+   "points": 16,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "last_seen": "2026-10-27T21:08:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
+    "blog:https://seclists.org/oss-sec/2026/q4/401",
+    "blog:https://seclists.org/oss-sec/2026/q4/398",
+    "blog:https://seclists.org/oss-sec/2026/q4/392"
    ]
   },
   {
@@ -337,22 +331,6 @@
    ]
   },
   {
-   "name": "Information",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-847/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-844/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-811/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-810/"
-   ]
-  },
-  {
    "name": "Stack-based",
    "threads": 4,
    "repos": 0,
@@ -458,6 +436,21 @@
     "hn:50259864",
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-01T17:58:36Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
    ]
   }
  ],
@@ -734,8 +727,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 122,
-   "comments": 94,
+   "points": 126,
+   "comments": 99,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -1006,7 +999,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 698,
+   "points": 699,
    "comments": 324,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
