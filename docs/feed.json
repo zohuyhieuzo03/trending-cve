@@ -1,17 +1,18 @@
 {
- "generated": "2026-11-02T21:07:07Z",
+ "generated": "2026-11-02T21:38:07Z",
  "count": 1653,
  "topics": [
   {
    "name": "Use-After-Free",
-   "threads": 22,
+   "threads": 23,
    "repos": 0,
    "points": 942,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-120135"
+    "CVE-2026-120135",
+    "CVE-2025-60482"
    ],
    "last_seen": "2026-11-02T17:12:47Z",
    "items": [
@@ -36,6 +37,7 @@
     "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
     "blog:https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/435",
     "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
    ]
   },
@@ -147,7 +149,7 @@
    "name": "almost",
    "threads": 3,
    "repos": 0,
-   "points": 129,
+   "points": 155,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -382,6 +384,24 @@
    ]
   },
   {
+   "name": "Crafted",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116155",
+    "CVE-2025-60475"
+   ],
+   "last_seen": "2026-10-31T15:24:18Z",
+   "items": [
+    "hn:50316849",
+    "lobsters:bnok4r",
+    "blog:https://seclists.org/oss-sec/2026/q4/409"
+   ]
+  },
+  {
    "name": "devices",
    "threads": 3,
    "repos": 0,
@@ -427,23 +447,6 @@
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
-  },
-  {
-   "name": "exposed",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116593"
-   ],
-   "last_seen": "2026-10-28T17:40:44Z",
-   "items": [
-    "hn:50255635",
-    "blog:https://seclists.org/oss-sec/2026/q4/423",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
-   ]
   }
  ],
  "items": [
@@ -454,7 +457,7 @@
    "url": "https://devhunt.org/cve-tracker",
    "discussion": "https://news.ycombinator.com/item?id=50343432",
    "points": 2,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-02T20:43:14Z",
    "label": "security_news",
    "cves": [],
@@ -486,8 +489,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 107,
-   "comments": 14,
+   "points": 133,
+   "comments": 19,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
