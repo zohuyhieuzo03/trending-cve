@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T22:08:07Z",
- "count": 1653,
+ "generated": "2026-11-02T22:38:07Z",
+ "count": 1657,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -81,6 +81,24 @@
    ]
   },
   {
+   "name": "Untrusted",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
+   ]
+  },
+  {
    "name": "extensions",
    "threads": 3,
    "repos": 0,
@@ -130,6 +148,21 @@
    ]
   },
   {
+   "name": "almost",
+   "threads": 3,
+   "repos": 0,
+   "points": 225,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T18:39:38Z",
+   "items": [
+    "hn:50341462",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "hn:50266919"
+   ]
+  },
+  {
    "name": "Infrastructure",
    "threads": 4,
    "repos": 0,
@@ -143,21 +176,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
     "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-   ]
-  },
-  {
-   "name": "almost",
-   "threads": 3,
-   "repos": 0,
-   "points": 187,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:39:38Z",
-   "items": [
-    "hn:50341462",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "hn:50266919"
    ]
   },
   {
@@ -183,19 +201,19 @@
    ]
   },
   {
-   "name": "Untrusted",
+   "name": "Ultralytics",
    "threads": 5,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-29T05:00:00Z",
+   "last_seen": "2026-10-28T05:00:00Z",
    "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
    ]
   },
@@ -432,24 +450,44 @@
     "blog:https://seclists.org/oss-sec/2026/q4/466",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-811/"
    ]
-  },
-  {
-   "name": "PHP2Shell",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:50:17Z",
-   "items": [
-    "hn:50270348",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/475",
+   "source": "seclists.org",
+   "title": "Re: OATH Toolkit PSKC Signature Verification bypass in libpskc (CVE-2026-109117)",
+   "url": "https://seclists.org/oss-sec/2026/q4/475",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/475",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T22:02:25Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109117"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T22:02:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T22:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Re: OATH Toolkit PSKC Signature Verification bypass in libpskc (CVE-2026-109117)",
+    "at": "2026-11-02T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50343432",
    "source": "hackernews",
@@ -489,8 +527,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 165,
-   "comments": 28,
+   "points": 203,
+   "comments": 34,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -1060,7 +1098,7 @@
    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
    "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
    "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-02T09:06:38.656-06:00",
    "label": "security_news",
@@ -1254,6 +1292,105 @@
      }
     },
     "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-850: Microsoft Qlib MLflowRecorder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-850: Microsoft Qlib MLflowRecorder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-02T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-849: Microsoft Qlib RestrictedUnpickler Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-849: Microsoft Qlib RestrictedUnpickler Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-02T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-848: Microsoft Qlib StaticDataLoader Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-848: Microsoft Qlib StaticDataLoader Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-02T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
     "votes": 1,
     "rubric": 2
    }
