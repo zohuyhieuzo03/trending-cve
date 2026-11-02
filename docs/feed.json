@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T04:38:07Z",
- "count": 1627,
+ "generated": "2026-11-02T05:07:07Z",
+ "count": 1628,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 19,
    "repos": 0,
-   "points": 913,
+   "points": 914,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -34,38 +34,6 @@
     "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
     "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
-   ]
-  },
-  {
-   "name": "Untrusted",
-   "threads": 20,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-809/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-808/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-807/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-806/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-805/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-804/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-803/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-802/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-801/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-800/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-799/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-798/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-797/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-796/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-795/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-794/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-793/"
    ]
   },
   {
@@ -142,7 +110,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 310,
+   "points": 311,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -175,19 +143,19 @@
    ]
   },
   {
-   "name": "Ultralytics",
+   "name": "Untrusted",
    "threads": 5,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
+   "last_seen": "2026-10-29T05:00:00Z",
    "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
    ]
   },
@@ -225,6 +193,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -240,21 +223,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -304,22 +272,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
-   ]
-  },
-  {
-   "name": "Stack-based",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-821/"
    ]
   },
   {
@@ -402,23 +354,6 @@
    ]
   },
   {
-   "name": "exposed",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116593"
-   ],
-   "last_seen": "2026-10-28T17:40:44Z",
-   "items": [
-    "hn:50255635",
-    "blog:https://seclists.org/oss-sec/2026/q4/423",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
-   ]
-  },
-  {
    "name": "Oracle",
    "threads": 3,
    "repos": 0,
@@ -447,9 +382,92 @@
     "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-01T17:58:36Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
+   ]
+  },
+  {
+   "name": "command",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-13575"
+   ],
+   "last_seen": "2026-11-01T17:55:20Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/461",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/"
+   ]
+  },
+  {
+   "name": "Clients",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118988",
+    "CVE-2026-83525"
+   ],
+   "last_seen": "2026-11-01T08:51:31Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/447",
+    "blog:https://seclists.org/oss-sec/2026/q4/414"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/464",
+   "source": "seclists.org",
+   "title": "Multiple vulnerabilities in C-Kermit",
+   "url": "https://seclists.org/oss-sec/2026/q4/464",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/464",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T04:35:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T04:35:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T05:07:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Multiple vulnerabilities in C-Kermit",
+    "at": "2026-11-02T05:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50330931",
    "source": "hackernews",
@@ -722,8 +740,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 141,
-   "comments": 117,
+   "points": 142,
+   "comments": 119,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -994,7 +1012,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 707,
+   "points": 708,
    "comments": 328,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -13691,7 +13709,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 85,
+   "points": 86,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
@@ -20525,7 +20543,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 151,
+   "points": 152,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "kev_exploited",
