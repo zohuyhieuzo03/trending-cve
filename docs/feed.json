@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:08:07Z",
+ "generated": "2026-11-02T20:38:07Z",
  "count": 1652,
  "topics": [
   {
@@ -183,6 +183,21 @@
    ]
   },
   {
+   "name": "almost",
+   "threads": 3,
+   "repos": 0,
+   "points": 94,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T18:39:38Z",
+   "items": [
+    "hn:50341462",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "hn:50266919"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -197,21 +212,6 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
-   ]
-  },
-  {
-   "name": "almost",
-   "threads": 3,
-   "repos": 0,
-   "points": 64,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:39:38Z",
-   "items": [
-    "hn:50341462",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "hn:50266919"
    ]
   },
   {
@@ -453,7 +453,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 42,
+   "points": 72,
    "comments": 7,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -1528,7 +1528,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 176,
-   "comments": 152,
+   "comments": 154,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
