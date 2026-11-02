@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T15:38:06Z",
+ "generated": "2026-11-02T16:08:07Z",
  "count": 1637,
  "topics": [
   {
@@ -125,6 +125,22 @@
    ]
   },
   {
+   "name": "Infrastructure",
+   "threads": 4,
+   "repos": 0,
+   "points": 19,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T13:01:02Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
+    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
    "name": "Untrusted",
    "threads": 5,
    "repos": 0,
@@ -159,21 +175,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -189,21 +190,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "Infrastructure",
-   "threads": 3,
-   "repos": 0,
-   "points": 15,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T13:01:02Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
-    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
    ]
   },
   {
@@ -253,6 +239,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
+   "name": "HTTP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T21:20:51Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "hn:50296201",
+    "blog:https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
    ]
   },
   {
@@ -508,7 +509,7 @@
    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
    "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
    "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
-   "points": 0,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-02T09:06:38.656-06:00",
    "label": "security_news",
@@ -1012,7 +1013,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 172,
-   "comments": 139,
+   "comments": 140,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
