@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T09:08:07Z",
- "count": 1629,
+ "generated": "2026-11-02T09:38:08Z",
+ "count": 1630,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -59,6 +59,22 @@
    ]
   },
   {
+   "name": "Chained",
+   "threads": 4,
+   "repos": 0,
+   "points": 323,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T09:33:49Z",
+   "items": [
+    "hn:50286987",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+   ]
+  },
+  {
    "name": "Claude",
    "threads": 4,
    "repos": 0,
@@ -78,7 +94,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 326,
+   "points": 328,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -89,21 +105,6 @@
     "lobsters:ttp7aq",
     "hn:50326609",
     "blog:https://seclists.org/oss-sec/2026/q4/422"
-   ]
-  },
-  {
-   "name": "Chained",
-   "threads": 3,
-   "repos": 0,
-   "points": 323,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T13:59:48Z",
-   "items": [
-    "hn:50286987",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
    ]
   },
   {
@@ -121,25 +122,6 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
-   "name": "5.4-5.6",
-   "threads": 4,
-   "repos": 0,
-   "points": 16,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "last_seen": "2026-10-27T21:08:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "blog:https://seclists.org/oss-sec/2026/q4/401",
-    "blog:https://seclists.org/oss-sec/2026/q4/398",
-    "blog:https://seclists.org/oss-sec/2026/q4/392"
    ]
   },
   {
@@ -308,21 +290,6 @@
    ]
   },
   {
-   "name": "wild",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T13:00:32Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
-   ]
-  },
-  {
    "name": "devices",
    "threads": 3,
    "repos": 0,
@@ -430,9 +397,79 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/"
    ]
+  },
+  {
+   "name": "Clients",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118988",
+    "CVE-2026-83525"
+   ],
+   "last_seen": "2026-11-01T08:51:31Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/447",
+    "blog:https://seclists.org/oss-sec/2026/q4/414"
+   ]
+  },
+  {
+   "name": "MP4Box",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-60482",
+    "CVE-2025-60475",
+    "CVE-2025-60467"
+   ],
+   "last_seen": "2026-10-29T16:57:51Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/435",
+    "blog:https://seclists.org/oss-sec/2026/q4/409",
+    "blog:https://seclists.org/oss-sec/2026/q4/395"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+   "source": "bluesky",
+   "title": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least Oc",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzczfy27ck2u",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-02T09:33:49Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T09:33:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T09:38:08Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least Oc",
+    "at": "2026-11-02T09:38:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/464",
    "source": "seclists.org",
@@ -738,8 +775,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 156,
-   "comments": 126,
+   "points": 158,
+   "comments": 128,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -18964,7 +19001,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 74,
+   "points": 75,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
@@ -18992,7 +19029,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 974,
+   "points": 975,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
