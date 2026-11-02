@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T18:38:07Z",
- "count": 1651,
+ "generated": "2026-11-02T19:08:08Z",
+ "count": 1652,
  "topics": [
   {
    "name": "Use-After-Free",
    "threads": 22,
    "repos": 0,
-   "points": 941,
+   "points": 942,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -82,7 +82,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 344,
+   "points": 346,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -218,18 +218,18 @@
    ]
   },
   {
-   "name": "steal",
+   "name": "almost",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 28,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
+   "last_seen": "2026-11-02T18:39:38Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+    "hn:50341462",
+    "hn:50266919"
    ]
   },
   {
@@ -447,6 +447,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50341462",
+   "source": "hackernews",
+   "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+   "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+   "discussion": "https://news.ycombinator.com/item?id=50341462",
+   "points": 6,
+   "comments": 2,
+   "created": "2026-11-02T18:39:38Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T18:39:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-02T19:08:08Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+    "at": "2026-11-02T19:08:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/474",
    "source": "seclists.org",
@@ -1494,7 +1527,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 174,
+   "points": 176,
    "comments": 146,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -1766,7 +1799,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "discussion": "https://news.ycombinator.com/item?id=50319143",
-   "points": 733,
+   "points": 734,
    "comments": 330,
    "created": "2026-10-31T19:16:30Z",
    "label": "related",
@@ -19970,7 +20003,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 274,
+   "points": 275,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
