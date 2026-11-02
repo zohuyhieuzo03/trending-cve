@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T07:38:07Z",
+ "generated": "2026-11-02T08:08:07Z",
  "count": 1628,
  "topics": [
   {
@@ -93,7 +93,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 320,
+   "points": 322,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -739,8 +739,8 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 151,
-   "comments": 123,
+   "points": 153,
+   "comments": 125,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -21147,7 +21147,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 99,
+   "points": 100,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
