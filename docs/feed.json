@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T07:08:08Z",
- "count": 1661,
+ "generated": "2026-11-03T07:38:08Z",
+ "count": 1662,
  "topics": [
   {
    "name": "Use-After-Free",
-   "threads": 25,
+   "threads": 26,
    "repos": 0,
-   "points": 942,
+   "points": 943,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -15,7 +15,7 @@
     "CVE-2026-118527",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-11-03T04:57:58Z",
+   "last_seen": "2026-11-03T07:21:44Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
@@ -30,6 +30,7 @@
     "lobsters:1sni1w",
     "hn:50322542",
     "hn:50340028",
+    "hn:50349058",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
     "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
@@ -40,8 +41,7 @@
     "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
     "blog:https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/435",
-    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/435"
    ]
   },
   {
@@ -455,6 +455,39 @@
  ],
  "items": [
   {
+   "id": "hn:50349058",
+   "source": "hackernews",
+   "title": "Ask HN: How are you protecting your apps and infra after recent vulnerabilities?",
+   "url": "https://news.ycombinator.com/item?id=50349058",
+   "discussion": "https://news.ycombinator.com/item?id=50349058",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-11-03T07:21:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T07:21:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T07:38:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Ask HN: How are you protecting your apps and infra after recent vulnerabilities?",
+    "at": "2026-11-03T07:38:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
    "source": "thehackernews.com",
    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
@@ -561,7 +594,7 @@
    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
    "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
    "discussion": "https://lobste.rs/s/aqyfya/expat_2_10_0_released_fixes_four",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-02T17:47:22.135-06:00",
    "label": "security_news",
@@ -662,8 +695,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 438,
-   "comments": 127,
+   "points": 445,
+   "comments": 128,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -21738,7 +21771,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 127,
+   "points": 128,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
