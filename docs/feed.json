@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T18:38:07Z",
+ "generated": "2026-11-03T19:07:18Z",
  "count": 1690,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1542,
+   "points": 1543,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -45,6 +45,24 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 6,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -64,23 +82,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
     "blog:https://seclists.org/oss-sec/2026/q4/428"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 5,
-   "repos": 0,
-   "points": 36,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755"
    ]
   },
   {
@@ -1559,8 +1560,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 586,
-   "comments": 183,
+   "points": 587,
+   "comments": 184,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
