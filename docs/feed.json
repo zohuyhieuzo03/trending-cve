@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T05:08:10Z",
- "count": 1659,
+ "generated": "2026-11-03T05:38:09Z",
+ "count": 1661,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -99,21 +99,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
-   ]
-  },
-  {
-   "name": "almost",
-   "threads": 3,
-   "repos": 0,
-   "points": 415,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:39:38Z",
-   "items": [
-    "hn:50341462",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "hn:50266919"
    ]
   },
   {
@@ -274,6 +259,21 @@
    ]
   },
   {
+   "name": "credentials",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T05:34:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-819/"
+   ]
+  },
+  {
    "name": "unpatched",
    "threads": 3,
    "repos": 0,
@@ -388,6 +388,21 @@
    ]
   },
   {
+   "name": "Backdoors",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T05:34:41Z",
+   "items": [
+    "hn:50335010",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+   ]
+  },
+  {
    "name": "Crafted",
    "threads": 3,
    "repos": 0,
@@ -436,26 +451,75 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
     "blog:https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
    ]
-  },
-  {
-   "name": "exposed",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116593"
-   ],
-   "last_seen": "2026-10-28T17:40:44Z",
-   "items": [
-    "hn:50255635",
-    "blog:https://seclists.org/oss-sec/2026/q4/423",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "source": "thehackernews.com",
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "discussion": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T05:34:41Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T05:34:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T05:38:09Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "at": "2026-11-03T05:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "source": "thehackernews.com",
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "discussion": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T05:34:37Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T05:34:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T05:38:09Z",
+     "label": "unpatched_reported"
+    }
+   ],
+   "llm": {
+    "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+    "at": "2026-11-03T05:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/476",
    "source": "seclists.org",
@@ -598,8 +662,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 393,
-   "comments": 113,
+   "points": 400,
+   "comments": 116,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
