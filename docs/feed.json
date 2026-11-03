@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T06:38:09Z",
+ "generated": "2026-11-03T07:08:08Z",
  "count": 1661,
  "topics": [
   {
@@ -662,8 +662,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 423,
-   "comments": 124,
+   "points": 438,
+   "comments": 127,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -1167,7 +1167,7 @@
    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
    "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
    "discussion": "https://news.ycombinator.com/item?id=50338079",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-02T15:23:47Z",
    "label": "security_news",
@@ -22265,7 +22265,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 100,
+   "points": 101,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
