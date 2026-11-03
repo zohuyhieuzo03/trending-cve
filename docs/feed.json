@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T07:38:08Z",
- "count": 1662,
+ "generated": "2026-11-03T08:08:09Z",
+ "count": 1664,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -223,6 +223,38 @@
    ]
   },
   {
+   "name": "Google",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T07:51:54Z",
+   "items": [
+    "hn:50349249",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T07:43:07Z",
+   "items": [
+    "hn:50289274",
+    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -419,41 +451,75 @@
     "lobsters:bnok4r",
     "blog:https://seclists.org/oss-sec/2026/q4/409"
    ]
-  },
-  {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T14:05:36Z",
-   "items": [
-    "hn:50289274",
-    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
-   ]
-  },
-  {
-   "name": "Cisco",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-20127"
-   ],
-   "last_seen": "2026-10-29T18:38:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myz4xgbq6o2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50349249",
+   "source": "hackernews",
+   "title": "Google patched a zero day I found and has not paid me",
+   "url": "https://github.com/jegly/jegly",
+   "discussion": "https://news.ycombinator.com/item?id=50349249",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-03T07:51:54Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T07:51:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T08:08:09Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Google patched a zero day I found and has not paid me",
+    "at": "2026-11-03T08:08:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "source": "thehackernews.com",
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "discussion": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T07:43:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T07:43:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T08:08:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+    "at": "2026-11-03T08:08:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.95
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50349058",
    "source": "hackernews",
@@ -595,7 +661,7 @@
    "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
    "discussion": "https://lobste.rs/s/aqyfya/expat_2_10_0_released_fixes_four",
    "points": 2,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-02T17:47:22.135-06:00",
    "label": "security_news",
    "cves": [],
@@ -695,8 +761,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 445,
-   "comments": 128,
+   "points": 457,
+   "comments": 129,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
