@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T23:08:07Z",
- "count": 1743,
+ "generated": "2026-11-03T23:38:07Z",
+ "count": 1744,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1556,
+   "points": 1559,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -458,32 +458,64 @@
    ]
   },
   {
-   "name": "Brotli",
+   "name": "wild",
    "threads": 3,
    "repos": 0,
    "points": 5,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-115946"
+    "CVE-2026-119977"
    ],
-   "last_seen": "2026-11-03T18:16:12Z",
+   "last_seen": "2026-11-03T20:31:52Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "blog:https://seclists.org/oss-sec/2026/q4/477",
-    "blog:https://seclists.org/oss-sec/2026/q4/460"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "hn:50357772",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50359701",
+   "source": "hackernews",
+   "title": "EPSS versus CISA KEV on 204 exploited CVEs. And why CISA unusually won",
+   "url": "https://www.handsomeboyscomputer.club/log/rappaport-2/",
+   "discussion": "https://news.ycombinator.com/item?id=50359701",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T23:34:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T23:34:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T23:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "EPSS versus CISA KEV on 204 exploited CVEs. And why CISA unusually won",
+    "at": "2026-11-03T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
    "source": "bluesky",
    "title": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T22:19:06Z",
    "label": "supply_chain",
@@ -1930,7 +1962,7 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 14,
+   "points": 15,
    "comments": 5,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
@@ -3383,8 +3415,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 600,
-   "comments": 193,
+   "points": 603,
+   "comments": 194,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -25245,7 +25277,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1929,
+   "points": 1928,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
