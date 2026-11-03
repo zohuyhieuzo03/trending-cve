@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T22:38:06Z",
+ "generated": "2026-11-03T23:08:07Z",
  "count": 1743,
  "topics": [
   {
@@ -483,7 +483,7 @@
    "title": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-11-03T22:19:06Z",
    "label": "supply_chain",
@@ -2971,7 +2971,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-855: Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-854/",
@@ -2991,7 +3004,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-854: Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
@@ -3011,7 +3037,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-853: Quest Foglight for Databases FileServlet External Control of File Path Information Disclosure Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/",
@@ -3031,7 +3070,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-852: Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
@@ -3051,7 +3103,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-851: Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-868/",
@@ -3071,7 +3136,20 @@
      "at": "2026-11-03T22:38:06Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-868: Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+    "at": "2026-11-03T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
@@ -3306,7 +3384,7 @@
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
    "points": 600,
-   "comments": 192,
+   "comments": 193,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
