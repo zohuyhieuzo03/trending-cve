@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T16:07:07Z",
- "count": 1680,
+ "generated": "2026-11-03T16:38:07Z",
+ "count": 1682,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 34,
    "repos": 0,
-   "points": 1525,
+   "points": 1534,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -15,7 +15,7 @@
     "CVE-2026-118527",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-11-03T11:23:53Z",
+   "last_seen": "2026-11-03T16:08:13Z",
    "items": [
     "hn:50319143",
     "hn:50341462",
@@ -27,6 +27,7 @@
     "hn:50312858",
     "hn:50297892",
     "hn:50305855",
+    "hn:50351808",
     "hn:50320349",
     "lobsters:1sni1w",
     "hn:50349491",
@@ -34,14 +35,13 @@
     "hn:50349058",
     "hn:50340028",
     "hn:50289274",
+    "hn:50353777",
     "hn:50308386",
+    "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
     "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
-    "blog:https://seclists.org/oss-sec/2026/q4/459",
-    "blog:https://seclists.org/oss-sec/2026/q4/456",
-    "blog:https://seclists.org/oss-sec/2026/q4/442",
-    "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
   {
@@ -455,6 +455,64 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-h26j-4vp7-x9w2",
+   "source": "github-advisory",
+   "title": "Metalama: Unsafe deserialization over Metalama's Visual Studio inter-process named pipe enables local code execution (nuget/Metalama.Framework)",
+   "url": "https://github.com/advisories/GHSA-h26j-4vp7-x9w2",
+   "discussion": "https://github.com/advisories/GHSA-h26j-4vp7-x9w2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T16:37:44Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62848"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T16:37:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T16:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50353777",
+   "source": "hackernews",
+   "title": "Ubuntu: Canonical Extends Long-Term Support for CVE-2026-98432 Through 2036",
+   "url": "https://bloatberg.com/2026/11/02/ubuntu-canonical-extends-long-term-support-for-cve-2026-98432-through-2036",
+   "discussion": "https://news.ycombinator.com/item?id=50353777",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T16:08:13Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T16:08:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T16:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Ubuntu: Canonical Extends Long-Term Support for CVE-2026-98432 Through 2036",
+    "at": "2026-11-03T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50353072",
    "source": "hackernews",
@@ -1296,7 +1354,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 576,
+   "points": 579,
    "comments": 175,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
