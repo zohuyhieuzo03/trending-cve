@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T00:08:07Z",
+ "generated": "2026-11-03T00:38:07Z",
  "count": 1658,
  "topics": [
   {
@@ -131,6 +131,21 @@
    ]
   },
   {
+   "name": "almost",
+   "threads": 3,
+   "repos": 0,
+   "points": 317,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T18:39:38Z",
+   "items": [
+    "hn:50341462",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "hn:50266919"
+   ]
+  },
+  {
    "name": "Attempted",
    "threads": 3,
    "repos": 0,
@@ -145,21 +160,6 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
-   "name": "almost",
-   "threads": 3,
-   "repos": 0,
-   "points": 298,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:39:38Z",
-   "items": [
-    "hn:50341462",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "hn:50266919"
    ]
   },
   {
@@ -560,8 +560,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 276,
-   "comments": 53,
+   "points": 295,
+   "comments": 67,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -20209,7 +20209,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 275,
+   "points": 276,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
