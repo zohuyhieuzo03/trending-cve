@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T18:08:07Z",
- "count": 1689,
+ "generated": "2026-11-03T18:38:07Z",
+ "count": 1690,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1541,
+   "points": 1542,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -455,6 +455,43 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/477",
+   "source": "seclists.org",
+   "title": "Re: Brotli CVE-2026-111497",
+   "url": "https://seclists.org/oss-sec/2026/q4/477",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/477",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T18:16:12Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "first_seen": "2026-11-03T18:16:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T18:38:07Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "Re: Brotli CVE-2026-111497",
+    "at": "2026-11-03T18:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "github-advisory:GHSA-33r5-xmm8-v6x5",
    "source": "github-advisory",
    "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access (npm/@enspirit/elo)",
@@ -687,7 +724,7 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 11,
+   "points": 12,
    "comments": 4,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
@@ -1522,8 +1559,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 585,
-   "comments": 181,
+   "points": 586,
+   "comments": 183,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -23314,7 +23351,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1058,
+   "points": 1059,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
