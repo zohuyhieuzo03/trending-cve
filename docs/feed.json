@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T13:38:07Z",
- "count": 1675,
+ "generated": "2026-11-03T14:08:07Z",
+ "count": 1676,
  "topics": [
   {
    "name": "Ubuntu",
@@ -45,24 +45,6 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 6,
-   "repos": 0,
-   "points": 37,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -85,10 +67,27 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 5,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755"
+   ]
+  },
+  {
    "name": "Google",
    "threads": 5,
    "repos": 0,
-   "points": 11,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -174,7 +173,7 @@
    "name": "Attempted",
    "threads": 3,
    "repos": 0,
-   "points": 314,
+   "points": 315,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -379,7 +378,7 @@
    "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 6,
+   "points": 7,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -457,6 +456,39 @@
  ],
  "items": [
   {
+   "id": "lobsters:5cmg1k",
+   "source": "lobsters",
+   "title": "Canonical's CVE Response Times",
+   "url": "https://aria.rip/canonical_cve_response/",
+   "discussion": "https://lobste.rs/s/5cmg1k/canonical_s_cve_response_times",
+   "points": 1,
+   "comments": 2,
+   "created": "2026-11-03T07:55:17.630-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T13:55:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T14:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Canonical's CVE Response Times",
+    "at": "2026-11-03T14:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50351808",
    "source": "hackernews",
    "title": "Canonical: Accelerating delivery of CVE fixes with a new Kernel release strategy",
@@ -528,7 +560,7 @@
    "title": "CVEGen – Every month's CVEs, painted into a poster",
    "url": "https://cvegen.art",
    "discussion": "https://news.ycombinator.com/item?id=50351470",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T12:59:15Z",
    "label": "security_news",
@@ -561,7 +593,7 @@
    "title": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-03T12:06:25Z",
    "label": "security_news",
@@ -1132,8 +1164,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 559,
-   "comments": 171,
+   "points": 562,
+   "comments": 172,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -2338,7 +2370,7 @@
    "title": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzb3u7gagv25",
-   "points": 9,
+   "points": 10,
    "comments": 3,
    "created": "2026-11-01T15:12:14Z",
    "label": "security_news",
@@ -2680,7 +2712,7 @@
    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz6mov5sdn2o",
-   "points": 6,
+   "points": 7,
    "comments": 0,
    "created": "2026-10-31T15:35:30Z",
    "label": "public_exploit_reported",
@@ -7245,7 +7277,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 56,
+   "points": 58,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -22994,7 +23026,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1927,
+   "points": 1928,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
