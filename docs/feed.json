@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T20:07:07Z",
- "count": 1697,
+ "generated": "2026-11-03T20:38:07Z",
+ "count": 1704,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 35,
    "repos": 0,
-   "points": 1547,
+   "points": 1552,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -45,24 +45,6 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 6,
-   "repos": 0,
-   "points": 37,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -85,6 +67,23 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 5,
+   "repos": 0,
+   "points": 21,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "Google",
    "threads": 5,
    "repos": 0,
@@ -99,27 +98,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/462",
     "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
-   ]
-  },
-  {
-   "name": "multiple",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-73095",
-    "CVE-2026-73117"
-   ],
-   "last_seen": "2026-11-03T19:55:53Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/482",
-    "blog:https://seclists.org/oss-sec/2026/q4/464",
-    "blog:https://seclists.org/oss-sec/2026/q4/438",
-    "blog:https://seclists.org/oss-sec/2026/q4/404",
-    "blog:https://seclists.org/oss-sec/2026/q4/403",
-    "blog:https://seclists.org/oss-sec/2026/q4/402"
    ]
   },
   {
@@ -189,6 +167,47 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
+   ]
+  },
+  {
+   "name": "multiple",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-73095",
+    "CVE-2026-73117"
+   ],
+   "last_seen": "2026-11-03T19:55:53Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/482",
+    "blog:https://seclists.org/oss-sec/2026/q4/464",
+    "blog:https://seclists.org/oss-sec/2026/q4/438",
+    "blog:https://seclists.org/oss-sec/2026/q4/404",
+    "blog:https://seclists.org/oss-sec/2026/q4/403"
+   ]
+  },
+  {
+   "name": "HTTP",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-65059",
+    "CVE-2026-116130",
+    "CVE-2026-102479"
+   ],
+   "last_seen": "2026-11-03T19:51:47Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/480",
+    "blog:https://seclists.org/oss-sec/2026/q4/468",
+    "blog:https://seclists.org/oss-sec/2026/q4/448",
+    "blog:https://seclists.org/oss-sec/2026/q4/427",
+    "blog:https://seclists.org/oss-sec/2026/q4/426"
    ]
   },
   {
@@ -263,24 +282,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "Cisco",
-   "threads": 4,
-   "repos": 0,
-   "points": 1,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-20127"
-   ],
-   "last_seen": "2026-10-29T18:38:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myz4xgbq6o2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -369,7 +370,7 @@
    "name": "Internet",
    "threads": 3,
    "repos": 0,
-   "points": 5,
+   "points": 6,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -459,6 +460,237 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50357772",
+   "source": "hackernews",
+   "title": "CISA: WordPress core upgrade-window RCE CVE-2026-119977 exploited in the wild",
+   "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "discussion": "https://news.ycombinator.com/item?id=50357772",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T20:31:52Z",
+   "label": "exploited_reported",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:31:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "CISA: WordPress core upgrade-window RCE CVE-2026-119977 exploited in the wild",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-gh9r-c94j-cmp5",
+   "source": "github-advisory",
+   "title": "Stanza: RCE via pickle deserialization in the lemmatizer (pip/stanza)",
+   "url": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
+   "discussion": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:29:16Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115878"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T20:29:16Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/489",
+   "source": "seclists.org",
+   "title": "OpenVox Server RCE and client impersonation vulnerabilities",
+   "url": "https://seclists.org/oss-sec/2026/q4/489",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/489",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:15:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T20:15:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "OpenVox Server RCE and client impersonation vulnerabilities",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/488",
+   "source": "seclists.org",
+   "title": "CVE-2026-115448: Apache ZooKeeper: Unbounded recursion in snapshot serialization allows a client to render the server unrecoverable",
+   "url": "https://seclists.org/oss-sec/2026/q4/488",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/488",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:07:28Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115448"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:07:28Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-115448: Apache ZooKeeper: Unbounded recursion in snapshot serialization allows a client to render the server unrecoverable",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/487",
+   "source": "seclists.org",
+   "title": "CVE-2026-100302: Apache ZooKeeper: Denial of service through unbounded memory allocation in multiRead request handling",
+   "url": "https://seclists.org/oss-sec/2026/q4/487",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/487",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:05:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100302"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:05:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-100302: Apache ZooKeeper: Denial of service through unbounded memory allocation in multiRead request handling",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/486",
+   "source": "seclists.org",
+   "title": "CVE-2026-100300: Apache ZooKeeper: Unauthenticated persistent denial of service via unvalidated quota-node data and paths crashing the transaction-apply thread",
+   "url": "https://seclists.org/oss-sec/2026/q4/486",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/486",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:03:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100300"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:03:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-100300: Apache ZooKeeper: Unauthenticated persistent denial of service via unvalidated quota-node data and paths crashing the transaction-apply thread",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/485",
+   "source": "seclists.org",
+   "title": "CVE-2026-100252: Apache ZooKeeper: SASL authorization bypass on the client port through a client-supplied authorization ID",
+   "url": "https://seclists.org/oss-sec/2026/q4/485",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/485",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:01:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100252"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:01:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T20:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-100252: Apache ZooKeeper: SASL authorization bypass on the client port through a client-supplied authorization ID",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/484",
    "source": "seclists.org",
@@ -624,7 +856,20 @@
      "at": "2026-11-03T20:07:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Apache Traffic Server: heap-buffer-overflow via HTTP Host header (unbounded alloca pattern, 5 sites) — 90-day disclosure",
+    "at": "2026-11-03T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/479",
@@ -966,7 +1211,7 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 12,
+   "points": 13,
    "comments": 4,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
@@ -1065,7 +1310,7 @@
    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
    "url": "https://blog.cloudflare.com/zero-wire/",
    "discussion": "https://news.ycombinator.com/item?id=50352299",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-03T14:17:59Z",
    "label": "security_news",
@@ -1801,8 +2046,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 591,
-   "comments": 185,
+   "points": 596,
+   "comments": 186,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
