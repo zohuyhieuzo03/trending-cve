@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T16:38:07Z",
+ "generated": "2026-11-03T17:08:07Z",
  "count": 1682,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1534,
+   "points": 1537,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -377,6 +377,21 @@
    ]
   },
   {
+   "name": "Internet",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T14:17:59Z",
+   "items": [
+    "hn:50352299",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
    "name": "gateway",
    "threads": 3,
    "repos": 0,
@@ -404,21 +419,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
-  },
-  {
-   "name": "Internet",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T14:17:59Z",
-   "items": [
-    "hn:50352299",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
    ]
   },
   {
@@ -520,7 +520,7 @@
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
    "points": 10,
-   "comments": 3,
+   "comments": 4,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
    "cves": [],
@@ -618,7 +618,7 @@
    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
    "url": "https://blog.cloudflare.com/zero-wire/",
    "discussion": "https://news.ycombinator.com/item?id=50352299",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-03T14:17:59Z",
    "label": "security_news",
@@ -1354,8 +1354,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 579,
-   "comments": 175,
+   "points": 582,
+   "comments": 178,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -5551,7 +5551,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
