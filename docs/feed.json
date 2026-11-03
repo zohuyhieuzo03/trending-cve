@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T06:08:09Z",
+ "generated": "2026-11-03T06:38:09Z",
  "count": 1661,
  "topics": [
   {
@@ -662,8 +662,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 417,
-   "comments": 119,
+   "points": 423,
+   "comments": 124,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -1836,7 +1836,7 @@
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
    "points": 176,
-   "comments": 162,
+   "comments": 163,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
    "cves": [],
@@ -13426,7 +13426,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
