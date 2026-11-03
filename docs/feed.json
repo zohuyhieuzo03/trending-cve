@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T09:38:07Z",
+ "generated": "2026-11-03T10:08:07Z",
  "count": 1668,
  "topics": [
   {
@@ -151,6 +151,22 @@
    ]
   },
   {
+   "name": "Google",
+   "threads": 4,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T07:51:54Z",
+   "items": [
+    "hn:50349249",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 5,
    "repos": 0,
@@ -187,22 +203,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 4,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T07:51:54Z",
-   "items": [
-    "hn:50349249",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
    ]
   },
   {
@@ -359,7 +359,7 @@
    "name": "devices",
    "threads": 3,
    "repos": 0,
-   "points": 7,
+   "points": 8,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -562,7 +562,7 @@
    "title": "CVE-2026-58115 – CVSS-B 10 CRITICAL – Siemens SIMATIC IoT2050 devices Node-RED",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-58115",
    "discussion": "https://news.ycombinator.com/item?id=50349357",
-   "points": 7,
+   "points": 8,
    "comments": 1,
    "created": "2026-11-03T08:11:12Z",
    "label": "related",
@@ -597,7 +597,7 @@
    "title": "Google patched a zero day I found and has not paid me",
    "url": "https://github.com/jegly/jegly",
    "discussion": "https://news.ycombinator.com/item?id=50349249",
-   "points": 8,
+   "points": 9,
    "comments": 1,
    "created": "2026-11-03T07:51:54Z",
    "label": "zero_day_mention",
@@ -898,8 +898,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 500,
-   "comments": 142,
+   "points": 509,
+   "comments": 146,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
