@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T15:08:07Z",
- "count": 1678,
+ "generated": "2026-11-03T15:38:07Z",
+ "count": 1679,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 31,
    "repos": 0,
-   "points": 1521,
+   "points": 1525,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -45,24 +45,6 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 6,
-   "repos": 0,
-   "points": 37,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -82,6 +64,23 @@
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
     "blog:https://seclists.org/oss-sec/2026/q4/428"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 5,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755"
    ]
   },
   {
@@ -456,12 +455,45 @@
  ],
  "items": [
   {
+   "id": "hn:50353072",
+   "source": "hackernews",
+   "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "discussion": "https://news.ycombinator.com/item?id=50353072",
+   "points": 5,
+   "comments": 1,
+   "created": "2026-11-03T15:17:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T15:17:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T15:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
+    "at": "2026-11-03T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
    "source": "bluesky",
    "title": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T15:06:35Z",
    "label": "security_news",
@@ -560,7 +592,7 @@
    "title": "Canonical: Accelerating delivery of CVE fixes with a new Kernel release strategy",
    "url": "https://canonical.com/blog/accelerating-delivery-of-cve-fixes-with-a-new-kernel-release-strategy",
    "discussion": "https://news.ycombinator.com/item?id=50351808",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-03T13:35:14Z",
    "label": "security_news",
@@ -1230,8 +1262,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 572,
-   "comments": 173,
+   "points": 576,
+   "comments": 174,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
