@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T17:08:07Z",
- "count": 1682,
+ "generated": "2026-11-03T17:38:07Z",
+ "count": 1686,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1537,
+   "points": 1538,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -45,24 +45,6 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 6,
-   "repos": 0,
-   "points": 37,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -82,6 +64,23 @@
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
     "blog:https://seclists.org/oss-sec/2026/q4/428"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 5,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755"
    ]
   },
   {
@@ -163,11 +162,11 @@
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-29T13:59:48Z",
+   "last_seen": "2026-11-03T15:59:19Z",
    "items": [
     "hn:50286987",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
    ]
   },
   {
@@ -456,6 +455,73 @@
  ],
  "items": [
   {
+   "id": "github-advisory:GHSA-p3jp-9v83-76w9",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-111497 - .NET Brotli Decoder Out-of-bounds Write Vulnerability (nuget/Microsoft.DotNet.ILCompiler)",
+   "url": "https://github.com/advisories/GHSA-p3jp-9v83-76w9",
+   "discussion": "https://github.com/advisories/GHSA-p3jp-9v83-76w9",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:33:48Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T17:33:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T17:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-48v2-6jcm-fc99",
+   "source": "github-advisory",
+   "title": "praktor: Path traversal in Telegram file uploads allows writing outside the agent workspace uploads/ directory (stored instruction injection) (go/github.com/mtzanidakis/praktor)",
+   "url": "https://github.com/advisories/GHSA-48v2-6jcm-fc99",
+   "discussion": "https://github.com/advisories/GHSA-48v2-6jcm-fc99",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:27:25Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62331"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T17:27:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T17:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j97h-3f8r-mrjr",
+   "source": "github-advisory",
+   "title": "Keycloak has authentication bypass via jwt algorithm confusion (maven/org.keycloak:keycloak-services)",
+   "url": "https://github.com/advisories/GHSA-j97h-3f8r-mrjr",
+   "discussion": "https://github.com/advisories/GHSA-j97h-3f8r-mrjr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:24:27Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-11800"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T17:24:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T17:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-h26j-4vp7-x9w2",
    "source": "github-advisory",
    "title": "Metalama: Unsafe deserialization over Metalama's Visual Studio inter-process named pipe enables local code execution (nuget/Metalama.Framework)",
@@ -514,12 +580,45 @@
    }
   },
   {
+   "id": "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "source": "thehackernews.com",
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "discussion": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T15:59:19Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T15:59:19Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T17:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "at": "2026-11-03T17:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50353072",
    "source": "hackernews",
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 10,
+   "points": 11,
    "comments": 4,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
@@ -1354,8 +1453,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 582,
-   "comments": 178,
+   "points": 583,
+   "comments": 180,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -7467,7 +7566,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
