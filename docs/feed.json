@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T14:38:07Z",
- "count": 1677,
+ "generated": "2026-11-03T15:08:07Z",
+ "count": 1678,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 31,
    "repos": 0,
-   "points": 1512,
+   "points": 1521,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -29,8 +29,8 @@
     "hn:50305855",
     "hn:50320349",
     "lobsters:1sni1w",
-    "hn:50322542",
     "hn:50349491",
+    "hn:50322542",
     "hn:50349058",
     "hn:50340028",
     "hn:50289274",
@@ -42,6 +42,24 @@
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 6,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
    ]
   },
   {
@@ -64,23 +82,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
     "blog:https://seclists.org/oss-sec/2026/q4/428"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 5,
-   "repos": 0,
-   "points": 36,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755"
    ]
   },
   {
@@ -455,6 +456,39 @@
  ],
  "items": [
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
+   "source": "bluesky",
+   "title": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T15:06:35Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T15:06:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T15:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.",
+    "at": "2026-11-03T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50352299",
    "source": "hackernews",
    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
@@ -825,8 +859,8 @@
    "title": "Fixes available in -proposed pocket for CVE-2026-98432",
    "url": "https://ubuntu.com/blog/fixes-available-in-proposed-pocket-for-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50349491",
-   "points": 2,
-   "comments": 1,
+   "points": 3,
+   "comments": 2,
    "created": "2026-11-03T08:30:30Z",
    "label": "related",
    "cves": [
@@ -1196,8 +1230,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 564,
-   "comments": 172,
+   "points": 572,
+   "comments": 173,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
