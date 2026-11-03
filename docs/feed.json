@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T09:07:31Z",
- "count": 1667,
+ "generated": "2026-11-03T09:38:07Z",
+ "count": 1668,
  "topics": [
   {
    "name": "firewall",
@@ -193,7 +193,7 @@
    "name": "Google",
    "threads": 4,
    "repos": 0,
-   "points": 7,
+   "points": 8,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -489,6 +489,39 @@
    }
   },
   {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T08:31:48Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T08:31:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T09:38:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+    "at": "2026-11-03T09:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50349491",
    "source": "hackernews",
    "title": "Fixes available in -proposed pocket for CVE-2026-98432",
@@ -564,7 +597,7 @@
    "title": "Google patched a zero day I found and has not paid me",
    "url": "https://github.com/jegly/jegly",
    "discussion": "https://news.ycombinator.com/item?id=50349249",
-   "points": 7,
+   "points": 8,
    "comments": 1,
    "created": "2026-11-03T07:51:54Z",
    "label": "zero_day_mention",
@@ -865,8 +898,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 483,
-   "comments": 137,
+   "points": 500,
+   "comments": 142,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
