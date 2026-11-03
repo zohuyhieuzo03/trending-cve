@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T05:38:09Z",
+ "generated": "2026-11-03T06:08:09Z",
  "count": 1661,
  "topics": [
   {
@@ -662,8 +662,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 400,
-   "comments": 116,
+   "points": 417,
+   "comments": 119,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
