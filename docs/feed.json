@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T02:38:07Z",
+ "generated": "2026-11-03T03:08:10Z",
  "count": 1658,
  "topics": [
   {
@@ -102,7 +102,7 @@
    "name": "almost",
    "threads": 3,
    "repos": 0,
-   "points": 371,
+   "points": 387,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -460,7 +460,7 @@
    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
    "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
    "discussion": "https://lobste.rs/s/aqyfya/expat_2_10_0_released_fixes_four",
-   "points": 1,
+   "points": 0,
    "comments": 0,
    "created": "2026-11-02T17:47:22.135-06:00",
    "label": "security_news",
@@ -561,8 +561,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 349,
-   "comments": 86,
+   "points": 365,
+   "comments": 89,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
