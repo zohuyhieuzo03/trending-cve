@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T17:38:07Z",
- "count": 1686,
+ "generated": "2026-11-03T18:08:07Z",
+ "count": 1689,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1538,
+   "points": 1541,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -361,6 +361,21 @@
    ]
   },
   {
+   "name": "Internet",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T14:17:59Z",
+   "items": [
+    "hn:50352299",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
    "name": "infrastructure",
    "threads": 3,
    "repos": 0,
@@ -373,21 +388,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
     "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-   ]
-  },
-  {
-   "name": "Internet",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T14:17:59Z",
-   "items": [
-    "hn:50352299",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
    ]
   },
   {
@@ -454,6 +454,75 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-33r5-xmm8-v6x5",
+   "source": "github-advisory",
+   "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access (npm/@enspirit/elo)",
+   "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
+   "discussion": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:53:42Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-44267"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-03T17:53:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T18:08:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-7w38-ggh5-v542",
+   "source": "github-advisory",
+   "title": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels (npm/@enspirit/elo)",
+   "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+   "discussion": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:51:30Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-44266"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-03T17:51:30Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T18:08:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-x9rp-7wh3-2rj5",
+   "source": "github-advisory",
+   "title": "Elo backends have code injection via unvalidated emission of programmatic AST fields (npm/@enspirit/elo)",
+   "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+   "discussion": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T17:48:09Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-44265"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T17:48:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T18:08:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-p3jp-9v83-76w9",
    "source": "github-advisory",
@@ -717,7 +786,7 @@
    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
    "url": "https://blog.cloudflare.com/zero-wire/",
    "discussion": "https://news.ycombinator.com/item?id=50352299",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-03T14:17:59Z",
    "label": "security_news",
@@ -1083,7 +1152,7 @@
    "url": "https://ubuntu.com/blog/fixes-available-in-proposed-pocket-for-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50349491",
    "points": 3,
-   "comments": 2,
+   "comments": 3,
    "created": "2026-11-03T08:30:30Z",
    "label": "related",
    "cves": [
@@ -1453,8 +1522,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 583,
-   "comments": 180,
+   "points": 585,
+   "comments": 181,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -4639,7 +4708,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 15,
+   "points": 16,
    "comments": 1,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
