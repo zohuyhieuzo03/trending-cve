@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T22:08:07Z",
- "count": 1739,
+ "generated": "2026-11-03T22:38:06Z",
+ "count": 1743,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1555,
+   "points": 1556,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -335,24 +335,6 @@
    ]
   },
   {
-   "name": "Out-of-bounds",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-90626"
-   ],
-   "last_seen": "2026-11-03T21:51:24Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/501",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-831/"
-   ]
-  },
-  {
    "name": "Heap",
    "threads": 4,
    "repos": 0,
@@ -474,9 +456,130 @@
     "blog:https://seclists.org/oss-sec/2026/q4/492",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/"
    ]
+  },
+  {
+   "name": "Brotli",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-115946"
+   ],
+   "last_seen": "2026-11-03T18:16:12Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "blog:https://seclists.org/oss-sec/2026/q4/477",
+    "blog:https://seclists.org/oss-sec/2026/q4/460"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+   "source": "bluesky",
+   "title": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzgundaya32k",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T22:19:06Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T22:19:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T22:38:06Z",
+     "label": "supply_chain"
+    }
+   ],
+   "llm": {
+    "title": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script.",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/507",
+   "source": "seclists.org",
+   "title": "CVE-2026-90634: Apache OpenOffice: Out-of-bounds write when importing encrypted PDF files",
+   "url": "https://seclists.org/oss-sec/2026/q4/507",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/507",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T22:02:53Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-90634"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T22:02:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T22:38:06Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-90634: Apache OpenOffice: Out-of-bounds write when importing encrypted PDF files",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/506",
+   "source": "seclists.org",
+   "title": "CVE-2026-90632: Apache OpenOffice: Local file inclusion via GStreamer plugin",
+   "url": "https://seclists.org/oss-sec/2026/q4/506",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/506",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T22:00:59Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-90632"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T22:00:59Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T22:38:06Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-90632: Apache OpenOffice: Local file inclusion via GStreamer plugin",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/505",
    "source": "seclists.org",
@@ -707,7 +810,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-59268: Apache OpenOffice: Heap out-of-bounds write in WW8 PLCF reader",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/498",
@@ -729,7 +845,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-59267: Apache OpenOffice: Heap Buffer Overflow in DXF LWPOLYLINE import could cause memory corruption",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/497",
@@ -751,7 +880,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-59264: Apache OpenOffice: Uncontrolled search path element vulnerability in Windows installer",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/496",
@@ -773,7 +915,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-59263: Apache OpenOffice: Carefully crafted documents could display different data when opened with different programs, instead of being reported as corrupt.",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50358026",
@@ -2618,7 +2773,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-861: Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-860/",
@@ -2638,7 +2806,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-860: Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/",
@@ -2658,7 +2839,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-859: Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-858/",
@@ -2678,7 +2872,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-858: Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-857/",
@@ -2698,7 +2905,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-857: Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
@@ -2718,7 +2938,20 @@
      "at": "2026-11-03T22:08:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-856: Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-11-03T22:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
@@ -2816,6 +3049,26 @@
    "label_history": [
     {
      "at": "2026-11-03T22:08:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-868: Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T22:38:06Z",
      "label": "security_news"
     }
    ]
@@ -3052,8 +3305,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 599,
-   "comments": 190,
+   "points": 600,
+   "comments": 192,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
