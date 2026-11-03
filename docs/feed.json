@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T14:08:07Z",
- "count": 1676,
+ "generated": "2026-11-03T14:38:07Z",
+ "count": 1677,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 30,
+   "threads": 31,
    "repos": 0,
-   "points": 948,
+   "points": 1512,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -18,6 +18,7 @@
    "last_seen": "2026-11-03T11:23:53Z",
    "items": [
     "hn:50319143",
+    "hn:50341462",
     "hn:50299182",
     "hn:50287647",
     "hn:50314397",
@@ -40,8 +41,7 @@
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
-    "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+    "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
    ]
   },
   {
@@ -261,18 +261,21 @@
    ]
   },
   {
-   "name": "credentials",
-   "threads": 3,
+   "name": "Cisco",
+   "threads": 4,
    "repos": 0,
-   "points": 16,
-   "kev": false,
+   "points": 1,
+   "kev": true,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T05:34:37Z",
+   "cves": [
+    "CVE-2026-20127"
+   ],
+   "last_seen": "2026-10-29T18:38:43Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-819/"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myz4xgbq6o2b",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -293,21 +296,6 @@
    ]
   },
   {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T12:47:18Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
-   ]
-  },
-  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -320,25 +308,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-   ]
-  },
-  {
-   "name": "Local",
-   "threads": 4,
-   "repos": 1,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112445"
-   ],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "ghpoc:Mas0nShi/CVE-2026-112445",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
    ]
   },
   {
@@ -407,6 +376,21 @@
    ]
   },
   {
+   "name": "gateway",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T05:34:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-847/"
+   ]
+  },
+  {
    "name": "Drupal",
    "threads": 3,
    "repos": 0,
@@ -439,6 +423,21 @@
    ]
   },
   {
+   "name": "Internet",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T14:17:59Z",
+   "items": [
+    "hn:50352299",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
    "name": "Backdoors",
    "threads": 3,
    "repos": 0,
@@ -456,12 +455,45 @@
  ],
  "items": [
   {
+   "id": "hn:50352299",
+   "source": "hackernews",
+   "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
+   "url": "https://blog.cloudflare.com/zero-wire/",
+   "discussion": "https://news.ycombinator.com/item?id=50352299",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T14:17:59Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T14:17:59Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T14:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "at": "2026-11-03T14:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "lobsters:5cmg1k",
    "source": "lobsters",
    "title": "Canonical's CVE Response Times",
    "url": "https://aria.rip/canonical_cve_response/",
    "discussion": "https://lobste.rs/s/5cmg1k/canonical_s_cve_response_times",
-   "points": 1,
+   "points": 0,
    "comments": 2,
    "created": "2026-11-03T07:55:17.630-06:00",
    "label": "security_news",
@@ -794,7 +826,7 @@
    "url": "https://ubuntu.com/blog/fixes-available-in-proposed-pocket-for-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50349491",
    "points": 2,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-03T08:30:30Z",
    "label": "related",
    "cves": [
@@ -1164,7 +1196,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 562,
+   "points": 564,
    "comments": 172,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
