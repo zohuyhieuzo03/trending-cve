@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T21:08:02Z",
- "count": 1711,
+ "generated": "2026-11-03T21:37:08Z",
+ "count": 1712,
  "topics": [
   {
    "name": "Ubuntu",
@@ -98,27 +98,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/462",
     "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
-   ]
-  },
-  {
-   "name": "multiple",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-73095",
-    "CVE-2026-73117"
-   ],
-   "last_seen": "2026-11-03T19:55:53Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/482",
-    "blog:https://seclists.org/oss-sec/2026/q4/464",
-    "blog:https://seclists.org/oss-sec/2026/q4/438",
-    "blog:https://seclists.org/oss-sec/2026/q4/404",
-    "blog:https://seclists.org/oss-sec/2026/q4/403",
-    "blog:https://seclists.org/oss-sec/2026/q4/402"
    ]
   },
   {
@@ -462,6 +441,21 @@
     "hn:50289790",
     "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
    ]
+  },
+  {
+   "name": "Backdoors",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T05:34:41Z",
+   "items": [
+    "hn:50335010",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+   ]
   }
  ],
  "items": [
@@ -714,19 +708,25 @@
    "title": "CISA: WordPress core upgrade-window RCE CVE-2026-119977 exploited in the wild",
    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
    "discussion": "https://news.ycombinator.com/item?id=50357772",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T20:31:52Z",
-   "label": "exploited_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-119977"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-119977"
+   ],
    "first_seen": "2026-11-03T20:31:52Z",
    "label_history": [
     {
      "at": "2026-11-03T20:38:07Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-11-03T21:37:08Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -1459,8 +1459,8 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 13,
-   "comments": 4,
+   "points": 14,
+   "comments": 5,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
    "cves": [],
@@ -2186,6 +2186,30 @@
     "votes": 1,
     "rubric": 2
    }
+  },
+  {
+   "id": "kev:CVE-2026-119977",
+   "source": "cisa-kev",
+   "title": "CVE-2026-119977: WordPress WordPress Core - WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "kev": [
+    "CVE-2026-119977"
+   ],
+   "first_seen": "2026-11-03T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:37:08Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "lobsters:aqyfya",
