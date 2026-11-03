@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:08:07Z",
+ "generated": "2026-11-03T11:38:07Z",
  "count": 1668,
  "topics": [
   {
@@ -898,8 +898,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 530,
-   "comments": 151,
+   "points": 537,
+   "comments": 154,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -5095,7 +5095,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -22760,7 +22760,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1926,
+   "points": 1927,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
