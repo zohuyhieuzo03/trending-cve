@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T20:38:07Z",
- "count": 1704,
+ "generated": "2026-11-03T21:08:02Z",
+ "count": 1711,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 35,
+   "threads": 34,
    "repos": 0,
-   "points": 1552,
+   "points": 1553,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -101,6 +101,27 @@
    ]
   },
   {
+   "name": "multiple",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-73095",
+    "CVE-2026-73117"
+   ],
+   "last_seen": "2026-11-03T19:55:53Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/482",
+    "blog:https://seclists.org/oss-sec/2026/q4/464",
+    "blog:https://seclists.org/oss-sec/2026/q4/438",
+    "blog:https://seclists.org/oss-sec/2026/q4/404",
+    "blog:https://seclists.org/oss-sec/2026/q4/403",
+    "blog:https://seclists.org/oss-sec/2026/q4/402"
+   ]
+  },
+  {
    "name": "Untrusted",
    "threads": 6,
    "repos": 0,
@@ -116,25 +137,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
-   ]
-  },
-  {
-   "name": "PHP2Shell",
-   "threads": 5,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618"
-   ],
-   "last_seen": "2026-11-03T13:29:06Z",
-   "items": [
-    "hn:50351735",
-    "hn:50270348",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-    "blog:https://seclists.org/oss-sec/2026/q4/401"
    ]
   },
   {
@@ -167,26 +169,6 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
-   "name": "multiple",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-73095",
-    "CVE-2026-73117"
-   ],
-   "last_seen": "2026-11-03T19:55:53Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/482",
-    "blog:https://seclists.org/oss-sec/2026/q4/464",
-    "blog:https://seclists.org/oss-sec/2026/q4/438",
-    "blog:https://seclists.org/oss-sec/2026/q4/404",
-    "blog:https://seclists.org/oss-sec/2026/q4/403"
    ]
   },
   {
@@ -267,6 +249,22 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 4,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "hn:50270348",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -302,6 +300,27 @@
    ]
   },
   {
+   "name": "ActiveMQ",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111821",
+    "CVE-2026-108949",
+    "CVE-2026-108500",
+    "CVE-2026-103582"
+   ],
+   "last_seen": "2026-11-03T20:43:39Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/494",
+    "blog:https://seclists.org/oss-sec/2026/q4/493",
+    "blog:https://seclists.org/oss-sec/2026/q4/491",
+    "blog:https://seclists.org/oss-sec/2026/q4/490"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -314,22 +333,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-   ]
-  },
-  {
-   "name": "Stack-based",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-821/"
    ]
   },
   {
@@ -379,6 +382,23 @@
     "hn:50352299",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
+   "name": "connection",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-108946"
+   ],
+   "last_seen": "2026-11-03T20:40:00Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3nyeniel2u",
+    "blog:https://seclists.org/oss-sec/2026/q4/492",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/"
    ]
   },
   {
@@ -442,24 +462,252 @@
     "hn:50289790",
     "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
    ]
-  },
-  {
-   "name": "Backdoors",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T05:34:41Z",
-   "items": [
-    "hn:50335010",
-    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50358026",
+   "source": "hackernews",
+   "title": "An MCP which pulls together vulnerability data from over 20 security databases",
+   "url": "https://github.com/mukul975/cve-mcp-server",
+   "discussion": "https://news.ycombinator.com/item?id=50358026",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-03T20:53:20Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T20:53:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "An MCP which pulls together vulnerability data from over 20 security databases",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/495",
+   "source": "seclists.org",
+   "title": "CVE-2026-111822: Apache ActiveMQ, Apache ActiveMQ Runtime Config: ActiveMQ retains write access after live ACL revocation",
+   "url": "https://seclists.org/oss-sec/2026/q4/495",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/495",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:45:39Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111822"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:45:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111822: Apache ActiveMQ, Apache ActiveMQ Runtime Config: ActiveMQ retains write access after live ACL revocation",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/494",
+   "source": "seclists.org",
+   "title": "CVE-2026-111821: Apache ActiveMQ, Apache ActiveMQ KahaDB: Oversized client identifier strings poison the KahaDB journal",
+   "url": "https://seclists.org/oss-sec/2026/q4/494",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/494",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:43:39Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111821"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:43:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111821: Apache ActiveMQ, Apache ActiveMQ KahaDB: Oversized client identifier strings poison the KahaDB journal",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/493",
+   "source": "seclists.org",
+   "title": "CVE-2026-108949: Apache ActiveMQ, ActiveMQ Broker: Repeated rejected temporary destination consumer requests can lead to broker OOM",
+   "url": "https://seclists.org/oss-sec/2026/q4/493",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/493",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:41:50Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-108949"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:41:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-108949: Apache ActiveMQ, ActiveMQ Broker: Repeated rejected temporary destination consumer requests can lead to broker OOM",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/492",
+   "source": "seclists.org",
+   "title": "CVE-2026-108946: Apache ActiveMQ, ActiveMQ Broker: The broker does not verify user provided connection id matches connection",
+   "url": "https://seclists.org/oss-sec/2026/q4/492",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/492",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:40:00Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-108946"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:40:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-108946: Apache ActiveMQ, ActiveMQ Broker: The broker does not verify user provided connection id matches connection",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/491",
+   "source": "seclists.org",
+   "title": "CVE-2026-108500: Apache ActiveMQ: LDAPAuthorizationMap allows authorization bypass via DN injection",
+   "url": "https://seclists.org/oss-sec/2026/q4/491",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/491",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:38:08Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-108500"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:38:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-108500: Apache ActiveMQ: LDAPAuthorizationMap allows authorization bypass via DN injection",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/490",
+   "source": "seclists.org",
+   "title": "CVE-2026-103582: Apache ActiveMQ NMS OpenWire Client Library: Unbounded/Unvalidated Length Fields in Apache.NMS.OpenWire Unmarshalling (DoS)",
+   "url": "https://seclists.org/oss-sec/2026/q4/490",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/490",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T20:36:14Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-103582"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-03T20:36:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T21:08:02Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-103582: Apache ActiveMQ NMS OpenWire Client Library: Unbounded/Unvalidated Length Fields in Apache.NMS.OpenWire Unmarshalling (DoS)",
+    "at": "2026-11-03T21:08:02Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50357772",
    "source": "hackernews",
@@ -2046,8 +2294,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 596,
-   "comments": 186,
+   "points": 597,
+   "comments": 187,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
