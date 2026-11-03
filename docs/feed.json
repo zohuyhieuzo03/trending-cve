@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-03T12:38:07Z",
- "count": 1670,
+ "generated": "2026-11-03T13:08:07Z",
+ "count": 1673,
  "topics": [
   {
-   "name": "firewall",
-   "threads": 29,
+   "name": "Ubuntu",
+   "threads": 30,
    "repos": 0,
    "points": 948,
    "kev": true,
@@ -15,7 +15,7 @@
     "CVE-2026-118527",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-11-03T08:30:30Z",
+   "last_seen": "2026-11-03T11:23:53Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
@@ -34,14 +34,14 @@
     "hn:50340028",
     "hn:50289274",
     "hn:50308386",
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
     "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/437"
+    "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
    ]
   },
   {
@@ -455,6 +455,39 @@
  ],
  "items": [
   {
+   "id": "hn:50351470",
+   "source": "hackernews",
+   "title": "CVEGen – Every month's CVEs, painted into a poster",
+   "url": "https://cvegen.art",
+   "discussion": "https://news.ycombinator.com/item?id=50351470",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T12:59:15Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T12:59:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T13:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CVEGen – Every month's CVEs, painted into a poster",
+    "at": "2026-11-03T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
    "source": "bluesky",
    "title": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws.",
@@ -517,6 +550,72 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "source": "thehackernews.com",
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "discussion": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T11:23:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T11:23:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T13:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+    "at": "2026-11-03T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "source": "thehackernews.com",
+   "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "discussion": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T11:00:45Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T11:00:45Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T13:08:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+    "at": "2026-11-03T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -965,8 +1064,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 548,
-   "comments": 163,
+   "points": 555,
+   "comments": 170,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -1536,7 +1635,7 @@
    "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
    "url": "https://www.hacktron.ai/blog/hacking-gnu-savannah",
    "discussion": "https://lobste.rs/s/0mdf8w/securing_internet_critical_software_how",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-02T09:06:38.656-06:00",
    "label": "security_news",
