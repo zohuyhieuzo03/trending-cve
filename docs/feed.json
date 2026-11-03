@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T11:38:07Z",
- "count": 1668,
+ "generated": "2026-11-03T12:08:07Z",
+ "count": 1670,
  "topics": [
   {
    "name": "firewall",
@@ -84,6 +84,23 @@
    ]
   },
   {
+   "name": "Google",
+   "threads": 5,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T12:06:25Z",
+   "items": [
+    "hn:50349249",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
+   ]
+  },
+  {
    "name": "Untrusted",
    "threads": 6,
    "repos": 0,
@@ -105,7 +122,7 @@
    "name": "extensions",
    "threads": 3,
    "repos": 0,
-   "points": 347,
+   "points": 348,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -148,22 +165,6 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 4,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T07:51:54Z",
-   "items": [
-    "hn:50349249",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
    ]
   },
   {
@@ -453,6 +454,72 @@
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+   "source": "bluesky",
+   "title": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T12:06:25Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T12:06:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T12:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws.",
+    "at": "2026-11-03T12:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50350798",
+   "source": "hackernews",
+   "title": "Max-severity bug in widely used OT programming tool exploited to deliver malware",
+   "url": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
+   "discussion": "https://news.ycombinator.com/item?id=50350798",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-03T11:46:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T11:46:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T12:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Max-severity bug in widely used OT programming tool exploited to deliver malware",
+    "at": "2026-11-03T12:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50349501",
    "source": "hackernews",
@@ -898,8 +965,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 537,
-   "comments": 154,
+   "points": 546,
+   "comments": 158,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -2071,7 +2138,7 @@
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
    "url": "https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673",
    "discussion": "https://news.ycombinator.com/item?id=50326609",
-   "points": 176,
+   "points": 177,
    "comments": 163,
    "created": "2026-11-01T15:33:49Z",
    "label": "security_news",
@@ -20297,7 +20364,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 75,
+   "points": 76,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
