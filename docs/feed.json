@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T13:08:07Z",
- "count": 1673,
+ "generated": "2026-11-03T13:38:07Z",
+ "count": 1675,
  "topics": [
   {
    "name": "Ubuntu",
@@ -45,6 +45,24 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 6,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -67,27 +85,10 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 5,
-   "repos": 0,
-   "points": 36,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755"
-   ]
-  },
-  {
    "name": "Google",
    "threads": 5,
    "repos": 0,
-   "points": 10,
+   "points": 11,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -116,6 +117,25 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
+   ]
+  },
+  {
+   "name": "PHP2Shell",
+   "threads": 5,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "hn:50270348",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+    "blog:https://seclists.org/oss-sec/2026/q4/401"
    ]
   },
   {
@@ -239,24 +259,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "PHP2Shell",
-   "threads": 4,
-   "repos": 0,
-   "points": 1,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618"
-   ],
-   "last_seen": "2026-10-29T05:50:17Z",
-   "items": [
-    "hn:50270348",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-    "blog:https://seclists.org/oss-sec/2026/q4/401"
    ]
   },
   {
@@ -455,6 +457,72 @@
  ],
  "items": [
   {
+   "id": "hn:50351808",
+   "source": "hackernews",
+   "title": "Canonical: Accelerating delivery of CVE fixes with a new Kernel release strategy",
+   "url": "https://canonical.com/blog/accelerating-delivery-of-cve-fixes-with-a-new-kernel-release-strategy",
+   "discussion": "https://news.ycombinator.com/item?id=50351808",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-11-03T13:35:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T13:35:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T13:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Canonical: Accelerating delivery of CVE fixes with a new Kernel release strategy",
+    "at": "2026-11-03T13:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50351735",
+   "source": "hackernews",
+   "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "discussion": "https://news.ycombinator.com/item?id=50351735",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-03T13:29:06Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T13:29:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T13:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The PHP2Shell Vulnerability Heralds Cybersecurity Hell",
+    "at": "2026-11-03T13:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50351470",
    "source": "hackernews",
    "title": "CVEGen – Every month's CVEs, painted into a poster",
@@ -493,7 +561,7 @@
    "title": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzfsfrup3l2u",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T12:06:25Z",
    "label": "security_news",
@@ -1064,8 +1132,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 555,
-   "comments": 170,
+   "points": 559,
+   "comments": 171,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
