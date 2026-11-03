@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T15:38:07Z",
- "count": 1679,
+ "generated": "2026-11-03T16:07:07Z",
+ "count": 1680,
  "topics": [
   {
    "name": "Ubuntu",
@@ -45,6 +45,24 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 6,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50265205",
+    "hn:50270131",
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "Perl",
    "threads": 7,
    "repos": 0,
@@ -64,23 +82,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439",
     "blog:https://seclists.org/oss-sec/2026/q4/428"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 5,
-   "repos": 0,
-   "points": 36,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50265205",
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755"
    ]
   },
   {
@@ -406,6 +407,21 @@
    ]
   },
   {
+   "name": "Internet",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T14:17:59Z",
+   "items": [
+    "hn:50352299",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
+   ]
+  },
+  {
    "name": "TeamViewer",
    "threads": 3,
    "repos": 0,
@@ -420,21 +436,6 @@
     "hn:50323831",
     "hn:50289790",
     "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
-   ]
-  },
-  {
-   "name": "Internet",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T14:17:59Z",
-   "items": [
-    "hn:50352299",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
    ]
   },
   {
@@ -460,8 +461,8 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 5,
-   "comments": 1,
+   "points": 10,
+   "comments": 3,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
    "cves": [],
@@ -484,6 +485,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "source": "thehackernews.com",
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "discussion": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T15:16:32Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-03T15:16:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T16:07:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+    "at": "2026-11-03T16:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -526,7 +560,7 @@
    "title": "Cloudflare Zero Wire, a hub for investigating critical Internet vulnerabilities",
    "url": "https://blog.cloudflare.com/zero-wire/",
    "discussion": "https://news.ycombinator.com/item?id=50352299",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T14:17:59Z",
    "label": "security_news",
@@ -1161,7 +1195,7 @@
    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
    "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
    "discussion": "https://lobste.rs/s/aqyfya/expat_2_10_0_released_fixes_four",
-   "points": 3,
+   "points": 4,
    "comments": 1,
    "created": "2026-11-02T17:47:22.135-06:00",
    "label": "security_news",
@@ -1263,7 +1297,7 @@
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
    "points": 576,
-   "comments": 174,
+   "comments": 175,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -23054,7 +23088,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1057,
+   "points": 1058,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
