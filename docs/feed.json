@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02T23:38:07Z",
- "count": 1657,
+ "generated": "2026-11-03T00:08:07Z",
+ "count": 1658,
  "topics": [
   {
    "name": "Use-After-Free",
@@ -151,7 +151,7 @@
    "name": "almost",
    "threads": 3,
    "repos": 0,
-   "points": 277,
+   "points": 298,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -454,6 +454,39 @@
  ],
  "items": [
   {
+   "id": "lobsters:aqyfya",
+   "source": "lobsters",
+   "title": "Expat 2.10.0 released, fixes four vulnerabilities",
+   "url": "https://blog.hartwork.org/posts/expat-2-10-0-released/",
+   "discussion": "https://lobste.rs/s/aqyfya/expat_2_10_0_released_fixes_four",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-02T17:47:22.135-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-02T23:47:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-03T00:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Expat 2.10.0 released, fixes four vulnerabilities",
+    "at": "2026-11-03T00:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/475",
    "source": "seclists.org",
    "title": "Re: OATH Toolkit PSKC Signature Verification bypass in libpskc (CVE-2026-109117)",
@@ -527,8 +560,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 255,
-   "comments": 45,
+   "points": 276,
+   "comments": 53,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -22319,7 +22352,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1055,
+   "points": 1056,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
