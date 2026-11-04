@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T07:08:06Z",
- "count": 1749,
+ "generated": "2026-11-04T07:37:22Z",
+ "count": 1750,
  "topics": [
   {
    "name": "Ubuntu",
@@ -90,23 +90,6 @@
    ]
   },
   {
-   "name": "Claude",
-   "threads": 5,
-   "repos": 0,
-   "points": 21,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50270131",
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -189,6 +172,22 @@
     "hn:50289274",
     "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 4,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50281755",
+    "hn:50301944"
    ]
   },
   {
@@ -390,23 +389,6 @@
    ]
   },
   {
-   "name": "wild",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-03T20:31:52Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "hn:50357772",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
-   ]
-  },
-  {
    "name": "Brotli",
    "threads": 3,
    "repos": 0,
@@ -467,6 +449,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T12:06:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
    ]
   }
  ],
@@ -534,6 +531,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "source": "thehackernews.com",
+   "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "discussion": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T05:43:11Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T05:43:11Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T07:37:22Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "at": "2026-11-04T07:37:22Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -3576,7 +3606,7 @@
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
    "points": 610,
-   "comments": 204,
+   "comments": 205,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
