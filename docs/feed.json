@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T16:38:07Z",
- "count": 1782,
+ "generated": "2026-11-04T17:07:59Z",
+ "count": 1785,
  "topics": [
   {
    "name": "Ubuntu",
@@ -487,6 +487,72 @@
  ],
  "items": [
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzit7zyli32q",
+   "source": "bluesky",
+   "title": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malw",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzit7zyli32q",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzit7zyli32q",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:59:06Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T16:59:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T17:07:59Z",
+     "label": "supply_chain"
+    }
+   ],
+   "llm": {
+    "title": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malw",
+    "at": "2026-11-04T17:07:59Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/516",
+   "source": "seclists.org",
+   "title": "Apache OFBiz: CVE Announcements",
+   "url": "https://seclists.org/oss-sec/2026/q4/516",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/516",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:33:47Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T16:33:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T17:07:59Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Apache OFBiz: CVE Announcements",
+    "at": "2026-11-04T17:07:59Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/515",
    "source": "seclists.org",
    "title": "libtar: incomplete fix for CVE-2021-33643/CVE-2021-33644 (heap out-of-bounds read)",
@@ -709,8 +775,8 @@
    "title": "Debian apt security update (man-in-the-middle)",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
    "discussion": "https://news.ycombinator.com/item?id=50366575",
-   "points": 59,
-   "comments": 8,
+   "points": 68,
+   "comments": 13,
    "created": "2026-11-04T15:04:14Z",
    "label": "security_news",
    "cves": [],
@@ -940,7 +1006,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -18748,6 +18814,28 @@
     {
      "at": "2026-10-25T16:11:10Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:zsw125/o3root",
+   "source": "github-poc",
+   "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
+   "url": "https://github.com/zsw125/o3root",
+   "discussion": "https://github.com/zsw125/o3root",
+   "points": 47,
+   "comments": 0,
+   "created": "2026-10-25T12:51:04Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-25T12:51:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T17:07:59Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
