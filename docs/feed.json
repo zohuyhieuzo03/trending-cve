@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T06:38:07Z",
- "count": 1748,
+ "generated": "2026-11-04T07:08:06Z",
+ "count": 1749,
  "topics": [
   {
    "name": "Ubuntu",
@@ -471,6 +471,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50362174",
+   "source": "hackernews",
+   "title": "Ask HN: Is the CVE surge about finding old bugs or writing new ones?",
+   "url": "https://news.ycombinator.com/item?id=50362174",
+   "discussion": "https://news.ycombinator.com/item?id=50362174",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T06:43:18Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T06:43:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T07:08:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Ask HN: Is the CVE surge about finding old bugs or writing new ones?",
+    "at": "2026-11-04T07:08:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/509",
    "source": "seclists.org",
@@ -22969,7 +23002,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 983,
+   "points": 982,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -25145,7 +25178,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 101,
+   "points": 102,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
