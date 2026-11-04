@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T23:08:07Z",
- "count": 1790,
+ "generated": "2026-11-04T23:38:07Z",
+ "count": 1791,
  "topics": [
   {
    "name": "Ubuntu",
@@ -72,6 +72,31 @@
    ]
   },
   {
+   "name": "Local",
+   "threads": 8,
+   "repos": 1,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112445",
+    "CVE-2026-90632",
+    "CVE-2026-90627"
+   ],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "ghpoc:Mas0nShi/CVE-2026-112445",
+    "hn:50372929",
+    "blog:https://seclists.org/oss-sec/2026/q4/506",
+    "blog:https://seclists.org/oss-sec/2026/q4/502",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-835/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/"
+   ]
+  },
+  {
    "name": "Deserialization",
    "threads": 8,
    "repos": 0,
@@ -91,30 +116,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
-   ]
-  },
-  {
-   "name": "Local",
-   "threads": 7,
-   "repos": 1,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112445",
-    "CVE-2026-90632",
-    "CVE-2026-90627"
-   ],
-   "last_seen": "2026-11-03T22:00:59Z",
-   "items": [
-    "ghpoc:Mas0nShi/CVE-2026-112445",
-    "blog:https://seclists.org/oss-sec/2026/q4/506",
-    "blog:https://seclists.org/oss-sec/2026/q4/502",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-835/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/"
    ]
   },
   {
@@ -323,6 +324,21 @@
    ]
   },
   {
+   "name": "Node.js",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": true,
+   "cves": [],
+   "last_seen": "2026-11-04T12:06:15Z",
+   "items": [
+    "hn:50364454",
+    "blog:https://seclists.org/oss-sec/2026/q4/510",
+    "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
    "name": "unauthenticated",
    "threads": 3,
    "repos": 0,
@@ -358,21 +374,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/482",
     "blog:https://seclists.org/oss-sec/2026/q4/464",
     "blog:https://seclists.org/oss-sec/2026/q4/438"
-   ]
-  },
-  {
-   "name": "Node.js",
-   "threads": 3,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": true,
-   "cves": [],
-   "last_seen": "2026-11-04T12:06:15Z",
-   "items": [
-    "hn:50364454",
-    "blog:https://seclists.org/oss-sec/2026/q4/510",
-    "nodejs:november-2026-security-releases"
    ]
   },
   {
@@ -481,6 +482,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50372929",
+   "source": "hackernews",
+   "title": "Local privilege escalation vulnerabilities in Linux",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "discussion": "https://news.ycombinator.com/item?id=50372929",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T23:33:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T23:33:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T23:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Local privilege escalation vulnerabilities in Linux",
+    "at": "2026-11-04T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/519",
    "source": "seclists.org",
@@ -1135,7 +1169,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -18976,7 +19010,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
