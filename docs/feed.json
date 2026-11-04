@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T08:07:20Z",
+ "generated": "2026-11-04T08:37:07Z",
  "count": 1751,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 32,
    "repos": 0,
-   "points": 1565,
+   "points": 1566,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -264,6 +264,23 @@
    ]
   },
   {
+   "name": "unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "last_seen": "2026-11-02T11:50:00Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764"
+   ]
+  },
+  {
    "name": "ActiveMQ",
    "threads": 4,
    "repos": 0,
@@ -449,21 +466,6 @@
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T12:06:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
-   ]
   }
  ],
  "items": [
@@ -473,7 +475,7 @@
    "title": "Pulling the right strings for RCE on a Puppet",
    "url": "https://neodyme.io/en/blog/puppet_rce",
    "discussion": "https://lobste.rs/s/sfzkeb/pulling_right_strings_for_rce_on_puppet",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-04T01:39:20.951-06:00",
    "label": "security_news",
@@ -3637,7 +3639,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 610,
+   "points": 611,
    "comments": 205,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -23064,7 +23066,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 982,
+   "points": 983,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
