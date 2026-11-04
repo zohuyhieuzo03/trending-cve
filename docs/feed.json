@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T13:08:07Z",
- "count": 1765,
+ "generated": "2026-11-04T13:38:07Z",
+ "count": 1766,
  "topics": [
   {
    "name": "Ubuntu",
@@ -465,13 +465,46 @@
  ],
  "items": [
   {
+   "id": "blog:https://isc.sans.edu/diary/rss/33488",
+   "source": "isc.sans.edu",
+   "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33488",
+   "discussion": "https://isc.sans.edu/diary/rss/33488",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T13:24:13Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T13:24:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T13:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+    "at": "2026-11-04T13:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50364814",
    "source": "hackernews",
    "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
    "discussion": "https://news.ycombinator.com/item?id=50364814",
-   "points": 13,
-   "comments": 4,
+   "points": 32,
+   "comments": 24,
    "created": "2026-11-04T12:46:58Z",
    "label": "security_news",
    "cves": [],
@@ -14396,7 +14429,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
