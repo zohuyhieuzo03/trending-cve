@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T15:38:06Z",
- "count": 1776,
+ "generated": "2026-11-04T16:08:07Z",
+ "count": 1778,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 32,
    "repos": 0,
-   "points": 955,
+   "points": 958,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -15,7 +15,7 @@
     "CVE-2026-111357",
     "CVE-2026-118527"
    ],
-   "last_seen": "2026-11-03T19:47:11Z",
+   "last_seen": "2026-11-04T15:58:09Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
@@ -29,6 +29,7 @@
     "hn:50351808",
     "hn:50320349",
     "lobsters:1sni1w",
+    "hn:50367454",
     "hn:50349491",
     "hn:50322542",
     "hn:50353777",
@@ -40,23 +41,24 @@
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
     "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
-    "blog:https://seclists.org/oss-sec/2026/q4/459",
-    "blog:https://seclists.org/oss-sec/2026/q4/442"
+    "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
   {
    "name": "Perl",
-   "threads": 8,
+   "threads": 9,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2026-121632",
     "CVE-2026-87768",
     "CVE-2026-115943"
    ],
-   "last_seen": "2026-11-04T01:02:38Z",
+   "last_seen": "2026-11-04T15:58:12Z",
    "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/511",
     "blog:https://seclists.org/oss-sec/2026/q4/508",
     "blog:https://seclists.org/oss-sec/2026/q4/458",
     "blog:https://seclists.org/oss-sec/2026/q4/451",
@@ -254,6 +256,24 @@
    ]
   },
   {
+   "name": "arbitrary",
+   "threads": 3,
+   "repos": 0,
+   "points": 75,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102703",
+    "CVE-2026-102704"
+   ],
+   "last_seen": "2026-11-04T12:46:58Z",
+   "items": [
+    "hn:50364814",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+    "blog:https://seclists.org/oss-sec/2026/q4/481"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -268,24 +288,6 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
-   ]
-  },
-  {
-   "name": "arbitrary",
-   "threads": 3,
-   "repos": 0,
-   "points": 68,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102703",
-    "CVE-2026-102704"
-   ],
-   "last_seen": "2026-11-04T12:46:58Z",
-   "items": [
-    "hn:50364814",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
-    "blog:https://seclists.org/oss-sec/2026/q4/481"
    ]
   },
   {
@@ -463,30 +465,100 @@
    ]
   },
   {
-   "name": "PHP2Shell",
+   "name": "four",
    "threads": 3,
    "repos": 0,
-   "points": 6,
+   "points": 7,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-03T13:29:06Z",
+   "last_seen": "2026-11-02T23:47:22Z",
    "items": [
-    "hn:50351735",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+    "lobsters:aqyfya",
+    "hn:50338079",
+    "blog:https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/511",
+   "source": "seclists.org",
+   "title": "CVE-2026-121632: Data::MuForm versions through 0.05 for Perl render attribute values and option labels into HTML without escaping",
+   "url": "https://seclists.org/oss-sec/2026/q4/511",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/511",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T15:58:12Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-121632"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T15:58:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-121632: Data::MuForm versions through 0.05 for Perl render attribute values and option labels into HTML without escaping",
+    "at": "2026-11-04T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50367454",
+   "source": "hackernews",
+   "title": "Fixes available in -proposed pocket for CVE-2026-98432",
+   "url": "https://ubuntu.com/blog/fixes-available-in-proposed-pocket-for-cve-2026-98432",
+   "discussion": "https://news.ycombinator.com/item?id=50367454",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-04T15:58:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T15:58:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Fixes available in -proposed pocket for CVE-2026-98432",
+    "at": "2026-11-04T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50366575",
    "source": "hackernews",
    "title": "Debian apt security update (man-in-the-middle)",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
    "discussion": "https://news.ycombinator.com/item?id=50366575",
-   "points": 26,
-   "comments": 3,
+   "points": 45,
+   "comments": 4,
    "created": "2026-11-04T15:04:14Z",
    "label": "security_news",
    "cves": [],
@@ -518,7 +590,7 @@
    "title": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzilmbi3v725",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzilmbi3v725",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-04T14:42:46Z",
    "label": "security_news",
@@ -650,7 +722,7 @@
    "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
    "discussion": "https://news.ycombinator.com/item?id=50364814",
-   "points": 68,
+   "points": 75,
    "comments": 57,
    "created": "2026-11-04T12:46:58Z",
    "label": "security_news",
@@ -881,7 +953,7 @@
    "title": "Rails security releases: 8.0.5.2 and 8.1.4.1",
    "url": "https://groups.google.com/g/rubyonrails-security/c/y4e4Quy4zeM/m/NSbt8rclCgAJ",
    "discussion": "https://news.ycombinator.com/item?id=50363453",
-   "points": 3,
+   "points": 5,
    "comments": 1,
    "created": "2026-11-04T10:09:31Z",
    "label": "security_news",
@@ -4429,8 +4501,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 618,
-   "comments": 206,
+   "points": 619,
+   "comments": 208,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -8626,7 +8698,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 50,
+   "points": 51,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -25477,7 +25549,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 74,
+   "points": 75,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "kev_exploited",
@@ -26313,7 +26385,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1933,
+   "points": 1934,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
