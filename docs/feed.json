@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T00:08:07Z",
+ "generated": "2026-11-04T00:38:07Z",
  "count": 1744,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1560,
+   "points": 1562,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -2028,7 +2028,7 @@
    "title": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzg4hwjpzt2o",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-03T15:06:35Z",
    "label": "security_news",
@@ -3415,7 +3415,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 604,
+   "points": 606,
    "comments": 195,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -9528,7 +9528,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 59,
+   "points": 60,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
