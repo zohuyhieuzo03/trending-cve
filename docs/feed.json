@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T22:08:07Z",
- "count": 1789,
+ "generated": "2026-11-04T22:38:07Z",
+ "count": 1790,
  "topics": [
   {
    "name": "Ubuntu",
@@ -201,22 +201,6 @@
     "lobsters:ttp7aq",
     "hn:50335010",
     "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 4,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
-   "items": [
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50281755",
-    "hn:50301944"
    ]
   },
   {
@@ -463,6 +447,21 @@
    ]
   },
   {
+   "name": "Claude",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T15:22:46Z",
+   "items": [
+    "hn:50288798",
+    "hn:50338054",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "PHP2Shell",
    "threads": 3,
    "repos": 0,
@@ -520,7 +519,7 @@
    "title": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal c",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-04T20:58:38Z",
    "label": "zero_day_reported",
@@ -1885,6 +1884,30 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "kev:CVE-2024-27834",
+   "source": "cisa-kev",
+   "title": "CVE-2024-27834: Apple Multiple Products - Apple Multiple Products Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2024-27834"
+   ],
+   "kev": [
+    "CVE-2024-27834"
+   ],
+   "first_seen": "2026-11-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T22:38:07Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "hn:50359701",
@@ -18950,7 +18973,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 56,
+   "points": 57,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
