@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T12:38:06Z",
- "count": 1764,
+ "generated": "2026-11-04T13:08:07Z",
+ "count": 1765,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 32,
    "repos": 0,
-   "points": 1571,
+   "points": 1572,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -464,6 +464,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50364814",
+   "source": "hackernews",
+   "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+   "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+   "discussion": "https://news.ycombinator.com/item?id=50364814",
+   "points": 13,
+   "comments": 4,
+   "created": "2026-11-04T12:46:58Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T12:46:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T13:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+    "at": "2026-11-04T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
    "source": "thehackernews.com",
@@ -4018,7 +4051,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 616,
+   "points": 617,
    "comments": 206,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
