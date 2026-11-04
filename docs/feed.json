@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T03:38:08Z",
- "count": 1746,
+ "generated": "2026-11-04T04:08:08Z",
+ "count": 1747,
  "topics": [
   {
    "name": "Ubuntu",
@@ -472,6 +472,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50361359",
+   "source": "hackernews",
+   "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
+   "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
+   "discussion": "https://news.ycombinator.com/item?id=50361359",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T03:59:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T03:59:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T04:08:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
+    "at": "2026-11-04T04:08:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50360901",
    "source": "hackernews",
@@ -17747,7 +17780,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 51,
+   "points": 52,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "kev_exploited",
@@ -25339,7 +25372,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1932,
+   "points": 1933,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
