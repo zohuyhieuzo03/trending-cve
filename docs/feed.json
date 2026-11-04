@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T06:08:07Z",
- "count": 1747,
+ "generated": "2026-11-04T06:38:07Z",
+ "count": 1748,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 34,
+   "threads": 32,
    "repos": 0,
-   "points": 1566,
+   "points": 1565,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -35,13 +35,13 @@
     "hn:50353777",
     "hn:50349058",
     "hn:50340028",
-    "hn:50289274",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527"
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+    "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
   {
@@ -171,6 +171,24 @@
     "hn:50282544",
     "lobsters:2zsjwt",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 4,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "last_seen": "2026-11-03T08:11:12Z",
+   "items": [
+    "hn:50349357",
+    "hn:50289274",
+    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
    ]
   },
   {
@@ -340,23 +358,6 @@
    ]
   },
   {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58115"
-   ],
-   "last_seen": "2026-11-03T08:11:12Z",
-   "items": [
-    "hn:50349357",
-    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
-   ]
-  },
-  {
    "name": "Internet",
    "threads": 3,
    "repos": 0,
@@ -470,6 +471,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/509",
+   "source": "seclists.org",
+   "title": "Rails security releases: 8.0.5.2 and 8.1.4.1",
+   "url": "https://seclists.org/oss-sec/2026/q4/509",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/509",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T06:14:01Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T06:14:01Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T06:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Rails security releases: 8.0.5.2 and 8.1.4.1",
+    "at": "2026-11-04T06:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50361359",
    "source": "hackernews",
@@ -3508,7 +3542,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 609,
+   "points": 610,
    "comments": 204,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
