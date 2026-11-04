@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T04:37:17Z",
+ "generated": "2026-11-04T05:08:08Z",
  "count": 1747,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1565,
+   "points": 1566,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -68,19 +68,22 @@
    ]
   },
   {
-   "name": "Untrusted",
-   "threads": 7,
+   "name": "Deserialization",
+   "threads": 8,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-118636"
+   ],
    "last_seen": "2026-11-03T06:00:00Z",
    "items": [
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+    "blog:https://seclists.org/oss-sec/2026/q4/457",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
@@ -171,28 +174,6 @@
    ]
   },
   {
-   "name": "ActiveMQ",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111822",
-    "CVE-2026-111821",
-    "CVE-2026-108949",
-    "CVE-2026-108500"
-   ],
-   "last_seen": "2026-11-03T20:45:39Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/495",
-    "blog:https://seclists.org/oss-sec/2026/q4/494",
-    "blog:https://seclists.org/oss-sec/2026/q4/493",
-    "blog:https://seclists.org/oss-sec/2026/q4/491",
-    "blog:https://seclists.org/oss-sec/2026/q4/490"
-   ]
-  },
-  {
    "name": "HTTP",
    "threads": 5,
    "repos": 0,
@@ -211,23 +192,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/448",
     "blog:https://seclists.org/oss-sec/2026/q4/427",
     "blog:https://seclists.org/oss-sec/2026/q4/426"
-   ]
-  },
-  {
-   "name": "Ultralytics",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
    ]
   },
   {
@@ -264,22 +228,6 @@
    ]
   },
   {
-   "name": "Google",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T12:06:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -295,21 +243,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
-   "name": "zero",
-   "threads": 3,
-   "repos": 0,
-   "points": 15,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T02:36:23Z",
-   "items": [
-    "hn:50349249",
-    "hn:50352299",
-    "hn:50360901"
    ]
   },
   {
@@ -330,24 +263,44 @@
    ]
   },
   {
-   "name": "Heap",
+   "name": "ActiveMQ",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-90624",
-    "CVE-2026-59268",
-    "CVE-2026-59267",
-    "CVE-2025-60482"
+    "CVE-2026-111822",
+    "CVE-2026-111821",
+    "CVE-2026-108949",
+    "CVE-2026-103582"
    ],
-   "last_seen": "2026-11-03T21:49:23Z",
+   "last_seen": "2026-11-03T20:45:39Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/500",
-    "blog:https://seclists.org/oss-sec/2026/q4/499",
-    "blog:https://seclists.org/oss-sec/2026/q4/498",
-    "blog:https://seclists.org/oss-sec/2026/q4/435"
+    "blog:https://seclists.org/oss-sec/2026/q4/495",
+    "blog:https://seclists.org/oss-sec/2026/q4/494",
+    "blog:https://seclists.org/oss-sec/2026/q4/493",
+    "blog:https://seclists.org/oss-sec/2026/q4/490"
+   ]
+  },
+  {
+   "name": "injection",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-108500",
+    "CVE-2026-13575",
+    "CVE-2026-65874"
+   ],
+   "last_seen": "2026-11-03T20:38:08Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/491",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+    "blog:https://seclists.org/oss-sec/2026/q4/461",
+    "blog:https://seclists.org/oss-sec/2026/q4/441"
    ]
   },
   {
@@ -404,6 +357,21 @@
    ]
   },
   {
+   "name": "Internet",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T02:36:23Z",
+   "items": [
+    "hn:50352299",
+    "hn:50360901",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
+   ]
+  },
+  {
    "name": "Android",
    "threads": 3,
    "repos": 0,
@@ -418,23 +386,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
     "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
     "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
-   ]
-  },
-  {
-   "name": "connection",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-108946"
-   ],
-   "last_seen": "2026-11-03T20:40:00Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3nyeniel2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/492",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/"
    ]
   },
   {
@@ -471,6 +422,51 @@
     "blog:https://seclists.org/oss-sec/2026/q4/477",
     "blog:https://seclists.org/oss-sec/2026/q4/460"
    ]
+  },
+  {
+   "name": "infrastructure",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T13:01:02Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
+    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
+   "name": "gateway",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T05:34:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-847/"
+   ]
+  },
+  {
+   "name": "Drupal",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
   }
  ],
  "items": [
@@ -480,7 +476,7 @@
    "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
    "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
    "discussion": "https://news.ycombinator.com/item?id=50361359",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-04T03:59:51Z",
    "label": "security_news",
@@ -3512,8 +3508,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 608,
-   "comments": 199,
+   "points": 609,
+   "comments": 200,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -24110,7 +24106,7 @@
    "title": "pentestershell/php2shellbt: Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
    "url": "https://github.com/pentestershell/php2shellbt",
    "discussion": "https://github.com/pentestershell/php2shellbt",
-   "points": 78,
+   "points": 79,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
    "label": "kev_exploited",
