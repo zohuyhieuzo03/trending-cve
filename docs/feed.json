@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T21:38:07Z",
- "count": 1788,
+ "generated": "2026-11-04T22:08:07Z",
+ "count": 1789,
  "topics": [
   {
    "name": "Ubuntu",
@@ -480,12 +480,47 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/519",
+   "source": "seclists.org",
+   "title": "CVE-2026-109518: RCE in apt(1) (DSA 6607-1)",
+   "url": "https://seclists.org/oss-sec/2026/q4/519",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/519",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T21:53:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T21:53:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T22:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-109518: RCE in apt(1) (DSA 6607-1)",
+    "at": "2026-11-04T22:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
    "source": "bluesky",
    "title": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal c",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
-   "points": 0,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-04T20:58:38Z",
    "label": "zero_day_reported",
@@ -18915,7 +18950,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 55,
+   "points": 56,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
