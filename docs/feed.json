@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T08:37:07Z",
- "count": 1751,
+ "generated": "2026-11-04T09:08:08Z",
+ "count": 1755,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 32,
    "repos": 0,
-   "points": 1566,
+   "points": 1567,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -212,6 +212,24 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 4,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "last_seen": "2026-11-04T07:46:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -373,23 +391,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58882"
-   ],
-   "last_seen": "2026-11-02T16:57:56Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
-   ]
-  },
-  {
    "name": "Brotli",
    "threads": 3,
    "repos": 0,
@@ -469,6 +470,105 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50362992",
+   "source": "hackernews",
+   "title": "The Gacha game I play everyday, Nikke, was targeted by a supply chain attack",
+   "url": "https://twitter.com/lauriferrd/status/2117655602843533509",
+   "discussion": "https://news.ycombinator.com/item?id=50362992",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-04T08:57:54Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T08:57:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T09:08:08Z",
+     "label": "supply_chain"
+    }
+   ],
+   "llm": {
+    "title": "The Gacha game I play everyday, Nikke, was targeted by a supply chain attack",
+    "at": "2026-11-04T09:08:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50362957",
+   "source": "hackernews",
+   "title": "Better Auth Critical Vulnerabilities",
+   "url": "https://better-auth.com/blog/security-release-2026-11-03",
+   "discussion": "https://news.ycombinator.com/item?id=50362957",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-04T08:53:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T08:53:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T09:08:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Better Auth Critical Vulnerabilities",
+    "at": "2026-11-04T09:08:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "source": "thehackernews.com",
+   "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "discussion": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T07:46:15Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T07:46:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T09:08:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "at": "2026-11-04T09:08:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "lobsters:sfzkeb",
    "source": "lobsters",
@@ -2686,7 +2786,7 @@
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-58115",
    "discussion": "https://news.ycombinator.com/item?id=50349357",
    "points": 8,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-03T08:11:12Z",
    "label": "related",
    "cves": [
@@ -3639,7 +3739,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 611,
+   "points": 612,
    "comments": 205,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -9752,7 +9852,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -13977,6 +14077,28 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:G4sp4rCS/CVE-2026-97798-exploit",
+   "source": "github-poc",
+   "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
+   "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
+   "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
+   "points": 45,
+   "comments": 0,
+   "created": "2026-10-27T17:45:26Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-97798"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-27T17:45:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T09:08:08Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "github-advisory:GHSA-wf6j-7hvr-gr93",
@@ -25431,7 +25553,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1061,
+   "points": 1062,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
