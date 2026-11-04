@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:08:07Z",
+ "generated": "2026-11-04T19:38:07Z",
  "count": 1787,
  "topics": [
   {
@@ -462,18 +462,18 @@
    ]
   },
   {
-   "name": "PHP2Shell",
+   "name": "Node.js",
    "threads": 3,
    "repos": 0,
-   "points": 6,
+   "points": 7,
    "kev": false,
-   "vendor": false,
+   "vendor": true,
    "cves": [],
-   "last_seen": "2026-11-03T13:29:06Z",
+   "last_seen": "2026-11-04T12:06:15Z",
    "items": [
-    "hn:50351735",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+    "hn:50364454",
+    "blog:https://seclists.org/oss-sec/2026/q4/510",
+    "nodejs:november-2026-security-releases"
    ]
   }
  ],
@@ -1064,7 +1064,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 5,
+   "points": 7,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -15122,7 +15122,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -26613,7 +26613,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1066,
+   "points": 1067,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
