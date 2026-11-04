@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T16:08:07Z",
- "count": 1778,
+ "generated": "2026-11-04T16:38:07Z",
+ "count": 1782,
  "topics": [
   {
    "name": "Ubuntu",
@@ -52,13 +52,12 @@
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-121632",
     "CVE-2026-87768",
     "CVE-2026-115943"
    ],
-   "last_seen": "2026-11-04T15:58:12Z",
+   "last_seen": "2026-11-04T16:02:31Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/511",
+    "blog:https://seclists.org/oss-sec/2026/q4/513",
     "blog:https://seclists.org/oss-sec/2026/q4/508",
     "blog:https://seclists.org/oss-sec/2026/q4/458",
     "blog:https://seclists.org/oss-sec/2026/q4/451",
@@ -373,24 +372,45 @@
    ]
   },
   {
-   "name": "Heap",
+   "name": "heap",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2021-33643",
+    "CVE-2021-33644",
     "CVE-2026-90624",
-    "CVE-2026-59268",
-    "CVE-2026-59267",
-    "CVE-2025-60482"
+    "CVE-2026-59268"
    ],
-   "last_seen": "2026-11-03T21:49:23Z",
+   "last_seen": "2026-11-04T16:17:05Z",
    "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/515",
     "blog:https://seclists.org/oss-sec/2026/q4/500",
     "blog:https://seclists.org/oss-sec/2026/q4/499",
-    "blog:https://seclists.org/oss-sec/2026/q4/498",
     "blog:https://seclists.org/oss-sec/2026/q4/435"
+   ]
+  },
+  {
+   "name": "multiple",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-73095",
+    "CVE-2026-73117",
+    "CVE-2026-121489",
+    "CVE-2026-73098"
+   ],
+   "last_seen": "2026-11-04T16:04:48Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/514",
+    "blog:https://seclists.org/oss-sec/2026/q4/482",
+    "blog:https://seclists.org/oss-sec/2026/q4/464",
+    "blog:https://seclists.org/oss-sec/2026/q4/438"
    ]
   },
   {
@@ -463,24 +483,156 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
     "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
    ]
-  },
-  {
-   "name": "four",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T23:47:22Z",
-   "items": [
-    "lobsters:aqyfya",
-    "hn:50338079",
-    "blog:https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/515",
+   "source": "seclists.org",
+   "title": "libtar: incomplete fix for CVE-2021-33643/CVE-2021-33644 (heap out-of-bounds read)",
+   "url": "https://seclists.org/oss-sec/2026/q4/515",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/515",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:17:05Z",
+   "label": "related",
+   "cves": [
+    "CVE-2021-33643",
+    "CVE-2021-33644"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T16:17:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "libtar: incomplete fix for CVE-2021-33643/CVE-2021-33644 (heap out-of-bounds read)",
+    "at": "2026-11-04T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/514",
+   "source": "seclists.org",
+   "title": "[SECURITY] Apache Juneau 9.2.1 fixes multiple vulnerabilities (CVE-2026-73095, CVE-2026-121489, CVE-2026-96677, CVE-2026-73099, CVE-2026-73100, CVE-2026-73101, CVE-2026-73098, CVE-2026-73116, CVE-2026-73117)",
+   "url": "https://seclists.org/oss-sec/2026/q4/514",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/514",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:04:48Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-121489",
+    "CVE-2026-73095",
+    "CVE-2026-73098",
+    "CVE-2026-73099",
+    "CVE-2026-73100",
+    "CVE-2026-73101",
+    "CVE-2026-73116",
+    "CVE-2026-73117",
+    "CVE-2026-96677"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T16:04:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "[SECURITY] Apache Juneau 9.2.1 fixes multiple vulnerabilities (CVE-2026-73095, CVE-2026-121489, CVE-2026-96677, CVE-2026-73099, CVE-2026-73100, CVE-2026-73101, CVE-2026-73098, CVE-2026-73116, CVE-2026-73117)",
+    "at": "2026-11-04T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/513",
+   "source": "seclists.org",
+   "title": "SQL-Abstract versions before 2.000001_04 for Perl (3 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/513",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/513",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:02:31Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T16:02:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "SQL-Abstract versions before 2.000001_04 for Perl (3 CVEs)",
+    "at": "2026-11-04T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/512",
+   "source": "seclists.org",
+   "title": "CVE-2026-114627: Web::Simple versions before 0.036 for Perl do not escape values interpolated into double-quoted strings in HTML::Tags output",
+   "url": "https://seclists.org/oss-sec/2026/q4/512",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/512",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T16:00:15Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-114627"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T16:00:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T16:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-114627: Web::Simple versions before 0.036 for Perl do not escape values interpolated into double-quoted strings in HTML::Tags output",
+    "at": "2026-11-04T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/511",
    "source": "seclists.org",
@@ -523,7 +675,7 @@
    "url": "https://ubuntu.com/blog/fixes-available-in-proposed-pocket-for-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50367454",
    "points": 3,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-04T15:58:09Z",
    "label": "related",
    "cves": [
@@ -557,8 +709,8 @@
    "title": "Debian apt security update (man-in-the-middle)",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
    "discussion": "https://news.ycombinator.com/item?id=50366575",
-   "points": 45,
-   "comments": 4,
+   "points": 59,
+   "comments": 8,
    "created": "2026-11-04T15:04:14Z",
    "label": "security_news",
    "cves": [],
@@ -4501,7 +4653,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 619,
+   "points": 620,
    "comments": 208,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -11098,7 +11250,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 52,
+   "points": 53,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -14846,7 +14998,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -26315,7 +26467,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1063,
+   "points": 1064,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
