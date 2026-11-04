@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:08:08Z",
+ "generated": "2026-11-04T21:38:07Z",
  "count": 1788,
  "topics": [
   {
@@ -584,7 +584,7 @@
    "title": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malw",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzit7zyli32q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzit7zyli32q",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-04T16:59:06Z",
    "label": "supply_chain",
@@ -18915,7 +18915,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
