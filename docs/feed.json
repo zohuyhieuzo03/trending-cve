@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T09:08:08Z",
- "count": 1755,
+ "generated": "2026-11-04T11:38:07Z",
+ "count": 1760,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 32,
    "repos": 0,
-   "points": 1567,
+   "points": 1571,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -299,27 +299,6 @@
    ]
   },
   {
-   "name": "ActiveMQ",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111822",
-    "CVE-2026-111821",
-    "CVE-2026-108949",
-    "CVE-2026-103582"
-   ],
-   "last_seen": "2026-11-03T20:45:39Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/495",
-    "blog:https://seclists.org/oss-sec/2026/q4/494",
-    "blog:https://seclists.org/oss-sec/2026/q4/493",
-    "blog:https://seclists.org/oss-sec/2026/q4/490"
-   ]
-  },
-  {
    "name": "injection",
    "threads": 4,
    "repos": 0,
@@ -391,24 +370,6 @@
    ]
   },
   {
-   "name": "Brotli",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-115946"
-   ],
-   "last_seen": "2026-11-03T18:16:12Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "blog:https://seclists.org/oss-sec/2026/q4/477",
-    "blog:https://seclists.org/oss-sec/2026/q4/460"
-   ]
-  },
-  {
    "name": "infrastructure",
    "threads": 3,
    "repos": 0,
@@ -454,6 +415,23 @@
    ]
   },
   {
+   "name": "strings",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111821"
+   ],
+   "last_seen": "2026-11-04T10:13:39Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
    "name": "PHP2Shell",
    "threads": 3,
    "repos": 0,
@@ -467,16 +445,163 @@
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T12:06:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50363833",
+   "source": "hackernews",
+   "title": "AI coding agents are installing abandoned MCP servers with known security issues",
+   "url": "https://www.glow.io/blogs/mcphantom-ai-coding-agents-are-installing-vulnerable-deprecated-mcp-servers-from-training-data",
+   "discussion": "https://news.ycombinator.com/item?id=50363833",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-11-04T10:58:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T10:58:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T11:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "AI coding agents are installing abandoned MCP servers with known security issues",
+    "at": "2026-11-04T11:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50363481",
+   "source": "hackernews",
+   "title": "Pulling the right strings for RCE on a Puppet",
+   "url": "https://neodyme.io/en/blog/puppet_rce/",
+   "discussion": "https://news.ycombinator.com/item?id=50363481",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T10:13:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T10:13:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T11:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Pulling the right strings for RCE on a Puppet",
+    "at": "2026-11-04T11:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50363453",
+   "source": "hackernews",
+   "title": "Rails security releases: 8.0.5.2 and 8.1.4.1",
+   "url": "https://groups.google.com/g/rubyonrails-security/c/y4e4Quy4zeM/m/NSbt8rclCgAJ",
+   "discussion": "https://news.ycombinator.com/item?id=50363453",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-04T10:09:31Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T10:09:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T11:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Rails security releases: 8.0.5.2 and 8.1.4.1",
+    "at": "2026-11-04T11:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/510",
+   "source": "seclists.org",
+   "title": "Node.js security release pre-alert",
+   "url": "https://seclists.org/oss-sec/2026/q4/510",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/510",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T09:26:03Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T09:26:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T11:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Node.js security release pre-alert",
+    "at": "2026-11-04T11:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50362992",
    "source": "hackernews",
    "title": "The Gacha game I play everyday, Nikke, was targeted by a supply chain attack",
    "url": "https://twitter.com/lauriferrd/status/2117655602843533509",
    "discussion": "https://news.ycombinator.com/item?id=50362992",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-04T08:57:54Z",
    "label": "supply_chain",
@@ -707,7 +832,7 @@
    "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
    "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
    "discussion": "https://news.ycombinator.com/item?id=50361359",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-04T03:59:51Z",
    "label": "security_news",
@@ -832,6 +957,27 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "nodejs:november-2026-security-releases",
+   "source": "nodejs",
+   "title": "Node.js: Wednesday, November 11, 2026 Security Releases",
+   "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+   "discussion": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-03T23:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-03T23:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T11:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
@@ -3739,8 +3885,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 612,
-   "comments": 205,
+   "points": 616,
+   "comments": 206,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -9852,7 +9998,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 61,
+   "points": 63,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -23410,7 +23556,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 279,
+   "points": 280,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
