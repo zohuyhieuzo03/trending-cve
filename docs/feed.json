@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:38:07Z",
+ "generated": "2026-11-04T20:08:08Z",
  "count": 1787,
  "topics": [
   {
@@ -370,6 +370,27 @@
    ]
   },
   {
+   "name": "heap",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2021-33643",
+    "CVE-2021-33644",
+    "CVE-2026-90624",
+    "CVE-2026-59268"
+   ],
+   "last_seen": "2026-11-04T16:17:05Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/515",
+    "blog:https://seclists.org/oss-sec/2026/q4/500",
+    "blog:https://seclists.org/oss-sec/2026/q4/499",
+    "blog:https://seclists.org/oss-sec/2026/q4/435"
+   ]
+  },
+  {
    "name": "multiple",
    "threads": 4,
    "repos": 0,
@@ -447,25 +468,10 @@
    ]
   },
   {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T05:34:37Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
-   ]
-  },
-  {
    "name": "Node.js",
    "threads": 3,
    "repos": 0,
-   "points": 7,
+   "points": 8,
    "kev": false,
    "vendor": true,
    "cves": [],
@@ -1064,7 +1070,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -24072,7 +24078,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 101,
+   "points": 102,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "kev_exploited",
