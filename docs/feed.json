@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T02:38:07Z",
+ "generated": "2026-11-04T03:08:07Z",
  "count": 1746,
  "topics": [
   {
@@ -25339,7 +25339,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1930,
+   "points": 1931,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
