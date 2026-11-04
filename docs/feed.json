@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T12:08:06Z",
- "count": 1761,
+ "generated": "2026-11-04T12:38:06Z",
+ "count": 1764,
  "topics": [
   {
    "name": "Ubuntu",
@@ -230,6 +230,22 @@
    ]
   },
   {
+   "name": "infrastructure",
+   "threads": 4,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T22:19:06Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
+    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -262,6 +278,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
+   "name": "zero",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T02:36:23Z",
+   "items": [
+    "hn:50349249",
+    "hn:50352299",
+    "hn:50360901"
    ]
   },
   {
@@ -355,48 +386,35 @@
    ]
   },
   {
-   "name": "Internet",
+   "name": "unpatched",
    "threads": 3,
    "repos": 0,
    "points": 8,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-04T02:36:23Z",
+   "last_seen": "2026-11-03T05:34:37Z",
    "items": [
-    "hn:50352299",
-    "hn:50360901",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i"
+    "hn:50291929",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
    ]
   },
   {
-   "name": "infrastructure",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T13:01:02Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
-    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-   ]
-  },
-  {
-   "name": "gateway",
+   "name": "strings",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T05:34:37Z",
+   "cves": [
+    "CVE-2026-111821"
+   ],
+   "last_seen": "2026-11-04T10:13:39Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-847/"
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
   },
   {
@@ -412,23 +430,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
-  },
-  {
-   "name": "strings",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111821"
-   ],
-   "last_seen": "2026-11-04T10:13:39Z",
-   "items": [
-    "lobsters:sfzkeb",
-    "hn:50363481",
-    "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
   },
   {
@@ -464,12 +465,45 @@
  ],
  "items": [
   {
+   "id": "blog:https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "source": "thehackernews.com",
+   "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "discussion": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T12:07:04Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T12:07:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T12:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "at": "2026-11-04T12:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50364454",
    "source": "hackernews",
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -489,6 +523,72 @@
      "claude:haiku": {
       "status": "unclear",
       "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "source": "thehackernews.com",
+   "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "discussion": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T11:46:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T11:46:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T12:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "at": "2026-11-04T12:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "source": "thehackernews.com",
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "discussion": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T11:24:31Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T11:24:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T12:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "at": "2026-11-04T12:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
      }
     },
     "consensus": "unclear",
@@ -733,7 +833,7 @@
    "title": "Pulling the right strings for RCE on a Puppet",
    "url": "https://neodyme.io/en/blog/puppet_rce",
    "discussion": "https://lobste.rs/s/sfzkeb/pulling_right_strings_for_rce_on_puppet",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-04T01:39:20.951-06:00",
    "label": "security_news",
@@ -8115,7 +8215,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
