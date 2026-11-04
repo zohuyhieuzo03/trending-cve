@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04T07:37:22Z",
- "count": 1750,
+ "generated": "2026-11-04T08:07:20Z",
+ "count": 1751,
  "topics": [
   {
    "name": "Ubuntu",
@@ -229,22 +229,6 @@
    ]
   },
   {
-   "name": "PHP2Shell",
-   "threads": 4,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T13:29:06Z",
-   "items": [
-    "hn:50351735",
-    "hn:50270348",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
-  },
-  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -452,6 +436,21 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+   ]
+  },
+  {
    "name": "Google",
    "threads": 3,
    "repos": 0,
@@ -468,6 +467,39 @@
   }
  ],
  "items": [
+  {
+   "id": "lobsters:sfzkeb",
+   "source": "lobsters",
+   "title": "Pulling the right strings for RCE on a Puppet",
+   "url": "https://neodyme.io/en/blog/puppet_rce",
+   "discussion": "https://lobste.rs/s/sfzkeb/pulling_right_strings_for_rce_on_puppet",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T01:39:20.951-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T07:39:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T08:07:20Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Pulling the right strings for RCE on a Puppet",
+    "at": "2026-11-04T08:07:20Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50362174",
    "source": "hackernews",
@@ -573,7 +605,7 @@
    "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
    "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
    "discussion": "https://news.ycombinator.com/item?id=50361359",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-04T03:59:51Z",
    "label": "security_news",
@@ -2152,7 +2184,7 @@
    "title": "Only 0.5% of 383,000 CVEs are ever exploited in real-world attacks",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
    "discussion": "https://news.ycombinator.com/item?id=50353072",
-   "points": 15,
+   "points": 16,
    "comments": 5,
    "created": "2026-11-03T15:17:02Z",
    "label": "security_news",
@@ -20552,7 +20584,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 67,
+   "points": 68,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "kev_exploited",
@@ -25397,7 +25429,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1060,
+   "points": 1061,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
