@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T03:08:07Z",
+ "generated": "2026-11-04T03:38:08Z",
  "count": 1746,
  "topics": [
   {
@@ -3478,7 +3478,7 @@
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
    "points": 608,
-   "comments": 198,
+   "comments": 199,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -24553,7 +24553,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 129,
+   "points": 130,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
@@ -25339,7 +25339,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1931,
+   "points": 1932,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
