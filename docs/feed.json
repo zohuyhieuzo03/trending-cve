@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:38:06Z",
+ "generated": "2026-11-04T19:08:07Z",
  "count": 1787,
  "topics": [
   {
@@ -1064,7 +1064,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -1724,7 +1724,7 @@
    "title": "GIMP 3.2.8 with Many Refinements, Numerous Security Fixes Due to AI Reports",
    "url": "https://www.phoronix.com/news/GIMP-3.2.8-Released",
    "discussion": "https://news.ycombinator.com/item?id=50361359",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-04T03:59:51Z",
    "label": "security_news",
@@ -18881,7 +18881,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
