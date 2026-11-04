@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:08:08Z",
+ "generated": "2026-11-04T18:38:06Z",
  "count": 1787,
  "topics": [
   {
@@ -46,7 +46,7 @@
   },
   {
    "name": "Perl",
-   "threads": 10,
+   "threads": 9,
    "repos": 0,
    "points": 0,
    "kev": false,
@@ -66,8 +66,7 @@
     "blog:https://seclists.org/oss-sec/2026/q4/450",
     "blog:https://seclists.org/oss-sec/2026/q4/449",
     "blog:https://seclists.org/oss-sec/2026/q4/446",
-    "blog:https://seclists.org/oss-sec/2026/q4/439",
-    "blog:https://seclists.org/oss-sec/2026/q4/428"
+    "blog:https://seclists.org/oss-sec/2026/q4/439"
    ]
   },
   {
@@ -392,23 +391,23 @@
    ]
   },
   {
-   "name": "injection",
+   "name": "HTTP",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-108500",
+    "CVE-2026-65059",
     "CVE-2026-13575",
-    "CVE-2026-65874"
+    "CVE-2026-116130"
    ],
-   "last_seen": "2026-11-03T20:38:08Z",
+   "last_seen": "2026-11-03T19:51:47Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/491",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+    "blog:https://seclists.org/oss-sec/2026/q4/480",
+    "blog:https://seclists.org/oss-sec/2026/q4/468",
     "blog:https://seclists.org/oss-sec/2026/q4/461",
-    "blog:https://seclists.org/oss-sec/2026/q4/441"
+    "blog:https://seclists.org/oss-sec/2026/q4/448"
    ]
   },
   {
@@ -1065,7 +1064,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -4778,7 +4777,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 621,
+   "points": 622,
    "comments": 208,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -26614,7 +26613,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1065,
+   "points": 1066,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -26684,7 +26683,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1935,
+   "points": 1936,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
