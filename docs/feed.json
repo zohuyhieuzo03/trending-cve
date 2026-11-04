@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T17:38:08Z",
+ "generated": "2026-11-04T18:08:08Z",
  "count": 1787,
  "topics": [
   {
@@ -46,18 +46,20 @@
   },
   {
    "name": "Perl",
-   "threads": 9,
+   "threads": 10,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2026-121632",
     "CVE-2026-87768",
     "CVE-2026-115943"
    ],
    "last_seen": "2026-11-04T16:02:31Z",
    "items": [
     "blog:https://seclists.org/oss-sec/2026/q4/513",
+    "blog:https://seclists.org/oss-sec/2026/q4/511",
     "blog:https://seclists.org/oss-sec/2026/q4/508",
     "blog:https://seclists.org/oss-sec/2026/q4/458",
     "blog:https://seclists.org/oss-sec/2026/q4/451",
@@ -268,6 +270,25 @@
    ]
   },
   {
+   "name": "strings",
+   "threads": 4,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114627",
+    "CVE-2026-111821"
+   ],
+   "last_seen": "2026-11-04T16:00:15Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/512",
+    "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
    "name": "Missing",
    "threads": 4,
    "repos": 0,
@@ -350,27 +371,6 @@
    ]
   },
   {
-   "name": "heap",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2021-33643",
-    "CVE-2021-33644",
-    "CVE-2026-90624",
-    "CVE-2026-59268"
-   ],
-   "last_seen": "2026-11-04T16:17:05Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/515",
-    "blog:https://seclists.org/oss-sec/2026/q4/500",
-    "blog:https://seclists.org/oss-sec/2026/q4/499",
-    "blog:https://seclists.org/oss-sec/2026/q4/435"
-   ]
-  },
-  {
    "name": "multiple",
    "threads": 4,
    "repos": 0,
@@ -409,25 +409,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/",
     "blog:https://seclists.org/oss-sec/2026/q4/461",
     "blog:https://seclists.org/oss-sec/2026/q4/441"
-   ]
-  },
-  {
-   "name": "HTTP",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-65059",
-    "CVE-2026-116130"
-   ],
-   "last_seen": "2026-11-03T19:51:47Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/480",
-    "blog:https://seclists.org/oss-sec/2026/q4/468",
-    "blog:https://seclists.org/oss-sec/2026/q4/448",
-    "blog:https://seclists.org/oss-sec/2026/q4/427"
    ]
   },
   {
@@ -479,6 +460,21 @@
     "hn:50291929",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
     "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+   ]
+  },
+  {
+   "name": "PHP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
    ]
   }
  ],
@@ -4782,7 +4778,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 620,
+   "points": 621,
    "comments": 208,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
@@ -18886,7 +18882,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 51,
+   "points": 53,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -26618,7 +26614,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1064,
+   "points": 1065,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -26688,7 +26684,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1934,
+   "points": 1935,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
