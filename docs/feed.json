@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T00:38:07Z",
+ "generated": "2026-11-04T01:07:34Z",
  "count": 1744,
  "topics": [
   {
@@ -458,20 +458,21 @@
    ]
   },
   {
-   "name": "wild",
+   "name": "Brotli",
    "threads": 3,
    "repos": 0,
    "points": 5,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-119977"
+    "CVE-2026-111497",
+    "CVE-2026-115946"
    ],
-   "last_seen": "2026-11-03T20:31:52Z",
+   "last_seen": "2026-11-03T18:16:12Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "hn:50357772",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "blog:https://seclists.org/oss-sec/2026/q4/477",
+    "blog:https://seclists.org/oss-sec/2026/q4/460"
    ]
   }
  ],
@@ -14829,7 +14830,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
@@ -23064,7 +23065,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 278,
+   "points": 279,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -24491,7 +24492,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 128,
+   "points": 129,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
