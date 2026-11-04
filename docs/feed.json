@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T02:08:07Z",
- "count": 1745,
+ "generated": "2026-11-04T02:38:07Z",
+ "count": 1746,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1564,
+   "points": 1565,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -101,23 +101,6 @@
     "hn:50338054",
     "hn:50281755",
     "hn:50301944"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 5,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T12:06:25Z",
-   "items": [
-    "hn:50349249",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
    ]
   },
   {
@@ -281,23 +264,19 @@
    ]
   },
   {
-   "name": "Crafted",
+   "name": "Google",
    "threads": 4,
    "repos": 0,
-   "points": 2,
+   "points": 3,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-116155",
-    "CVE-2026-59263",
-    "CVE-2025-60475"
-   ],
-   "last_seen": "2026-11-03T21:40:35Z",
+   "cves": [],
+   "last_seen": "2026-11-03T12:06:25Z",
    "items": [
-    "hn:50316849",
-    "blog:https://seclists.org/oss-sec/2026/q4/496",
-    "lobsters:bnok4r",
-    "blog:https://seclists.org/oss-sec/2026/q4/409"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/"
    ]
   },
   {
@@ -316,6 +295,21 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
+   "name": "zero",
+   "threads": 3,
+   "repos": 0,
+   "points": 15,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T02:36:23Z",
+   "items": [
+    "hn:50349249",
+    "hn:50352299",
+    "hn:50360901"
    ]
   },
   {
@@ -427,21 +421,6 @@
    ]
   },
   {
-   "name": "Internet",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T14:17:59Z",
-   "items": [
-    "hn:50352299",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/"
-   ]
-  },
-  {
    "name": "connection",
    "threads": 3,
    "repos": 0,
@@ -475,9 +454,57 @@
     "blog:https://seclists.org/oss-sec/2026/q4/477",
     "blog:https://seclists.org/oss-sec/2026/q4/460"
    ]
+  },
+  {
+   "name": "infrastructure",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T13:01:02Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
+    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50360901",
+   "source": "hackernews",
+   "title": "Zero Wire, a hub for investigating critical Internet vulnerabilities",
+   "url": "https://blog.cloudflare.com/zero-wire/",
+   "discussion": "https://news.ycombinator.com/item?id=50360901",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-04T02:36:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T02:36:23Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T02:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "at": "2026-11-04T02:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/508",
    "source": "seclists.org",
@@ -3450,8 +3477,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 607,
-   "comments": 197,
+   "points": 608,
+   "comments": 198,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -22877,7 +22904,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 982,
+   "points": 983,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -25312,7 +25339,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1929,
+   "points": 1930,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
