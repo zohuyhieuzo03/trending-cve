@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-04T13:38:07Z",
- "count": 1766,
+ "generated": "2026-11-04T14:08:07Z",
+ "count": 1767,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 32,
+   "threads": 33,
    "repos": 0,
    "points": 1572,
    "kev": true,
@@ -140,23 +140,6 @@
    ]
   },
   {
-   "name": "Attempted",
-   "threads": 3,
-   "repos": 0,
-   "points": 315,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "last_seen": "2026-11-01T15:12:14Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25"
-   ]
-  },
-  {
    "name": "devices",
    "threads": 4,
    "repos": 0,
@@ -188,6 +171,28 @@
     "hn:50338054",
     "hn:50281755",
     "hn:50301944"
+   ]
+  },
+  {
+   "name": "Local",
+   "threads": 5,
+   "repos": 1,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112445",
+    "CVE-2026-90632",
+    "CVE-2026-90627"
+   ],
+   "last_seen": "2026-11-03T22:00:59Z",
+   "items": [
+    "ghpoc:Mas0nShi/CVE-2026-112445",
+    "blog:https://seclists.org/oss-sec/2026/q4/506",
+    "blog:https://seclists.org/oss-sec/2026/q4/502",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/"
    ]
   },
   {
@@ -230,22 +235,6 @@
    ]
   },
   {
-   "name": "infrastructure",
-   "threads": 4,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T22:19:06Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
-    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-   ]
-  },
-  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -260,6 +249,24 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
+   ]
+  },
+  {
+   "name": "arbitrary",
+   "threads": 3,
+   "repos": 0,
+   "points": 50,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102703",
+    "CVE-2026-102704"
+   ],
+   "last_seen": "2026-11-04T12:46:58Z",
+   "items": [
+    "hn:50364814",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+    "blog:https://seclists.org/oss-sec/2026/q4/481"
    ]
   },
   {
@@ -310,6 +317,21 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
+   ]
+  },
+  {
+   "name": "infrastructure",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T22:19:06Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
    ]
   },
   {
@@ -401,6 +423,21 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+   ]
+  },
+  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -430,36 +467,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
-  },
-  {
-   "name": "PHP2Shell",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T13:29:06Z",
-   "items": [
-    "hn:50351735",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T12:06:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
    ]
   }
  ],
@@ -503,8 +510,8 @@
    "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
    "discussion": "https://news.ycombinator.com/item?id=50364814",
-   "points": 32,
-   "comments": 24,
+   "points": 50,
+   "comments": 41,
    "created": "2026-11-04T12:46:58Z",
    "label": "security_news",
    "cves": [],
@@ -989,6 +996,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T14:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
+    "at": "2026-11-04T14:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -10197,7 +10237,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 68,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -23533,7 +23573,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 983,
+   "points": 984,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -25272,7 +25312,7 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
    "label": "kev_exploited",
