@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T01:07:34Z",
- "count": 1744,
+ "generated": "2026-11-04T01:38:07Z",
+ "count": 1745,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 34,
    "repos": 0,
-   "points": 1562,
+   "points": 1564,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -32,16 +32,39 @@
     "lobsters:1sni1w",
     "hn:50349491",
     "hn:50322542",
+    "hn:50353777",
     "hn:50349058",
     "hn:50340028",
     "hn:50289274",
-    "hn:50353777",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
     "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527"
+   ]
+  },
+  {
+   "name": "Perl",
+   "threads": 8,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-87768",
+    "CVE-2026-115943"
+   ],
+   "last_seen": "2026-11-04T01:02:38Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/508",
+    "blog:https://seclists.org/oss-sec/2026/q4/458",
+    "blog:https://seclists.org/oss-sec/2026/q4/451",
+    "blog:https://seclists.org/oss-sec/2026/q4/450",
+    "blog:https://seclists.org/oss-sec/2026/q4/449",
+    "blog:https://seclists.org/oss-sec/2026/q4/446",
+    "blog:https://seclists.org/oss-sec/2026/q4/439",
+    "blog:https://seclists.org/oss-sec/2026/q4/428"
    ]
   },
   {
@@ -61,28 +84,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
-   ]
-  },
-  {
-   "name": "Perl",
-   "threads": 7,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-87768",
-    "CVE-2026-115943"
-   ],
-   "last_seen": "2026-10-31T19:01:44Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/458",
-    "blog:https://seclists.org/oss-sec/2026/q4/451",
-    "blog:https://seclists.org/oss-sec/2026/q4/450",
-    "blog:https://seclists.org/oss-sec/2026/q4/449",
-    "blog:https://seclists.org/oss-sec/2026/q4/446",
-    "blog:https://seclists.org/oss-sec/2026/q4/439",
-    "blog:https://seclists.org/oss-sec/2026/q4/428"
    ]
   },
   {
@@ -477,6 +478,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/508",
+   "source": "seclists.org",
+   "title": "CGI versions before 5.00 for Perl (20 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/508",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/508",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-04T01:02:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-04T01:02:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-04T01:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CGI versions before 5.00 for Perl (20 CVEs)",
+    "at": "2026-11-04T01:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50359701",
    "source": "hackernews",
@@ -1895,7 +1929,7 @@
    "title": "Ubuntu: Canonical Extends Long-Term Support for CVE-2026-98432 Through 2036",
    "url": "https://bloatberg.com/2026/11/02/ubuntu-canonical-extends-long-term-support-for-cve-2026-98432-through-2036",
    "discussion": "https://news.ycombinator.com/item?id=50353777",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-03T16:08:13Z",
    "label": "related",
@@ -3416,8 +3450,8 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50341462",
-   "points": 606,
-   "comments": 195,
+   "points": 607,
+   "comments": 197,
    "created": "2026-11-02T18:39:38Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -25278,7 +25312,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1928,
+   "points": 1929,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
