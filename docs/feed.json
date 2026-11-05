@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T14:08:07Z",
- "count": 1819,
+ "generated": "2026-11-05T14:38:07Z",
+ "count": 1820,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 28,
+   "threads": 29,
    "repos": 3,
    "points": 917,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -468,6 +468,39 @@
  ],
  "items": [
   {
+   "id": "hn:50379326",
+   "source": "hackernews",
+   "title": "Dense in Depth: Rethinking Security When Vulns Are Everywhere",
+   "url": "https://medium.com/@TalBeerySec/dense-in-depth-rethinking-security-when-vulns-are-everywhere-229dbd3e8477",
+   "discussion": "https://news.ycombinator.com/item?id=50379326",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-11-05T14:15:56Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T14:15:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T14:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Dense in Depth: Rethinking Security When Vulns Are Everywhere",
+    "at": "2026-11-05T14:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50377979",
    "source": "hackernews",
    "title": "WordPress 7.1.4 upgrade-window RCE is now on CISA's exploited list",
@@ -572,8 +605,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 124,
-   "comments": 44,
+   "points": 131,
+   "comments": 45,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -17894,7 +17927,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 18,
+   "points": 20,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -19694,7 +19727,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 78,
+   "points": 79,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
