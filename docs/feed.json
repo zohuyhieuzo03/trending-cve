@@ -1,25 +1,24 @@
 {
- "generated": "2026-11-05T11:38:07Z",
- "count": 1818,
+ "generated": "2026-11-05T12:08:07Z",
+ "count": 1819,
  "topics": [
   {
-   "name": "Protecting",
-   "threads": 30,
+   "name": "Ubuntu",
+   "threads": 32,
    "repos": 3,
-   "points": 958,
-   "kev": false,
+   "points": 923,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
-    "hn:50287647",
     "hn:50314397",
     "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
     "hn:50298526",
@@ -31,6 +30,7 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -87,6 +87,26 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "WordPress",
+   "threads": 5,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977",
+    "CVE-2026-93389"
+   ],
+   "last_seen": "2026-11-05T11:40:44Z",
+   "items": [
+    "hn:50377979",
+    "hn:50357772",
+    "hn:50375988",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+    "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
    ]
   },
   {
@@ -193,41 +213,6 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/512",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
-   ]
-  },
-  {
-   "name": "WordPress",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977",
-    "CVE-2026-93389"
-   ],
-   "last_seen": "2026-11-05T06:51:57Z",
-   "items": [
-    "hn:50357772",
-    "hn:50375988",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-    "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T07:46:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/462",
-    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
    ]
   },
   {
@@ -427,12 +412,12 @@
     "CVE-2026-43499",
     "CVE-2026-58882"
    ],
-   "last_seen": "2026-11-02T16:57:56Z",
+   "last_seen": "2026-11-04T07:46:15Z",
    "items": [
     "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
    ]
   },
   {
@@ -451,25 +436,72 @@
    ]
   },
   {
-   "name": "kernel",
-   "threads": 3,
+   "name": "privilege",
+   "threads": 2,
    "repos": 1,
-   "points": 6,
+   "points": 57,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-112705"
+    "CVE-2026-112487"
    ],
-   "last_seen": "2026-11-02T18:09:13Z",
+   "last_seen": "2026-11-04T23:33:14Z",
    "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
+  },
+  {
+   "name": "Commerce",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50377979",
+   "source": "hackernews",
+   "title": "WordPress 7.1.4 upgrade-window RCE is now on CISA's exploited list",
+   "url": "https://hatamoto.dev/wordpress/wordpress-7-1-4-upgrade-rce-cisa-kev",
+   "discussion": "https://news.ycombinator.com/item?id=50377979",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-05T11:40:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T11:40:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T12:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "WordPress 7.1.4 upgrade-window RCE is now on CISA's exploited list",
+    "at": "2026-11-05T12:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50377530",
    "source": "hackernews",
@@ -542,8 +574,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 34,
-   "comments": 6,
+   "points": 41,
+   "comments": 12,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -13684,7 +13716,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -15839,7 +15871,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 55,
+   "points": 56,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -19664,7 +19696,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 74,
+   "points": 75,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
