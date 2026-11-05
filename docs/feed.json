@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T09:07:51Z",
- "count": 1814,
+ "generated": "2026-11-05T09:38:07Z",
+ "count": 1815,
  "topics": [
   {
-   "name": "Ubuntu",
-   "threads": 32,
+   "name": "Protecting",
+   "threads": 29,
    "repos": 3,
-   "points": 960,
-   "kev": true,
+   "points": 956,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -31,7 +31,6 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
-    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -41,7 +40,8 @@
     "hn:50299940",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
-    "lobsters:5cmg1k"
+    "lobsters:5cmg1k",
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
    ]
   },
   {
@@ -451,24 +451,58 @@
    ]
   },
   {
-   "name": "privilege",
-   "threads": 2,
+   "name": "kernel",
+   "threads": 3,
    "repos": 1,
-   "points": 57,
+   "points": 6,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-112487"
+    "CVE-2026-112705"
    ],
-   "last_seen": "2026-11-04T23:33:14Z",
+   "last_seen": "2026-11-02T18:09:13Z",
    "items": [
-    "hn:50372929",
-    "ghpoc:Lyutoon/CVE-2026-112487",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+    "lobsters:1sni1w",
+    "hn:50340970",
+    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "source": "thehackernews.com",
+   "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+   "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "discussion": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T08:42:03Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T08:42:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T09:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "at": "2026-11-05T09:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
    "source": "thehackernews.com",
@@ -6334,7 +6368,7 @@
    "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
    "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
    "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-11-01T16:02:26Z",
    "label": "public_exploit_reported",
@@ -15706,7 +15740,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
