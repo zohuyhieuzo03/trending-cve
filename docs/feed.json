@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T16:38:07Z",
- "count": 1825,
+ "generated": "2026-11-05T17:08:07Z",
+ "count": 1826,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 29,
+   "threads": 30,
    "repos": 3,
-   "points": 917,
+   "points": 921,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -30,6 +30,7 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -40,8 +41,7 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
    ]
   },
   {
@@ -143,6 +143,23 @@
    ]
   },
   {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
+  {
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
@@ -157,23 +174,6 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
-   ]
-  },
-  {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 71,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -199,7 +199,7 @@
    "name": "WordPress",
    "threads": 4,
    "repos": 0,
-   "points": 3,
+   "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -371,25 +371,10 @@
    ]
   },
   {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T05:34:37Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
-   ]
-  },
-  {
    "name": "Linux",
    "threads": 3,
    "repos": 0,
-   "points": 7,
+   "points": 8,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -398,24 +383,6 @@
     "hn:50374787",
     "hn:50312971",
     "hn:50295879"
-   ]
-  },
-  {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112705"
-   ],
-   "last_seen": "2026-11-02T18:09:13Z",
-   "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "hn:50301944"
    ]
   },
   {
@@ -464,9 +431,72 @@
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T07:46:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/462"
+   ]
+  },
+  {
+   "name": "deliver",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T05:17:04Z",
+   "items": [
+    "hn:50350798",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50381288",
+   "source": "hackernews",
+   "title": "The Exploit Was the Bottleneck: 23 Years of Data About AI and the Patch Gap",
+   "url": "https://www.a16z.news/p/the-exploit-was-the-bottleneck",
+   "discussion": "https://news.ycombinator.com/item?id=50381288",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T16:41:55Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T16:41:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Exploit Was the Bottleneck: 23 Years of Data About AI and the Patch Gap",
+    "at": "2026-11-05T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
    "source": "bluesky",
@@ -770,8 +800,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 149,
-   "comments": 71,
+   "points": 153,
+   "comments": 73,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -869,7 +899,7 @@
    "title": "CVE-2026-93389: LiteSpeed Cache serves WordPress/WooCommerce data to anyone",
    "url": "https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/litespeed-cache/litespeed-cache-791-unauthenticated-sensitive-information-disclosure-woocommerce-store-api-cartcheckout-pii-cart-token-via-public-rest-caching",
    "discussion": "https://news.ycombinator.com/item?id=50375988",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-05T06:51:57Z",
    "label": "related",
@@ -904,7 +934,7 @@
    "title": "CVE-2026-109518: Debian, Ubuntu APT",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-109518",
    "discussion": "https://news.ycombinator.com/item?id=50375876",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-05T06:28:03Z",
    "label": "related",
@@ -972,7 +1002,7 @@
    "title": "Open-weight AI models can exploit the patch gap",
    "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
    "discussion": "https://news.ycombinator.com/item?id=50375366",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-05T04:55:17Z",
    "label": "security_news",
@@ -1038,7 +1068,7 @@
    "title": "OpenAI spent $1.2M in API cost to fix 948 Linux vulnerabilities",
    "url": "https://twitter.com/OpenAI/status/2118119451401048497",
    "discussion": "https://news.ycombinator.com/item?id=50374787",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-05T03:30:05Z",
    "label": "security_news",
@@ -11767,7 +11797,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 83,
+   "points": 84,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
