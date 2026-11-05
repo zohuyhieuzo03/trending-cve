@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:08:07Z",
+ "generated": "2026-11-05T07:38:07Z",
  "count": 1812,
  "topics": [
   {
@@ -178,7 +178,7 @@
    "name": "Debian",
    "threads": 3,
    "repos": 0,
-   "points": 70,
+   "points": 71,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -511,7 +511,7 @@
    "title": "CVE-2026-109518: Debian, Ubuntu APT",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-109518",
    "discussion": "https://news.ycombinator.com/item?id=50375876",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-05T06:28:03Z",
    "label": "related",
@@ -6302,7 +6302,7 @@
    "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
    "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
    "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
-   "points": 38,
+   "points": 39,
    "comments": 0,
    "created": "2026-11-01T16:02:26Z",
    "label": "public_exploit_reported",
@@ -19477,7 +19477,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 69,
+   "points": 70,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -23020,7 +23020,7 @@
    "title": "quyicheng03-boop/CVE-2026-98260-popsicle-android: Target-specific Android CVE-2026-98260 research port for Xiaomi popsicle",
    "url": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
    "discussion": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
-   "points": 24,
+   "points": 25,
    "comments": 0,
    "created": "2026-10-23T08:56:37Z",
    "label": "public_exploit_reported",
