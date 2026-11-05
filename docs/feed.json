@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T13:08:07Z",
+ "generated": "2026-11-05T13:38:07Z",
  "count": 1819,
  "topics": [
   {
@@ -574,8 +574,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 88,
-   "comments": 31,
+   "points": 108,
+   "comments": 38,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -19696,7 +19696,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 77,
+   "points": 78,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
