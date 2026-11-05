@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T18:38:07Z",
+ "generated": "2026-11-05T19:08:06Z",
  "count": 1833,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 30,
+   "threads": 29,
    "repos": 3,
-   "points": 921,
+   "points": 917,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -30,7 +30,6 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
-    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -41,7 +40,8 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/476"
    ]
   },
   {
@@ -351,6 +351,27 @@
    ]
   },
   {
+   "name": "ZooKeeper",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115448",
+    "CVE-2026-100300",
+    "CVE-2026-100252",
+    "CVE-2026-100235"
+   ],
+   "last_seen": "2026-11-03T20:07:28Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/488",
+    "blog:https://seclists.org/oss-sec/2026/q4/486",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://seclists.org/oss-sec/2026/q4/484"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -384,6 +405,24 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
+   "name": "kernel",
+   "threads": 3,
+   "repos": 1,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112705"
+   ],
+   "last_seen": "2026-11-02T18:09:13Z",
+   "items": [
+    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+    "lobsters:1sni1w",
+    "hn:50340970",
+    "hn:50301944"
    ]
   },
   {
@@ -432,36 +471,6 @@
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T07:46:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/462"
-   ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
   }
  ],
  "items": [
@@ -471,7 +480,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 1,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1004,8 +1013,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 159,
-   "comments": 78,
+   "points": 161,
+   "comments": 79,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -12485,7 +12494,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
