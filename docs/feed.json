@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T22:08:07Z",
+ "generated": "2026-11-05T22:38:07Z",
  "count": 1848,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 26,
+   "threads": 27,
    "repos": 3,
    "points": 917,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -245,25 +245,10 @@
    ]
   },
   {
-   "name": "infrastructure",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T22:19:06Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 12,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -281,7 +266,7 @@
    "name": "Linux",
    "threads": 3,
    "repos": 0,
-   "points": 12,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -290,6 +275,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50374787",
     "hn:50312971"
+   ]
+  },
+  {
+   "name": "infrastructure",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T22:19:06Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
    ]
   },
   {
@@ -382,6 +382,27 @@
    ]
   },
   {
+   "name": "ZooKeeper",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115448",
+    "CVE-2026-100300",
+    "CVE-2026-100252",
+    "CVE-2026-100235"
+   ],
+   "last_seen": "2026-11-03T20:07:28Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/488",
+    "blog:https://seclists.org/oss-sec/2026/q4/486",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://seclists.org/oss-sec/2026/q4/484"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -449,23 +470,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
-  },
-  {
-   "name": "strings",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111821"
-   ],
-   "last_seen": "2026-11-04T10:13:39Z",
-   "items": [
-    "lobsters:sfzkeb",
-    "hn:50363481",
-    "blog:https://seclists.org/oss-sec/2026/q4/494"
-   ]
   }
  ],
  "items": [
@@ -510,8 +514,8 @@
    "title": "Remote code execution vulnerability in Microsoft Paint",
    "url": "https://twitter.com/Pirat_Nation/status/2118446148713361874",
    "discussion": "https://news.ycombinator.com/item?id=50384957",
-   "points": 2,
-   "comments": 0,
+   "points": 3,
+   "comments": 1,
    "created": "2026-11-05T21:50:26Z",
    "label": "security_news",
    "cves": [],
@@ -678,8 +682,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 93,
-   "comments": 28,
+   "points": 150,
+   "comments": 43,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -950,7 +954,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1064,7 +1068,7 @@
    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-11-05T17:45:47Z",
    "label": "security_news",
@@ -1516,7 +1520,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 171,
+   "points": 172,
    "comments": 82,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -17904,7 +17908,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
