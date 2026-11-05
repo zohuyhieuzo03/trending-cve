@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T10:07:22Z",
- "count": 1816,
+ "generated": "2026-11-05T10:38:07Z",
+ "count": 1818,
  "topics": [
   {
    "name": "Protecting",
@@ -103,6 +103,22 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "Node.js",
+   "threads": 4,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": true,
+   "cves": [],
+   "last_seen": "2026-11-05T10:34:27Z",
+   "items": [
+    "hn:50364454",
+    "hn:50377530",
+    "blog:https://seclists.org/oss-sec/2026/q4/510",
+    "nodejs:november-2026-security-releases"
    ]
   },
   {
@@ -295,21 +311,6 @@
    ]
   },
   {
-   "name": "Node.js",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": true,
-   "cves": [],
-   "last_seen": "2026-11-04T12:06:15Z",
-   "items": [
-    "hn:50364454",
-    "blog:https://seclists.org/oss-sec/2026/q4/510",
-    "nodejs:november-2026-security-releases"
-   ]
-  },
-  {
    "name": "unauthenticated",
    "threads": 3,
    "repos": 0,
@@ -471,13 +472,79 @@
  ],
  "items": [
   {
+   "id": "hn:50377530",
+   "source": "hackernews",
+   "title": "Patching the PHP and Node.js Vulnerabilities",
+   "url": "https://laravel.com/blog/php-nodejs-vulnerabilities-post-mortem",
+   "discussion": "https://news.ycombinator.com/item?id=50377530",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T10:34:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T10:34:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T10:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Patching the PHP and Node.js Vulnerabilities",
+    "at": "2026-11-05T10:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50377442",
+   "source": "hackernews",
+   "title": "Cert-In flags vulnerability in Tata Motors' mobile apps",
+   "url": "https://www.thehindubusinessline.com/companies/cert-in-flags-vulnerability-in-tata-motors-mobile-apps-ira-20-iraev/article71669300.ece",
+   "discussion": "https://news.ycombinator.com/item?id=50377442",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T10:20:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T10:20:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T10:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Cert-In flags vulnerability in Tata Motors' mobile apps",
+    "at": "2026-11-05T10:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50377221",
    "source": "hackernews",
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 2,
-   "comments": 0,
+   "points": 17,
+   "comments": 1,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
