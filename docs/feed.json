@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T17:08:07Z",
- "count": 1826,
+ "generated": "2026-11-05T17:38:07Z",
+ "count": 1827,
  "topics": [
   {
    "name": "Protecting",
@@ -386,6 +386,21 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "privilege",
    "threads": 2,
    "repos": 1,
@@ -400,21 +415,6 @@
     "hn:50372929",
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
   },
   {
@@ -465,6 +465,39 @@
  ],
  "items": [
   {
+   "id": "hn:50381616",
+   "source": "hackernews",
+   "title": "Node November 11 2026 security release",
+   "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+   "discussion": "https://news.ycombinator.com/item?id=50381616",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T17:10:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T17:10:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T17:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Node November 11 2026 security release",
+    "at": "2026-11-05T17:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50381288",
    "source": "hackernews",
    "title": "The Exploit Was the Bottleneck: 23 Years of Data About AI and the Patch Gap",
@@ -503,7 +536,7 @@
    "title": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management int",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-05T16:24:43Z",
    "label": "supply_chain",
@@ -668,7 +701,7 @@
    "title": "Dense in Depth: Rethinking Security When Vulns Are Everywhere",
    "url": "https://medium.com/@TalBeerySec/dense-in-depth-rethinking-security-when-vulns-are-everywhere-229dbd3e8477",
    "discussion": "https://news.ycombinator.com/item?id=50379326",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-05T14:15:56Z",
    "label": "security_news",
@@ -800,7 +833,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 153,
+   "points": 154,
    "comments": 73,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -16097,7 +16130,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 56,
+   "points": 57,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
