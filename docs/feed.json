@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T21:08:07Z",
- "count": 1841,
+ "generated": "2026-11-05T21:38:07Z",
+ "count": 1845,
  "topics": [
   {
    "name": "Protecting",
@@ -257,6 +257,24 @@
    ]
   },
   {
+   "name": "bypass",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121728",
+    "CVE-2026-109117"
+   ],
+   "last_seen": "2026-11-05T18:34:41Z",
+   "items": [
+    "lobsters:x2hcss",
+    "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/475"
+   ]
+  },
+  {
    "name": "Linux",
    "threads": 3,
    "repos": 0,
@@ -445,32 +463,119 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
-  },
-  {
-   "name": "Commerce",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "source": "labs.watchtowr.com",
+   "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+   "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "discussion": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T21:19:58Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111560",
+    "CVE-2026-116606"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-05T21:19:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T21:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+    "at": "2026-11-05T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/531",
+   "source": "seclists.org",
+   "title": "Re: CPython sandbox escape",
+   "url": "https://seclists.org/oss-sec/2026/q4/531",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/531",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T21:12:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T21:12:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T21:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Re: CPython sandbox escape",
+    "at": "2026-11-05T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50384488",
+   "source": "hackernews",
+   "title": "AI finds security bugs faster than they get fixed. Should the 90day rule change?",
+   "url": "https://www.reasond.de/topics/6aebd8cc093b9d870af823b9",
+   "discussion": "https://news.ycombinator.com/item?id=50384488",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-05T21:10:15Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T21:10:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T21:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "AI finds security bugs faster than they get fixed. Should the 90day rule change?",
+    "at": "2026-11-05T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50384233",
    "source": "hackernews",
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 5,
-   "comments": 3,
+   "points": 37,
+   "comments": 15,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -741,7 +846,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 10,
+   "points": 11,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -935,6 +1040,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "source": "thehackernews.com",
+   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "discussion": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T16:42:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T16:42:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T21:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+    "at": "2026-11-05T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -1274,7 +1412,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 169,
+   "points": 170,
    "comments": 82,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
