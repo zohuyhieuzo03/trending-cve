@@ -1,19 +1,18 @@
 {
- "generated": "2026-11-05T02:08:07Z",
+ "generated": "2026-11-05T02:38:07Z",
  "count": 1806,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 30,
    "repos": 3,
    "points": 958,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-114442",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -1002,7 +1001,7 @@
    "title": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzilmbi3v725",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzilmbi3v725",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-04T14:42:46Z",
    "label": "security_news",
@@ -11182,7 +11181,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 76,
+   "points": 77,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -13327,7 +13326,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -19285,7 +19284,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 61,
+   "points": 62,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
