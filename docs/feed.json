@@ -1,19 +1,18 @@
 {
- "generated": "2026-11-05T00:38:07Z",
+ "generated": "2026-11-05T01:08:07Z",
  "count": 1806,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 30,
    "repos": 3,
    "points": 958,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-114442",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -75,7 +74,7 @@
    "name": "Local",
    "threads": 7,
    "repos": 1,
-   "points": 35,
+   "points": 57,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -85,8 +84,8 @@
    ],
    "last_seen": "2026-11-04T23:33:14Z",
    "items": [
-    "ghpoc:Mas0nShi/CVE-2026-112445",
     "hn:50372929",
+    "ghpoc:Mas0nShi/CVE-2026-112445",
     "blog:https://seclists.org/oss-sec/2026/q4/506",
     "blog:https://seclists.org/oss-sec/2026/q4/502",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
@@ -486,8 +485,8 @@
    "title": "Ask HN: Have you changed your setup in the age of AI and mass vulnerabilities?",
    "url": "https://news.ycombinator.com/item?id=50373223",
    "discussion": "https://news.ycombinator.com/item?id=50373223",
-   "points": 2,
-   "comments": 0,
+   "points": 3,
+   "comments": 1,
    "created": "2026-11-05T00:09:05Z",
    "label": "security_news",
    "cves": [],
@@ -519,8 +518,8 @@
    "title": "Local privilege escalation vulnerabilities in Linux",
    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
    "discussion": "https://news.ycombinator.com/item?id=50372929",
-   "points": 35,
-   "comments": 22,
+   "points": 57,
+   "comments": 42,
    "created": "2026-11-04T23:33:14Z",
    "label": "security_news",
    "cves": [],
@@ -11858,7 +11857,7 @@
    "title": "caveeroo/cve-2026-111497-wordpress-poc: CVE-2026-111497 RCE PoC for one pinned Docker Official Image for WordPress",
    "url": "https://github.com/caveeroo/cve-2026-111497-wordpress-poc",
    "discussion": "https://github.com/caveeroo/cve-2026-111497-wordpress-poc",
-   "points": 30,
+   "points": 31,
    "comments": 0,
    "created": "2026-10-28T22:42:33Z",
    "label": "kev_exploited",
@@ -15482,7 +15481,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
