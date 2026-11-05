@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T06:08:07Z",
- "count": 1809,
+ "generated": "2026-11-05T06:38:07Z",
+ "count": 1811,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 32,
+   "threads": 31,
    "repos": 3,
    "points": 960,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -140,26 +140,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 4,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-43499",
-    "CVE-2026-58882"
-   ],
-   "last_seen": "2026-11-04T14:27:52Z",
-   "items": [
-    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
-   ]
-  },
-  {
    "name": "arbitrary",
    "threads": 3,
    "repos": 0,
@@ -192,6 +172,23 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
+   ]
+  },
+  {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 69,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -419,6 +416,25 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 1,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-43499",
+    "CVE-2026-58882"
+   ],
+   "last_seen": "2026-11-02T16:57:56Z",
+   "items": [
+    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+   ]
+  },
+  {
    "name": "Linux",
    "threads": 3,
    "repos": 0,
@@ -449,24 +465,77 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
-  },
-  {
-   "name": "Commerce",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50375876",
+   "source": "hackernews",
+   "title": "CVE-2026-109518: Debian, Ubuntu APT",
+   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-109518",
+   "discussion": "https://news.ycombinator.com/item?id=50375876",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T06:28:03Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-05T06:28:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T06:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-109518: Debian, Ubuntu APT",
+    "at": "2026-11-05T06:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T05:17:04Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T05:17:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T06:38:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "at": "2026-11-05T06:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50375366",
    "source": "hackernews",
@@ -22488,7 +22557,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 129,
+   "points": 130,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -24784,7 +24853,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 76,
+   "points": 77,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
