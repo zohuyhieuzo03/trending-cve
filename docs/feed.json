@@ -1,18 +1,19 @@
 {
- "generated": "2026-11-05T01:38:07Z",
+ "generated": "2026-11-05T02:08:07Z",
  "count": 1806,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 30,
+   "threads": 31,
    "repos": 3,
    "points": 958,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -8739,7 +8740,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 29,
+   "points": 30,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
