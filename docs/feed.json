@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:08:07Z",
+ "generated": "2026-11-05T23:37:55Z",
  "count": 1848,
  "topics": [
   {
@@ -246,6 +246,21 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 3,
+   "repos": 0,
+   "points": 15,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T17:45:47Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50312971"
+   ]
+  },
+  {
    "name": "ClickHouse",
    "threads": 3,
    "repos": 0,
@@ -260,21 +275,6 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T17:45:47Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50312971"
    ]
   },
   {
@@ -293,6 +293,21 @@
    ]
   },
   {
+   "name": "Windows",
+   "threads": 3,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T19:53:29Z",
+   "items": [
+    "hn:50383612",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3nyeniel2u",
+    "hn:50330754"
+   ]
+  },
+  {
    "name": "devices",
    "threads": 3,
    "repos": 0,
@@ -307,21 +322,6 @@
     "hn:50349357",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
     "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 3,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T19:53:29Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3nyeniel2u",
-    "hn:50383612",
-    "hn:50330754"
    ]
   },
   {
@@ -379,27 +379,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
     "blog:https://seclists.org/oss-sec/2026/q4/498"
-   ]
-  },
-  {
-   "name": "ZooKeeper",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115448",
-    "CVE-2026-100300",
-    "CVE-2026-100252",
-    "CVE-2026-100235"
-   ],
-   "last_seen": "2026-11-03T20:07:28Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/488",
-    "blog:https://seclists.org/oss-sec/2026/q4/486",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://seclists.org/oss-sec/2026/q4/484"
    ]
   },
   {
@@ -469,6 +448,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
+   "name": "strings",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111821"
+   ],
+   "last_seen": "2026-11-04T10:13:39Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
   }
  ],
@@ -682,8 +678,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 195,
-   "comments": 49,
+   "points": 231,
+   "comments": 62,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -748,7 +744,7 @@
    "title": "Windows Paint Remote Code Execution Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50383612",
-   "points": 3,
+   "points": 5,
    "comments": 1,
    "created": "2026-11-05T19:53:29Z",
    "label": "security_news",
@@ -1068,7 +1064,7 @@
    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
-   "points": 7,
+   "points": 9,
    "comments": 1,
    "created": "2026-11-05T17:45:47Z",
    "label": "security_news",
