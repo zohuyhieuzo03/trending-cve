@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T11:08:07Z",
+ "generated": "2026-11-05T11:38:07Z",
  "count": 1818,
  "topics": [
   {
-   "name": "firewall",
-   "threads": 32,
+   "name": "Protecting",
+   "threads": 30,
    "repos": 3,
    "points": 958,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -542,8 +542,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 27,
-   "comments": 5,
+   "points": 34,
+   "comments": 6,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -3774,7 +3774,7 @@
    "url": "https://bloatberg.com/2026/11/02/ubuntu-canonical-extends-long-term-support-for-cve-2026-98432-through-2036",
    "discussion": "https://news.ycombinator.com/item?id=50353777",
    "points": 2,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-03T16:08:13Z",
    "label": "related",
    "cves": [
