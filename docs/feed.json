@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T14:38:07Z",
- "count": 1820,
+ "generated": "2026-11-05T15:08:07Z",
+ "count": 1821,
  "topics": [
   {
-   "name": "Protecting",
-   "threads": 29,
+   "name": "Ubuntu",
+   "threads": 31,
    "repos": 3,
-   "points": 917,
+   "points": 921,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -30,6 +30,7 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -40,8 +41,7 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
    ]
   },
   {
@@ -122,25 +122,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
     "blog:https://seclists.org/oss-sec/2026/q4/457"
-   ]
-  },
-  {
-   "name": "kernel",
-   "threads": 4,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112705"
-   ],
-   "last_seen": "2026-11-02T18:09:13Z",
-   "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "hn:50301944",
-    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
    ]
   },
   {
@@ -297,23 +278,6 @@
    ]
   },
   {
-   "name": "unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 10,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102764"
-   ],
-   "last_seen": "2026-11-02T11:50:00Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764"
-   ]
-  },
-  {
    "name": "multiple",
    "threads": 4,
    "repos": 0,
@@ -464,9 +428,74 @@
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
+  },
+  {
+   "name": "deliver",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T05:17:04Z",
+   "items": [
+    "hn:50350798",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
+  },
+  {
+   "name": "ImageMagick",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116155"
+   ],
+   "last_seen": "2026-11-04T12:07:04Z",
+   "items": [
+    "hn:50316849",
+    "blog:https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+    "lobsters:bnok4r"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50379673",
+   "source": "hackernews",
+   "title": "Anthropic won't fix a Claude Dispatch flaw",
+   "url": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
+   "discussion": "https://news.ycombinator.com/item?id=50379673",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-05T14:42:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T14:42:10Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T15:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Anthropic won't fix a Claude Dispatch flaw",
+    "at": "2026-11-05T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50379326",
    "source": "hackernews",
@@ -605,8 +634,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 131,
-   "comments": 45,
+   "points": 136,
+   "comments": 51,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
