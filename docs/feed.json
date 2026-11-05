@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T17:38:07Z",
- "count": 1827,
+ "generated": "2026-11-05T18:07:07Z",
+ "count": 1832,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 30,
+   "threads": 28,
    "repos": 3,
-   "points": 921,
-   "kev": true,
+   "points": 917,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -30,7 +30,6 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
-    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -41,7 +40,8 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/476"
    ]
   },
   {
@@ -103,6 +103,22 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 4,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T17:45:47Z",
+   "items": [
+    "hn:50374787",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50312971",
+    "hn:50295879"
    ]
   },
   {
@@ -371,18 +387,21 @@
    ]
   },
   {
-   "name": "Linux",
+   "name": "kernel",
    "threads": 3,
-   "repos": 0,
-   "points": 8,
+   "repos": 1,
+   "points": 7,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T03:30:05Z",
+   "cves": [
+    "CVE-2026-112705"
+   ],
+   "last_seen": "2026-11-02T18:09:13Z",
    "items": [
-    "hn:50374787",
-    "hn:50312971",
-    "hn:50295879"
+    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+    "lobsters:1sni1w",
+    "hn:50340970",
+    "hn:50301944"
    ]
   },
   {
@@ -446,24 +465,144 @@
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50382093",
+   "source": "hackernews",
+   "title": "How the *sshole vulnerability came to be",
+   "url": "https://twitter.com/JonathanBeuys/status/2118400999651946919",
+   "discussion": "https://news.ycombinator.com/item?id=50382093",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T17:52:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T17:52:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T18:07:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "How the *sshole vulnerability came to be",
+    "at": "2026-11-05T18:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-64vx-6h2c-rjh7",
+   "source": "github-advisory",
+   "title": "Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE (pip/banks)",
+   "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+   "discussion": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T17:51:02Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-61536"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-05T17:51:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T18:07:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-5q7h-w9jf-cx97",
+   "source": "github-advisory",
+   "title": "kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts (go/github.com/chainguard-dev/kaniko)",
+   "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
+   "discussion": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T17:48:54Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-105769"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-05T17:48:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T18:07:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+   "source": "bluesky",
+   "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-05T17:45:47Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T17:45:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T18:07:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
+    "at": "2026-11-05T18:07:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-hhf9-qw4v-72xp",
+   "source": "github-advisory",
+   "title": "lxd allows Cross-guest volume hijack via DevLXD device patch (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-hhf9-qw4v-72xp",
+   "discussion": "https://github.com/advisories/GHSA-hhf9-qw4v-72xp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T17:40:59Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-12411"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-05T17:40:59Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T18:07:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "hn:50381616",
    "source": "hackernews",
@@ -833,7 +972,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 154,
+   "points": 159,
    "comments": 73,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
