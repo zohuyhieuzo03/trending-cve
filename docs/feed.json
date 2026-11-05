@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T05:38:07Z",
+ "generated": "2026-11-05T06:08:07Z",
  "count": 1809,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 32,
    "repos": 3,
    "points": 960,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -72,6 +72,22 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 4,
+   "repos": 0,
+   "points": 329,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50286987",
+    "hn:50351735",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
+   ]
+  },
+  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -87,21 +103,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-   ]
-  },
-  {
-   "name": "Chained",
-   "threads": 3,
-   "repos": 0,
-   "points": 323,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T15:59:19Z",
-   "items": [
-    "hn:50286987",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
    ]
   },
   {
@@ -433,21 +434,6 @@
    ]
   },
   {
-   "name": "PHP2Shell",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T13:29:06Z",
-   "items": [
-    "hn:50351735",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
-   ]
-  },
-  {
    "name": "privilege",
    "threads": 2,
    "repos": 1,
@@ -462,6 +448,21 @@
     "hn:50372929",
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
+  },
+  {
+   "name": "Commerce",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
@@ -6195,7 +6196,7 @@
    "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
    "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
    "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
-   "points": 37,
+   "points": 38,
    "comments": 0,
    "created": "2026-11-01T16:02:26Z",
    "label": "public_exploit_reported",
@@ -13412,7 +13413,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -19370,7 +19371,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 67,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
