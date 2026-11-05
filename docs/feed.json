@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:38:07Z",
+ "generated": "2026-11-05T08:08:07Z",
  "count": 1812,
  "topics": [
   {
@@ -6302,7 +6302,7 @@
    "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
    "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
    "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
-   "points": 39,
+   "points": 40,
    "comments": 0,
    "created": "2026-11-01T16:02:26Z",
    "label": "public_exploit_reported",
@@ -19477,7 +19477,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 70,
+   "points": 71,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -24918,7 +24918,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 984,
+   "points": 985,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
