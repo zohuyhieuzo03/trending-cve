@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T08:38:07Z",
- "count": 1813,
+ "generated": "2026-11-05T09:07:51Z",
+ "count": 1814,
  "topics": [
   {
-   "name": "Protecting",
-   "threads": 29,
+   "name": "Ubuntu",
+   "threads": 32,
    "repos": 3,
-   "points": 956,
-   "kev": false,
+   "points": 960,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -31,6 +31,7 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -40,8 +41,7 @@
     "hn:50299940",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
-    "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "lobsters:5cmg1k"
    ]
   },
   {
@@ -451,21 +451,20 @@
    ]
   },
   {
-   "name": "kernel",
-   "threads": 3,
+   "name": "privilege",
+   "threads": 2,
    "repos": 1,
-   "points": 6,
+   "points": 57,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-112705"
+    "CVE-2026-112487"
    ],
-   "last_seen": "2026-11-02T18:09:13Z",
+   "last_seen": "2026-11-04T23:33:14Z",
    "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   }
  ],
@@ -17727,6 +17726,28 @@
    }
   },
   {
+   "id": "ghpoc:woshigenm/CVE-2026-98260",
+   "source": "github-poc",
+   "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
+   "url": "https://github.com/woshigenm/CVE-2026-98260",
+   "discussion": "https://github.com/woshigenm/CVE-2026-98260",
+   "points": 17,
+   "comments": 0,
+   "created": "2026-10-26T16:49:03Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T16:49:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T09:07:51Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/393",
    "source": "seclists.org",
    "title": "Brotli CVE-2026-111497 and git-remote-https",
@@ -19510,7 +19531,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 71,
+   "points": 72,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
