@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T16:08:07Z",
- "count": 1824,
+ "generated": "2026-11-05T16:38:07Z",
+ "count": 1825,
  "topics": [
   {
    "name": "Protecting",
@@ -19,8 +19,8 @@
    "items": [
     "hn:50319143",
     "hn:50299182",
-    "hn:50314397",
     "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
+    "hn:50314397",
     "hn:50298526",
     "ghpoc:Alucard0x1/cve-2026-98432",
     "ghpoc:H1z3-br0/CVE-2026-98432",
@@ -436,6 +436,21 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "Commerce",
    "threads": 3,
    "repos": 0,
@@ -449,31 +464,49 @@
     "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
     "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T07:46:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/462"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+   "source": "bluesky",
+   "title": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management int",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-11-05T16:24:43Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T16:24:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T16:38:07Z",
+     "label": "supply_chain"
+    }
+   ],
+   "llm": {
+    "title": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management int",
+    "at": "2026-11-05T16:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50380348",
    "source": "hackernews",
    "title": "GitLab patched the CVE. Your leaked token is still valid",
    "url": "https://news.ycombinator.com/item?id=50380348",
    "discussion": "https://news.ycombinator.com/item?id=50380348",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-05T15:30:56Z",
    "label": "security_news",
@@ -605,7 +638,7 @@
    "title": "Dense in Depth: Rethinking Security When Vulns Are Everywhere",
    "url": "https://medium.com/@TalBeerySec/dense-in-depth-rethinking-security-when-vulns-are-everywhere-229dbd3e8477",
    "discussion": "https://news.ycombinator.com/item?id=50379326",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-05T14:15:56Z",
    "label": "security_news",
@@ -737,8 +770,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 147,
-   "comments": 67,
+   "points": 149,
+   "comments": 71,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -9292,7 +9325,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 30,
+   "points": 31,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
@@ -19859,7 +19892,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 80,
+   "points": 81,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
