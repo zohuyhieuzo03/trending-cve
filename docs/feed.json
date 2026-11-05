@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T22:38:07Z",
+ "generated": "2026-11-05T23:08:07Z",
  "count": 1848,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 27,
+   "threads": 26,
    "repos": 3,
    "points": 917,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -213,6 +213,24 @@
    ]
   },
   {
+   "name": "bypass",
+   "threads": 3,
+   "repos": 0,
+   "points": 18,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121728",
+    "CVE-2026-109117"
+   ],
+   "last_seen": "2026-11-05T18:34:41Z",
+   "items": [
+    "lobsters:x2hcss",
+    "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/475"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -242,24 +260,6 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
-   ]
-  },
-  {
-   "name": "bypass",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121728",
-    "CVE-2026-109117"
-   ],
-   "last_seen": "2026-11-05T18:34:41Z",
-   "items": [
-    "lobsters:x2hcss",
-    "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/475"
    ]
   },
   {
@@ -682,8 +682,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 150,
-   "comments": 43,
+   "points": 195,
+   "comments": 49,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -954,7 +954,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 13,
+   "points": 18,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
