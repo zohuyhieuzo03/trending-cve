@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T04:38:07Z",
- "count": 1807,
+ "generated": "2026-11-05T05:08:07Z",
+ "count": 1809,
  "topics": [
   {
    "name": "Ubuntu",
    "threads": 31,
    "repos": 3,
-   "points": 958,
-   "kev": true,
+   "points": 960,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
+    "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -38,10 +38,10 @@
     "hn:50353777",
     "hn:50349058",
     "hn:50340028",
+    "hn:50299940",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
-    "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "lobsters:5cmg1k"
    ]
   },
   {
@@ -69,52 +69,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/449",
     "blog:https://seclists.org/oss-sec/2026/q4/446",
     "blog:https://seclists.org/oss-sec/2026/q4/439"
-   ]
-  },
-  {
-   "name": "Local",
-   "threads": 7,
-   "repos": 1,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112445",
-    "CVE-2026-90632",
-    "CVE-2026-90627"
-   ],
-   "last_seen": "2026-11-04T23:33:14Z",
-   "items": [
-    "hn:50372929",
-    "ghpoc:Mas0nShi/CVE-2026-112445",
-    "blog:https://seclists.org/oss-sec/2026/q4/506",
-    "blog:https://seclists.org/oss-sec/2026/q4/502",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-835/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/"
-   ]
-  },
-  {
-   "name": "Deserialization",
-   "threads": 8,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118636"
-   ],
-   "last_seen": "2026-11-03T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
-    "blog:https://seclists.org/oss-sec/2026/q4/457",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/"
    ]
   },
   {
@@ -151,25 +105,6 @@
    ]
   },
   {
-   "name": "Missing",
-   "threads": 5,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58085"
-   ],
-   "last_seen": "2026-11-03T06:00:00Z",
-   "items": [
-    "hn:50299940",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-854/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
-   ]
-  },
-  {
    "name": "Backdoors",
    "threads": 3,
    "repos": 0,
@@ -182,6 +117,25 @@
     "lobsters:ttp7aq",
     "hn:50335010",
     "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+   ]
+  },
+  {
+   "name": "Deserialization",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-118636"
+   ],
+   "last_seen": "2026-11-03T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
+    "blog:https://seclists.org/oss-sec/2026/q4/457"
    ]
   },
   {
@@ -477,9 +431,107 @@
     "hn:50312971",
     "hn:50295879"
    ]
+  },
+  {
+   "name": "PHP2Shell",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:29:06Z",
+   "items": [
+    "hn:50351735",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+   ]
+  },
+  {
+   "name": "privilege",
+   "threads": 2,
+   "repos": 1,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50375366",
+   "source": "hackernews",
+   "title": "Open-weight AI models can exploit the patch gap",
+   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+   "discussion": "https://news.ycombinator.com/item?id=50375366",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T04:55:17Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T04:55:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T05:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Open-weight AI models can exploit the patch gap",
+    "at": "2026-11-05T05:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "thehackernews.com",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "discussion": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T04:31:16Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T04:31:16Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T05:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "at": "2026-11-05T05:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50374787",
    "source": "hackernews",
@@ -11215,7 +11267,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 79,
+   "points": 80,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
