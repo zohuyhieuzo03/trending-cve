@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T05:08:07Z",
+ "generated": "2026-11-05T05:38:07Z",
  "count": 1809,
  "topics": [
   {
@@ -279,7 +279,7 @@
    "name": "Node.js",
    "threads": 3,
    "repos": 0,
-   "points": 10,
+   "points": 11,
    "kev": false,
    "vendor": true,
    "cves": [],
@@ -1285,7 +1285,7 @@
    "title": "Forthcoming security update of Node.js; November 11, 2026",
    "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
    "discussion": "https://news.ycombinator.com/item?id=50364454",
-   "points": 10,
+   "points": 11,
    "comments": 0,
    "created": "2026-11-04T12:06:15Z",
    "label": "security_news",
@@ -11267,7 +11267,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 80,
+   "points": 81,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -19370,7 +19370,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 65,
+   "points": 67,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
