@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T15:08:07Z",
- "count": 1821,
+ "generated": "2026-11-05T15:38:07Z",
+ "count": 1824,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 31,
+   "threads": 30,
    "repos": 3,
    "points": 921,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -278,6 +278,24 @@
    ]
   },
   {
+   "name": "Apache",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119641"
+   ],
+   "last_seen": "2026-11-05T14:41:10Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/463"
+   ]
+  },
+  {
    "name": "multiple",
    "threads": 4,
    "repos": 0,
@@ -443,26 +461,75 @@
     "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
     "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
-  },
-  {
-   "name": "ImageMagick",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116155"
-   ],
-   "last_seen": "2026-11-04T12:07:04Z",
-   "items": [
-    "hn:50316849",
-    "blog:https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-    "lobsters:bnok4r"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50380348",
+   "source": "hackernews",
+   "title": "GitLab patched the CVE. Your leaked token is still valid",
+   "url": "https://news.ycombinator.com/item?id=50380348",
+   "discussion": "https://news.ycombinator.com/item?id=50380348",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-05T15:30:56Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T15:30:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T15:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "GitLab patched the CVE. Your leaked token is still valid",
+    "at": "2026-11-05T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://isc.sans.edu/diary/rss/33492",
+   "source": "isc.sans.edu",
+   "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+   "url": "https://isc.sans.edu/diary/rss/33492",
+   "discussion": "https://isc.sans.edu/diary/rss/33492",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T15:29:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T15:29:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T15:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+    "at": "2026-11-05T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50379673",
    "source": "hackernews",
@@ -493,6 +560,39 @@
     },
     "consensus": "disclosed_unpatched",
     "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "source": "thehackernews.com",
+   "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "discussion": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T14:41:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T14:41:10Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T15:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+    "at": "2026-11-05T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
     "rubric": 2
    }
   },
@@ -634,8 +734,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 136,
-   "comments": 51,
+   "points": 146,
+   "comments": 65,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -6559,7 +6659,7 @@
    "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
    "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
    "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
-   "points": 42,
+   "points": 43,
    "comments": 0,
    "created": "2026-11-01T16:02:26Z",
    "label": "public_exploit_reported",
@@ -19756,7 +19856,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 79,
+   "points": 80,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
