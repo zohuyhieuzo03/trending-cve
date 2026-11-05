@@ -1,27 +1,29 @@
 {
- "generated": "2026-11-04T23:38:07Z",
- "count": 1791,
+ "generated": "2026-11-05T00:08:07Z",
+ "count": 1805,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 33,
-   "repos": 0,
+   "threads": 30,
+   "repos": 3,
    "points": 958,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-114442",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-120135"
    ],
-   "last_seen": "2026-11-04T17:00:46Z",
+   "last_seen": "2026-11-04T15:58:09Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
     "hn:50287647",
     "hn:50314397",
+    "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
     "hn:50298526",
+    "ghpoc:Alucard0x1/cve-2026-98432",
+    "ghpoc:H1z3-br0/CVE-2026-98432",
     "lobsters:mp8yqt",
     "hn:50312858",
     "hn:50297892",
@@ -36,12 +38,9 @@
     "hn:50349058",
     "hn:50340028",
     "hn:50308386",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
    ]
   },
   {
@@ -73,9 +72,9 @@
   },
   {
    "name": "Local",
-   "threads": 8,
+   "threads": 7,
    "repos": 1,
-   "points": 1,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -90,7 +89,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/506",
     "blog:https://seclists.org/oss-sec/2026/q4/502",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-835/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/"
@@ -137,25 +135,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 5,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58882"
-   ],
-   "last_seen": "2026-11-04T14:27:52Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
-   ]
-  },
-  {
    "name": "Chained",
    "threads": 3,
    "repos": 0,
@@ -190,24 +169,6 @@
    ]
   },
   {
-   "name": "GitLab",
-   "threads": 3,
-   "repos": 0,
-   "points": 255,
-   "kev": true,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-97229",
-    "CVE-2026-111943"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "gitlab:patch-release-gitlab-19-5-3-released"
-   ]
-  },
-  {
    "name": "Backdoors",
    "threads": 3,
    "repos": 0,
@@ -220,6 +181,26 @@
     "lobsters:ttp7aq",
     "hn:50335010",
     "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 4,
+   "repos": 1,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-43499",
+    "CVE-2026-58882"
+   ],
+   "last_seen": "2026-11-04T14:27:52Z",
+   "items": [
+    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
    ]
   },
   {
@@ -274,6 +255,22 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/512",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 4,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T07:46:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/462",
+    "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
    ]
   },
   {
@@ -466,18 +463,18 @@
    ]
   },
   {
-   "name": "Claude",
+   "name": "PHP2Shell",
    "threads": 3,
    "repos": 0,
-   "points": 8,
+   "points": 6,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-02T15:22:46Z",
+   "last_seen": "2026-11-03T13:29:06Z",
    "items": [
-    "hn:50288798",
-    "hn:50338054",
-    "hn:50301944"
+    "hn:50351735",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
    ]
   }
  ],
@@ -488,8 +485,8 @@
    "title": "Local privilege escalation vulnerabilities in Linux",
    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
    "discussion": "https://news.ycombinator.com/item?id=50372929",
-   "points": 1,
-   "comments": 0,
+   "points": 13,
+   "comments": 6,
    "created": "2026-11-04T23:33:14Z",
    "label": "security_news",
    "cves": [],
@@ -6074,6 +6071,28 @@
    }
   },
   {
+   "id": "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
+   "source": "github-poc",
+   "title": "Delta-Water/CVE-2026-43499-phq110-root: PHQ110（OPPO OP5613 / Android 14 / C.53）内存态 uid0 研究快照：CVE-2026-43499 GhostLock 链 + uid0 rootd + Shizuku。不写分区、不持久化。",
+   "url": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
+   "discussion": "https://github.com/Delta-Water/CVE-2026-43499-phq110-root",
+   "points": 34,
+   "comments": 0,
+   "created": "2026-11-01T16:02:26Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-43499"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T16:02:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50326609",
    "source": "hackernews",
    "title": "Landline phones will switch off across Britland in 100 days, no extensions",
@@ -6447,6 +6466,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:Lyutoon/CVE-2026-112487",
+   "source": "github-poc",
+   "title": "Lyutoon/CVE-2026-112487: macOS revisiond local privilege escalation to root (CVE-2026-112487)",
+   "url": "https://github.com/Lyutoon/CVE-2026-112487",
+   "discussion": "https://github.com/Lyutoon/CVE-2026-112487",
+   "points": 16,
+   "comments": 0,
+   "created": "2026-10-31T18:04:33Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T18:04:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
@@ -8122,6 +8163,28 @@
    }
   },
   {
+   "id": "ghpoc:Alucard0x1/cve-2026-98432",
+   "source": "github-poc",
+   "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
+   "url": "https://github.com/Alucard0x1/cve-2026-98432",
+   "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
+   "points": 18,
+   "comments": 0,
+   "created": "2026-10-30T16:36:43Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T16:36:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/452",
    "source": "seclists.org",
    "title": "CVE-2026-73322: Apache Pinot: Incorrect authorization in the single-stage query engine allows reading unauthorized dimension tables via lookup()",
@@ -8636,6 +8699,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
+   "source": "github-poc",
+   "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
+   "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
+   "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
+   "points": 29,
+   "comments": 0,
+   "created": "2026-10-30T13:11:26Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T13:11:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
@@ -9533,6 +9618,28 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:H1z3-br0/CVE-2026-98432",
+   "source": "github-poc",
+   "title": "H1z3-br0/CVE-2026-98432: Race trigger, heap-reuse oracle, pcap analysis, detection and mitigation tooling for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free)",
+   "url": "https://github.com/H1z3-br0/CVE-2026-98432",
+   "discussion": "https://github.com/H1z3-br0/CVE-2026-98432",
+   "points": 17,
+   "comments": 0,
+   "created": "2026-10-30T00:22:53Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T00:22:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "kev:CVE-2026-118527",
@@ -10652,6 +10759,28 @@
    }
   },
   {
+   "id": "ghpoc:Xplo8E/CVE-2026-112621-oob-write-poc",
+   "source": "github-poc",
+   "title": "Xplo8E/CVE-2026-112621-oob-write-poc: ",
+   "url": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
+   "discussion": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
+   "points": 25,
+   "comments": 0,
+   "created": "2026-10-29T12:58:50Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112621"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T12:58:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50287647",
    "source": "hackernews",
    "title": "CVE-2026-98432: 9.8 CVE affecting all Ubuntu versions",
@@ -11686,6 +11815,30 @@
     {
      "at": "2026-10-28T23:11:38Z",
      "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:caveeroo/cve-2026-111497-wordpress-poc",
+   "source": "github-poc",
+   "title": "caveeroo/cve-2026-111497-wordpress-poc: CVE-2026-111497 RCE PoC for one pinned Docker Official Image for WordPress",
+   "url": "https://github.com/caveeroo/cve-2026-111497-wordpress-poc",
+   "discussion": "https://github.com/caveeroo/cve-2026-111497-wordpress-poc",
+   "points": 30,
+   "comments": 0,
+   "created": "2026-10-28T22:42:33Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "first_seen": "2026-10-28T22:42:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -13135,6 +13288,28 @@
    }
   },
   {
+   "id": "ghpoc:kpgc10kai/TimerRoot",
+   "source": "github-poc",
+   "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
+   "url": "https://github.com/kpgc10kai/TimerRoot",
+   "discussion": "https://github.com/kpgc10kai/TimerRoot",
+   "points": 43,
+   "comments": 0,
+   "created": "2026-10-28T15:15:02Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T15:15:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50274775",
    "source": "hackernews",
    "title": "Laid off 60 days in: what is the tech industry doing to developers?",
@@ -13388,6 +13563,28 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
+   "source": "github-poc",
+   "title": "MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak: Independent discovery & coordinated disclosure: CoreMedia bytestream XPC (mediaplaybackd) vended live file descriptors for protected paths t",
+   "url": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
+   "discussion": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
+   "points": 23,
+   "comments": 0,
+   "created": "2026-10-28T12:03:22Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112706"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T12:03:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
@@ -16495,6 +16692,28 @@
    }
   },
   {
+   "id": "ghpoc:Ping-2o/CVE-2026-112611-cg-shading",
+   "source": "github-poc",
+   "title": "Ping-2o/CVE-2026-112611-cg-shading: CVE-2026-112611/112610: CoreGraphics PDF out-of-bounds writes (fixed in iOS 27.2) — fix-diff analysis, on-device proof, methodology, and PoC",
+   "url": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
+   "discussion": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
+   "points": 19,
+   "comments": 0,
+   "created": "2026-10-27T09:46:42Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112611"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-27T09:46:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
    "source": "thehackernews.com",
    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
@@ -17795,6 +18014,28 @@
    }
   },
   {
+   "id": "ghpoc:Lw5959/xring-cve-2026-98260",
+   "source": "github-poc",
+   "title": "Lw5959/xring-cve-2026-98260: CVE-2026-98260（fs/exec.c POSIX CPU timer UAF）XRING O1 / Android 17 / 6.18.21 研究记录与 PC 一键流程（授权设备安全研究）",
+   "url": "https://github.com/Lw5959/xring-cve-2026-98260",
+   "discussion": "https://github.com/Lw5959/xring-cve-2026-98260",
+   "points": 18,
+   "comments": 0,
+   "created": "2026-10-26T09:12:27Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T09:12:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50240988",
    "source": "hackernews",
    "title": "I've created a full-chain exploit for PHP2Shell",
@@ -19010,7 +19251,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 59,
+   "points": 60,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -22548,6 +22789,28 @@
    ]
   },
   {
+   "id": "ghpoc:quyicheng03-boop/CVE-2026-98260-popsicle-android",
+   "source": "github-poc",
+   "title": "quyicheng03-boop/CVE-2026-98260-popsicle-android: Target-specific Android CVE-2026-98260 research port for Xiaomi popsicle",
+   "url": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
+   "discussion": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
+   "points": 24,
+   "comments": 0,
+   "created": "2026-10-23T08:56:37Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T08:56:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
    "source": "thehackernews.com",
    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
@@ -24172,6 +24435,58 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:getastra/php2shell-triage",
+   "source": "github-poc",
+   "title": "getastra/php2shell-triage: Defensive triage for PHP2Shell (CVE-2026-109618 and CVE-2026-109619): a read-only check of every PHP SAPI, plus indicator hunting and a patc",
+   "url": "https://github.com/getastra/php2shell-triage",
+   "discussion": "https://github.com/getastra/php2shell-triage",
+   "points": 21,
+   "comments": 0,
+   "created": "2026-10-22T11:06:46Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "first_seen": "2026-10-22T11:06:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619",
+   "source": "github-poc",
+   "title": "GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619: php2shell Scanner",
+   "url": "https://github.com/GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619",
+   "discussion": "https://github.com/GlobalsecureAcademy/php2shell-scanner-CVE-2026-109618-CVE-2026-109619",
+   "points": 22,
+   "comments": 0,
+   "created": "2026-10-22T10:39:58Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "first_seen": "2026-10-22T10:39:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:08:07Z",
+     "label": "kev_exploited"
     }
    ]
   },
