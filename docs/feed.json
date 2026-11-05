@@ -1,18 +1,19 @@
 {
- "generated": "2026-11-05T00:08:07Z",
- "count": 1805,
+ "generated": "2026-11-05T00:38:07Z",
+ "count": 1806,
  "topics": [
   {
    "name": "Ubuntu",
-   "threads": 30,
+   "threads": 31,
    "repos": 3,
    "points": 958,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -74,7 +75,7 @@
    "name": "Local",
    "threads": 7,
    "repos": 1,
-   "points": 13,
+   "points": 35,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -480,13 +481,46 @@
  ],
  "items": [
   {
+   "id": "hn:50373223",
+   "source": "hackernews",
+   "title": "Ask HN: Have you changed your setup in the age of AI and mass vulnerabilities?",
+   "url": "https://news.ycombinator.com/item?id=50373223",
+   "discussion": "https://news.ycombinator.com/item?id=50373223",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-05T00:09:05Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T00:09:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T00:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Ask HN: Have you changed your setup in the age of AI and mass vulnerabilities?",
+    "at": "2026-11-05T00:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50372929",
    "source": "hackernews",
    "title": "Local privilege escalation vulnerabilities in Linux",
    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
    "discussion": "https://news.ycombinator.com/item?id=50372929",
-   "points": 13,
-   "comments": 6,
+   "points": 35,
+   "comments": 22,
    "created": "2026-11-04T23:33:14Z",
    "label": "security_news",
    "cves": [],
@@ -11148,7 +11182,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 75,
+   "points": 76,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -16539,7 +16573,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
@@ -19355,7 +19389,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 86,
+   "points": 85,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
