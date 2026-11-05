@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T15:38:07Z",
+ "generated": "2026-11-05T16:08:07Z",
  "count": 1824,
  "topics": [
   {
-   "name": "Ubuntu",
-   "threads": 30,
+   "name": "Protecting",
+   "threads": 29,
    "repos": 3,
-   "points": 921,
-   "kev": false,
+   "points": 917,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -30,7 +30,6 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
-    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -41,7 +40,8 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/476"
    ]
   },
   {
@@ -401,6 +401,24 @@
    ]
   },
   {
+   "name": "kernel",
+   "threads": 3,
+   "repos": 1,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112705"
+   ],
+   "last_seen": "2026-11-02T18:09:13Z",
+   "items": [
+    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
+    "lobsters:1sni1w",
+    "hn:50340970",
+    "hn:50301944"
+   ]
+  },
+  {
    "name": "privilege",
    "threads": 2,
    "repos": 1,
@@ -446,21 +464,6 @@
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
   }
  ],
  "items": [
@@ -470,7 +473,7 @@
    "title": "GitLab patched the CVE. Your leaked token is still valid",
    "url": "https://news.ycombinator.com/item?id=50380348",
    "discussion": "https://news.ycombinator.com/item?id=50380348",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-05T15:30:56Z",
    "label": "security_news",
@@ -734,8 +737,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 146,
-   "comments": 65,
+   "points": 147,
+   "comments": 67,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -7056,7 +7059,7 @@
    "title": "Lyutoon/CVE-2026-112487: macOS revisiond local privilege escalation to root (CVE-2026-112487)",
    "url": "https://github.com/Lyutoon/CVE-2026-112487",
    "discussion": "https://github.com/Lyutoon/CVE-2026-112487",
-   "points": 17,
+   "points": 18,
    "comments": 0,
    "created": "2026-10-31T18:04:33Z",
    "label": "public_exploit_reported",
@@ -11347,7 +11350,7 @@
    "title": "Xplo8E/CVE-2026-112621-oob-write-poc: ",
    "url": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
    "discussion": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
-   "points": 25,
+   "points": 26,
    "comments": 0,
    "created": "2026-10-29T12:58:50Z",
    "label": "public_exploit_reported",
@@ -13876,7 +13879,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -14153,7 +14156,7 @@
    "title": "MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak: Independent discovery & coordinated disclosure: CoreMedia bytestream XPC (mediaplaybackd) vended live file descriptors for protected paths t",
    "url": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
    "discussion": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
-   "points": 23,
+   "points": 24,
    "comments": 0,
    "created": "2026-10-28T12:03:22Z",
    "label": "public_exploit_reported",
