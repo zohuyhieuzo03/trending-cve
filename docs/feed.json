@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T21:38:07Z",
- "count": 1845,
+ "generated": "2026-11-05T22:08:07Z",
+ "count": 1848,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 27,
+   "threads": 26,
    "repos": 3,
    "points": 917,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -85,6 +85,26 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "gateway",
+   "threads": 5,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116606",
+    "CVE-2026-111560"
+   ],
+   "last_seen": "2026-11-05T21:58:45Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
+    "hn:50385065",
+    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
    ]
   },
   {
@@ -240,27 +260,10 @@
    ]
   },
   {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58115"
-   ],
-   "last_seen": "2026-11-04T20:58:38Z",
-   "items": [
-    "hn:50349357",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
-    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-   ]
-  },
-  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 11,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -278,7 +281,7 @@
    "name": "Linux",
    "threads": 3,
    "repos": 0,
-   "points": 11,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -287,6 +290,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50374787",
     "hn:50312971"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 3,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "last_seen": "2026-11-04T20:58:38Z",
+   "items": [
+    "hn:50349357",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
+    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
    ]
   },
   {
@@ -446,26 +466,110 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
-  },
-  {
-   "name": "privilege",
-   "threads": 2,
-   "repos": 1,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112487"
-   ],
-   "last_seen": "2026-11-04T23:33:14Z",
-   "items": [
-    "hn:50372929",
-    "ghpoc:Lyutoon/CVE-2026-112487",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50385065",
+   "source": "hackernews",
+   "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
+   "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "discussion": "https://news.ycombinator.com/item?id=50385065",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-05T21:58:45Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-116606"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-05T21:58:45Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T22:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
+    "at": "2026-11-05T22:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50384957",
+   "source": "hackernews",
+   "title": "Remote code execution vulnerability in Microsoft Paint",
+   "url": "https://twitter.com/Pirat_Nation/status/2118446148713361874",
+   "discussion": "https://news.ycombinator.com/item?id=50384957",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-05T21:50:26Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T21:50:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T22:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Remote code execution vulnerability in Microsoft Paint",
+    "at": "2026-11-05T22:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50384803",
+   "source": "hackernews",
+   "title": "The Cost of AI Code Shows Up 30 Days Later",
+   "url": "https://cacm.acm.org/blogcacm/the-real-cost-of-ai-code-shows-up-30-days-later/",
+   "discussion": "https://news.ycombinator.com/item?id=50384803",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-11-05T21:37:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T21:37:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T22:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Cost of AI Code Shows Up 30 Days Later",
+    "at": "2026-11-05T22:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
    "source": "labs.watchtowr.com",
@@ -574,8 +678,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 37,
-   "comments": 15,
+   "points": 93,
+   "comments": 28,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -846,7 +950,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 11,
+   "points": 12,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -960,7 +1064,7 @@
    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-05T17:45:47Z",
    "label": "security_news",
@@ -1412,7 +1516,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 170,
+   "points": 171,
    "comments": 82,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
