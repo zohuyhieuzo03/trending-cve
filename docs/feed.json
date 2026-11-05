@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T20:08:07Z",
- "count": 1839,
+ "generated": "2026-11-05T20:38:07Z",
+ "count": 1840,
  "topics": [
   {
    "name": "Protecting",
-   "threads": 27,
+   "threads": 26,
    "repos": 3,
    "points": 917,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-111357"
+    "CVE-2026-120135"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -345,27 +345,6 @@
    ]
   },
   {
-   "name": "ZooKeeper",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115448",
-    "CVE-2026-100300",
-    "CVE-2026-100252",
-    "CVE-2026-100235"
-   ],
-   "last_seen": "2026-11-03T20:07:28Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/488",
-    "blog:https://seclists.org/oss-sec/2026/q4/486",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://seclists.org/oss-sec/2026/q4/484"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -467,9 +446,57 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
+  },
+  {
+   "name": "Commerce",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/530",
+   "source": "seclists.org",
+   "title": "CPython sandbox escape",
+   "url": "https://seclists.org/oss-sec/2026/q4/530",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/530",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-05T20:08:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-05T20:08:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-05T20:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CPython sandbox escape",
+    "at": "2026-11-05T20:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50383612",
    "source": "hackernews",
@@ -682,7 +709,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1215,8 +1242,8 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 168,
-   "comments": 79,
+   "points": 169,
+   "comments": 81,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
