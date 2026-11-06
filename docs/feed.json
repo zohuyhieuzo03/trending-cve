@@ -1,19 +1,17 @@
 {
- "generated": "2026-11-06T22:38:07Z",
+ "generated": "2026-11-06T23:08:07Z",
  "count": 1933,
  "topics": [
   {
    "name": "available",
    "threads": 19,
    "repos": 0,
-   "points": 803,
-   "kev": true,
+   "points": 806,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-74756"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -23,6 +21,7 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -34,7 +33,6 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -266,7 +264,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 62,
+   "points": 63,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -2064,7 +2062,7 @@
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
    "source": "zerodayinitiative.com",
-   "title": "ZDI-26-897: Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+   "title": "ZDI-26-897: (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
    "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
    "points": 0,
@@ -2081,8 +2079,8 @@
     }
    ],
    "llm": {
-    "title": "ZDI-26-897: Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
-    "at": "2026-11-06T22:38:07Z",
+    "title": "ZDI-26-897: (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -2277,7 +2275,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
@@ -2297,7 +2308,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-890: Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
@@ -2317,7 +2341,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-889: Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
@@ -2337,7 +2374,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-888: Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
@@ -2357,7 +2407,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
@@ -2933,8 +2996,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 697,
-   "comments": 270,
+   "points": 698,
+   "comments": 271,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -3205,7 +3268,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 59,
+   "points": 60,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -3772,7 +3835,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 183,
-   "comments": 232,
+   "comments": 234,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
