@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T10:37:07Z",
+ "generated": "2026-11-06T11:08:07Z",
  "count": 1862,
  "topics": [
   {
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 43,
+   "points": 44,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -108,7 +108,7 @@
    "name": "Linux",
    "threads": 4,
    "repos": 0,
-   "points": 17,
+   "points": 19,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -116,8 +116,8 @@
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50374787",
-    "hn:50312971",
-    "hn:50388417"
+    "hn:50388417",
+    "hn:50312971"
    ]
   },
   {
@@ -246,21 +246,6 @@
    ]
   },
   {
-   "name": "Anthropic",
-   "threads": 3,
-   "repos": 0,
-   "points": 19,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T14:42:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "hn:50379673"
-   ]
-  },
-  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -361,6 +346,21 @@
     "blog:https://seclists.org/oss-sec/2026/q4/472",
     "blog:https://seclists.org/oss-sec/2026/q4/471",
     "blog:https://seclists.org/oss-sec/2026/q4/470"
+   ]
+  },
+  {
+   "name": "malicious",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T11:46:27Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
    ]
   },
   {
@@ -470,7 +470,7 @@
    "title": "Ask HN: Has anyone used LLMs to audit TrueCrypt for backdoors?",
    "url": "https://news.ycombinator.com/item?id=50390442",
    "discussion": "https://news.ycombinator.com/item?id=50390442",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-06T10:09:46Z",
    "label": "security_news",
@@ -607,7 +607,7 @@
    "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
    "url": "https://gno.security/repairer/",
    "discussion": "https://news.ycombinator.com/item?id=50388417",
-   "points": 1,
+   "points": 3,
    "comments": 1,
    "created": "2026-11-06T05:00:14Z",
    "label": "security_news",
@@ -878,7 +878,7 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 556,
+   "points": 559,
    "comments": 200,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
@@ -1150,7 +1150,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 40,
+   "points": 41,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
