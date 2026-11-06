@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T07:07:57Z",
- "count": 1857,
+ "generated": "2026-11-06T07:37:20Z",
+ "count": 1858,
  "topics": [
   {
    "name": "Ubuntu",
@@ -83,26 +83,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-   ]
-  },
-  {
-   "name": "gateway",
-   "threads": 5,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116606",
-    "CVE-2026-111560"
-   ],
-   "last_seen": "2026-11-05T21:58:45Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzczfy27ck2u",
-    "hn:50385065",
-    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
    ]
   },
   {
@@ -268,7 +248,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 31,
+   "points": 32,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -384,27 +364,6 @@
    ]
   },
   {
-   "name": "ZooKeeper",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115448",
-    "CVE-2026-100300",
-    "CVE-2026-100252",
-    "CVE-2026-100235"
-   ],
-   "last_seen": "2026-11-03T20:07:28Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/488",
-    "blog:https://seclists.org/oss-sec/2026/q4/486",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://seclists.org/oss-sec/2026/q4/484"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -473,9 +432,78 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
+  },
+  {
+   "name": "Commerce",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
+  },
+  {
+   "name": "CVE-2026-116606",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116606",
+    "CVE-2026-111560"
+   ],
+   "last_seen": "2026-11-06T07:29:25Z",
+   "items": [
+    "hn:50385065",
+    "lobsters:hhagfv",
+    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "lobsters:hhagfv",
+   "source": "lobsters",
+   "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+   "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
+   "discussion": "https://lobste.rs/s/hhagfv/barracuda_networks_is_your_new_best",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-06T01:29:25.203-06:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111560",
+    "CVE-2026-116606"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T07:29:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T07:37:20Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
+    "at": "2026-11-06T07:37:20Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
    "source": "thehackernews.com",
@@ -786,8 +814,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 462,
-   "comments": 175,
+   "points": 478,
+   "comments": 176,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1058,7 +1086,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 31,
+   "points": 32,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1625,7 +1653,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 179,
-   "comments": 221,
+   "comments": 222,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
