@@ -1,24 +1,23 @@
 {
- "generated": "2026-11-06T09:08:08Z",
+ "generated": "2026-11-06T09:38:08Z",
  "count": 1860,
  "topics": [
   {
-   "name": "Ubuntu",
+   "name": "kernel",
    "threads": 24,
-   "repos": 4,
+   "repos": 3,
    "points": 831,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-112705",
     "CVE-2026-59263",
-    "CVE-2026-111357"
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
     "hn:50319143",
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
     "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
     "hn:50314397",
     "ghpoc:Alucard0x1/cve-2026-98432",
@@ -41,7 +40,8 @@
     "blog:https://seclists.org/oss-sec/2026/q4/496",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
+    "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527"
    ]
   },
   {
@@ -346,6 +346,25 @@
    ]
   },
   {
+   "name": "path",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-59264",
+    "CVE-2026-118988"
+   ],
+   "last_seen": "2026-11-03T21:42:42Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/497",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "blog:https://seclists.org/oss-sec/2026/q4/447"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -446,21 +465,6 @@
     "hn:50385065",
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   }
  ],
@@ -846,8 +850,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 528,
-   "comments": 190,
+   "points": 543,
+   "comments": 195,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -14936,7 +14940,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 50,
+   "points": 51,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -20960,7 +20964,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 82,
+   "points": 84,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -24077,7 +24081,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 136,
+   "points": 137,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
