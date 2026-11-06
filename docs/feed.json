@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T14:07:07Z",
- "count": 1868,
+ "generated": "2026-11-06T14:38:07Z",
+ "count": 1869,
  "topics": [
   {
-   "name": "Mitigation",
-   "threads": 21,
+   "name": "kernel",
+   "threads": 22,
    "repos": 2,
-   "points": 829,
+   "points": 840,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -20,6 +20,7 @@
     "ghpoc:xen0bit/netprobe-cve-2026-98432",
     "lobsters:mp8yqt",
     "hn:50312858",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
@@ -27,10 +28,10 @@
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50353777",
     "hn:50340970",
     "hn:50340028",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50308386",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "lobsters:5cmg1k",
@@ -64,7 +65,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 49,
+   "points": 50,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -93,6 +94,24 @@
     "hn:50374787",
     "hn:50388417",
     "hn:50312971"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 4,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "last_seen": "2026-11-06T13:52:11Z",
+   "items": [
+    "hn:50349357",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
+    "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
    ]
   },
   {
@@ -148,6 +167,22 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
     "blog:https://seclists.org/oss-sec/2026/q4/457"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 4,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T12:06:35Z",
+   "items": [
+    "hn:50338054",
+    "hn:50379673",
+    "hn:50305871",
+    "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
    ]
   },
   {
@@ -219,21 +254,6 @@
    ]
   },
   {
-   "name": "Anthropic",
-   "threads": 3,
-   "repos": 0,
-   "points": 19,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T14:42:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "hn:50379673"
-   ]
-  },
-  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -263,23 +283,6 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
-   ]
-  },
-  {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58115"
-   ],
-   "last_seen": "2026-11-04T20:58:38Z",
-   "items": [
-    "hn:50349357",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
-    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
    ]
   },
   {
@@ -390,20 +393,18 @@
    ]
   },
   {
-   "name": "WordPress",
+   "name": "backdoors",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-93389"
-   ],
-   "last_seen": "2026-11-05T11:40:44Z",
+   "cves": [],
+   "last_seen": "2026-11-06T10:09:46Z",
    "items": [
-    "hn:50377979",
-    "hn:50375988",
-    "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
+    "hn:50390442",
+    "hn:50335010",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
    ]
   },
   {
@@ -457,6 +458,39 @@
  ],
  "items": [
   {
+   "id": "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+   "source": "rapid7.com",
+   "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+   "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+   "discussion": "https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T13:52:11Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T13:52:11Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T14:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Metasploit Wrapup: Unauth RCE modules in Network Perimeter Devices and much more",
+    "at": "2026-11-06T14:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50391802",
    "source": "hackernews",
    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
@@ -495,7 +529,7 @@
    "title": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-06T12:37:39Z",
    "label": "unpatched_reported",
@@ -1068,8 +1102,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 608,
-   "comments": 226,
+   "points": 619,
+   "comments": 231,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1340,7 +1374,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 46,
+   "points": 47,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1907,7 +1941,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 181,
-   "comments": 227,
+   "comments": 230,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
