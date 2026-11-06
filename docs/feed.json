@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T19:08:07Z",
- "count": 1897,
+ "generated": "2026-11-06T19:38:07Z",
+ "count": 1900,
  "topics": [
   {
    "name": "available",
@@ -37,7 +37,7 @@
    "name": "Linux",
    "threads": 6,
    "repos": 0,
-   "points": 21,
+   "points": 22,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -73,7 +73,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 56,
+   "points": 57,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -459,6 +459,69 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-pjff-c2wc-f6jm",
+   "source": "github-advisory",
+   "title": "LXD has arbitrary file write on client due to trusted image hash (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-pjff-c2wc-f6jm",
+   "discussion": "https://github.com/advisories/GHSA-pjff-c2wc-f6jm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T19:36:55Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-06T19:36:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-fmc8-p6q7-75cc",
+   "source": "github-advisory",
+   "title": "LXD has argument injection in backup compression algorithm leading to AFW and ACE (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-fmc8-p6q7-75cc",
+   "discussion": "https://github.com/advisories/GHSA-fmc8-p6q7-75cc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T19:36:37Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-06T19:36:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-vghh-5rfx-xhq8",
+   "source": "github-advisory",
+   "title": "LXD has arbitrary file read+write on host via rootfs/ symlink in malicious image (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-vghh-5rfx-xhq8",
+   "discussion": "https://github.com/advisories/GHSA-vghh-5rfx-xhq8",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T19:36:07Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-06T19:36:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-jpf8-86f3-wp38",
    "source": "github-advisory",
@@ -1492,7 +1555,7 @@
    "title": "Why Bloat Is Still Software's Biggest Vulnerability",
    "url": "https://spectrum.ieee.org/lean-software-development",
    "discussion": "https://news.ycombinator.com/item?id=50391497",
-   "points": 2,
+   "points": 3,
    "comments": 1,
    "created": "2026-11-06T12:19:57Z",
    "label": "security_news",
@@ -2033,7 +2096,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 693,
-   "comments": 261,
+   "comments": 262,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -2304,7 +2367,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 53,
+   "points": 54,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -2418,7 +2481,7 @@
    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
-   "points": 10,
+   "points": 11,
    "comments": 2,
    "created": "2026-11-05T17:45:47Z",
    "label": "security_news",
@@ -2871,7 +2934,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 183,
-   "comments": 230,
+   "comments": 231,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
