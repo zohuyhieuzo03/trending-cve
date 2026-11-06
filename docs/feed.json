@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T09:38:08Z",
+ "generated": "2026-11-06T10:08:07Z",
  "count": 1860,
  "topics": [
   {
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 41,
+   "points": 43,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -264,6 +264,21 @@
    ]
   },
   {
+   "name": "Anthropic",
+   "threads": 3,
+   "repos": 0,
+   "points": 19,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T14:42:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "hn:50379673"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -383,21 +398,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/472",
     "blog:https://seclists.org/oss-sec/2026/q4/471",
     "blog:https://seclists.org/oss-sec/2026/q4/470"
-   ]
-  },
-  {
-   "name": "malicious",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T11:46:27Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
    ]
   },
   {
@@ -850,8 +850,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 543,
-   "comments": 195,
+   "points": 549,
+   "comments": 198,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1122,7 +1122,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 38,
+   "points": 40,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1989,7 +1989,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -12795,7 +12795,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 87,
+   "points": 88,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -19624,7 +19624,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
