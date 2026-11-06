@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T18:07:08Z",
- "count": 1889,
+ "generated": "2026-11-06T18:37:27Z",
+ "count": 1892,
  "topics": [
   {
    "name": "available",
-   "threads": 19,
+   "threads": 18,
    "repos": 0,
-   "points": 802,
+   "points": 799,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -20,12 +20,11 @@
     "hn:50319143",
     "hn:50314397",
     "hn:50312858",
-    "hn:50351808",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50353777",
     "hn:50340028",
     "hn:50308386",
@@ -253,6 +252,21 @@
    ]
   },
   {
+   "name": "kernel",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T13:35:14Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "hn:50351808",
+    "hn:50340970"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -265,21 +279,6 @@
     "hn:50349249",
     "hn:50352299",
     "hn:50360901"
-   ]
-  },
-  {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-02T18:09:13Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "lobsters:1sni1w",
-    "hn:50340970"
    ]
   },
   {
@@ -354,21 +353,24 @@
    ]
   },
   {
-   "name": "Buffer",
+   "name": "ActiveMQ",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-59267"
+    "CVE-2026-111822",
+    "CVE-2026-108949",
+    "CVE-2026-108946",
+    "CVE-2026-103582"
    ],
-   "last_seen": "2026-11-04T06:00:00Z",
+   "last_seen": "2026-11-03T20:45:39Z",
    "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-873/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
-    "blog:https://seclists.org/oss-sec/2026/q4/498"
+    "blog:https://seclists.org/oss-sec/2026/q4/495",
+    "blog:https://seclists.org/oss-sec/2026/q4/493",
+    "blog:https://seclists.org/oss-sec/2026/q4/492",
+    "blog:https://seclists.org/oss-sec/2026/q4/490"
    ]
   },
   {
@@ -458,6 +460,99 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/561",
+   "source": "seclists.org",
+   "title": "CVE-2026-120832: Apache Axis2/Java: SSRF via WSDL/XSD schema import resolution",
+   "url": "https://seclists.org/oss-sec/2026/q4/561",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/561",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:28:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-120832"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T18:28:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:37:27Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-120832: Apache Axis2/Java: SSRF via WSDL/XSD schema import resolution",
+    "at": "2026-11-06T18:37:27Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/560",
+   "source": "seclists.org",
+   "title": "CVE-2026-120367: Apache Axis2/Java: unbounded JSON request body buffering",
+   "url": "https://seclists.org/oss-sec/2026/q4/560",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/560",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:26:51Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-120367"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T18:26:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:37:27Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-120367: Apache Axis2/Java: unbounded JSON request body buffering",
+    "at": "2026-11-06T18:37:27Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-5w5g-j6hw-6p8f",
+   "source": "github-advisory",
+   "title": "OSAC operator: Kubeconfig credential-plugin execution and SSRF in console proxy (go/github.com/osac-project/osac-operator)",
+   "url": "https://github.com/advisories/GHSA-5w5g-j6hw-6p8f",
+   "discussion": "https://github.com/advisories/GHSA-5w5g-j6hw-6p8f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:12:40Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62284"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-06T18:12:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:37:27Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/559",
    "source": "seclists.org",
@@ -604,7 +699,7 @@
    "title": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chai",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-06T17:04:44Z",
    "label": "exploited_reported",
@@ -1189,7 +1284,7 @@
    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
    "url": "https://www.phoronix.com/news/Zlib-1.4-Released",
    "discussion": "https://news.ycombinator.com/item?id=50391802",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-06T12:59:10Z",
    "label": "security_news",
@@ -1255,7 +1350,7 @@
    "title": "Why Bloat Is Still Software's Biggest Vulnerability",
    "url": "https://spectrum.ieee.org/lean-software-development",
    "discussion": "https://news.ycombinator.com/item?id=50391497",
-   "points": 1,
+   "points": 2,
    "comments": 1,
    "created": "2026-11-06T12:19:57Z",
    "label": "security_news",
@@ -1354,7 +1449,7 @@
    "title": "Lockdown Mode Bypassed in New iPhone Exploit",
    "url": "https://www.privacyguides.org/news/2026/11/06/lockdown-mode-bypassed-in-new-iphone-exploit/",
    "discussion": "https://news.ycombinator.com/item?id=50391063",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-06T11:30:42Z",
    "label": "security_news",
@@ -1795,8 +1890,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 686,
-   "comments": 255,
+   "points": 692,
+   "comments": 257,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
