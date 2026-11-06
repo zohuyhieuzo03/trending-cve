@@ -1,47 +1,43 @@
 {
- "generated": "2026-11-06T18:37:27Z",
- "count": 1892,
+ "generated": "2026-11-06T19:08:07Z",
+ "count": 1897,
  "topics": [
   {
    "name": "available",
-   "threads": 18,
+   "threads": 17,
    "repos": 0,
-   "points": 799,
-   "kev": true,
+   "points": 806,
+   "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-98432",
-    "CVE-2026-111357",
-    "CVE-2026-118527",
-    "CVE-2026-120135"
+    "CVE-2026-98432"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
     "hn:50319143",
     "hn:50314397",
     "hn:50312858",
+    "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
     "hn:50353777",
     "hn:50340028",
-    "hn:50308386",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
-    "blog:https://seclists.org/oss-sec/2026/q4/459",
-    "blog:https://seclists.org/oss-sec/2026/q4/456"
+    "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
   {
    "name": "Linux",
-   "threads": 5,
+   "threads": 6,
    "repos": 0,
-   "points": 19,
+   "points": 21,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -50,6 +46,7 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50374787",
     "hn:50388417",
+    "hn:50340970",
     "hn:50312971",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
@@ -76,7 +73,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 54,
+   "points": 56,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -218,6 +215,22 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 4,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T05:58:54Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "privilege",
    "threads": 3,
    "repos": 1,
@@ -233,37 +246,6 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
-   "name": "backdoor",
-   "threads": 4,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T05:58:54Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "blog:https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
-   ]
-  },
-  {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T13:35:14Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "hn:50351808",
-    "hn:50340970"
    ]
   },
   {
@@ -296,6 +278,23 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
+   ]
+  },
+  {
+   "name": "unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-90436"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
    ]
   },
   {
@@ -395,35 +394,20 @@
    ]
   },
   {
-   "name": "Control",
+   "name": "upgrade-window",
    "threads": 3,
    "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
-   "name": "Core",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
+   "points": 5,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-119977"
    ],
-   "last_seen": "2026-11-04T05:43:11Z",
+   "last_seen": "2026-11-06T18:43:23Z",
    "items": [
-    "hn:50316251",
+    "hn:50377979",
     "hn:50357772",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    "hn:50396504"
    ]
   },
   {
@@ -457,9 +441,167 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
+  },
+  {
+   "name": "backdoors",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T10:09:46Z",
+   "items": [
+    "hn:50390442",
+    "hn:50335010",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-jpf8-86f3-wp38",
+   "source": "github-advisory",
+   "title": "LXD has arbitrary file read+write on host via templates/ symlink in malicious image (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
+   "discussion": "https://github.com/advisories/GHSA-jpf8-86f3-wp38",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:53:57Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-06T18:53:57Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:08:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+   "source": "bluesky",
+   "title": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo274jwss2x",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo274jwss2x",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-06T18:47:09Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T18:47:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.",
+    "at": "2026-11-06T19:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-9j25-mm2h-2f76",
+   "source": "github-advisory",
+   "title": "LXD has arbitrary file write on host via `exec-output` symlink in crafted image (go/github.com/canonical/lxd)",
+   "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
+   "discussion": "https://github.com/advisories/GHSA-9j25-mm2h-2f76",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:45:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-06T18:45:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:08:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50396504",
+   "source": "hackernews",
+   "title": "Attackers Actively Probing for Upgrade-Window RCE Vulnerability in WordPress",
+   "url": "https://www.wordfence.com/blog/2026/11/attackers-actively-probing-for-upgrade-window-rce-vulnerability-in-wordpress-core/",
+   "discussion": "https://news.ycombinator.com/item?id=50396504",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-06T18:43:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T18:43:23Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Attackers Actively Probing for Upgrade-Window RCE Vulnerability in WordPress",
+    "at": "2026-11-06T19:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/562",
+   "source": "seclists.org",
+   "title": "CVE-2026-123779: Apache Axis2/Java: exposeServiceMetadata not enforced on all metadata routes",
+   "url": "https://seclists.org/oss-sec/2026/q4/562",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/562",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:30:34Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123779"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T18:30:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T19:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-123779: Apache Axis2/Java: exposeServiceMetadata not enforced on all metadata routes",
+    "at": "2026-11-06T19:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/561",
    "source": "seclists.org",
@@ -1890,8 +2032,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 692,
-   "comments": 257,
+   "points": 693,
+   "comments": 261,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -2162,7 +2304,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 51,
+   "points": 53,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
