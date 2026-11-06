@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T23:08:07Z",
- "count": 1933,
+ "generated": "2026-11-06T23:38:07Z",
+ "count": 1934,
  "topics": [
   {
    "name": "available",
@@ -73,6 +73,28 @@
     "hn:50340970",
     "hn:50312971",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "Apache",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114442",
+    "CVE-2026-119641",
+    "CVE-2026-111959"
+   ],
+   "last_seen": "2026-11-05T14:41:10Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/479",
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/465",
+    "blog:https://seclists.org/oss-sec/2026/q4/463"
    ]
   },
   {
@@ -382,24 +404,6 @@
    ]
   },
   {
-   "name": "Apache",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119641"
-   ],
-   "last_seen": "2026-11-05T14:41:10Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/463"
-   ]
-  },
-  {
    "name": "Perl",
    "threads": 4,
    "repos": 0,
@@ -472,6 +476,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50399859",
+   "source": "hackernews",
+   "title": "No CVE Today, Please",
+   "url": "https://nocveday.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50399859",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-06T23:20:06Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T23:20:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T23:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "No CVE Today, Please",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50399347",
    "source": "hackernews",
@@ -2440,7 +2477,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-886: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
@@ -2460,7 +2510,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-885: OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
@@ -2480,7 +2543,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-884: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/",
@@ -2500,7 +2576,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-883: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
@@ -2520,7 +2609,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-882: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
@@ -2540,7 +2642,20 @@
      "at": "2026-11-06T22:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-881: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "at": "2026-11-06T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
@@ -2997,7 +3112,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 698,
-   "comments": 271,
+   "comments": 272,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
