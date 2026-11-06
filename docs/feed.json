@@ -1,27 +1,27 @@
 {
- "generated": "2026-11-06T00:38:07Z",
+ "generated": "2026-11-06T01:08:07Z",
  "count": 1854,
  "topics": [
   {
-   "name": "IPv4",
-   "threads": 26,
-   "repos": 3,
-   "points": 910,
+   "name": "Ubuntu",
+   "threads": 27,
+   "repos": 4,
+   "points": 897,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
+    "CVE-2026-112705",
     "CVE-2026-58085",
-    "CVE-2026-59263",
-    "CVE-2026-114442"
+    "CVE-2026-59263"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
     "hn:50319143",
     "hn:50299182",
+    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
     "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
     "hn:50314397",
-    "hn:50298526",
     "ghpoc:Alucard0x1/cve-2026-98432",
     "ghpoc:xen0bit/netprobe-cve-2026-98432",
     "lobsters:mp8yqt",
@@ -29,19 +29,19 @@
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
     "hn:50353777",
     "hn:50349058",
+    "hn:50340970",
     "hn:50340028",
     "hn:50299940",
     "hn:50308386",
+    "hn:50301944",
     "blog:https://seclists.org/oss-sec/2026/q4/496",
-    "blog:https://seclists.org/oss-sec/2026/q4/479",
-    "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
+    "blog:https://seclists.org/oss-sec/2026/q4/479"
    ]
   },
   {
@@ -119,6 +119,26 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "Apache",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119641",
+    "CVE-2026-120135"
+   ],
+   "last_seen": "2026-11-05T14:41:10Z",
+   "items": [
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/463",
+    "blog:https://seclists.org/oss-sec/2026/q4/456"
    ]
   },
   {
@@ -323,24 +343,6 @@
    ]
   },
   {
-   "name": "Apache",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119641"
-   ],
-   "last_seen": "2026-11-05T14:41:10Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/463"
-   ]
-  },
-  {
    "name": "Buffer",
    "threads": 4,
    "repos": 0,
@@ -416,24 +418,6 @@
    ]
   },
   {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112705"
-   ],
-   "last_seen": "2026-11-02T18:09:13Z",
-   "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Control",
    "threads": 3,
    "repos": 0,
@@ -463,6 +447,23 @@
     "lobsters:sfzkeb",
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
+   "name": "privilege",
+   "threads": 2,
+   "repos": 1,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   }
  ],
@@ -676,8 +677,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 272,
-   "comments": 84,
+   "points": 291,
+   "comments": 96,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1514,7 +1515,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 174,
+   "points": 175,
    "comments": 82,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -10617,7 +10618,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -16921,7 +16922,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
