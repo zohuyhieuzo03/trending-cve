@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T08:08:07Z",
+ "generated": "2026-11-06T08:38:08Z",
  "count": 1859,
  "topics": [
   {
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 36,
+   "points": 38,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -850,8 +850,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 496,
-   "comments": 179,
+   "points": 511,
+   "comments": 186,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1122,7 +1122,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 33,
+   "points": 35,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -10309,7 +10309,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 32,
+   "points": 33,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
