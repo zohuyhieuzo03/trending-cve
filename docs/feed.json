@@ -1,49 +1,82 @@
 {
- "generated": "2026-11-06T16:37:39Z",
- "count": 1869,
+ "generated": "2026-11-06T17:08:07Z",
+ "count": 1883,
  "topics": [
   {
-   "name": "Use-After-Free",
-   "threads": 23,
+   "name": "available",
+   "threads": 20,
    "repos": 0,
-   "points": 834,
+   "points": 818,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-98432"
+    "CVE-2026-98432",
+    "CVE-2026-120135"
    ],
-   "last_seen": "2026-11-06T12:37:39Z",
+   "last_seen": "2026-11-06T17:04:44Z",
    "items": [
     "hn:50319143",
     "hn:50314397",
     "lobsters:mp8yqt",
     "hn:50312858",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
     "hn:50351808",
     "hn:50320349",
-    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50353777",
-    "hn:50340970",
     "hn:50340028",
     "hn:50308386",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-874/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://seclists.org/oss-sec/2026/q4/459"
+    "blog:https://seclists.org/oss-sec/2026/q4/459",
+    "blog:https://seclists.org/oss-sec/2026/q4/456"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 5,
+   "repos": 0,
+   "points": 19,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T14:58:32Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50312971",
+    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "Traversal",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-03T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-860/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-858/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-857/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
    ]
   },
   {
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 52,
+   "points": 53,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -56,22 +89,6 @@
     "hn:50389343",
     "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/475"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 4,
-   "repos": 0,
-   "points": 19,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T05:00:14Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50312971"
    ]
   },
   {
@@ -106,26 +123,6 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
-   ]
-  },
-  {
-   "name": "Apache",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119641",
-    "CVE-2026-120135"
-   ],
-   "last_seen": "2026-11-05T14:41:10Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/463",
-    "blog:https://seclists.org/oss-sec/2026/q4/456"
    ]
   },
   {
@@ -249,6 +246,21 @@
    ]
   },
   {
+   "name": "kernel",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-02T18:09:13Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "lobsters:1sni1w",
+    "hn:50340970"
+   ]
+  },
+  {
    "name": "ClickHouse",
    "threads": 3,
    "repos": 0,
@@ -263,6 +275,25 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
+   ]
+  },
+  {
+   "name": "authorization",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-49939",
+    "CVE-2026-100252"
+   ],
+   "last_seen": "2026-11-06T16:54:09Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/548",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
    ]
   },
   {
@@ -283,21 +314,21 @@
    ]
   },
   {
-   "name": "Perl",
+   "name": "Apache",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-74846"
+    "CVE-2026-119641"
    ],
-   "last_seen": "2026-11-04T16:02:31Z",
+   "last_seen": "2026-11-05T14:41:10Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/513",
-    "blog:https://seclists.org/oss-sec/2026/q4/508",
-    "blog:https://seclists.org/oss-sec/2026/q4/478",
-    "blog:https://seclists.org/oss-sec/2026/q4/458"
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/463"
    ]
   },
   {
@@ -316,25 +347,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
     "blog:https://seclists.org/oss-sec/2026/q4/498"
-   ]
-  },
-  {
-   "name": "Authorization",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-108500",
-    "CVE-2026-100252"
-   ],
-   "last_seen": "2026-11-03T20:38:08Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/491",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
    ]
   },
   {
@@ -391,6 +403,21 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -421,42 +448,439 @@
     "hn:50335010",
     "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
    ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T07:46:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/462"
-   ]
-  },
-  {
-   "name": "CVE-2026-116606",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116606",
-    "CVE-2026-111560"
-   ],
-   "last_seen": "2026-11-06T07:29:25Z",
-   "items": [
-    "hn:50385065",
-    "lobsters:hhagfv",
-    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+   "source": "bluesky",
+   "title": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chai",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T17:04:44Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T17:04:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chai",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/551",
+   "source": "seclists.org",
+   "title": "CVE-2026-76171: Apache James: SSRF filter bypass in the JMAP PushSubscription web-push client",
+   "url": "https://seclists.org/oss-sec/2026/q4/551",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/551",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:59:34Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-76171"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:59:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-76171: Apache James: SSRF filter bypass in the JMAP PushSubscription web-push client",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/550",
+   "source": "seclists.org",
+   "title": "CVE-2026-76168: Apache James: ManageSieve file implementation cross-user path traversal",
+   "url": "https://seclists.org/oss-sec/2026/q4/550",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/550",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:57:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-76168"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:57:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-76168: Apache James: ManageSieve file implementation cross-user path traversal",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/549",
+   "source": "seclists.org",
+   "title": "CVE-2026-74756: Apache James: WebAdmin exposed without authentication on official Docker default",
+   "url": "https://seclists.org/oss-sec/2026/q4/549",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/549",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:55:56Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-74756"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:55:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-74756: Apache James: WebAdmin exposed without authentication on official Docker default",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/548",
+   "source": "seclists.org",
+   "title": "CVE-2026-49939: Apache James: Negative IMAP ACL administer authorization bypass through JMAP protocol",
+   "url": "https://seclists.org/oss-sec/2026/q4/548",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/548",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:54:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49939"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:54:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-49939: Apache James: Negative IMAP ACL administer authorization bypass through JMAP protocol",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/547",
+   "source": "seclists.org",
+   "title": "CVE-2025-66621: Apache James: SASL OAUTHBEARER do not validate aud in JWT payload if misconfigred",
+   "url": "https://seclists.org/oss-sec/2026/q4/547",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/547",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:52:23Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-66621"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:52:23Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2025-66621: Apache James: SASL OAUTHBEARER do not validate aud in JWT payload if misconfigred",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/546",
+   "source": "seclists.org",
+   "title": "CVE-2026-90436: Apache Axis 1.x (EOL): unauthenticated remote class instantiation via SOAP fault exceptionName",
+   "url": "https://seclists.org/oss-sec/2026/q4/546",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/546",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:49:15Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-90436"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:49:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-90436: Apache Axis 1.x (EOL): unauthenticated remote class instantiation via SOAP fault exceptionName",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/545",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 528 v1 (CVE-2026-100082) - Linux xen-blkback: guest can trigger use-after-free for reading statistic data",
+   "url": "https://seclists.org/oss-sec/2026/q4/545",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/545",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:47:19Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100082"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:47:19Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/544",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 527 v1 (CVE-2026-100081) - Linux xen-netback: guest can trigger use-after-free for reading multicast data",
+   "url": "https://seclists.org/oss-sec/2026/q4/544",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/544",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:45:31Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100081"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:45:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/543",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 526 v1 (CVE-2026-100080) - Linux xen-netback: guest can trigger use-after-free for",
+   "url": "https://seclists.org/oss-sec/2026/q4/543",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/543",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:43:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-100080"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:43:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/542",
+   "source": "seclists.org",
+   "title": "CVE-2026-121006: HTTP::Body versions before 1.24_02 for Perl parse the trailer in quadratic time",
+   "url": "https://seclists.org/oss-sec/2026/q4/542",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/542",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:41:50Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-121006"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T16:41:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+   "source": "thehackernews.com",
+   "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+   "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+   "discussion": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T16:08:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T16:08:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T15:21:49Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T15:21:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+   "source": "thehackernews.com",
+   "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+   "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+   "discussion": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T14:58:32Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T14:58:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+    "at": "2026-11-06T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
    "source": "rapid7.com",
@@ -1102,8 +1526,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 659,
-   "comments": 248,
+   "points": 668,
+   "comments": 250,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1374,7 +1798,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 49,
+   "points": 50,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -24783,7 +25207,7 @@
    "title": "quyicheng03-boop/CVE-2026-98260-popsicle-android: Target-specific Android CVE-2026-98260 research port for Xiaomi popsicle",
    "url": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
    "discussion": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
-   "points": 25,
+   "points": 26,
    "comments": 0,
    "created": "2026-10-23T08:56:37Z",
    "label": "public_exploit_reported",
