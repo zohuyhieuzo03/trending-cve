@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-06T04:08:07Z",
+ "generated": "2026-11-06T04:38:06Z",
  "count": 1854,
  "topics": [
   {
-   "name": "kernel",
+   "name": "Ubuntu",
    "threads": 24,
    "repos": 4,
    "points": 831,
@@ -250,7 +250,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 25,
+   "points": 27,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -315,7 +315,7 @@
    "name": "Windows",
    "threads": 3,
    "repos": 0,
-   "points": 13,
+   "points": 14,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -374,6 +374,27 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
     "blog:https://seclists.org/oss-sec/2026/q4/498"
+   ]
+  },
+  {
+   "name": "ZooKeeper",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115448",
+    "CVE-2026-100300",
+    "CVE-2026-100252",
+    "CVE-2026-100235"
+   ],
+   "last_seen": "2026-11-03T20:07:28Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/488",
+    "blog:https://seclists.org/oss-sec/2026/q4/486",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://seclists.org/oss-sec/2026/q4/484"
    ]
   },
   {
@@ -445,21 +466,6 @@
     "ghpoc:Lyutoon/CVE-2026-112487",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
-  },
-  {
-   "name": "Commerce",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-   ]
   }
  ],
  "items": [
@@ -504,7 +510,7 @@
    "title": "Remote code execution vulnerability in Microsoft Paint",
    "url": "https://twitter.com/Pirat_Nation/status/2118446148713361874",
    "discussion": "https://news.ycombinator.com/item?id=50384957",
-   "points": 3,
+   "points": 4,
    "comments": 1,
    "created": "2026-11-05T21:50:26Z",
    "label": "security_news",
@@ -672,8 +678,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 377,
-   "comments": 140,
+   "points": 389,
+   "comments": 146,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -738,7 +744,7 @@
    "title": "Windows Paint Remote Code Execution Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50383612",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-11-05T19:53:29Z",
    "label": "security_news",
@@ -944,7 +950,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 25,
+   "points": 27,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1510,7 +1516,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 176,
+   "points": 177,
    "comments": 220,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -10131,7 +10137,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 31,
+   "points": 32,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
