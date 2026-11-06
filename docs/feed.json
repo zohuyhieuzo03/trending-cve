@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T21:08:09Z",
- "count": 1907,
+ "generated": "2026-11-06T21:38:08Z",
+ "count": 1908,
  "topics": [
   {
    "name": "available",
@@ -70,29 +70,10 @@
    ]
   },
   {
-   "name": "unauthenticated",
-   "threads": 4,
-   "repos": 0,
-   "points": 14,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
-   ]
-  },
-  {
    "name": "devices",
    "threads": 4,
    "repos": 0,
-   "points": 12,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -286,7 +267,7 @@
    "threads": 3,
    "repos": 0,
    "points": 9,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-19868"
@@ -457,6 +438,24 @@
     "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
     "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
    ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
+   ]
   }
  ],
  "items": [
@@ -469,16 +468,22 @@
    "points": 3,
    "comments": 0,
    "created": "2026-11-06T20:29:21Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-19868"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-19868"
+   ],
    "first_seen": "2026-11-06T20:29:21Z",
    "label_history": [
     {
      "at": "2026-11-06T20:38:08Z",
      "label": "related"
+    },
+    {
+     "at": "2026-11-06T21:38:08Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -501,7 +506,7 @@
    "title": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and develop",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-06T20:24:37Z",
    "label": "security_news",
@@ -597,7 +602,7 @@
    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems – OpenAI",
    "url": "https://openai.com/index/partnering-with-hacktron/",
    "discussion": "https://news.ycombinator.com/item?id=50397341",
-   "points": 6,
+   "points": 7,
    "comments": 2,
    "created": "2026-11-06T19:41:59Z",
    "label": "security_news",
@@ -2075,6 +2080,30 @@
    }
   },
   {
+   "id": "kev:CVE-2026-19868",
+   "source": "cisa-kev",
+   "title": "CVE-2026-19868: SonicWall SonicOS SSLVPN - SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "kev": [
+    "CVE-2026-19868"
+   ],
+   "first_seen": "2026-11-06T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T21:38:08Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:50385065",
    "source": "hackernews",
    "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
@@ -2284,7 +2313,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 694,
-   "comments": 267,
+   "comments": 268,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -3422,7 +3451,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 14,
+   "points": 15,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -3545,7 +3574,7 @@
    "title": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal c",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzjameegdc2r",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-04T20:58:38Z",
    "label": "zero_day_reported",
@@ -22421,7 +22450,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 87,
+   "points": 88,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -25964,7 +25993,7 @@
    "title": "quyicheng03-boop/CVE-2026-98260-popsicle-android: Target-specific Android CVE-2026-98260 research port for Xiaomi popsicle",
    "url": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
    "discussion": "https://github.com/quyicheng03-boop/CVE-2026-98260-popsicle-android",
-   "points": 26,
+   "points": 27,
    "comments": 0,
    "created": "2026-10-23T08:56:37Z",
    "label": "public_exploit_reported",
