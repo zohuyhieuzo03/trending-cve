@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T08:38:08Z",
- "count": 1859,
+ "generated": "2026-11-06T09:08:08Z",
+ "count": 1860,
  "topics": [
   {
    "name": "Ubuntu",
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 38,
+   "points": 41,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -346,25 +346,6 @@
    ]
   },
   {
-   "name": "path",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-59264",
-    "CVE-2026-118988"
-   ],
-   "last_seen": "2026-11-03T21:42:42Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/497",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
-    "blog:https://seclists.org/oss-sec/2026/q4/447"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -386,18 +367,18 @@
    ]
   },
   {
-   "name": "marketplace",
+   "name": "malicious",
    "threads": 3,
    "repos": 0,
-   "points": 9,
+   "points": 7,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T16:03:44Z",
+   "last_seen": "2026-11-04T11:46:27Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "hn:50305871",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
    ]
   },
   {
@@ -465,6 +446,21 @@
     "hn:50385065",
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
+   ]
+  },
+  {
+   "name": "deliver",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T05:17:04Z",
+   "items": [
+    "hn:50350798",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   }
  ],
@@ -850,8 +846,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 511,
-   "comments": 186,
+   "points": 528,
+   "comments": 190,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1122,7 +1118,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 35,
+   "points": 38,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1689,7 +1685,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 180,
-   "comments": 222,
+   "comments": 223,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -1982,6 +1978,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
+   "source": "github-poc",
+   "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
+   "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
+   "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
+   "points": 12,
+   "comments": 0,
+   "created": "2026-11-05T03:16:47Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-05T03:16:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T09:08:08Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "hn:50373223",
@@ -10309,7 +10327,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 33,
+   "points": 34,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
