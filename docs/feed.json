@@ -1,66 +1,43 @@
 {
- "generated": "2026-11-06T15:38:07Z",
+ "generated": "2026-11-06T16:08:07Z",
  "count": 1869,
  "topics": [
   {
    "name": "kernel",
-   "threads": 22,
-   "repos": 2,
-   "points": 838,
-   "kev": true,
+   "threads": 23,
+   "repos": 1,
+   "points": 834,
+   "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-98432",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-98432"
    ],
-   "last_seen": "2026-11-06T12:06:43Z",
+   "last_seen": "2026-11-06T12:37:39Z",
    "items": [
     "hn:50319143",
     "hn:50314397",
     "ghpoc:Alucard0x1/cve-2026-98432",
-    "ghpoc:xen0bit/netprobe-cve-2026-98432",
     "lobsters:mp8yqt",
     "hn:50312858",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
-    "hn:50305855",
     "hn:50351808",
     "hn:50320349",
     "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50353777",
     "hn:50340970",
     "hn:50340028",
     "hn:50308386",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
-   ]
-  },
-  {
-   "name": "Perl",
-   "threads": 7,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-74846"
-   ],
-   "last_seen": "2026-11-04T16:02:31Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/513",
-    "blog:https://seclists.org/oss-sec/2026/q4/508",
-    "blog:https://seclists.org/oss-sec/2026/q4/478",
-    "blog:https://seclists.org/oss-sec/2026/q4/458",
-    "blog:https://seclists.org/oss-sec/2026/q4/451",
-    "blog:https://seclists.org/oss-sec/2026/q4/450",
-    "blog:https://seclists.org/oss-sec/2026/q4/449"
    ]
   },
   {
@@ -169,22 +146,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
     "blog:https://seclists.org/oss-sec/2026/q4/457"
-   ]
-  },
-  {
-   "name": "Claude",
-   "threads": 4,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T12:06:35Z",
-   "items": [
-    "hn:50338054",
-    "hn:50379673",
-    "hn:50305871",
-    "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
    ]
   },
   {
@@ -305,6 +266,24 @@
    ]
   },
   {
+   "name": "Perl",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-74846"
+   ],
+   "last_seen": "2026-11-04T16:02:31Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/513",
+    "blog:https://seclists.org/oss-sec/2026/q4/508",
+    "blog:https://seclists.org/oss-sec/2026/q4/478",
+    "blog:https://seclists.org/oss-sec/2026/q4/458"
+   ]
+  },
+  {
    "name": "Buffer",
    "threads": 4,
    "repos": 0,
@@ -358,6 +337,21 @@
     "hn:50316251",
     "hn:50357772",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T12:06:35Z",
+   "items": [
+    "hn:50338054",
+    "hn:50379673",
+    "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
    ]
   },
   {
@@ -1104,8 +1098,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 639,
-   "comments": 241,
+   "points": 647,
+   "comments": 243,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -2243,7 +2237,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 13,
+   "points": 14,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -19442,7 +19436,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 21,
+   "points": 22,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
