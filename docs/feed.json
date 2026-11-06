@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-06T06:38:09Z",
- "count": 1856,
+ "generated": "2026-11-06T07:07:57Z",
+ "count": 1857,
  "topics": [
   {
-   "name": "kernel",
+   "name": "Ubuntu",
    "threads": 24,
    "repos": 4,
    "points": 831,
@@ -268,7 +268,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 28,
+   "points": 31,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -365,6 +365,25 @@
    ]
   },
   {
+   "name": "path",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-59264",
+    "CVE-2026-118988"
+   ],
+   "last_seen": "2026-11-03T21:42:42Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/497",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "blog:https://seclists.org/oss-sec/2026/q4/447"
+   ]
+  },
+  {
    "name": "ZooKeeper",
    "threads": 4,
    "repos": 0,
@@ -422,21 +441,6 @@
    ]
   },
   {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -472,6 +476,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T05:58:54Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T05:58:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T07:07:57Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "at": "2026-11-06T07:07:57Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50388417",
    "source": "hackernews",
@@ -749,8 +786,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 444,
-   "comments": 170,
+   "points": 462,
+   "comments": 175,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1021,7 +1058,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 28,
+   "points": 31,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
