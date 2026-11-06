@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T21:38:08Z",
- "count": 1908,
+ "generated": "2026-11-06T22:08:07Z",
+ "count": 1909,
  "topics": [
   {
    "name": "available",
@@ -215,7 +215,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 61,
+   "points": 62,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -460,6 +460,41 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/564",
+   "source": "seclists.org",
+   "title": "[oss-security][CVE-2026-119170] Regression in FIPS enforcement of hash algorithms affecting only Python 3.14.10",
+   "url": "https://seclists.org/oss-sec/2026/q4/564",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/564",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T21:41:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-119170"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T21:41:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "[oss-security][CVE-2026-119170] Regression in FIPS enforcement of hash algorithms affecting only Python 3.14.10",
+    "at": "2026-11-06T22:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50398020",
    "source": "hackernews",
    "title": "SonicWall SonicOS SSLVPN auth bypass (CVE-2026-19868)",
@@ -506,7 +541,7 @@
    "title": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and develop",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-06T20:24:37Z",
    "label": "security_news",
@@ -1682,7 +1717,7 @@
    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
    "url": "https://www.phoronix.com/news/Zlib-1.4-Released",
    "discussion": "https://news.ycombinator.com/item?id=50391802",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-06T12:59:10Z",
    "label": "security_news",
@@ -2584,7 +2619,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 58,
+   "points": 59,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -16426,7 +16461,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 52,
+   "points": 53,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -19694,7 +19729,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
