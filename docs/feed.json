@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T10:08:07Z",
- "count": 1860,
+ "generated": "2026-11-06T10:37:07Z",
+ "count": 1862,
  "topics": [
   {
-   "name": "kernel",
-   "threads": 24,
+   "name": "IPv4",
+   "threads": 23,
    "repos": 3,
-   "points": 831,
+   "points": 830,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -36,12 +36,12 @@
     "hn:50340970",
     "hn:50340028",
     "hn:50308386",
-    "hn:50301944",
     "blog:https://seclists.org/oss-sec/2026/q4/496",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527"
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+    "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
   {
@@ -246,24 +246,6 @@
    ]
   },
   {
-   "name": "WordPress",
-   "threads": 4,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-93389"
-   ],
-   "last_seen": "2026-11-05T11:40:44Z",
-   "items": [
-    "hn:50377979",
-    "hn:50375988",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-    "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
-   ]
-  },
-  {
    "name": "Anthropic",
    "threads": 3,
    "repos": 0,
@@ -361,25 +343,6 @@
    ]
   },
   {
-   "name": "path",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-59264",
-    "CVE-2026-118988"
-   ],
-   "last_seen": "2026-11-03T21:42:42Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/497",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
-    "blog:https://seclists.org/oss-sec/2026/q4/447"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -435,6 +398,23 @@
    ]
   },
   {
+   "name": "WordPress",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-93389"
+   ],
+   "last_seen": "2026-11-05T11:40:44Z",
+   "items": [
+    "hn:50377979",
+    "hn:50375988",
+    "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
+   ]
+  },
+  {
    "name": "Google",
    "threads": 3,
    "repos": 0,
@@ -466,9 +446,57 @@
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
    ]
+  },
+  {
+   "name": "deliver",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T05:17:04Z",
+   "items": [
+    "hn:50350798",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50390442",
+   "source": "hackernews",
+   "title": "Ask HN: Has anyone used LLMs to audit TrueCrypt for backdoors?",
+   "url": "https://news.ycombinator.com/item?id=50390442",
+   "discussion": "https://news.ycombinator.com/item?id=50390442",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-06T10:09:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T10:09:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T10:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Ask HN: Has anyone used LLMs to audit TrueCrypt for backdoors?",
+    "at": "2026-11-06T10:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50389343",
    "source": "hackernews",
@@ -850,8 +878,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 549,
-   "comments": 198,
+   "points": 556,
+   "comments": 200,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -2138,6 +2166,30 @@
     "votes": 1,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4",
+   "source": "github-poc",
+   "title": "Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4: ",
+   "url": "https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4",
+   "discussion": "https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4",
+   "points": 17,
+   "comments": 0,
+   "created": "2026-11-04T18:16:40Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "kev": [
+    "CVE-2026-119977"
+   ],
+   "first_seen": "2026-11-04T18:16:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T10:37:07Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
@@ -12795,7 +12847,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 88,
+   "points": 89,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -20964,7 +21016,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 84,
+   "points": 85,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
