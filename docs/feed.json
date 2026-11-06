@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T11:38:07Z",
+ "generated": "2026-11-06T12:08:07Z",
  "count": 1863,
  "topics": [
   {
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 45,
+   "points": 47,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -913,8 +913,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 563,
-   "comments": 204,
+   "points": 571,
+   "comments": 208,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1185,7 +1185,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 42,
+   "points": 44,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1752,7 +1752,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 180,
-   "comments": 224,
+   "comments": 225,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
