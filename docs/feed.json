@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-06T16:08:07Z",
+ "generated": "2026-11-06T16:37:39Z",
  "count": 1869,
  "topics": [
   {
-   "name": "kernel",
+   "name": "Use-After-Free",
    "threads": 23,
-   "repos": 1,
+   "repos": 0,
    "points": 834,
    "kev": false,
    "vendor": false,
@@ -16,7 +16,6 @@
    "items": [
     "hn:50319143",
     "hn:50314397",
-    "ghpoc:Alucard0x1/cve-2026-98432",
     "lobsters:mp8yqt",
     "hn:50312858",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
@@ -201,6 +200,24 @@
    ]
   },
   {
+   "name": "privilege",
+   "threads": 3,
+   "repos": 1,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
+  },
+  {
    "name": "backdoor",
    "threads": 4,
    "repos": 0,
@@ -302,6 +319,25 @@
    ]
   },
   {
+   "name": "Authorization",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-108500",
+    "CVE-2026-100252"
+   ],
+   "last_seen": "2026-11-03T20:38:08Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/491",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
+   ]
+  },
+  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -372,23 +408,6 @@
    ]
   },
   {
-   "name": "privilege",
-   "threads": 2,
-   "repos": 1,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112487"
-   ],
-   "last_seen": "2026-11-04T23:33:14Z",
-   "items": [
-    "hn:50372929",
-    "ghpoc:Lyutoon/CVE-2026-112487",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
    "name": "backdoors",
    "threads": 3,
    "repos": 0,
@@ -434,21 +453,6 @@
     "hn:50385065",
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   }
  ],
@@ -1098,8 +1102,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 647,
-   "comments": 243,
+   "points": 659,
+   "comments": 248,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
