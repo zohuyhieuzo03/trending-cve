@@ -1,20 +1,18 @@
 {
- "generated": "2026-11-06T13:38:07Z",
+ "generated": "2026-11-06T14:07:07Z",
  "count": 1868,
  "topics": [
   {
-   "name": "available",
+   "name": "Mitigation",
    "threads": 21,
    "repos": 2,
-   "points": 828,
-   "kev": true,
+   "points": 829,
+   "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-98432",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-98432"
    ],
-   "last_seen": "2026-11-06T12:06:43Z",
+   "last_seen": "2026-11-06T12:37:39Z",
    "items": [
     "hn:50319143",
     "hn:50314397",
@@ -32,12 +30,12 @@
     "hn:50353777",
     "hn:50340970",
     "hn:50340028",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50308386",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -66,7 +64,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 48,
+   "points": 49,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -497,7 +495,7 @@
    "title": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-11-06T12:37:39Z",
    "label": "unpatched_reported",
@@ -1070,8 +1068,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 598,
-   "comments": 222,
+   "points": 608,
+   "comments": 226,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1342,7 +1340,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 45,
+   "points": 46,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1908,7 +1906,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 180,
+   "points": 181,
    "comments": 227,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
