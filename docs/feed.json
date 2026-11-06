@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:38:08Z",
+ "generated": "2026-11-06T21:08:09Z",
  "count": 1907,
  "topics": [
   {
@@ -234,7 +234,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 59,
+   "points": 61,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -279,6 +279,23 @@
     "hn:50349249",
     "hn:50352299",
     "hn:50360901"
+   ]
+  },
+  {
+   "name": "SonicWall",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "last_seen": "2026-11-06T20:29:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
+    "hn:50398020",
+    "blog:https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
    ]
   },
   {
@@ -378,23 +395,6 @@
    ]
   },
   {
-   "name": "SonicWall",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "last_seen": "2026-11-06T20:29:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
-    "hn:50398020",
-    "blog:https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
-   ]
-  },
-  {
    "name": "upgrade-window",
    "threads": 3,
    "repos": 0,
@@ -466,7 +466,7 @@
    "title": "SonicWall SonicOS SSLVPN auth bypass (CVE-2026-19868)",
    "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014",
    "discussion": "https://news.ycombinator.com/item?id=50398020",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-06T20:29:21Z",
    "label": "related",
@@ -501,7 +501,7 @@
    "title": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and develop",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-11-06T20:24:37Z",
    "label": "security_news",
@@ -597,8 +597,8 @@
    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems – OpenAI",
    "url": "https://openai.com/index/partnering-with-hacktron/",
    "discussion": "https://news.ycombinator.com/item?id=50397341",
-   "points": 5,
-   "comments": 0,
+   "points": 6,
+   "comments": 2,
    "created": "2026-11-06T19:41:59Z",
    "label": "security_news",
    "cves": [],
@@ -2284,7 +2284,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 694,
-   "comments": 264,
+   "comments": 267,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -2555,7 +2555,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 56,
+   "points": 58,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -11788,7 +11788,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 36,
+   "points": 37,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
