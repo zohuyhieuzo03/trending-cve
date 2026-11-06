@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-06T05:07:38Z",
+ "generated": "2026-11-06T05:38:07Z",
  "count": 1856,
  "topics": [
   {
-   "name": "kernel",
+   "name": "Ubuntu",
    "threads": 24,
    "repos": 4,
    "points": 831,
@@ -247,6 +247,22 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 4,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+   ]
+  },
+  {
    "name": "WordPress",
    "threads": 4,
    "repos": 0,
@@ -401,21 +417,6 @@
    ]
   },
   {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -473,7 +474,7 @@
    "url": "https://gno.security/repairer/",
    "discussion": "https://news.ycombinator.com/item?id=50388417",
    "points": 1,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-06T05:00:14Z",
    "label": "security_news",
    "cves": [],
@@ -743,8 +744,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 400,
-   "comments": 149,
+   "points": 416,
+   "comments": 154,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
