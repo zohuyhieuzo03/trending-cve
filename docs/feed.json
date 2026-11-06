@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-06T12:37:07Z",
- "count": 1864,
+ "generated": "2026-11-06T13:08:07Z",
+ "count": 1868,
  "topics": [
   {
    "name": "IPv4",
-   "threads": 20,
+   "threads": 21,
    "repos": 3,
    "points": 828,
    "kev": true,
@@ -14,7 +14,7 @@
     "CVE-2026-111357",
     "CVE-2026-118527"
    ],
-   "last_seen": "2026-11-04T15:58:09Z",
+   "last_seen": "2026-11-06T12:06:43Z",
    "items": [
     "hn:50319143",
     "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
@@ -34,6 +34,7 @@
     "hn:50340970",
     "hn:50340028",
     "hn:50308386",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
@@ -43,14 +44,13 @@
   },
   {
    "name": "Perl",
-   "threads": 8,
+   "threads": 7,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-74846",
-    "CVE-2026-87768"
+    "CVE-2026-74846"
    ],
    "last_seen": "2026-11-04T16:02:31Z",
    "items": [
@@ -60,33 +60,14 @@
     "blog:https://seclists.org/oss-sec/2026/q4/458",
     "blog:https://seclists.org/oss-sec/2026/q4/451",
     "blog:https://seclists.org/oss-sec/2026/q4/450",
-    "blog:https://seclists.org/oss-sec/2026/q4/449",
-    "blog:https://seclists.org/oss-sec/2026/q4/446"
-   ]
-  },
-  {
-   "name": "Traversal",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-860/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-858/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-857/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+    "blog:https://seclists.org/oss-sec/2026/q4/449"
    ]
   },
   {
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 47,
+   "points": 48,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -225,6 +206,37 @@
    ]
   },
   {
+   "name": "backdoor",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T05:58:54Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "blog:https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "threads": 3,
+   "repos": 0,
+   "points": 19,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T14:42:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "hn:50379673"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -254,21 +266,6 @@
     "hn:50309629",
     "hn:50309756",
     "hn:50349501"
-   ]
-  },
-  {
-   "name": "infrastructure",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T22:19:06Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzb3u7gagv25",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
    ]
   },
   {
@@ -345,18 +342,20 @@
    ]
   },
   {
-   "name": "malicious",
+   "name": "Core",
    "threads": 3,
    "repos": 0,
-   "points": 7,
-   "kev": false,
+   "points": 6,
+   "kev": true,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T11:46:27Z",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-04T05:43:11Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+    "hn:50316251",
+    "hn:50357772",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
   },
   {
@@ -461,6 +460,72 @@
  ],
  "items": [
   {
+   "id": "hn:50391802",
+   "source": "hackernews",
+   "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
+   "url": "https://www.phoronix.com/news/Zlib-1.4-Released",
+   "discussion": "https://news.ycombinator.com/item?id=50391802",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-06T12:59:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:59:10Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T13:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
+    "at": "2026-11-06T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
+   "source": "bluesky",
+   "title": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T12:37:39Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:37:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T13:08:07Z",
+     "label": "unpatched_reported"
+    }
+   ],
+   "llm": {
+    "title": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
+    "at": "2026-11-06T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50391497",
    "source": "hackernews",
    "title": "Why Bloat Is Still Software's Biggest Vulnerability",
@@ -486,6 +551,72 @@
      "claude:haiku": {
       "status": "not_exploited",
       "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "source": "thehackernews.com",
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "discussion": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T12:06:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:06:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T13:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "at": "2026-11-06T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "source": "thehackernews.com",
+   "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "discussion": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T12:06:35Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:06:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T13:08:07Z",
+     "label": "supply_chain"
+    }
+   ],
+   "llm": {
+    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+    "at": "2026-11-06T13:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
@@ -940,8 +1071,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 575,
-   "comments": 211,
+   "points": 586,
+   "comments": 216,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1212,7 +1343,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 44,
+   "points": 45,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -7472,7 +7603,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 21,
+   "points": 22,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
@@ -12909,7 +13040,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 90,
+   "points": 91,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -21078,7 +21209,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 86,
+   "points": 87,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
