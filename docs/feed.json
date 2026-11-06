@@ -1,17 +1,16 @@
 {
- "generated": "2026-11-06T12:08:07Z",
- "count": 1863,
+ "generated": "2026-11-06T12:37:07Z",
+ "count": 1864,
  "topics": [
   {
    "name": "IPv4",
-   "threads": 23,
+   "threads": 20,
    "repos": 3,
-   "points": 830,
+   "points": 828,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-59263",
     "CVE-2026-111357",
     "CVE-2026-118527"
    ],
@@ -32,11 +31,9 @@
     "hn:50349491",
     "hn:50322542",
     "hn:50353777",
-    "hn:50349058",
     "hn:50340970",
     "hn:50340028",
     "hn:50308386",
-    "blog:https://seclists.org/oss-sec/2026/q4/496",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
@@ -327,25 +324,6 @@
    ]
   },
   {
-   "name": "path",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-59264",
-    "CVE-2026-118988"
-   ],
-   "last_seen": "2026-11-03T21:42:42Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/497",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
-    "blog:https://seclists.org/oss-sec/2026/q4/447"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 4,
    "repos": 0,
@@ -379,23 +357,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
     "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
-   ]
-  },
-  {
-   "name": "Core",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-04T05:43:11Z",
-   "items": [
-    "hn:50316251",
-    "hn:50357772",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
   },
   {
@@ -463,9 +424,75 @@
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
+  },
+  {
+   "name": "CVE-2026-116606",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116606",
+    "CVE-2026-111560"
+   ],
+   "last_seen": "2026-11-06T07:29:25Z",
+   "items": [
+    "hn:50385065",
+    "lobsters:hhagfv",
+    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
+   ]
+  },
+  {
+   "name": "deliver",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T05:17:04Z",
+   "items": [
+    "hn:50350798",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50391497",
+   "source": "hackernews",
+   "title": "Why Bloat Is Still Software's Biggest Vulnerability",
+   "url": "https://spectrum.ieee.org/lean-software-development",
+   "discussion": "https://news.ycombinator.com/item?id=50391497",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-11-06T12:19:57Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:19:57Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T12:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Why Bloat Is Still Software's Biggest Vulnerability",
+    "at": "2026-11-06T12:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50391063",
    "source": "hackernews",
@@ -913,8 +940,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 571,
-   "comments": 208,
+   "points": 575,
+   "comments": 211,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -10418,7 +10445,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 34,
+   "points": 35,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
@@ -12882,7 +12909,7 @@
    "title": "Again1996-bit/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-   "points": 89,
+   "points": 90,
    "comments": 0,
    "created": "2026-10-29T05:12:04Z",
    "label": "public_exploit_reported",
@@ -21051,7 +21078,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 85,
+   "points": 86,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
@@ -21155,7 +21182,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 85,
+   "points": 86,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
