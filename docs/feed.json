@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T01:38:07Z",
+ "generated": "2026-11-06T02:08:07Z",
  "count": 1854,
  "topics": [
   {
@@ -250,7 +250,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 20,
+   "points": 22,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -262,6 +262,21 @@
     "lobsters:x2hcss",
     "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/475"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T17:45:47Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50312971"
    ]
   },
   {
@@ -277,21 +292,6 @@
     "hn:50349249",
     "hn:50352299",
     "hn:50360901"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 3,
-   "repos": 0,
-   "points": 15,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T17:45:47Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50312971"
    ]
   },
   {
@@ -672,8 +672,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 315,
-   "comments": 102,
+   "points": 326,
+   "comments": 112,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -944,7 +944,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 20,
+   "points": 22,
    "comments": 0,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1058,7 +1058,7 @@
    "title": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configu",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlgci3o3525",
-   "points": 9,
+   "points": 10,
    "comments": 1,
    "created": "2026-11-05T17:45:47Z",
    "label": "security_news",
@@ -7158,7 +7158,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 16,
+   "points": 17,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
@@ -20764,7 +20764,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 81,
+   "points": 82,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
