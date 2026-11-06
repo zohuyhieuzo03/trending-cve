@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-05T23:37:55Z",
- "count": 1848,
+ "generated": "2026-11-06T00:08:07Z",
+ "count": 1854,
  "topics": [
   {
-   "name": "Protecting",
-   "threads": 26,
-   "repos": 3,
-   "points": 917,
-   "kev": false,
+   "name": "Ubuntu",
+   "threads": 27,
+   "repos": 4,
+   "points": 914,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085",
     "CVE-2026-114442",
-    "CVE-2026-120135"
+    "CVE-2026-111357"
    ],
    "last_seen": "2026-11-04T15:58:09Z",
    "items": [
@@ -23,13 +23,14 @@
     "hn:50314397",
     "hn:50298526",
     "ghpoc:Alucard0x1/cve-2026-98432",
+    "ghpoc:xen0bit/netprobe-cve-2026-98432",
     "ghpoc:H1z3-br0/CVE-2026-98432",
     "lobsters:mp8yqt",
     "hn:50312858",
-    "hn:50297892",
     "hn:50305855",
     "hn:50351808",
     "hn:50320349",
+    "lobsters:1sni1w",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -40,8 +41,7 @@
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
    ]
   },
   {
@@ -418,24 +418,6 @@
    ]
   },
   {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112705"
-   ],
-   "last_seen": "2026-11-02T18:09:13Z",
-   "items": [
-    "ghpoc:MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-    "lobsters:1sni1w",
-    "hn:50340970",
-    "hn:50301944"
-   ]
-  },
-  {
    "name": "Control",
    "threads": 3,
    "repos": 0,
@@ -465,6 +447,23 @@
     "lobsters:sfzkeb",
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
+   "name": "privilege",
+   "threads": 2,
+   "repos": 1,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   }
  ],
@@ -678,8 +677,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 231,
-   "comments": 62,
+   "points": 251,
+   "comments": 70,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1516,7 +1515,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 172,
+   "points": 174,
    "comments": 82,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -2076,6 +2075,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:Haor/CVE-2026-98260-OPD2513",
+   "source": "github-poc",
+   "title": "Haor/CVE-2026-98260-OPD2513: ",
+   "url": "https://github.com/Haor/CVE-2026-98260-OPD2513",
+   "discussion": "https://github.com/Haor/CVE-2026-98260-OPD2513",
+   "points": 12,
+   "comments": 0,
+   "created": "2026-11-04T16:21:12Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T16:21:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/515",
@@ -7137,6 +7158,28 @@
    }
   },
   {
+   "id": "ghpoc:0xjohnnydev/CVE-2026-112688-backboardd",
+   "source": "github-poc",
+   "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
+   "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
+   "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
+   "points": 16,
+   "comments": 0,
+   "created": "2026-11-02T05:45:28Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112688"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-02T05:45:28Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/464",
    "source": "seclists.org",
    "title": "Multiple vulnerabilities in C-Kermit",
@@ -9789,6 +9832,28 @@
    }
   },
   {
+   "id": "ghpoc:xen0bit/netprobe-cve-2026-98432",
+   "source": "github-poc",
+   "title": "xen0bit/netprobe-cve-2026-98432: You should patch, but not worry about CVE-2026-98432",
+   "url": "https://github.com/xen0bit/netprobe-cve-2026-98432",
+   "discussion": "https://github.com/xen0bit/netprobe-cve-2026-98432",
+   "points": 17,
+   "comments": 0,
+   "created": "2026-10-30T15:38:53Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T15:38:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
    "source": "thehackernews.com",
    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
@@ -11365,6 +11430,28 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:typhoon1217/cve-2026-98432-mitigation",
+   "source": "github-poc",
+   "title": "typhoon1217/cve-2026-98432-mitigation: Temporary mitigation for CVE-2026-98432 (Linux IPv4 TCP ireq_opt use-after-free): drop IPv4 TCP with IP options, disable MPTCP. Tested scrip",
+   "url": "https://github.com/typhoon1217/cve-2026-98432-mitigation",
+   "discussion": "https://github.com/typhoon1217/cve-2026-98432-mitigation",
+   "points": 12,
+   "comments": 0,
+   "created": "2026-10-29T17:22:03Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T17:22:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/435",
@@ -15015,6 +15102,28 @@
    }
   },
   {
+   "id": "ghpoc:speedyfriend433/CVE-2026-43664",
+   "source": "github-poc",
+   "title": "speedyfriend433/CVE-2026-43664: AirPods Bluetooth MAC Address Disclosure via NSUserDefaults",
+   "url": "https://github.com/speedyfriend433/CVE-2026-43664",
+   "discussion": "https://github.com/speedyfriend433/CVE-2026-43664",
+   "points": 14,
+   "comments": 0,
+   "created": "2026-10-28T10:50:39Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-43664"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T10:50:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
    "source": "bluesky",
    "title": "CISA has confirmed that hackers are actively exploiting a critical Brotli vulnerability (CVE-2026-111497), also known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
@@ -17987,6 +18096,28 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:speedyfriend433/CVE-2026-84636-PoC",
+   "source": "github-poc",
+   "title": "speedyfriend433/CVE-2026-84636-PoC: Proof of concept of CVE-2026-84636, WiFi SSID Info Disclosure",
+   "url": "https://github.com/speedyfriend433/CVE-2026-84636-PoC",
+   "discussion": "https://github.com/speedyfriend433/CVE-2026-84636-PoC",
+   "points": 16,
+   "comments": 0,
+   "created": "2026-10-27T11:20:13Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-84636"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-27T11:20:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T00:08:07Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myu2bnpk6t2u",
