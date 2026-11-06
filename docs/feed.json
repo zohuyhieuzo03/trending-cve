@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T11:08:07Z",
- "count": 1862,
+ "generated": "2026-11-06T11:38:07Z",
+ "count": 1863,
  "topics": [
   {
    "name": "IPv4",
@@ -89,7 +89,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 44,
+   "points": 45,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -118,24 +118,6 @@
     "hn:50374787",
     "hn:50388417",
     "hn:50312971"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 4,
-   "repos": 0,
-   "points": 14,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-06T04:58:46Z",
-   "items": [
-    "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3nyeniel2u",
-    "hn:50330754",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
   },
   {
@@ -310,6 +292,23 @@
    ]
   },
   {
+   "name": "Windows",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-15603"
+   ],
+   "last_seen": "2026-11-06T04:58:46Z",
+   "items": [
+    "hn:50383612",
+    "hn:50330754",
+    "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
    "name": "Buffer",
    "threads": 4,
    "repos": 0,
@@ -325,6 +324,25 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
     "blog:https://seclists.org/oss-sec/2026/q4/498"
+   ]
+  },
+  {
+   "name": "path",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-59264",
+    "CVE-2026-118988"
+   ],
+   "last_seen": "2026-11-03T21:42:42Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/497",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "blog:https://seclists.org/oss-sec/2026/q4/447"
    ]
   },
   {
@@ -361,6 +379,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "blog:https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
     "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+   ]
+  },
+  {
+   "name": "Core",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-04T05:43:11Z",
+   "items": [
+    "hn:50316251",
+    "hn:50357772",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
   },
   {
@@ -428,42 +463,42 @@
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
     "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
-  },
-  {
-   "name": "CVE-2026-116606",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116606",
-    "CVE-2026-111560"
-   ],
-   "last_seen": "2026-11-06T07:29:25Z",
-   "items": [
-    "hn:50385065",
-    "lobsters:hhagfv",
-    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
-  },
-  {
-   "name": "deliver",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T05:17:04Z",
-   "items": [
-    "hn:50350798",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50391063",
+   "source": "hackernews",
+   "title": "Lockdown Mode Bypassed in New iPhone Exploit",
+   "url": "https://www.privacyguides.org/news/2026/11/06/lockdown-mode-bypassed-in-new-iphone-exploit/",
+   "discussion": "https://news.ycombinator.com/item?id=50391063",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-06T11:30:42Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T11:30:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T11:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Lockdown Mode Bypassed in New iPhone Exploit",
+    "at": "2026-11-06T11:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50390442",
    "source": "hackernews",
@@ -878,8 +913,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 559,
-   "comments": 200,
+   "points": 563,
+   "comments": 204,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1150,7 +1185,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 41,
+   "points": 42,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1717,7 +1752,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 180,
-   "comments": 223,
+   "comments": 224,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
