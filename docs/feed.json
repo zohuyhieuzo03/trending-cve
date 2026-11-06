@@ -1,38 +1,39 @@
 {
- "generated": "2026-11-06T17:37:43Z",
- "count": 1885,
+ "generated": "2026-11-06T18:07:08Z",
+ "count": 1889,
  "topics": [
   {
    "name": "available",
-   "threads": 20,
+   "threads": 19,
    "repos": 0,
-   "points": 819,
-   "kev": false,
+   "points": 802,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
+    "CVE-2026-111357",
+    "CVE-2026-118527",
     "CVE-2026-120135"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
     "hn:50319143",
     "hn:50314397",
-    "lobsters:mp8yqt",
     "hn:50312858",
     "hn:50351808",
     "hn:50320349",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50353777",
     "hn:50340028",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50308386",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459",
     "blog:https://seclists.org/oss-sec/2026/q4/456"
    ]
@@ -76,7 +77,7 @@
    "name": "bypass",
    "threads": 4,
    "repos": 0,
-   "points": 53,
+   "points": 54,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -123,6 +124,27 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "authorization",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-49939",
+    "CVE-2026-108500",
+    "CVE-2026-100252"
+   ],
+   "last_seen": "2026-11-06T16:54:09Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/548",
+    "blog:https://seclists.org/oss-sec/2026/q4/491",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
    ]
   },
   {
@@ -278,22 +300,22 @@
    ]
   },
   {
-   "name": "authorization",
+   "name": "Entity",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-49939",
-    "CVE-2026-100252"
+    "CVE-2026-120761",
+    "CVE-2026-119724"
    ],
-   "last_seen": "2026-11-06T16:54:09Z",
+   "last_seen": "2026-11-06T17:36:55Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/548",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
+    "blog:https://seclists.org/oss-sec/2026/q4/556",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-864/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-862/",
+    "blog:https://seclists.org/oss-sec/2026/q4/466"
    ]
   },
   {
@@ -371,6 +393,21 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "Core",
    "threads": 3,
    "repos": 0,
@@ -403,21 +440,6 @@
    ]
   },
   {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -433,31 +455,156 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
-  },
-  {
-   "name": "backdoors",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T10:09:46Z",
-   "items": [
-    "hn:50390442",
-    "hn:50335010",
-    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/559",
+   "source": "seclists.org",
+   "title": "CVE-2026-123770: Apache Axis2/Java: Unbounded multipart and form-encoded request bodies",
+   "url": "https://seclists.org/oss-sec/2026/q4/559",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/559",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T17:42:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123770"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T17:42:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:07:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-123770: Apache Axis2/Java: Unbounded multipart and form-encoded request bodies",
+    "at": "2026-11-06T18:07:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/558",
+   "source": "seclists.org",
+   "title": "CVE-2026-123766: Apache Axis2/Java: Cross-site scripting in the OpenAPI module's Swagger UI page",
+   "url": "https://seclists.org/oss-sec/2026/q4/558",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/558",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T17:41:03Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123766"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T17:41:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:07:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-123766: Apache Axis2/Java: Cross-site scripting in the OpenAPI module's Swagger UI page",
+    "at": "2026-11-06T18:07:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/557",
+   "source": "seclists.org",
+   "title": "CVE-2026-123753: Apache Axis2/Java: SSRF via WS-Addressing ReplyTo and FaultTo endpoints",
+   "url": "https://seclists.org/oss-sec/2026/q4/557",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/557",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T17:38:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123753"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T17:38:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:07:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-123753: Apache Axis2/Java: SSRF via WS-Addressing ReplyTo and FaultTo endpoints",
+    "at": "2026-11-06T18:07:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/556",
+   "source": "seclists.org",
+   "title": "CVE-2026-120761: Apache Axis2/Java: XML External Entity (XXE) injection via imported WSDL/XSD documents",
+   "url": "https://seclists.org/oss-sec/2026/q4/556",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/556",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T17:36:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-120761"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T17:36:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T18:07:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-120761: Apache Axis2/Java: XML External Entity (XXE) injection via imported WSDL/XSD documents",
+    "at": "2026-11-06T18:07:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
    "source": "bluesky",
    "title": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chai",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznuhyp5272k",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-06T17:04:44Z",
    "label": "exploited_reported",
@@ -1075,7 +1222,7 @@
    "title": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mznfkf4cew2x",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-06T12:37:39Z",
    "label": "unpatched_reported",
@@ -1648,8 +1795,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 679,
-   "comments": 253,
+   "points": 686,
+   "comments": 255,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1920,7 +2067,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 50,
+   "points": 51,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -2189,7 +2336,7 @@
    "title": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management int",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzlbri76na2r",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-05T16:24:43Z",
    "label": "supply_chain",
