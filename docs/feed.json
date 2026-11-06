@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T07:37:20Z",
- "count": 1858,
+ "generated": "2026-11-06T08:08:07Z",
+ "count": 1859,
  "topics": [
   {
    "name": "Ubuntu",
@@ -83,6 +83,25 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "bypass",
+   "threads": 4,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121728",
+    "CVE-2026-109117"
+   ],
+   "last_seen": "2026-11-06T07:42:41Z",
+   "items": [
+    "lobsters:x2hcss",
+    "hn:50389343",
+    "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/475"
    ]
   },
   {
@@ -242,24 +261,6 @@
     "hn:50375988",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
     "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
-   ]
-  },
-  {
-   "name": "bypass",
-   "threads": 3,
-   "repos": 0,
-   "points": 32,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121728",
-    "CVE-2026-109117"
-   ],
-   "last_seen": "2026-11-05T18:34:41Z",
-   "items": [
-    "lobsters:x2hcss",
-    "blog:https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/475"
    ]
   },
   {
@@ -434,25 +435,25 @@
    ]
   },
   {
-   "name": "Commerce",
+   "name": "Google",
    "threads": 3,
    "repos": 0,
-   "points": 4,
+   "points": 3,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
+   "last_seen": "2026-11-04T07:46:15Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/462"
    ]
   },
   {
    "name": "CVE-2026-116606",
    "threads": 3,
    "repos": 0,
-   "points": 3,
+   "points": 2,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -469,12 +470,47 @@
  ],
  "items": [
   {
+   "id": "hn:50389343",
+   "source": "hackernews",
+   "title": "Sourcehut disabled registration bypass – CVE-2026-121728",
+   "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
+   "discussion": "https://news.ycombinator.com/item?id=50389343",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-06T07:42:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-121728"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-06T07:42:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T08:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Sourcehut disabled registration bypass – CVE-2026-121728",
+    "at": "2026-11-06T08:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "lobsters:hhagfv",
    "source": "lobsters",
    "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)",
    "url": "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/",
    "discussion": "https://lobste.rs/s/hhagfv/barracuda_networks_is_your_new_best",
-   "points": 1,
+   "points": 0,
    "comments": 0,
    "created": "2026-11-06T01:29:25.203-06:00",
    "label": "related",
@@ -814,8 +850,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 478,
-   "comments": 176,
+   "points": 496,
+   "comments": 179,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1086,7 +1122,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 32,
+   "points": 33,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -1652,7 +1688,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 179,
+   "points": 180,
    "comments": 222,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
@@ -17059,7 +17095,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
