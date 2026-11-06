@@ -1,16 +1,19 @@
 {
- "generated": "2026-11-06T22:08:07Z",
- "count": 1909,
+ "generated": "2026-11-06T22:38:07Z",
+ "count": 1933,
  "topics": [
   {
    "name": "available",
-   "threads": 17,
+   "threads": 19,
    "repos": 0,
-   "points": 806,
-   "kev": false,
+   "points": 803,
+   "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-98432"
+    "CVE-2026-98432",
+    "CVE-2026-74756",
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -20,17 +23,40 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
     "hn:50353777",
     "hn:50340028",
+    "blog:https://seclists.org/oss-sec/2026/q4/549",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
+   ]
+  },
+  {
+   "name": "Out-Of-Bounds",
+   "threads": 9,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/"
    ]
   },
   {
@@ -67,6 +93,25 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "privilege",
+   "threads": 4,
+   "repos": 1,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112487"
+   ],
+   "last_seen": "2026-11-06T06:00:00Z",
+   "items": [
+    "hn:50372929",
+    "ghpoc:Lyutoon/CVE-2026-112487",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   },
   {
@@ -125,6 +170,23 @@
    ]
   },
   {
+   "name": "Ashlar-Vellum",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/"
+   ]
+  },
+  {
    "name": "Deserialization",
    "threads": 5,
    "repos": 0,
@@ -141,6 +203,28 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
     "blog:https://seclists.org/oss-sec/2026/q4/457"
+   ]
+  },
+  {
+   "name": "Syncope",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114364",
+    "CVE-2026-113687",
+    "CVE-2026-113511",
+    "CVE-2026-110535"
+   ],
+   "last_seen": "2026-11-02T18:29:02Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/474",
+    "blog:https://seclists.org/oss-sec/2026/q4/473",
+    "blog:https://seclists.org/oss-sec/2026/q4/472",
+    "blog:https://seclists.org/oss-sec/2026/q4/471",
+    "blog:https://seclists.org/oss-sec/2026/q4/470"
    ]
   },
   {
@@ -179,39 +263,6 @@
    ]
   },
   {
-   "name": "CVE-2026-112816",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112816"
-   ],
-   "last_seen": "2026-10-30T23:29:30Z",
-   "items": [
-    "hn:50310937",
-    "hn:50310926",
-    "hn:50311499"
-   ]
-  },
-  {
-   "name": "Control",
-   "threads": 4,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T05:58:54Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
@@ -227,24 +278,6 @@
     "lobsters:x2hcss",
     "hn:50389343",
     "blog:https://seclists.org/oss-sec/2026/q4/475"
-   ]
-  },
-  {
-   "name": "privilege",
-   "threads": 3,
-   "repos": 1,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112487"
-   ],
-   "last_seen": "2026-11-04T23:33:14Z",
-   "items": [
-    "hn:50372929",
-    "ghpoc:Lyutoon/CVE-2026-112487",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   },
   {
@@ -299,6 +332,41 @@
    ]
   },
   {
+   "name": "path",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-76168",
+    "CVE-2026-59264"
+   ],
+   "last_seen": "2026-11-06T16:57:46Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/550",
+    "blog:https://seclists.org/oss-sec/2026/q4/497",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
+   "name": "Heap-based",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
+   ]
+  },
+  {
    "name": "Windows",
    "threads": 3,
    "repos": 0,
@@ -334,6 +402,24 @@
    ]
   },
   {
+   "name": "Perl",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115946"
+   ],
+   "last_seen": "2026-11-04T16:02:31Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/513",
+    "blog:https://seclists.org/oss-sec/2026/q4/508",
+    "blog:https://seclists.org/oss-sec/2026/q4/460",
+    "blog:https://seclists.org/oss-sec/2026/q4/458"
+   ]
+  },
+  {
    "name": "ActiveMQ",
    "threads": 4,
    "repos": 0,
@@ -352,27 +438,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/493",
     "blog:https://seclists.org/oss-sec/2026/q4/492",
     "blog:https://seclists.org/oss-sec/2026/q4/490"
-   ]
-  },
-  {
-   "name": "Syncope",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-113687",
-    "CVE-2026-113511",
-    "CVE-2026-110535",
-    "CVE-2026-109083"
-   ],
-   "last_seen": "2026-11-02T18:27:11Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/473",
-    "blog:https://seclists.org/oss-sec/2026/q4/472",
-    "blog:https://seclists.org/oss-sec/2026/q4/471",
-    "blog:https://seclists.org/oss-sec/2026/q4/470"
    ]
   },
   {
@@ -406,59 +471,42 @@
     "hn:50379673",
     "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
    ]
-  },
-  {
-   "name": "strings",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111821"
-   ],
-   "last_seen": "2026-11-04T10:13:39Z",
-   "items": [
-    "lobsters:sfzkeb",
-    "hn:50363481",
-    "blog:https://seclists.org/oss-sec/2026/q4/494"
-   ]
-  },
-  {
-   "name": "deploy",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T18:47:09Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
-   ]
-  },
-  {
-   "name": "Unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50399347",
+   "source": "hackernews",
+   "title": "A Remote Code Exploit in MS Paint",
+   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844",
+   "discussion": "https://news.ycombinator.com/item?id=50399347",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-06T22:28:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T22:28:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "A Remote Code Exploit in MS Paint",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/564",
    "source": "seclists.org",
@@ -2014,6 +2062,544 @@
    }
   },
   {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-897: Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-897: Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-896: (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-896: (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-895: LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-894: Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-894: Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-893: Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-892: Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-892: Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+    "at": "2026-11-06T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-891: Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-890: Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-889: Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-888: Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-887: libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-886: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-885: OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-884: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-883: OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-882: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-881: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-880: OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-879: OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-878: OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-877: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-876: OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-875: OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-06T22:38:07Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
    "source": "thehackernews.com",
    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
@@ -2347,8 +2933,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 694,
-   "comments": 268,
+   "points": 697,
+   "comments": 270,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -3186,7 +3772,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 183,
-   "comments": 231,
+   "comments": 232,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -11849,7 +12435,7 @@
   {
    "id": "ghpoc:tc4dy/CVE-2026-98432-PoC-Exploit",
    "source": "github-poc",
-   "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free full toolkit. Detect kernel exposure, trigger the race, analyze captures, recover KA",
+   "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free Red/Blue team toolkit. Kernel exposure checks, live marker-based race proof, KASLR s",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "points": 37,
