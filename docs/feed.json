@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T02:38:07Z",
+ "generated": "2026-11-06T03:08:07Z",
  "count": 1854,
  "topics": [
   {
@@ -213,22 +213,6 @@
    ]
   },
   {
-   "name": "Control",
-   "threads": 4,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/",
-    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
-   ]
-  },
-  {
    "name": "WordPress",
    "threads": 4,
    "repos": 0,
@@ -431,6 +415,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
   },
   {
@@ -678,8 +677,8 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 339,
-   "comments": 125,
+   "points": 346,
+   "comments": 130,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -1517,7 +1516,7 @@
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
    "points": 175,
-   "comments": 82,
+   "comments": 83,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
    "cves": [],
@@ -7164,7 +7163,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 18,
+   "points": 19,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
