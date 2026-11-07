@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T12:38:07Z",
+ "generated": "2026-11-07T13:08:00Z",
  "count": 1942,
  "topics": [
   {
@@ -3323,7 +3323,7 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 708,
+   "points": 709,
    "comments": 281,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
@@ -21709,7 +21709,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 27,
+   "points": 30,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -22191,7 +22191,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
