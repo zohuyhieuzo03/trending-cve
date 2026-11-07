@@ -1,17 +1,19 @@
 {
- "generated": "2026-11-07T12:08:07Z",
- "count": 1940,
+ "generated": "2026-11-07T12:38:07Z",
+ "count": 1942,
  "topics": [
   {
    "name": "available",
    "threads": 17,
    "repos": 0,
-   "points": 763,
-   "kev": false,
+   "points": 760,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756"
+    "CVE-2026-74756",
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -19,7 +21,6 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -31,6 +32,7 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -301,6 +303,25 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 1,
+   "points": 18,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-43499",
+    "CVE-2026-58882"
+   ],
+   "last_seen": "2026-11-07T12:16:18Z",
+   "items": [
+    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
+    "hn:50403884",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -349,25 +370,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-864/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-862/",
     "blog:https://seclists.org/oss-sec/2026/q4/466"
-   ]
-  },
-  {
-   "name": "path",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-76168",
-    "CVE-2026-59264"
-   ],
-   "last_seen": "2026-11-06T16:57:46Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/550",
-    "blog:https://seclists.org/oss-sec/2026/q4/497",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
   },
   {
@@ -458,24 +460,88 @@
    ]
   },
   {
-   "name": "upgrade-window",
+   "name": "Control",
    "threads": 3,
    "repos": 0,
-   "points": 5,
-   "kev": true,
+   "points": 6,
+   "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
    "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50403927",
+   "source": "hackernews",
+   "title": "Hacking Two Automakers: ForgeRock Path Confusion, RCE, and Remote Vehicle Access",
+   "url": "https://samcurry.net/forgerock",
+   "discussion": "https://news.ycombinator.com/item?id=50403927",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-07T12:21:36Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-07T12:21:36Z",
+   "label_history": [
+    {
+     "at": "2026-11-07T12:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hacking Two Automakers: ForgeRock Path Confusion, RCE, and Remote Vehicle Access",
+    "at": "2026-11-07T12:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.55
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50403884",
+   "source": "hackernews",
+   "title": "Hackers exploited iOS and Android flaws to infect phones",
+   "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+   "discussion": "https://news.ycombinator.com/item?id=50403884",
+   "points": 11,
+   "comments": 0,
+   "created": "2026-11-07T12:16:18Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-07T12:16:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-07T12:38:07Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers exploited iOS and Android flaws to infect phones",
+    "at": "2026-11-07T12:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/565",
    "source": "seclists.org",
@@ -1868,7 +1934,7 @@
    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
    "url": "https://www.phoronix.com/news/Zlib-1.4-Released",
    "discussion": "https://news.ycombinator.com/item?id=50391802",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-06T12:59:10Z",
    "label": "security_news",
@@ -3258,7 +3324,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 708,
-   "comments": 280,
+   "comments": 281,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -13270,7 +13336,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 56,
+   "points": 57,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -21643,7 +21709,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 26,
+   "points": 27,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
