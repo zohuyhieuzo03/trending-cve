@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T03:38:07Z",
+ "generated": "2026-11-07T04:08:08Z",
  "count": 1939,
  "topics": [
   {
@@ -552,7 +552,7 @@
    "title": "No CVE Today, Please",
    "url": "https://nocveday.com/",
    "discussion": "https://news.ycombinator.com/item?id=50399859",
-   "points": 23,
+   "points": 24,
    "comments": 15,
    "created": "2026-11-06T23:20:06Z",
    "label": "security_news",
