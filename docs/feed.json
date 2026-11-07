@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-07T01:08:07Z",
- "count": 1938,
+ "generated": "2026-11-07T01:38:07Z",
+ "count": 1939,
  "topics": [
   {
    "name": "available",
@@ -79,18 +79,20 @@
   },
   {
    "name": "Apache",
-   "threads": 6,
+   "threads": 7,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2026-118196",
     "CVE-2026-114442",
     "CVE-2026-119641",
     "CVE-2026-111959"
    ],
-   "last_seen": "2026-11-05T14:41:10Z",
+   "last_seen": "2026-11-07T01:29:55Z",
    "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/565",
     "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
     "blog:https://seclists.org/oss-sec/2026/q4/516",
     "blog:https://seclists.org/oss-sec/2026/q4/479",
@@ -479,6 +481,41 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/565",
+   "source": "seclists.org",
+   "title": "CVE-2026-118196: Apache Allura: OAuth1 rebinding",
+   "url": "https://seclists.org/oss-sec/2026/q4/565",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/565",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-07T01:29:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-118196"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-07T01:29:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-07T01:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-118196: Apache Allura: OAuth1 rebinding",
+    "at": "2026-11-07T01:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
    "source": "bluesky",
    "title": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.",
@@ -517,8 +554,8 @@
    "title": "No CVE Today, Please",
    "url": "https://nocveday.com/",
    "discussion": "https://news.ycombinator.com/item?id=50399859",
-   "points": 20,
-   "comments": 14,
+   "points": 21,
+   "comments": 15,
    "created": "2026-11-06T23:20:06Z",
    "label": "security_news",
    "cves": [],
@@ -9756,7 +9793,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 22,
+   "points": 23,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
@@ -19515,7 +19552,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 61,
+   "points": 62,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -21584,7 +21621,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 23,
+   "points": 24,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -23406,7 +23443,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 88,
+   "points": 89,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
