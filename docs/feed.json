@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T08:07:07Z",
+ "generated": "2026-11-07T08:38:07Z",
  "count": 1940,
  "topics": [
   {
    "name": "available",
    "threads": 18,
    "repos": 1,
-   "points": 793,
+   "points": 790,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -23,7 +23,6 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -35,6 +34,7 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -210,25 +210,6 @@
    ]
   },
   {
-   "name": "Deserialization",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118636"
-   ],
-   "last_seen": "2026-11-03T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-851/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-850/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-849/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-848/",
-    "blog:https://seclists.org/oss-sec/2026/q4/457"
-   ]
-  },
-  {
    "name": "Syncope",
    "threads": 5,
    "repos": 0,
@@ -301,6 +282,26 @@
     "lobsters:x2hcss",
     "hn:50389343",
     "blog:https://seclists.org/oss-sec/2026/q4/475"
+   ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 4,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://seclists.org/oss-sec/2026/q4/486",
+    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
    ]
   },
   {
@@ -10804,7 +10805,7 @@
    "title": "shellharbor/php-8.1-cve-2026-docker: PHP 8.1.34 CLI/FPM Docker image with pinned backports for CVE-2026-109618 and CVE-2026-109619, plus updated native libraries. Documented bui",
    "url": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
    "discussion": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-10-31T08:47:24Z",
    "label": "kev_exploited",
