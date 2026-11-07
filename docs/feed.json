@@ -1,17 +1,19 @@
 {
- "generated": "2026-11-07T09:38:07Z",
+ "generated": "2026-11-07T10:08:07Z",
  "count": 1940,
  "topics": [
   {
    "name": "available",
    "threads": 17,
    "repos": 0,
-   "points": 763,
-   "kev": false,
+   "points": 760,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756"
+    "CVE-2026-74756",
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -19,7 +21,6 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -31,6 +32,7 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
