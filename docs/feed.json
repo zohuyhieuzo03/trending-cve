@@ -1,19 +1,17 @@
 {
- "generated": "2026-11-07T01:38:07Z",
+ "generated": "2026-11-07T02:07:07Z",
  "count": 1939,
  "topics": [
   {
    "name": "available",
    "threads": 19,
    "repos": 0,
-   "points": 803,
-   "kev": true,
+   "points": 806,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-74756"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -23,6 +21,7 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -34,7 +33,6 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -792,7 +790,7 @@
    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems – OpenAI",
    "url": "https://openai.com/index/partnering-with-hacktron/",
    "discussion": "https://news.ycombinator.com/item?id=50397341",
-   "points": 7,
+   "points": 9,
    "comments": 2,
    "created": "2026-11-06T19:41:59Z",
    "label": "security_news",
@@ -3262,7 +3260,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 701,
-   "comments": 274,
+   "comments": 275,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
