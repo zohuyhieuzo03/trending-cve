@@ -1,17 +1,19 @@
 {
- "generated": "2026-11-07T03:08:07Z",
+ "generated": "2026-11-07T03:38:07Z",
  "count": 1939,
  "topics": [
   {
    "name": "available",
    "threads": 18,
    "repos": 0,
-   "points": 793,
-   "kev": false,
+   "points": 790,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756"
+    "CVE-2026-74756",
+    "CVE-2026-111357",
+    "CVE-2026-118527"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -20,7 +22,6 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -32,6 +33,7 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
+    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -57,24 +59,6 @@
    ]
   },
   {
-   "name": "Linux",
-   "threads": 6,
-   "repos": 0,
-   "points": 22,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T14:58:32Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50340970",
-    "hn:50312971",
-    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
-  },
-  {
    "name": "Apache",
    "threads": 7,
    "repos": 0,
@@ -96,6 +80,23 @@
     "blog:https://seclists.org/oss-sec/2026/q4/467",
     "blog:https://seclists.org/oss-sec/2026/q4/465",
     "blog:https://seclists.org/oss-sec/2026/q4/463"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 5,
+   "repos": 0,
+   "points": 20,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T14:58:32Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50340970",
+    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
   },
   {
@@ -287,7 +288,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 63,
+   "points": 64,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -3258,7 +3259,7 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 701,
+   "points": 702,
    "comments": 276,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
@@ -3530,7 +3531,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 60,
+   "points": 61,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
@@ -17372,7 +17373,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 55,
+   "points": 56,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
