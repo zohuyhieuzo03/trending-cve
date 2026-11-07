@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T13:38:02Z",
+ "generated": "2026-11-07T14:07:37Z",
  "count": 1942,
  "topics": [
   {
@@ -616,7 +616,7 @@
    "title": "No CVE Today, Please",
    "url": "https://nocveday.com/",
    "discussion": "https://news.ycombinator.com/item?id=50399859",
-   "points": 27,
+   "points": 28,
    "comments": 17,
    "created": "2026-11-06T23:20:06Z",
    "label": "security_news",
@@ -21709,7 +21709,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 31,
+   "points": 32,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -23531,7 +23531,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 91,
+   "points": 92,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
