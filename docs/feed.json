@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T11:08:07Z",
+ "generated": "2026-11-07T11:38:07Z",
  "count": 1940,
  "topics": [
   {
@@ -3260,7 +3260,7 @@
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
    "points": 708,
-   "comments": 277,
+   "comments": 280,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
    "cves": [],
@@ -10803,7 +10803,7 @@
    "title": "shellharbor/php-8.1-cve-2026-docker: PHP 8.1.34 CLI/FPM Docker image with pinned backports for CVE-2026-109618 and CVE-2026-109619, plus updated native libraries. Documented bui",
    "url": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
    "discussion": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
-   "points": 13,
+   "points": 14,
    "comments": 0,
    "created": "2026-10-31T08:47:24Z",
    "label": "kev_exploited",
