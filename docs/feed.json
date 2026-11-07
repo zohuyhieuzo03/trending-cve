@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T00:38:08Z",
+ "generated": "2026-11-07T01:08:07Z",
  "count": 1938,
  "topics": [
   {
@@ -518,7 +518,7 @@
    "url": "https://nocveday.com/",
    "discussion": "https://news.ycombinator.com/item?id=50399859",
    "points": 20,
-   "comments": 13,
+   "comments": 14,
    "created": "2026-11-06T23:20:06Z",
    "label": "security_news",
    "cves": [],
@@ -3224,7 +3224,7 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 700,
+   "points": 701,
    "comments": 274,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
@@ -4062,7 +4062,7 @@
    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
    "discussion": "https://news.ycombinator.com/item?id=50377221",
-   "points": 183,
+   "points": 184,
    "comments": 234,
    "created": "2026-11-05T09:46:17Z",
    "label": "security_news",
