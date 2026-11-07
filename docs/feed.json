@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T09:07:22Z",
+ "generated": "2026-11-07T09:38:07Z",
  "count": 1940,
  "topics": [
   {
    "name": "available",
-   "threads": 18,
+   "threads": 17,
    "repos": 0,
-   "points": 793,
+   "points": 763,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -16,7 +16,6 @@
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
     "hn:50319143",
-    "hn:50314397",
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
@@ -1869,7 +1868,7 @@
    "title": "Zlib 1.4 Released with More Than One Dozen Security Fixes",
    "url": "https://www.phoronix.com/news/Zlib-1.4-Released",
    "discussion": "https://news.ycombinator.com/item?id=50391802",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-06T12:59:10Z",
    "label": "security_news",
@@ -3258,7 +3257,7 @@
    "title": "MS Paint Remote Code Execution Vulnerability",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
    "discussion": "https://news.ycombinator.com/item?id=50384233",
-   "points": 704,
+   "points": 707,
    "comments": 277,
    "created": "2026-11-05T20:43:42Z",
    "label": "security_news",
@@ -19575,7 +19574,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 62,
+   "points": 63,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
