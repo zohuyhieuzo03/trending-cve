@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T06:08:07Z",
+ "generated": "2026-11-07T06:38:07Z",
  "count": 1939,
  "topics": [
   {
@@ -4396,7 +4396,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 15,
+   "points": 16,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -19591,7 +19591,7 @@
    "title": "zjns/CVE-2026-98260: 6.6.118-android15-8-g9bc34d5b0c79",
    "url": "https://github.com/zjns/CVE-2026-98260",
    "discussion": "https://github.com/zjns/CVE-2026-98260",
-   "points": 11,
+   "points": 12,
    "comments": 0,
    "created": "2026-10-27T16:18:05Z",
    "label": "public_exploit_reported",
