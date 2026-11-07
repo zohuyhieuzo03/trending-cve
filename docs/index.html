@@ -126,7 +126,7 @@ input[type=search]::placeholder { color: var(--dim); }
     <a href="https://github.com/zohuyhieuzo03/zeroday-watch">GitHub</a> ·
     <a href="feed.xml">RSS</a> · <a href="feed.json">JSON</a></p>
   <div class="warn">Leads, not verdicts. Only <b>kev_exploited</b> is backed by a primary source (CISA KEV), and even that does not say whether it was a 0-day. Everything else is what a headline claims.</div>
-  <div class="tabs" role="tablist"><button type="button" class="tab" id="tab-feed" role="tab" aria-selected="true">Feed</button><button type="button" class="tab" id="tab-trend" role="tab" aria-selected="false">Trending</button></div>
+  <div class="tabs" role="tablist"><button type="button" class="tab" id="tab-feed" role="tab" aria-selected="true">Feed</button><button type="button" class="tab" id="tab-trend" role="tab" aria-selected="false">Trending CVE</button></div>
   <div id="view-feed">
   <div class="bar" id="labels" role="group" aria-label="Filter by label"></div>
   <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search">
@@ -279,7 +279,7 @@ function showTab(name) {
   if (trend) { state.tintro = true; renderTopics(); state.tintro = false; countUp($("tlist")); }
   $("tab-feed").setAttribute("aria-selected", !trend);
   $("tab-trend").setAttribute("aria-selected", trend);
-  try { history.replaceState(null, "", trend ? "#trending" : location.pathname + location.search); } catch {}
+  try { history.replaceState(null, "", trend ? "#trending-cve" : location.pathname + location.search); } catch {}
 }
 $("tab-feed").onclick = () => showTab("feed");
 $("tab-trend").onclick = () => showTab("trend");
@@ -358,7 +358,7 @@ async function load() {
 }
 $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 renderBell();
-if (location.hash === "#trending") showTab("trend");
+if (location.hash === "#trending-cve" || location.hash === "#trending") showTab("trend");
 load();
 setInterval(load, 2 * 60 * 1000);
 </script>

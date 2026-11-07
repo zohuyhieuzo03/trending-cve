@@ -5,7 +5,7 @@ zero_day_reported  title says zero-day AND exploitation/no-patch language (a cla
 exploited_reported title says exploited / exploitation / before disclosure, no zero-day wording (CVE or vuln wording required)
 supply_chain       title says a package/extension/release/account was trojanized, backdoored, hijacked or malicious (no CVE needed)
 unpatched_reported title says unpatched / no patch / no fix, with no exploitation claim (disclosed, not known to be attacked)
-security_news      vulnerability-related headline with no CVE and no exploitation wording (lowest tier; feeds trending)
+security_news      vulnerability-related headline with no CVE and no exploitation wording (lowest tier; feeds Trending CVE)
 public_exploit_reported  CVE in title plus "exploit"/PoC wording: exploit code exists, in-the-wild use NOT claimed
 zero_day_mention   zero-day wording only (rumor / discussion)
 related            has a CVE id but no exploitation signal; kept for context
