@@ -1,19 +1,17 @@
 {
- "generated": "2026-11-07T14:07:37Z",
+ "generated": "2026-11-07T14:37:28Z",
  "count": 1942,
  "topics": [
   {
    "name": "available",
    "threads": 17,
    "repos": 0,
-   "points": 760,
-   "kev": true,
+   "points": 763,
+   "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-74756",
-    "CVE-2026-111357",
-    "CVE-2026-118527"
+    "CVE-2026-74756"
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
@@ -21,6 +19,7 @@
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50320349",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -32,7 +31,6 @@
     "lobsters:5cmg1k",
     "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
     "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
     "blog:https://seclists.org/oss-sec/2026/q4/459"
    ]
   },
@@ -13336,7 +13334,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
