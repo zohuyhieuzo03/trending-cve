@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T02:43:08Z",
- "count": 1949,
+ "generated": "2026-11-08T04:07:34Z",
+ "count": 1953,
  "topics": [
   {
    "name": "available",
-   "threads": 11,
+   "threads": 10,
    "repos": 0,
-   "points": 22,
+   "points": 19,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -19,7 +19,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
     "hn:50367454",
     "hn:50349491",
-    "hn:50322542",
     "hn:50353777",
     "hn:50340028",
     "blog:https://seclists.org/oss-sec/2026/q4/549",
@@ -47,24 +46,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 6,
-   "repos": 0,
-   "points": 21,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-08T02:30:08Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50340970",
-    "hn:50409957",
-    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
   },
   {
@@ -109,6 +90,23 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 5,
+   "repos": 0,
+   "points": 21,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-08T02:30:08Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50340970",
+    "hn:50409957"
+   ]
+  },
+  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -124,24 +122,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-   ]
-  },
-  {
-   "name": "devices",
-   "threads": 4,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58115"
-   ],
-   "last_seen": "2026-11-06T13:52:11Z",
-   "items": [
-    "hn:50349357",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
-    "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
-    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
    ]
   },
   {
@@ -293,6 +273,24 @@
    ]
   },
   {
+   "name": "authentication",
+   "threads": 4,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-74846"
+   ],
+   "last_seen": "2026-11-07T00:01:12Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+    "blog:https://seclists.org/oss-sec/2026/q4/478",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-854/"
+   ]
+  },
+  {
    "name": "Unauthenticated",
    "threads": 4,
    "repos": 0,
@@ -316,7 +314,7 @@
    "name": "Android",
    "threads": 3,
    "repos": 1,
-   "points": 17,
+   "points": 18,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -343,23 +341,6 @@
     "hn:50349249",
     "hn:50352299",
     "hn:50360901"
-   ]
-  },
-  {
-   "name": "SonicWall",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "last_seen": "2026-11-07T00:01:12Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
-    "hn:50398020"
    ]
   },
   {
@@ -434,6 +415,23 @@
     "blog:https://seclists.org/oss-sec/2026/q4/493",
     "blog:https://seclists.org/oss-sec/2026/q4/492",
     "blog:https://seclists.org/oss-sec/2026/q4/490"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "last_seen": "2026-11-06T13:52:11Z",
+   "items": [
+    "hn:50349357",
+    "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
+    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
    ]
   },
   {
@@ -540,7 +538,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 11,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -632,7 +630,7 @@
    "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
    "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
    "discussion": "https://lobste.rs/s/c99mdx/ghostmap_android_flaw_crashes_your_phone",
-   "points": 6,
+   "points": 7,
    "comments": 2,
    "created": "2026-11-07T12:12:57.505-06:00",
    "label": "security_news",
@@ -827,6 +825,39 @@
    }
   },
   {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "source": "bleepingcomputer.com",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-07T00:00:55Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-07T00:00:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T04:07:34Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+    "at": "2026-11-08T04:07:34Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50399859",
    "source": "hackernews",
    "title": "No CVE Today, Please",
@@ -994,6 +1025,39 @@
      "claude:haiku": {
       "status": "unclear",
       "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "source": "bleepingcomputer.com",
+   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T20:24:19Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T20:24:19Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T04:07:34Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+    "at": "2026-11-08T04:07:34Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
      }
     },
     "consensus": "unclear",
@@ -1226,6 +1290,39 @@
    "llm": {
     "title": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.",
     "at": "2026-11-06T19:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "source": "bleepingcomputer.com",
+   "title": "Fake security tools on GitHub push backdoors and infostealers",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T18:46:52Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T18:46:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T04:07:34Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Fake security tools on GitHub push backdoors and infostealers",
+    "at": "2026-11-08T04:07:34Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
@@ -2203,6 +2300,39 @@
      "claude:haiku": {
       "status": "disclosed_unpatched",
       "confidence": 0.85
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "source": "bleepingcomputer.com",
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-06T12:37:22Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-06T12:37:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T04:07:34Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "at": "2026-11-08T04:07:34Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
      }
     },
     "consensus": "disclosed_unpatched",
