@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T16:08:07Z",
- "count": 1942,
+ "generated": "2026-11-08T02:43:08Z",
+ "count": 1949,
  "topics": [
   {
    "name": "available",
-   "threads": 17,
+   "threads": 11,
    "repos": 0,
-   "points": 763,
+   "points": 22,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -15,11 +15,8 @@
    ],
    "last_seen": "2026-11-06T17:04:44Z",
    "items": [
-    "hn:50319143",
     "hn:50351808",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50320349",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
     "hn:50367454",
     "hn:50349491",
     "hn:50322542",
@@ -27,11 +24,8 @@
     "hn:50340028",
     "blog:https://seclists.org/oss-sec/2026/q4/549",
     "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-893/",
     "lobsters:5cmg1k",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/476",
-    "blog:https://seclists.org/oss-sec/2026/q4/459"
+    "blog:https://seclists.org/oss-sec/2026/q4/476"
    ]
   },
   {
@@ -53,6 +47,24 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 6,
+   "repos": 0,
+   "points": 21,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-08T02:30:08Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50340970",
+    "hn:50409957",
+    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
   },
   {
@@ -80,20 +92,20 @@
    ]
   },
   {
-   "name": "Linux",
+   "name": "escalation",
    "threads": 5,
    "repos": 0,
-   "points": 20,
+   "points": 57,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-06T14:58:32Z",
+   "last_seen": "2026-11-06T06:00:00Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50340970",
-    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+    "hn:50372929",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+    "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   },
   {
@@ -112,25 +124,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-   ]
-  },
-  {
-   "name": "privilege",
-   "threads": 4,
-   "repos": 1,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112487"
-   ],
-   "last_seen": "2026-11-06T06:00:00Z",
-   "items": [
-    "hn:50372929",
-    "ghpoc:Lyutoon/CVE-2026-112487",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   },
   {
@@ -186,6 +179,25 @@
     "blog:https://seclists.org/oss-sec/2026/q4/485",
     "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
+   ]
+  },
+  {
+   "name": "Windows",
+   "threads": 4,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-15603",
+    "CVE-2026-59264"
+   ],
+   "last_seen": "2026-11-06T04:58:46Z",
+   "items": [
+    "hn:50383612",
+    "hn:50330754",
+    "blog:https://seclists.org/oss-sec/2026/q4/538",
+    "blog:https://seclists.org/oss-sec/2026/q4/497"
    ]
   },
   {
@@ -301,6 +313,24 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 1,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-43499"
+   ],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+   ]
+  },
+  {
    "name": "zero",
    "threads": 3,
    "repos": 0,
@@ -319,7 +349,7 @@
    "name": "SonicWall",
    "threads": 3,
    "repos": 0,
-   "points": 12,
+   "points": 13,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -330,6 +360,24 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
     "hn:50398020"
+   ]
+  },
+  {
+   "name": "injection",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121265"
+   ],
+   "last_seen": "2026-11-07T18:53:17Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/574",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
    ]
   },
   {
@@ -365,41 +413,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 3,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-06T04:58:46Z",
-   "items": [
-    "hn:50383612",
-    "hn:50330754",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
-   ]
-  },
-  {
-   "name": "Perl",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115946"
-   ],
-   "last_seen": "2026-11-04T16:02:31Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/513",
-    "blog:https://seclists.org/oss-sec/2026/q4/508",
-    "blog:https://seclists.org/oss-sec/2026/q4/460",
-    "blog:https://seclists.org/oss-sec/2026/q4/458"
    ]
   },
   {
@@ -452,26 +465,233 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
-  },
-  {
-   "name": "upgrade-window",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
-   "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50409957",
+   "source": "hackernews",
+   "title": "DFIR Level-0 Protocol: Sanitization of UEFI Bootkits and Linux Rootkits",
+   "url": "https://zenodo.org/records/24046579",
+   "discussion": "https://news.ycombinator.com/item?id=50409957",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-08T02:30:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T02:30:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "DFIR Level-0 Protocol: Sanitization of UEFI Bootkits and Linux Rootkits",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50409231",
+   "source": "hackernews",
+   "title": "GitHub AI Vulnerability Scans for Repositories",
+   "url": "https://docs.github.com/en/code-security/concepts/code-scanning/ai-scan-for-repositories",
+   "discussion": "https://news.ycombinator.com/item?id=50409231",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-08T00:02:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T00:02:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "GitHub AI Vulnerability Scans for Repositories",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "ghpoc:UnsignedChad/CVE-2026-21155-SVE-2026-3546",
+   "source": "github-poc",
+   "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
+   "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
+   "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
+   "points": 11,
+   "comments": 0,
+   "created": "2026-11-07T20:19:05Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-21155"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-07T20:19:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/575",
+   "source": "seclists.org",
+   "title": "CVE-2026-123776: RRD::CGI::Image versions through 0.01 for Perl pass CGI query parameters containting \"tz\" to tzset(), , so a FIFO or device path blocks the CGI process",
+   "url": "https://seclists.org/oss-sec/2026/q4/575",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/575",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-07T18:55:08Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123776"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-07T18:55:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-123776: RRD::CGI::Image versions through 0.01 for Perl pass CGI query parameters containting \"tz\" to tzset(), , so a FIFO or device path blocks the CGI process",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/574",
+   "source": "seclists.org",
+   "title": "CVE-2026-121265: SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update",
+   "url": "https://seclists.org/oss-sec/2026/q4/574",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/574",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-07T18:53:17Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-121265"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-07T18:53:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-121265: SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "lobsters:c99mdx",
+   "source": "lobsters",
+   "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
+   "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
+   "discussion": "https://lobste.rs/s/c99mdx/ghostmap_android_flaw_crashes_your_phone",
+   "points": 6,
+   "comments": 2,
+   "created": "2026-11-07T12:12:57.505-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-07T18:12:57Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50405744",
+   "source": "hackernews",
+   "title": "Reusing Exploits to Hijack Tower of Fantasy Accounts",
+   "url": "https://hunio.org/security/tof-account-takeover/",
+   "discussion": "https://news.ycombinator.com/item?id=50405744",
+   "points": 2,
+   "comments": 2,
+   "created": "2026-11-07T16:17:13Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-07T16:17:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-08T02:43:08Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Reusing Exploits to Hijack Tower of Fantasy Accounts",
+    "at": "2026-11-08T02:43:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50403927",
    "source": "hackernews",
@@ -579,8 +799,8 @@
    "title": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzolqntpah2x",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzolqntpah2x",
-   "points": 3,
-   "comments": 0,
+   "points": 4,
+   "comments": 1,
    "created": "2026-11-07T00:01:12Z",
    "label": "security_news",
    "cves": [],
@@ -754,7 +974,7 @@
    "title": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and develop",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo7neyas72j",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-06T20:24:37Z",
    "label": "security_news",
@@ -991,7 +1211,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo274jwss2x",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzo274jwss2x",
    "points": 6,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-06T18:47:09Z",
    "label": "security_news",
    "cves": [],
@@ -1996,7 +2216,7 @@
    "title": "Why Bloat Is Still Software's Biggest Vulnerability",
    "url": "https://spectrum.ieee.org/lean-software-development",
    "discussion": "https://news.ycombinator.com/item?id=50391497",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-11-06T12:19:57Z",
    "label": "security_news",
@@ -4458,7 +4678,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 16,
+   "points": 17,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -5570,7 +5790,7 @@
    "title": "Pulling the right strings for RCE on a Puppet",
    "url": "https://neodyme.io/en/blog/puppet_rce",
    "discussion": "https://lobste.rs/s/sfzkeb/pulling_right_strings_for_rce_on_puppet",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-04T01:39:20.951-06:00",
    "label": "security_news",
@@ -13332,7 +13552,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -15798,7 +16018,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -19636,7 +19856,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 63,
+   "points": 64,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -21705,7 +21925,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 33,
+   "points": 38,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -23527,7 +23747,7 @@
    "title": "zsw125/o3root: Shizuku-driven CVE-2026-98260 root + KernelSU runtime LKM loader for Xiaomi yingtian / lhasa (kernel 6.18.21)",
    "url": "https://github.com/zsw125/o3root",
    "discussion": "https://github.com/zsw125/o3root",
-   "points": 92,
+   "points": 94,
    "comments": 0,
    "created": "2026-10-25T12:51:04Z",
    "label": "public_exploit_reported",
