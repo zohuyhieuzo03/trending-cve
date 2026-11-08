@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T04:38:07Z",
+ "generated": "2026-11-08T05:08:08Z",
  "count": 1953,
  "topics": [
   {
@@ -538,7 +538,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 15,
+   "points": 16,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
