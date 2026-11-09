@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T07:08:10Z",
- "count": 1970,
+ "generated": "2026-11-09T07:38:10Z",
+ "count": 1983,
  "topics": [
   {
    "name": "available",
@@ -49,23 +49,6 @@
    ]
   },
   {
-   "name": "escalation",
-   "threads": 5,
-   "repos": 0,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T06:00:00Z",
-   "items": [
-    "hn:50372929",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
-    "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -81,6 +64,22 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "escalation",
+   "threads": 4,
+   "repos": 0,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T04:31:16Z",
+   "items": [
+    "hn:50372929",
+    "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
    ]
   },
   {
@@ -113,27 +112,6 @@
     "hn:50388417",
     "hn:50340970",
     "hn:50409957"
-   ]
-  },
-  {
-   "name": "Apache",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-82440",
-    "CVE-2026-118196",
-    "CVE-2026-119641"
-   ],
-   "last_seen": "2026-11-09T05:23:32Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/582",
-    "blog:https://seclists.org/oss-sec/2026/q4/565",
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467"
    ]
   },
   {
@@ -228,22 +206,6 @@
    ]
   },
   {
-   "name": "backdoors",
-   "threads": 4,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T18:46:52Z",
-   "items": [
-    "hn:50390442",
-    "hn:50335010",
-    "blog:https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
-   ]
-  },
-  {
    "name": "Unauthenticated",
    "threads": 4,
    "repos": 0,
@@ -309,21 +271,22 @@
    ]
   },
   {
-   "name": "injection",
+   "name": "Apache",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-121265"
+    "CVE-2026-118196",
+    "CVE-2026-119641"
    ],
-   "last_seen": "2026-11-07T18:53:17Z",
+   "last_seen": "2026-11-07T01:29:55Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/574",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
+    "blog:https://seclists.org/oss-sec/2026/q4/565",
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/467"
    ]
   },
   {
@@ -359,48 +322,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
-   "name": "ActiveMQ",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111822",
-    "CVE-2026-108949",
-    "CVE-2026-108946",
-    "CVE-2026-103582"
-   ],
-   "last_seen": "2026-11-03T20:45:39Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/495",
-    "blog:https://seclists.org/oss-sec/2026/q4/493",
-    "blog:https://seclists.org/oss-sec/2026/q4/492",
-    "blog:https://seclists.org/oss-sec/2026/q4/490"
-   ]
-  },
-  {
-   "name": "Syncope",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-113687",
-    "CVE-2026-113511",
-    "CVE-2026-110535",
-    "CVE-2026-109083"
-   ],
-   "last_seen": "2026-11-02T18:27:11Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/473",
-    "blog:https://seclists.org/oss-sec/2026/q4/472",
-    "blog:https://seclists.org/oss-sec/2026/q4/471",
-    "blog:https://seclists.org/oss-sec/2026/q4/470"
    ]
   },
   {
@@ -451,9 +372,415 @@
     "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
     "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
    ]
+  },
+  {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
+   "name": "strings",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111821"
+   ],
+   "last_seen": "2026-11-04T10:13:39Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/494"
+   ]
+  },
+  {
+   "name": "GPT-6",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T20:24:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
+    "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "upgrade-window",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-06T18:43:23Z",
+   "items": [
+    "hn:50377979",
+    "hn:50357772",
+    "hn:50396504"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/598",
+   "source": "seclists.org",
+   "title": "CVE-2026-111455: Apache Airflow: Connections API: async connection test authorizes create at enqueue but overwrites a later-created connection at commit",
+   "url": "https://seclists.org/oss-sec/2026/q4/598",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/598",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:29:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111455"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:29:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111455: Apache Airflow: Connections API: async connection test authorizes create at enqueue but overwrites a later-created connection at commit",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/597",
+   "source": "seclists.org",
+   "title": "CVE-2026-111454: Apache Airflow: API: asset endpoints return scheduled/producing/consuming Dag IDs the caller cannot read",
+   "url": "https://seclists.org/oss-sec/2026/q4/597",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/597",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:28:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111454"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:28:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111454: Apache Airflow: API: asset endpoints return scheduled/producing/consuming Dag IDs the caller cannot read",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/596",
+   "source": "seclists.org",
+   "title": "CVE-2026-111453: Apache Airflow: API: asset queuedEvents DELETE checks Dag edit on a ?dag_id query value but deletes rows for every readable Dag",
+   "url": "https://seclists.org/oss-sec/2026/q4/596",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/596",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:26:21Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111453"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:26:21Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111453: Apache Airflow: API: asset queuedEvents DELETE checks Dag edit on a ?dag_id query value but deletes rows for every readable Dag",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/595",
+   "source": "seclists.org",
+   "title": "CVE-2026-111452: Apache Airflow: Secrets masker: camelCase key names (privateKey, connectionString, webhookUrl) not matched against the sensitive-field list",
+   "url": "https://seclists.org/oss-sec/2026/q4/595",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/595",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:24:40Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111452"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:24:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111452: Apache Airflow: Secrets masker: camelCase key names (privateKey, connectionString, webhookUrl) not matched against the sensitive-field list",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/594",
+   "source": "seclists.org",
+   "title": "CVE-2026-111421: Apache Airflow: Execution API: set_xcom skips the reserved-key check, so task-written XComs instantiate airflow.* classes on the API server",
+   "url": "https://seclists.org/oss-sec/2026/q4/594",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/594",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:22:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111421"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:22:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111421: Apache Airflow: Execution API: set_xcom skips the reserved-key check, so task-written XComs instantiate airflow.* classes on the API server",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/593",
+   "source": "seclists.org",
+   "title": "CVE-2026-111395: Apache Airflow: Reserved serialization keys in Dag run conf crash the scheduler or are rebuilt as objects in the Triggerer via deadline callbacks",
+   "url": "https://seclists.org/oss-sec/2026/q4/593",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/593",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:21:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111395"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:21:09Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111395: Apache Airflow: Reserved serialization keys in Dag run conf crash the scheduler or are rebuilt as objects in the Triggerer via deadline callbacks",
+    "at": "2026-11-09T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/592",
+   "source": "seclists.org",
+   "title": "CVE-2026-107474: Apache Airflow: Connections API: apprise connection \"config\" extra returned in cleartext",
+   "url": "https://seclists.org/oss-sec/2026/q4/592",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/592",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:19:27Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-107474"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:19:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/591",
+   "source": "seclists.org",
+   "title": "CVE-2026-101031: Apache Airflow: Shell command injection in the example_dag_decorator example Dag via an IPv6 zone identifier",
+   "url": "https://seclists.org/oss-sec/2026/q4/591",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/591",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:17:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-101031"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:17:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/590",
+   "source": "seclists.org",
+   "title": "CVE-2026-96285: Apache Airflow: Scheduler: next_kwargs deserialized before the dict check, so resume data still invokes constructors",
+   "url": "https://seclists.org/oss-sec/2026/q4/590",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/590",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:14:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-96285"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:14:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/589",
+   "source": "seclists.org",
+   "title": "CVE-2026-86829: Apache Airflow: Deserialization of task-controlled XCom values in the Scheduler during dependency evaluation",
+   "url": "https://seclists.org/oss-sec/2026/q4/589",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/589",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:12:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-86829"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:12:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/588",
+   "source": "seclists.org",
+   "title": "CVE-2026-86468: Apache Airflow: CLI argv masking misses Variable values and --conn-extra, persisting secrets in audit logs",
+   "url": "https://seclists.org/oss-sec/2026/q4/588",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/588",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:10:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-86468"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:10:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/587",
+   "source": "seclists.org",
+   "title": "CVE-2026-82337: Apache Airflow: DeadlineAlert fields bypass plugin-registration gate for scheduler-side deserialization",
+   "url": "https://seclists.org/oss-sec/2026/q4/587",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/587",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:08:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-82337"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:08:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
   {
    "id": "hn:50422080",
    "source": "hackernews",
@@ -486,6 +813,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/586",
+   "source": "seclists.org",
+   "title": "CVE-2026-76185: Apache Airflow Task SDK: Task SDK SecretCache: non-injective team cache key enables cross-team secret disclosure in multi-team mode",
+   "url": "https://seclists.org/oss-sec/2026/q4/586",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/586",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:07:03Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-76185"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:07:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:38:10Z",
+     "label": "related"
+    }
+   ]
   },
   {
    "id": "hn:50421656",
