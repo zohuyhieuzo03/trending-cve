@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T07:38:10Z",
- "count": 1983,
+ "generated": "2026-11-09T08:08:10Z",
+ "count": 1985,
  "topics": [
   {
    "name": "available",
@@ -440,6 +440,76 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/600",
+   "source": "seclists.org",
+   "title": "CVE-2026-113508: Apache Airflow: Logout token revocation fails open; errors silently swallowed",
+   "url": "https://seclists.org/oss-sec/2026/q4/600",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/600",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:33:36Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-113508"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:33:36Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T08:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-113508: Apache Airflow: Logout token revocation fails open; errors silently swallowed",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/599",
+   "source": "seclists.org",
+   "title": "CVE-2026-113504: Apache Airflow: Secrets masker: pattern-based masking bounded at depth 5 returns deeply-nested registered secrets in cleartext",
+   "url": "https://seclists.org/oss-sec/2026/q4/599",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/599",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T07:31:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-113504"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T07:31:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T08:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-113504: Apache Airflow: Secrets masker: pattern-based masking bounded at depth 5 returns deeply-nested registered secrets in cleartext",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/598",
    "source": "seclists.org",
    "title": "CVE-2026-111455: Apache Airflow: Connections API: async connection test authorizes create at enqueue but overwrites a later-created connection at commit",
@@ -669,7 +739,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-107474: Apache Airflow: Connections API: apprise connection \"config\" extra returned in cleartext",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/591",
@@ -691,7 +774,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-101031: Apache Airflow: Shell command injection in the example_dag_decorator example Dag via an IPv6 zone identifier",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/590",
@@ -713,7 +809,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-96285: Apache Airflow: Scheduler: next_kwargs deserialized before the dict check, so resume data still invokes constructors",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/589",
@@ -735,7 +844,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-86829: Apache Airflow: Deserialization of task-controlled XCom values in the Scheduler during dependency evaluation",
+    "at": "2026-11-09T08:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/588",
@@ -1410,7 +1532,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 29,
+   "points": 30,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -22949,7 +23071,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
