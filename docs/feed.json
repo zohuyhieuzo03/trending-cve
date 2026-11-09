@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T04:38:10Z",
+ "generated": "2026-11-09T05:08:10Z",
  "count": 1962,
  "topics": [
   {
@@ -18079,7 +18079,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 63,
+   "points": 64,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
