@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-08T05:08:08Z",
- "count": 1953,
+ "generated": "2026-11-09T01:17:24Z",
+ "count": 1962,
  "topics": [
   {
    "name": "available",
@@ -49,30 +49,6 @@
    ]
   },
   {
-   "name": "Apache",
-   "threads": 7,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-118196",
-    "CVE-2026-114442",
-    "CVE-2026-119641",
-    "CVE-2026-111959"
-   ],
-   "last_seen": "2026-11-07T01:29:55Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/565",
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/479",
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/465",
-    "blog:https://seclists.org/oss-sec/2026/q4/463"
-   ]
-  },
-  {
    "name": "escalation",
    "threads": 5,
    "repos": 0,
@@ -90,20 +66,26 @@
    ]
   },
   {
-   "name": "Linux",
-   "threads": 5,
+   "name": "Apache",
+   "threads": 6,
    "repos": 0,
-   "points": 21,
+   "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-08T02:30:08Z",
+   "cves": [
+    "CVE-2026-118196",
+    "CVE-2026-114442",
+    "CVE-2026-119641",
+    "CVE-2026-111959"
+   ],
+   "last_seen": "2026-11-07T01:29:55Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50340970",
-    "hn:50409957"
+    "blog:https://seclists.org/oss-sec/2026/q4/565",
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/479",
+    "blog:https://seclists.org/oss-sec/2026/q4/467",
+    "blog:https://seclists.org/oss-sec/2026/q4/465"
    ]
   },
   {
@@ -141,6 +123,22 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 4,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-08T02:30:08Z",
+   "items": [
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50340970",
+    "hn:50409957"
+   ]
+  },
+  {
    "name": "authorization",
    "threads": 5,
    "repos": 0,
@@ -162,25 +160,6 @@
    ]
   },
   {
-   "name": "Windows",
-   "threads": 4,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603",
-    "CVE-2026-59264"
-   ],
-   "last_seen": "2026-11-06T04:58:46Z",
-   "items": [
-    "hn:50383612",
-    "hn:50330754",
-    "blog:https://seclists.org/oss-sec/2026/q4/538",
-    "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
    "name": "Ashlar-Vellum",
    "threads": 5,
    "repos": 0,
@@ -195,28 +174,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/"
-   ]
-  },
-  {
-   "name": "Syncope",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-114364",
-    "CVE-2026-113687",
-    "CVE-2026-113511",
-    "CVE-2026-110535"
-   ],
-   "last_seen": "2026-11-02T18:29:02Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/474",
-    "blog:https://seclists.org/oss-sec/2026/q4/473",
-    "blog:https://seclists.org/oss-sec/2026/q4/472",
-    "blog:https://seclists.org/oss-sec/2026/q4/471",
-    "blog:https://seclists.org/oss-sec/2026/q4/470"
    ]
   },
   {
@@ -291,6 +248,22 @@
    ]
   },
   {
+   "name": "backdoors",
+   "threads": 4,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T18:46:52Z",
+   "items": [
+    "hn:50390442",
+    "hn:50335010",
+    "blog:https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+   ]
+  },
+  {
    "name": "Unauthenticated",
    "threads": 4,
    "repos": 0,
@@ -313,34 +286,46 @@
   {
    "name": "Android",
    "threads": 3,
-   "repos": 1,
-   "points": 18,
+   "repos": 0,
+   "points": 17,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-43499"
-   ],
+   "cves": [],
    "last_seen": "2026-11-07T18:12:57Z",
    "items": [
-    "ghpoc:Delta-Water/CVE-2026-43499-phq110-root",
     "hn:50403884",
     "lobsters:c99mdx",
     "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
    ]
   },
   {
-   "name": "zero",
+   "name": "sshole",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-04T02:36:23Z",
+   "last_seen": "2026-11-06T15:21:49Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50382093",
+    "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T07:46:15Z",
    "items": [
     "hn:50349249",
-    "hn:50352299",
-    "hn:50360901"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -418,6 +403,27 @@
    ]
   },
   {
+   "name": "Syncope",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-113687",
+    "CVE-2026-113511",
+    "CVE-2026-110535",
+    "CVE-2026-109083"
+   ],
+   "last_seen": "2026-11-02T18:27:11Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/473",
+    "blog:https://seclists.org/oss-sec/2026/q4/472",
+    "blog:https://seclists.org/oss-sec/2026/q4/471",
+    "blog:https://seclists.org/oss-sec/2026/q4/470"
+   ]
+  },
+  {
    "name": "devices",
    "threads": 3,
    "repos": 0,
@@ -448,24 +454,266 @@
     "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
     "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
    ]
-  },
-  {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50418651",
+   "source": "hackernews",
+   "title": "AI to find vulnerabilities in global legislation (on Git)",
+   "url": "https://github.com/lexifina/global-law/tree/main/vulnerabilities",
+   "discussion": "https://news.ycombinator.com/item?id=50418651",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-08T23:13:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T23:13:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "AI to find vulnerabilities in global legislation (on Git)",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50415821",
+   "source": "hackernews",
+   "title": "Open dataset of prompt-injection CVEs with a monthly threat index",
+   "url": "https://promptinjections.de/threat-index/zahlen/",
+   "discussion": "https://news.ycombinator.com/item?id=50415821",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-08T18:43:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T18:43:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Open dataset of prompt-injection CVEs with a monthly threat index",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50415089",
+   "source": "hackernews",
+   "title": "Get notified when new vulnerability appear to your website's dependencies",
+   "url": "https://watchmycve.com",
+   "discussion": "https://news.ycombinator.com/item?id=50415089",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-08T17:11:20Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T17:11:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Get notified when new vulnerability appear to your website's dependencies",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://isc.sans.edu/diary/rss/33498",
+   "source": "isc.sans.edu",
+   "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+   "url": "https://isc.sans.edu/diary/rss/33498",
+   "discussion": "https://isc.sans.edu/diary/rss/33498",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-08T15:44:33Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-08T15:44:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50414215",
+   "source": "hackernews",
+   "title": "From Infocom to 80 Days: An oral history of text games and interactive fiction",
+   "url": "https://arstechnica.com/gaming/2024/06/from-infocom-to-80-days-an-oral-history-of-text-games-and-interactive-fiction/",
+   "discussion": "https://news.ycombinator.com/item?id=50414215",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-11-08T15:42:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T15:42:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "From Infocom to 80 Days: An oral history of text games and interactive fiction",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.95
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50412336",
+   "source": "hackernews",
+   "title": "Analyzing Software Vulnerabilities faster and orders of magnitudes cheaper",
+   "url": "https://thetechstack.substack.com/p/the-patch-wasnt-enough",
+   "discussion": "https://news.ycombinator.com/item?id=50412336",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-08T11:27:54Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-08T11:27:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Analyzing Software Vulnerabilities faster and orders of magnitudes cheaper",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/576",
+   "source": "seclists.org",
+   "title": "UnrealIRCd 6.2.7.1 released & hot-patch (CVE-2026-114713)",
+   "url": "https://seclists.org/oss-sec/2026/q4/576",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/576",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-08T09:09:07Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-114713"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-08T09:09:07Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "UnrealIRCd 6.2.7.1 released & hot-patch (CVE-2026-114713)",
+    "at": "2026-11-09T01:17:24Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "ghpoc:Rust505/CVE-2026-112611",
+   "source": "github-poc",
+   "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
+   "url": "https://github.com/Rust505/CVE-2026-112611",
+   "discussion": "https://github.com/Rust505/CVE-2026-112611",
+   "points": 32,
+   "comments": 0,
+   "created": "2026-11-08T06:05:17Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-112611"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-08T06:05:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
   {
    "id": "hn:50409957",
    "source": "hackernews",
@@ -538,7 +786,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 16,
+   "points": 28,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -630,8 +878,8 @@
    "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
    "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
    "discussion": "https://lobste.rs/s/c99mdx/ghostmap_android_flaw_crashes_your_phone",
-   "points": 7,
-   "comments": 2,
+   "points": 6,
+   "comments": 4,
    "created": "2026-11-07T12:12:57.505-06:00",
    "label": "security_news",
    "cves": [],
@@ -730,7 +978,7 @@
    "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
    "discussion": "https://news.ycombinator.com/item?id=50403884",
    "points": 11,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-07T12:16:18Z",
    "label": "exploited_reported",
    "cves": [],
@@ -4403,6 +4651,28 @@
    }
   },
   {
+   "id": "ghpoc:h4urek/CVE-2026-50679",
+   "source": "github-poc",
+   "title": "h4urek/CVE-2026-50679: CVE-2026-50679 - Windows Search Heap Buffer Overflow",
+   "url": "https://github.com/h4urek/CVE-2026-50679",
+   "discussion": "https://github.com/h4urek/CVE-2026-50679",
+   "points": 11,
+   "comments": 0,
+   "created": "2026-11-05T12:55:47Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-50679"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-05T12:55:47Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T01:17:24Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50377979",
    "source": "hackernews",
    "title": "WordPress 7.1.4 upgrade-window RCE is now on CISA's exploited list",
@@ -4808,7 +5078,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 17,
+   "points": 18,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -11213,7 +11483,7 @@
    "title": "shellharbor/php-8.1-cve-2026-docker: PHP 8.1.34 CLI/FPM Docker image with pinned backports for CVE-2026-109618 and CVE-2026-109619, plus updated native libraries. Documented bui",
    "url": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
    "discussion": "https://github.com/shellharbor/php-8.1-cve-2026-docker",
-   "points": 14,
+   "points": 13,
    "comments": 0,
    "created": "2026-10-31T08:47:24Z",
    "label": "kev_exploited",
@@ -13200,7 +13470,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free Red/Blue team toolkit. Kernel exposure checks, live marker-based race proof, KASLR s",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 37,
+   "points": 39,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
@@ -13682,7 +13952,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 61,
+   "points": 64,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -17809,7 +18079,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 58,
+   "points": 62,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -20029,7 +20299,7 @@
    "title": "zjns/CVE-2026-98260: 6.6.118-android15-8-g9bc34d5b0c79",
    "url": "https://github.com/zjns/CVE-2026-98260",
    "discussion": "https://github.com/zjns/CVE-2026-98260",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-10-27T16:18:05Z",
    "label": "public_exploit_reported",
@@ -22055,7 +22325,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 38,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
@@ -22537,7 +22807,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
