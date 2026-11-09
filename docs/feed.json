@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T08:08:10Z",
+ "generated": "2026-11-09T08:38:11Z",
  "count": 1985,
  "topics": [
   {
@@ -879,7 +879,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-86468: Apache Airflow: CLI argv masking misses Variable values and --conn-extra, persisting secrets in audit logs",
+    "at": "2026-11-09T08:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/587",
@@ -901,7 +914,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-82337: Apache Airflow: DeadlineAlert fields bypass plugin-registration gate for scheduler-side deserialization",
+    "at": "2026-11-09T08:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50422080",
@@ -956,7 +982,20 @@
      "at": "2026-11-09T07:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-76185: Apache Airflow Task SDK: Task SDK SecretCache: non-injective team cache key enables cross-team secret disclosure in multi-team mode",
+    "at": "2026-11-09T08:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50421656",
