@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T21:08:10Z",
- "count": 2012,
+ "generated": "2026-11-09T21:38:10Z",
+ "count": 2016,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -186,6 +186,23 @@
     "hn:50364814",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
     "blog:https://seclists.org/oss-sec/2026/q4/481"
+   ]
+  },
+  {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -421,24 +438,101 @@
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/494"
    ]
-  },
-  {
-   "name": "GPT-6",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T20:24:37Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
-    "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-vvr2-h2jp-838m",
+   "source": "github-advisory",
+   "title": "Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read (pip/code-graph-rag)",
+   "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
+   "discussion": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:21:32Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-77604"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:21:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q4xm-p75h-h9p3",
+   "source": "github-advisory",
+   "title": "Pocket ID: The client credentials grant allows any OIDC client to obtain tokens for arbitrary audiences (go/github.com/pocket-id/pocket-id/backend)",
+   "url": "https://github.com/advisories/GHSA-q4xm-p75h-h9p3",
+   "discussion": "https://github.com/advisories/GHSA-q4xm-p75h-h9p3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:17:04Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62662"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:17:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-4p8p-pjpq-2w7h",
+   "source": "github-advisory",
+   "title": "tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process (npm/@tsparticles/mcp-server)",
+   "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+   "discussion": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:13:55Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-76892"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:13:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-447x-qqwf-m7xq",
+   "source": "github-advisory",
+   "title": "tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS (npm/@tsparticles/mcp-server)",
+   "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+   "discussion": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:10:46Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63655"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:10:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-6w3r-6hpr-hp6p",
    "source": "github-advisory",
@@ -934,7 +1028,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 42,
+   "points": 48,
    "comments": 14,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -1066,7 +1160,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 8,
+   "points": 9,
    "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
