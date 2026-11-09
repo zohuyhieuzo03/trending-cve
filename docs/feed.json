@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T03:38:12Z",
+ "generated": "2026-11-09T04:08:10Z",
  "count": 1962,
  "topics": [
   {
@@ -698,7 +698,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 33,
+   "points": 34,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -10471,7 +10471,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 23,
+   "points": 24,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
@@ -20256,7 +20256,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 64,
+   "points": 65,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
@@ -22683,7 +22683,7 @@
    "title": "ChaYeWuu/xring-CVE-2026-98260-OS4.0: CVE-2026-98260 一键 root | 玄戒 O1 家族：Xiaomi Pad 7S Pro 12.5 (violin) / Pad 7 Ultra (jinghu) / 15S Pro (dijun)，内核 6.18.21 | 可选加载 KernelSU / Suki",
    "url": "https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0",
    "discussion": "https://github.com/ChaYeWuu/xring-CVE-2026-98260-OS4.0",
-   "points": 11,
+   "points": 12,
    "comments": 0,
    "created": "2026-10-26T14:44:21Z",
    "label": "public_exploit_reported",
