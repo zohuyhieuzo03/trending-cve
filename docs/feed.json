@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T11:08:11Z",
- "count": 1985,
+ "generated": "2026-11-09T11:38:10Z",
+ "count": 1986,
  "topics": [
   {
    "name": "available",
@@ -439,6 +439,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "source": "thehackernews.com",
+   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "discussion": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T10:56:25Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T10:56:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T11:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+    "at": "2026-11-09T11:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/600",
    "source": "seclists.org",
@@ -1483,7 +1516,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 38,
+   "points": 39,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
