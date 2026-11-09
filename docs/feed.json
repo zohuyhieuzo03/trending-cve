@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T13:38:11Z",
- "count": 1988,
+ "generated": "2026-11-09T14:08:12Z",
+ "count": 1989,
  "topics": [
   {
    "name": "available",
@@ -432,6 +432,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50425428",
+   "source": "hackernews",
+   "title": "xAI ignoring Grokbot rootkit vulnerability",
+   "url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
+   "discussion": "https://news.ycombinator.com/item?id=50425428",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-09T13:37:52Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T13:37:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T14:08:12Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "xAI ignoring Grokbot rootkit vulnerability",
+    "at": "2026-11-09T14:08:12Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50424396",
    "source": "hackernews",
@@ -1663,7 +1696,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 35,
+   "points": 37,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -13787,7 +13820,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 20,
+   "points": 21,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
