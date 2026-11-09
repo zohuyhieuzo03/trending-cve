@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T06:08:10Z",
- "count": 1967,
+ "generated": "2026-11-09T06:38:11Z",
+ "count": 1969,
  "topics": [
   {
    "name": "available",
@@ -66,29 +66,6 @@
    ]
   },
   {
-   "name": "Apache",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-82440",
-    "CVE-2026-118196",
-    "CVE-2026-119641",
-    "CVE-2026-111959"
-   ],
-   "last_seen": "2026-11-09T05:23:32Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/582",
-    "blog:https://seclists.org/oss-sec/2026/q4/565",
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467",
-    "blog:https://seclists.org/oss-sec/2026/q4/465"
-   ]
-  },
-  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -136,6 +113,27 @@
     "hn:50388417",
     "hn:50340970",
     "hn:50409957"
+   ]
+  },
+  {
+   "name": "Apache",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-82440",
+    "CVE-2026-118196",
+    "CVE-2026-119641"
+   ],
+   "last_seen": "2026-11-09T05:23:32Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/582",
+    "blog:https://seclists.org/oss-sec/2026/q4/565",
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516",
+    "blog:https://seclists.org/oss-sec/2026/q4/467"
    ]
   },
   {
@@ -478,7 +476,20 @@
      "at": "2026-11-09T06:08:10Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Brotli CVE-2026-111497 reaches stock WordPress through pingbacks",
+    "at": "2026-11-09T06:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
@@ -498,7 +509,90 @@
      "at": "2026-11-09T06:08:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "at": "2026-11-09T06:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/585",
+   "source": "seclists.org",
+   "title": "CVE-2026-68982: Apache Airflow: CeleryExecutor: forged callback workloads run on Celery workers without workload-token validation",
+   "url": "https://seclists.org/oss-sec/2026/q4/585",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/585",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T06:02:37Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-68982"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T06:02:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T06:38:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-68982: Apache Airflow: CeleryExecutor: forged callback workloads run on Celery workers without workload-token validation",
+    "at": "2026-11-09T06:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/584",
+   "source": "seclists.org",
+   "title": "CVE-2026-50204: Apache Airflow: Audit-log secrets masker redacts by key name only, persisting connection and Variable secrets in cleartext",
+   "url": "https://seclists.org/oss-sec/2026/q4/584",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/584",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T06:00:50Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-50204"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T06:00:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T06:38:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-50204: Apache Airflow: Audit-log secrets masker redacts by key name only, persisting connection and Variable secrets in cleartext",
+    "at": "2026-11-09T06:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/583",
@@ -520,7 +614,20 @@
      "at": "2026-11-09T06:08:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-40913: Apache Airflow: Import Errors API Leaks Unauthorized DAG Stack Traces via Incomplete Per-File RBAC Enforcement",
+    "at": "2026-11-09T06:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/582",
@@ -13605,7 +13712,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free Red/Blue team toolkit. Kernel exposure checks, live marker-based race proof, KASLR s",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 39,
+   "points": 40,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
