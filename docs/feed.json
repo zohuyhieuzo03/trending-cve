@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T21:38:10Z",
- "count": 2016,
+ "generated": "2026-11-09T22:07:11Z",
+ "count": 2024,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -79,26 +79,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
-   ]
-  },
-  {
-   "name": "bypass",
-   "threads": 4,
-   "repos": 0,
-   "points": 71,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121728",
-    "CVE-2026-65339",
-    "CVE-2026-109117"
-   ],
-   "last_seen": "2026-11-09T20:17:12Z",
-   "items": [
-    "lobsters:x2hcss",
-    "hn:50431351",
-    "hn:50389343",
-    "blog:https://seclists.org/oss-sec/2026/q4/475"
    ]
   },
   {
@@ -189,20 +169,21 @@
    ]
   },
   {
-   "name": "Debian",
+   "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 72,
+   "points": 71,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-109518"
+    "CVE-2026-121728",
+    "CVE-2026-65339"
    ],
-   "last_seen": "2026-11-05T06:28:03Z",
+   "last_seen": "2026-11-09T20:17:12Z",
    "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+    "lobsters:x2hcss",
+    "hn:50431351",
+    "hn:50389343"
    ]
   },
   {
@@ -279,6 +260,45 @@
     "hn:50349249",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
+   "name": "request",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115864",
+    "CVE-2026-120367",
+    "CVE-2026-123770"
+   ],
+   "last_seen": "2026-11-09T21:58:30Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/612",
+    "blog:https://seclists.org/oss-sec/2026/q4/560",
+    "blog:https://seclists.org/oss-sec/2026/q4/559",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-897/"
+   ]
+  },
+  {
+   "name": "Apache",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119078",
+    "CVE-2026-118196"
+   ],
+   "last_seen": "2026-11-09T21:52:54Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/609",
+    "blog:https://seclists.org/oss-sec/2026/q4/565",
+    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/516"
    ]
   },
   {
@@ -421,26 +441,229 @@
     "blog:https://seclists.org/oss-sec/2026/q4/538",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
    ]
-  },
-  {
-   "name": "strings",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111821"
-   ],
-   "last_seen": "2026-11-04T10:13:39Z",
-   "items": [
-    "lobsters:sfzkeb",
-    "hn:50363481",
-    "blog:https://seclists.org/oss-sec/2026/q4/494"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-g3c2-rjq2-c763",
+   "source": "github-advisory",
+   "title": "esm.sh: web.NewHandler allows arbitrary file read via encoded dot-segment path traversal (go/github.com/esm-dev/esm.sh/web)",
+   "url": "https://github.com/advisories/GHSA-g3c2-rjq2-c763",
+   "discussion": "https://github.com/advisories/GHSA-g3c2-rjq2-c763",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:03:29Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102657"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:03:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j8j4-rw65-56r6",
+   "source": "github-advisory",
+   "title": "Telepresence: Traffic Manager gRPC has no auth — any pod claims arbitrary namespace and intercepts services, receiving victim environment secrets (go/github.com/telepresenceio/telepresence)",
+   "url": "https://github.com/advisories/GHSA-j8j4-rw65-56r6",
+   "discussion": "https://github.com/advisories/GHSA-j8j4-rw65-56r6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:59:49Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102340"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:59:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/612",
+   "source": "seclists.org",
+   "title": "CVE-2026-115864: Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory",
+   "url": "https://seclists.org/oss-sec/2026/q4/612",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/612",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:58:30Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115864"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T21:58:30Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-115864: Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory",
+    "at": "2026-11-09T22:07:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-6j3h-rp73-6rvf",
+   "source": "github-advisory",
+   "title": "Telepresence: Tunnel endpoint accepts caller-supplied session ID with no ownership proof — active client sessions hijackable (go/github.com/telepresenceio/telepresence/v2)",
+   "url": "https://github.com/advisories/GHSA-6j3h-rp73-6rvf",
+   "discussion": "https://github.com/advisories/GHSA-6j3h-rp73-6rvf",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:58:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102339"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:58:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-f42p-wjw5-97qh",
+   "source": "github-advisory",
+   "title": "zizmor: Debug logging prints available GitHub credentials in cleartext (pip/zizmor)",
+   "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
+   "discussion": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:56:25Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102289"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:56:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/610",
+   "source": "seclists.org",
+   "title": "CVE-2026-124077: Apache Commons Codec: NUL bytes in tree entry names cause Git/SWHID identifier collisions (GitIdentifiers class)",
+   "url": "https://seclists.org/oss-sec/2026/q4/610",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/610",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:54:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124077"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T21:54:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124077: Apache Commons Codec: NUL bytes in tree entry names cause Git/SWHID identifier collisions (GitIdentifiers class)",
+    "at": "2026-11-09T22:07:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/609",
+   "source": "seclists.org",
+   "title": "CVE-2026-119078: Apache Commons Codec: Blake3 doFinalize is stateless; the documented KDF example derives identical keys",
+   "url": "https://seclists.org/oss-sec/2026/q4/609",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/609",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:52:54Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-119078"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T21:52:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-119078: Apache Commons Codec: Blake3 doFinalize is stateless; the documented KDF example derives identical keys",
+    "at": "2026-11-09T22:07:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-rr8v-fxxf-c986",
+   "source": "github-advisory",
+   "title": "Gradle Shadow: Zip Slip path traversal in ShadowCopyAction — no independent entry-name sanitization (maven/com.gradleup.shadow:com.gradleup.shadow.gradle.plugin)",
+   "url": "https://github.com/advisories/GHSA-rr8v-fxxf-c986",
+   "discussion": "https://github.com/advisories/GHSA-rr8v-fxxf-c986",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:48:13Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-75598"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:48:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:07:11Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-vvr2-h2jp-838m",
    "source": "github-advisory",
@@ -1028,8 +1251,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 48,
-   "comments": 14,
+   "points": 56,
+   "comments": 15,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
