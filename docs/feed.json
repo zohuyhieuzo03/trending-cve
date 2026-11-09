@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:37:11Z",
+ "generated": "2026-11-09T13:08:11Z",
  "count": 1988,
  "topics": [
   {
@@ -305,6 +305,21 @@
    ]
   },
   {
+   "name": "switches",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T12:37:39Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
+    "blog:https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/"
+   ]
+  },
+  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -401,21 +416,6 @@
    ]
   },
   {
-   "name": "unpatched",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T12:37:39Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 3,
    "repos": 0,
@@ -438,8 +438,8 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 3,
-   "comments": 0,
+   "points": 4,
+   "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
    "cves": [],
@@ -1663,7 +1663,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 34,
+   "points": 35,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -13787,7 +13787,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 18,
+   "points": 19,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
@@ -23684,7 +23684,7 @@
    "title": "villager1314/CVE-2026-98260-Analysis: ",
    "url": "https://github.com/villager1314/CVE-2026-98260-Analysis",
    "discussion": "https://github.com/villager1314/CVE-2026-98260-Analysis",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-26T09:32:43Z",
    "label": "public_exploit_reported",
