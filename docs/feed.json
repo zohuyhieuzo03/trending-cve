@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:08:10Z",
+ "generated": "2026-11-09T09:38:10Z",
  "count": 1985,
  "topics": [
   {
@@ -191,7 +191,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 65,
+   "points": 66,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -4974,7 +4974,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 62,
+   "points": 63,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
