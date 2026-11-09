@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T22:38:10Z",
- "count": 2030,
+ "generated": "2026-11-09T23:08:10Z",
+ "count": 2032,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -444,6 +444,52 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-ghgh-57qv-h687",
+   "source": "github-advisory",
+   "title": "Kubeflow Pipelines: RBAC bypass on shared pipelines allows any authenticated user to delete or modify global pipelines (go/github.com/kubeflow/pipelines)",
+   "url": "https://github.com/advisories/GHSA-ghgh-57qv-h687",
+   "discussion": "https://github.com/advisories/GHSA-ghgh-57qv-h687",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:48:03Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-88984"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:48:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T23:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-5xjx-9qx6-jcrv",
+   "source": "github-advisory",
+   "title": "Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace (npm/@anthropic-ai/claude-code)",
+   "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+   "discussion": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:42:03Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-88968"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:42:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T23:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-9hq4-hm3j-jmph",
    "source": "github-advisory",
@@ -1391,8 +1437,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 60,
-   "comments": 18,
+   "points": 66,
+   "comments": 19,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -2738,7 +2784,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 41,
+   "points": 42,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
