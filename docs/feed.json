@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T03:07:11Z",
+ "generated": "2026-11-09T03:38:12Z",
  "count": 1962,
  "topics": [
   {
@@ -786,7 +786,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 28,
+   "points": 29,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -4656,7 +4656,7 @@
    "title": "h4urek/CVE-2026-50679: CVE-2026-50679 - Windows Search Heap Buffer Overflow",
    "url": "https://github.com/h4urek/CVE-2026-50679",
    "discussion": "https://github.com/h4urek/CVE-2026-50679",
-   "points": 11,
+   "points": 12,
    "comments": 0,
    "created": "2026-11-05T12:55:47Z",
    "label": "public_exploit_reported",
