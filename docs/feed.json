@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:08:10Z",
+ "generated": "2026-11-09T16:38:10Z",
  "count": 1993,
  "topics": [
   {
@@ -479,8 +479,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 3,
-   "comments": 1,
+   "points": 7,
+   "comments": 4,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -611,7 +611,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
