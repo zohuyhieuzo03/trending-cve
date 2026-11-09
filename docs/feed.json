@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T06:38:11Z",
- "count": 1969,
+ "generated": "2026-11-09T07:08:10Z",
+ "count": 1970,
  "topics": [
   {
    "name": "available",
@@ -454,6 +454,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50422080",
+   "source": "hackernews",
+   "title": "The Vulnerable Moment: Personalization, Exploitation",
+   "url": "https://medium.com/@smoking2man/the-vulnerable-moment-personalization-exploitation-and-the-circulation-of-knowledge-about-33b5111a2353",
+   "discussion": "https://news.ycombinator.com/item?id=50422080",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-09T07:07:03Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T07:07:03Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T07:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Vulnerable Moment: Personalization, Exploitation",
+    "at": "2026-11-09T07:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50421656",
    "source": "hackernews",
@@ -20498,7 +20531,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 67,
+   "points": 68,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
