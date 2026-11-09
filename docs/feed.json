@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T19:07:10Z",
- "count": 2000,
+ "generated": "2026-11-09T19:38:11Z",
+ "count": 2002,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -85,7 +85,7 @@
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
-   "points": 185,
+   "points": 186,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -438,6 +438,76 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/605",
+   "source": "seclists.org",
+   "title": "CPython: [CVE-2026-19552] ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity",
+   "url": "https://seclists.org/oss-sec/2026/q4/605",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/605",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T19:06:00Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-19552"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T19:06:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T19:38:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CPython: [CVE-2026-19552] ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity",
+    "at": "2026-11-09T19:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/604",
+   "source": "seclists.org",
+   "title": "CPython: [CVE-2026-124249] http.cookiejar deletes cookies of other domains via expired Set-Cookie",
+   "url": "https://seclists.org/oss-sec/2026/q4/604",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/604",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T19:03:51Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124249"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T19:03:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T19:38:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CPython: [CVE-2026-124249] http.cookiejar deletes cookies of other domains via expired Set-Cookie",
+    "at": "2026-11-09T19:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "github-advisory:GHSA-h667-4jj2-cgv4",
    "source": "github-advisory",
    "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring (pip/fastapi-code-generator)",
@@ -489,7 +559,7 @@
    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
    "discussion": "https://news.ycombinator.com/item?id=50429715",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-09T18:44:24Z",
    "label": "exploited_reported",
@@ -683,8 +753,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 25,
-   "comments": 7,
+   "points": 30,
+   "comments": 8,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
