@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T20:07:10Z",
- "count": 2005,
+ "generated": "2026-11-09T20:38:10Z",
+ "count": 2009,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -48,7 +48,7 @@
    "threads": 6,
    "repos": 0,
    "points": 3,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-123158"
@@ -79,6 +79,26 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
+   ]
+  },
+  {
+   "name": "bypass",
+   "threads": 4,
+   "repos": 0,
+   "points": 71,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121728",
+    "CVE-2026-65339",
+    "CVE-2026-109117"
+   ],
+   "last_seen": "2026-11-09T20:17:12Z",
+   "items": [
+    "lobsters:x2hcss",
+    "hn:50431351",
+    "hn:50389343",
+    "blog:https://seclists.org/oss-sec/2026/q4/475"
    ]
   },
   {
@@ -169,6 +189,23 @@
    ]
   },
   {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
+  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -185,24 +222,6 @@
    ]
   },
   {
-   "name": "bypass",
-   "threads": 3,
-   "repos": 0,
-   "points": 66,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121728",
-    "CVE-2026-109117"
-   ],
-   "last_seen": "2026-11-06T07:42:41Z",
-   "items": [
-    "lobsters:x2hcss",
-    "hn:50389343",
-    "blog:https://seclists.org/oss-sec/2026/q4/475"
-   ]
-  },
-  {
    "name": "Local",
    "threads": 3,
    "repos": 0,
@@ -215,21 +234,6 @@
     "hn:50372929",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -437,6 +441,41 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50431351",
+   "source": "hackernews",
+   "title": "A Microphone Permission Bypass on iOS 26 (CVE-2026-65339)",
+   "url": "https://dbg.re/posts/cve-2026-65339-audiomxd-microphone-permission-bypass/",
+   "discussion": "https://news.ycombinator.com/item?id=50431351",
+   "points": 5,
+   "comments": 1,
+   "created": "2026-11-09T20:17:12Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-65339"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T20:17:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "A Microphone Permission Bypass on iOS 26 (CVE-2026-65339)",
+    "at": "2026-11-09T20:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "github-advisory:GHSA-9qw7-j9xw-fv9c",
    "source": "github-advisory",
@@ -790,16 +829,22 @@
    "points": 1,
    "comments": 0,
    "created": "2026-11-09T16:05:16Z",
-   "label": "exploited_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-123158"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-123158"
+   ],
    "first_seen": "2026-11-09T16:05:16Z",
    "label_history": [
     {
      "at": "2026-11-09T16:08:10Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -822,8 +867,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 36,
-   "comments": 11,
+   "points": 38,
+   "comments": 12,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -954,7 +999,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 7,
+   "points": 8,
    "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
@@ -1851,6 +1896,78 @@
    }
   },
   {
+   "id": "kev:CVE-2026-102895",
+   "source": "cisa-kev",
+   "title": "CVE-2026-102895: GPUStack GPUStack - GPUStack Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "kev": [
+    "CVE-2026-102895"
+   ],
+   "first_seen": "2026-11-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-123158",
+   "source": "cisa-kev",
+   "title": "CVE-2026-123158: OpenBSD OpenSSH - OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "kev": [
+    "CVE-2026-123158"
+   ],
+   "first_seen": "2026-11-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-116779",
+   "source": "cisa-kev",
+   "title": "CVE-2026-116779: SignalWire FreeSwitch - SignalWire FreeSwitch Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-116779"
+   ],
+   "kev": [
+    "CVE-2026-116779"
+   ],
+   "first_seen": "2026-11-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:50418651",
    "source": "hackernews",
    "title": "AI to find vulnerabilities in global legislation (on Git)",
@@ -1958,16 +2075,22 @@
    "points": 0,
    "comments": 0,
    "created": "2026-11-08T15:44:33Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-123158"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-123158"
+   ],
    "first_seen": "2026-11-08T15:44:33Z",
    "label_history": [
     {
      "at": "2026-11-09T01:17:24Z",
      "label": "related"
+    },
+    {
+     "at": "2026-11-09T20:38:10Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
