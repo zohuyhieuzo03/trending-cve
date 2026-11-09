@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T04:08:10Z",
+ "generated": "2026-11-09T04:38:10Z",
  "count": 1962,
  "topics": [
   {
@@ -698,7 +698,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 34,
+   "points": 35,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -15550,7 +15550,7 @@
    "title": "Xplo8E/CVE-2026-112621-oob-write-poc: ",
    "url": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
    "discussion": "https://github.com/Xplo8E/CVE-2026-112621-oob-write-poc",
-   "points": 26,
+   "points": 27,
    "comments": 0,
    "created": "2026-10-29T12:58:50Z",
    "label": "public_exploit_reported",
@@ -20256,7 +20256,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 65,
+   "points": 66,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
