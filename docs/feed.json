@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:38:10Z",
+ "generated": "2026-11-09T11:08:11Z",
  "count": 1985,
  "topics": [
   {
@@ -1571,7 +1571,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 31,
+   "points": 32,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -23110,7 +23110,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
