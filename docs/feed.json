@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:08:10Z",
+ "generated": "2026-11-09T10:38:10Z",
  "count": 1985,
  "topics": [
   {
@@ -14255,7 +14255,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free Red/Blue team toolkit. Kernel exposure checks, live marker-based race proof, KASLR s",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
