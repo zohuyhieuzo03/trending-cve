@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T18:38:00Z",
- "count": 1997,
+ "generated": "2026-11-09T19:07:10Z",
+ "count": 2000,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -82,6 +82,21 @@
    ]
   },
   {
+   "name": "OpenSSH",
+   "threads": 3,
+   "repos": 0,
+   "points": 185,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T18:44:24Z",
+   "items": [
+    "hn:50377221",
+    "hn:50429715",
+    "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+   ]
+  },
+  {
    "name": "Node.js",
    "threads": 4,
    "repos": 0,
@@ -151,23 +166,6 @@
     "hn:50364814",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
     "blog:https://seclists.org/oss-sec/2026/q4/481"
-   ]
-  },
-  {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -440,6 +438,85 @@
  ],
  "items": [
   {
+   "id": "github-advisory:GHSA-h667-4jj2-cgv4",
+   "source": "github-advisory",
+   "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring (pip/fastapi-code-generator)",
+   "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
+   "discussion": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T18:50:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63470"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-09T18:50:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T19:07:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-52c6-99qm-3hqr",
+   "source": "github-advisory",
+   "title": "zt-zip: Path traversal in fluent API unpack (maven/org.zeroturnaround:zt-zip)",
+   "url": "https://github.com/advisories/GHSA-52c6-99qm-3hqr",
+   "discussion": "https://github.com/advisories/GHSA-52c6-99qm-3hqr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T18:47:27Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63436"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T18:47:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T19:07:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50429715",
+   "source": "hackernews",
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+   "discussion": "https://news.ycombinator.com/item?id=50429715",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-09T18:44:24Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T18:44:24Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T19:07:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "at": "2026-11-09T19:07:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/602",
    "source": "seclists.org",
    "title": "CVE-2026-124311: VVdeC/vvdecapp: NULL Pointer Dereference in InterPrediction::xPredInterBlk via Reference Wrap-Around",
@@ -606,7 +683,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 21,
+   "points": 25,
    "comments": 7,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -21433,7 +21510,7 @@
    "title": "G4sp4rCS/CVE-2026-97798-exploit: CVE-2026-97798 Windows Error Reporting - Command Injection TO SYSTEM",
    "url": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
    "discussion": "https://github.com/G4sp4rCS/CVE-2026-97798-exploit",
-   "points": 68,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-27T17:45:26Z",
    "label": "public_exploit_reported",
