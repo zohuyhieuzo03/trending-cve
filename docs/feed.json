@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T22:07:11Z",
- "count": 2024,
+ "generated": "2026-11-09T22:38:10Z",
+ "count": 2030,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -444,6 +444,146 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-9hq4-hm3j-jmph",
+   "source": "github-advisory",
+   "title": "DDEV incomplete tar symlink traversal fix allows host file overwrite - Incomplete fix of CVE-2026-32885 (go/github.com/ddev/ddev)",
+   "url": "https://github.com/advisories/GHSA-9hq4-hm3j-jmph",
+   "discussion": "https://github.com/advisories/GHSA-9hq4-hm3j-jmph",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:37:58Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108262"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:37:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-h89v-g948-47vp",
+   "source": "github-advisory",
+   "title": "Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser (npm/moleculer)",
+   "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+   "discussion": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:31:16Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-97705"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:31:16Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rjr3-43j3-4q8g",
+   "source": "github-advisory",
+   "title": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads (go/github.com/kubeflow/pipelines)",
+   "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g",
+   "discussion": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:22:41Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-77596"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-09T22:22:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-85gg-2gfq-q95m",
+   "source": "github-advisory",
+   "title": "Code Graph RAG structural tools follow out-of-root symlinks (pip/code-graph-rag)",
+   "url": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
+   "discussion": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:16:41Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-87008"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T22:16:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-gj9m-f8ph-pmhr",
+   "source": "github-advisory",
+   "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin (pip/gpustack)",
+   "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+   "discussion": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:15:27Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "kev": [
+    "CVE-2026-102895"
+   ],
+   "severity": "critical",
+   "first_seen": "2026-11-09T22:15:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rm8c-2cv8-jwf6",
+   "source": "github-advisory",
+   "title": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing (go/github.com/pocket-id/pocket-id/backend)",
+   "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6",
+   "discussion": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T22:12:21Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115770"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-09T22:12:21Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-g3c2-rjq2-c763",
    "source": "github-advisory",
@@ -1251,8 +1391,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 56,
-   "comments": 15,
+   "points": 60,
+   "comments": 18,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -12371,7 +12511,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 25,
+   "points": 26,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
