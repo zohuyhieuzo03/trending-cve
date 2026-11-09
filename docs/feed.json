@@ -1,32 +1,7 @@
 {
- "generated": "2026-11-09T17:08:10Z",
+ "generated": "2026-11-09T17:38:10Z",
  "count": 1993,
  "topics": [
-  {
-   "name": "available",
-   "threads": 10,
-   "repos": 0,
-   "points": 19,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432",
-    "CVE-2026-74756"
-   ],
-   "last_seen": "2026-11-06T17:04:44Z",
-   "items": [
-    "hn:50351808",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50367454",
-    "hn:50349491",
-    "hn:50353777",
-    "hn:50340028",
-    "blog:https://seclists.org/oss-sec/2026/q4/549",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "lobsters:5cmg1k",
-    "blog:https://seclists.org/oss-sec/2026/q4/476"
-   ]
-  },
   {
    "name": "Out-Of-Bounds",
    "threads": 9,
@@ -46,6 +21,26 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/"
+   ]
+  },
+  {
+   "name": "Canonical",
+   "threads": 6,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "last_seen": "2026-11-04T15:58:09Z",
+   "items": [
+    "hn:50351808",
+    "hn:50367454",
+    "hn:50349491",
+    "hn:50353777",
+    "lobsters:5cmg1k",
+    "blog:https://seclists.org/oss-sec/2026/q4/476"
    ]
   },
   {
@@ -287,41 +282,22 @@
    ]
   },
   {
-   "name": "Apache",
+   "name": "authentication",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-118196",
-    "CVE-2026-119641"
+    "CVE-2026-74756",
+    "CVE-2026-74846"
    ],
-   "last_seen": "2026-11-07T01:29:55Z",
+   "last_seen": "2026-11-06T16:55:56Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/565",
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516",
-    "blog:https://seclists.org/oss-sec/2026/q4/467"
-   ]
-  },
-  {
-   "name": "Entity",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-120761",
-    "CVE-2026-119724"
-   ],
-   "last_seen": "2026-11-06T17:36:55Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/556",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-864/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-862/",
-    "blog:https://seclists.org/oss-sec/2026/q4/466"
+    "blog:https://seclists.org/oss-sec/2026/q4/549",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+    "blog:https://seclists.org/oss-sec/2026/q4/478",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-854/"
    ]
   },
   {
@@ -373,21 +349,6 @@
    ]
   },
   {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -435,6 +396,43 @@
     "hn:50357772",
     "hn:50396504"
    ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://seclists.org/oss-sec/2026/q4/486"
+   ]
+  },
+  {
+   "name": "Path",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123776",
+    "CVE-2026-76168"
+   ],
+   "last_seen": "2026-11-07T18:55:08Z",
+   "items": [
+    "hn:50403927",
+    "blog:https://seclists.org/oss-sec/2026/q4/575",
+    "blog:https://seclists.org/oss-sec/2026/q4/550"
+   ]
   }
  ],
  "items": [
@@ -479,7 +477,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 10,
+   "points": 13,
    "comments": 4,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -6128,7 +6126,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 21,
+   "points": 22,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
@@ -11521,7 +11519,7 @@
    "title": "0xjohnnydev/CVE-2026-112688-backboardd: CVE-2026-112688 CoreMedia PoC: controlled saved-LR corruption in backboardd, stopped by PAC, plus evidence of a constrained write-1 primitiv",
    "url": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
    "discussion": "https://github.com/0xjohnnydev/CVE-2026-112688-backboardd",
-   "points": 24,
+   "points": 25,
    "comments": 0,
    "created": "2026-11-02T05:45:28Z",
    "label": "public_exploit_reported",
@@ -22599,7 +22597,7 @@
    "title": "Ping-2o/CVE-2026-112611-cg-shading: CVE-2026-112611/112610: CoreGraphics PDF out-of-bounds writes (fixed in iOS 27.2) — fix-diff analysis, on-device proof, methodology, and PoC",
    "url": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
    "discussion": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
-   "points": 19,
+   "points": 20,
    "comments": 0,
    "created": "2026-10-27T09:46:42Z",
    "label": "public_exploit_reported",
