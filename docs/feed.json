@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:08:11Z",
+ "generated": "2026-11-09T12:37:11Z",
  "count": 1988,
  "topics": [
   {
@@ -438,7 +438,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 1,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
@@ -471,7 +471,7 @@
    "title": "The first 1000 days: Modeling language learning from children's everyday speech",
    "url": "https://www.science.org/doi/10.1126/science.aeh9311",
    "discussion": "https://news.ycombinator.com/item?id=50424240",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-09T11:41:40Z",
    "label": "security_news",
@@ -1663,7 +1663,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 33,
+   "points": 34,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -5955,7 +5955,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 20,
+   "points": 21,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
