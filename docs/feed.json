@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:38:10Z",
+ "generated": "2026-11-09T10:08:10Z",
  "count": 1985,
  "topics": [
   {
@@ -1483,7 +1483,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 37,
+   "points": 38,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
