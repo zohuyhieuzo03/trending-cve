@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:08:11Z",
+ "generated": "2026-11-09T13:38:11Z",
  "count": 1988,
  "topics": [
   {
@@ -438,7 +438,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 4,
+   "points": 5,
    "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
@@ -13787,7 +13787,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 19,
+   "points": 20,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
