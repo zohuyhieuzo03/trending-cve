@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T20:38:10Z",
- "count": 2009,
+ "generated": "2026-11-09T21:08:10Z",
+ "count": 2012,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -105,7 +105,7 @@
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
-   "points": 186,
+   "points": 187,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -189,23 +189,6 @@
    ]
   },
   {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -234,6 +217,21 @@
     "hn:50372929",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -441,6 +439,75 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-6w3r-6hpr-hp6p",
+   "source": "github-advisory",
+   "title": "ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass) (npm/ag-psd)",
+   "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+   "discussion": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T21:08:28Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63501"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T21:08:28Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8cfq-jgf7-8m27",
+   "source": "github-advisory",
+   "title": "traQ: Privilege escalation by OAuth prompt=none request (go/github.com/traPtitech/traQ)",
+   "url": "https://github.com/advisories/GHSA-8cfq-jgf7-8m27",
+   "discussion": "https://github.com/advisories/GHSA-8cfq-jgf7-8m27",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T20:55:17Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63198"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T20:55:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-p74g-f95m-7fx7",
+   "source": "github-advisory",
+   "title": "traQ: XSS in the User Uploaded File Retrieval API (go/github.com/traPtitech/traQ)",
+   "url": "https://github.com/advisories/GHSA-p74g-f95m-7fx7",
+   "discussion": "https://github.com/advisories/GHSA-p74g-f95m-7fx7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T20:52:49Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63197"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T20:52:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T21:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "hn:50431351",
    "source": "hackernews",
@@ -667,7 +734,7 @@
    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
    "discussion": "https://news.ycombinator.com/item?id=50429715",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-09T18:44:24Z",
    "label": "exploited_reported",
@@ -867,8 +934,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 38,
-   "comments": 12,
+   "points": 42,
+   "comments": 14,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -13901,7 +13968,9 @@
    "comments": 0,
    "created": "2026-10-30T22:57:22Z",
    "label": "vendor_advisory",
-   "cves": [],
+   "cves": [
+    "CVE-2026-123807"
+   ],
    "kev": [],
    "severity": "critical",
    "first_seen": "2026-10-30T22:57:22Z",
