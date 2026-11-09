@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T11:38:10Z",
- "count": 1986,
+ "generated": "2026-11-09T12:08:11Z",
+ "count": 1988,
  "topics": [
   {
    "name": "available",
@@ -206,26 +206,6 @@
    ]
   },
   {
-   "name": "Unauthenticated",
-   "threads": 4,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436",
-    "CVE-2026-100300"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://seclists.org/oss-sec/2026/q4/486",
-    "blog:https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
-   ]
-  },
-  {
    "name": "Android",
    "threads": 3,
    "repos": 0,
@@ -325,23 +305,6 @@
    ]
   },
   {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-58115"
-   ],
-   "last_seen": "2026-11-06T13:52:11Z",
-   "items": [
-    "hn:50349357",
-    "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more",
-    "blog:https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-   ]
-  },
-  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -436,9 +399,105 @@
     "hn:50357772",
     "hn:50396504"
    ]
+  },
+  {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T12:37:39Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzde7xi7wb2h",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+   ]
+  },
+  {
+   "name": "Claude",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T12:06:35Z",
+   "items": [
+    "hn:50338054",
+    "hn:50379673",
+    "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50424396",
+   "source": "hackernews",
+   "title": "Covert Russian network exploited French riots on social media, EU report says",
+   "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+   "discussion": "https://news.ycombinator.com/item?id=50424396",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-09T11:58:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T11:58:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T12:08:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Covert Russian network exploited French riots on social media, EU report says",
+    "at": "2026-11-09T12:08:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50424240",
+   "source": "hackernews",
+   "title": "The first 1000 days: Modeling language learning from children's everyday speech",
+   "url": "https://www.science.org/doi/10.1126/science.aeh9311",
+   "discussion": "https://news.ycombinator.com/item?id=50424240",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-09T11:41:40Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T11:41:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T12:08:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The first 1000 days: Modeling language learning from children's everyday speech",
+    "at": "2026-11-09T12:08:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.97
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
    "source": "thehackernews.com",
@@ -1516,7 +1575,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 39,
+   "points": 40,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -1604,7 +1663,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 32,
+   "points": 33,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
