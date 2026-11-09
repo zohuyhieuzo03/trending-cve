@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:08:10Z",
+ "generated": "2026-11-09T23:37:11Z",
  "count": 2032,
  "topics": [
   {
@@ -172,7 +172,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 71,
+   "points": 72,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -1017,7 +1017,7 @@
    "title": "A Microphone Permission Bypass on iOS 26 (CVE-2026-65339)",
    "url": "https://dbg.re/posts/cve-2026-65339-audiomxd-microphone-permission-bypass/",
    "discussion": "https://news.ycombinator.com/item?id=50431351",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-09T20:17:12Z",
    "label": "related",
@@ -1437,7 +1437,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 66,
+   "points": 69,
    "comments": 19,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
