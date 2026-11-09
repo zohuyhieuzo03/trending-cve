@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T15:08:10Z",
- "count": 1990,
+ "generated": "2026-11-09T15:37:37Z",
+ "count": 1991,
  "topics": [
   {
    "name": "available",
@@ -204,6 +204,38 @@
    ]
   },
   {
+   "name": "deploy",
+   "threads": 4,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T14:31:29Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
+   ]
+  },
+  {
+   "name": "Control",
+   "threads": 4,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T05:58:54Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
@@ -338,36 +370,6 @@
    ]
   },
   {
-   "name": "deploy",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T18:47:09Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
-   ]
-  },
-  {
-   "name": "Control",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T16:24:43Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
-   ]
-  },
-  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -417,22 +419,59 @@
    ]
   },
   {
-   "name": "Claude",
+   "name": "Unauthenticated",
    "threads": 3,
    "repos": 0,
-   "points": 5,
+   "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T12:06:35Z",
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
    "items": [
-    "hn:50338054",
-    "hn:50379673",
-    "blog:https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://seclists.org/oss-sec/2026/q4/486"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "source": "thehackernews.com",
+   "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "discussion": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T14:31:29Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T14:31:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T15:37:37Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "at": "2026-11-09T15:37:37Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50425428",
    "source": "hackernews",
@@ -505,7 +544,7 @@
    "title": "Covert Russian network exploited French riots on social media, EU report says",
    "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
    "discussion": "https://news.ycombinator.com/item?id=50424396",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-09T11:58:38Z",
    "label": "security_news",
@@ -1730,7 +1769,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 37,
+   "points": 38,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -13854,7 +13893,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 21,
+   "points": 22,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
@@ -14115,7 +14154,7 @@
    "title": "xen0bit/netprobe-cve-2026-98432: You should patch, but not worry about CVE-2026-98432",
    "url": "https://github.com/xen0bit/netprobe-cve-2026-98432",
    "discussion": "https://github.com/xen0bit/netprobe-cve-2026-98432",
-   "points": 17,
+   "points": 18,
    "comments": 0,
    "created": "2026-10-30T15:38:53Z",
    "label": "public_exploit_reported",
