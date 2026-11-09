@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T19:38:11Z",
- "count": 2002,
+ "generated": "2026-11-09T20:07:10Z",
+ "count": 2005,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -438,6 +438,75 @@
  ],
  "items": [
   {
+   "id": "github-advisory:GHSA-9qw7-j9xw-fv9c",
+   "source": "github-advisory",
+   "title": "isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE) (npm/isomorphic-git)",
+   "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+   "discussion": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T19:53:44Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63395"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T19:53:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:07:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-p2mm-64f6-gmpp",
+   "source": "github-advisory",
+   "title": "fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator (pip/fastapi-code-generator)",
+   "url": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp",
+   "discussion": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T19:48:08Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63471"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-09T19:48:08Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:07:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-6xmv-cjr5-w3q8",
+   "source": "github-advisory",
+   "title": "fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict (pip/fastapi-code-generator)",
+   "url": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8",
+   "discussion": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T19:46:27Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63469"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-09T19:46:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T20:07:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/605",
    "source": "seclists.org",
    "title": "CPython: [CVE-2026-19552] ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity",
@@ -753,8 +822,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 30,
-   "comments": 8,
+   "points": 36,
+   "comments": 11,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -2110,7 +2179,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 38,
+   "points": 39,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
