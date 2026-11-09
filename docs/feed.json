@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T17:38:10Z",
- "count": 1993,
+ "generated": "2026-11-09T18:08:10Z",
+ "count": 1994,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -95,21 +95,6 @@
     "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
-   "name": "OpenSSH",
-   "threads": 3,
-   "repos": 0,
-   "points": 195,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T15:21:49Z",
-   "items": [
-    "hn:50377221",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
    ]
   },
   {
@@ -252,18 +237,18 @@
    ]
   },
   {
-   "name": "Android",
+   "name": "accounts",
    "threads": 3,
    "repos": 0,
-   "points": 17,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
+   "last_seen": "2026-11-09T17:51:21Z",
    "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50405744",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
    ]
   },
   {
@@ -433,9 +418,57 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550"
    ]
+  },
+  {
+   "name": "backdoors",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T18:46:52Z",
+   "items": [
+    "hn:50390442",
+    "blog:https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T17:51:21Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T17:51:21Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T18:08:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "at": "2026-11-09T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
    "source": "bluesky",
@@ -477,7 +510,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 13,
+   "points": 18,
    "comments": 4,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
