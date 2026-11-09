@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:38:10Z",
+ "generated": "2026-11-09T17:08:10Z",
  "count": 1993,
  "topics": [
   {
@@ -52,7 +52,7 @@
    "name": "credentials",
    "threads": 6,
    "repos": 0,
-   "points": 2,
+   "points": 3,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -268,7 +268,7 @@
    "items": [
     "hn:50403884",
     "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -444,7 +444,7 @@
    "title": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-11-09T16:05:16Z",
    "label": "exploited_reported",
@@ -479,7 +479,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 7,
+   "points": 10,
    "comments": 4,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -545,7 +545,7 @@
    "title": "Grokbot rootkit vulnerability, ignored",
    "url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
    "discussion": "https://news.ycombinator.com/item?id=50425428",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-09T13:37:52Z",
    "label": "security_news",
