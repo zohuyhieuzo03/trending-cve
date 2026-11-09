@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T18:08:10Z",
- "count": 1994,
+ "generated": "2026-11-09T18:38:00Z",
+ "count": 1997,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -82,22 +82,6 @@
    ]
   },
   {
-   "name": "escalation",
-   "threads": 4,
-   "repos": 0,
-   "points": 57,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-05T04:31:16Z",
-   "items": [
-    "hn:50372929",
-    "blog:https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
-   ]
-  },
-  {
    "name": "Node.js",
    "threads": 4,
    "repos": 0,
@@ -111,22 +95,6 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 4,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-08T02:30:08Z",
-   "items": [
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50340970",
-    "hn:50409957"
    ]
   },
   {
@@ -237,6 +205,36 @@
    ]
   },
   {
+   "name": "Local",
+   "threads": 3,
+   "repos": 0,
+   "points": 57,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T23:33:14Z",
+   "items": [
+    "hn:50372929",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -264,6 +262,45 @@
     "hn:50349249",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
+   "name": "Airflow",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111453",
+    "CVE-2026-111421",
+    "CVE-2026-76185",
+    "CVE-2026-68982"
+   ],
+   "last_seen": "2026-11-09T07:26:21Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/596",
+    "blog:https://seclists.org/oss-sec/2026/q4/594",
+    "blog:https://seclists.org/oss-sec/2026/q4/586",
+    "blog:https://seclists.org/oss-sec/2026/q4/585"
+   ]
+  },
+  {
+   "name": "injection",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121265"
+   ],
+   "last_seen": "2026-11-07T18:53:17Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/574",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
    ]
   },
   {
@@ -302,6 +339,21 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-08T02:30:08Z",
+   "items": [
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50409957"
+   ]
+  },
+  {
    "name": "switches",
    "threads": 3,
    "repos": 0,
@@ -331,6 +383,26 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
     "hn:50398020",
     "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+   ]
+  },
+  {
+   "name": "Windows",
+   "threads": 3,
+   "repos": 1,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-50679",
+    "CVE-2025-15603",
+    "CVE-2026-59264"
+   ],
+   "last_seen": "2026-11-06T04:58:46Z",
+   "items": [
+    "ghpoc:h4urek/CVE-2026-50679",
+    "hn:50383612",
+    "blog:https://seclists.org/oss-sec/2026/q4/538",
+    "blog:https://seclists.org/oss-sec/2026/q4/497"
    ]
   },
   {
@@ -364,78 +436,102 @@
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
-  },
-  {
-   "name": "upgrade-window",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
-   "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
-   ]
-  },
-  {
-   "name": "Unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436",
-    "CVE-2026-100300"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://seclists.org/oss-sec/2026/q4/486"
-   ]
-  },
-  {
-   "name": "Path",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123776",
-    "CVE-2026-76168"
-   ],
-   "last_seen": "2026-11-07T18:55:08Z",
-   "items": [
-    "hn:50403927",
-    "blog:https://seclists.org/oss-sec/2026/q4/575",
-    "blog:https://seclists.org/oss-sec/2026/q4/550"
-   ]
-  },
-  {
-   "name": "backdoors",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T18:46:52Z",
-   "items": [
-    "hn:50390442",
-    "blog:https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-    "blog:https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/602",
+   "source": "seclists.org",
+   "title": "CVE-2026-124311: VVdeC/vvdecapp: NULL Pointer Dereference in InterPrediction::xPredInterBlk via Reference Wrap-Around",
+   "url": "https://seclists.org/oss-sec/2026/q4/602",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/602",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T18:15:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124311"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T18:15:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T18:38:00Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124311: VVdeC/vvdecapp: NULL Pointer Dereference in InterPrediction::xPredInterBlk via Reference Wrap-Around",
+    "at": "2026-11-09T18:38:00Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-w7qv-268h-9h3f",
+   "source": "github-advisory",
+   "title": "Logging Redactor: PII data in str/repr of non primitive objects was not being redacted (pip/loggingredactor)",
+   "url": "https://github.com/advisories/GHSA-w7qv-268h-9h3f",
+   "discussion": "https://github.com/advisories/GHSA-w7qv-268h-9h3f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T18:15:18Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63417"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-09T18:15:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T18:38:00Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/601",
+   "source": "seclists.org",
+   "title": "CVE-2026-124307: VVdeC/vvdecapp: Heap Use-After-Free in AdaptiveLoopFilter::reconstructCoeff via ALF APS Redefinition",
+   "url": "https://seclists.org/oss-sec/2026/q4/601",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/601",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T18:13:48Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124307"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T18:13:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T18:38:00Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124307: VVdeC/vvdecapp: Heap Use-After-Free in AdaptiveLoopFilter::reconstructCoeff via ALF APS Redefinition",
+    "at": "2026-11-09T18:38:00Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
    "source": "thehackernews.com",
@@ -510,8 +606,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 18,
-   "comments": 4,
+   "points": 21,
+   "comments": 7,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -1779,7 +1875,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -13991,7 +14087,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 22,
+   "points": 24,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
@@ -15033,7 +15129,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 65,
+   "points": 66,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -19160,7 +19256,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 66,
+   "points": 67,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
