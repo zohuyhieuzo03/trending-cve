@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T15:37:37Z",
- "count": 1991,
+ "generated": "2026-11-09T16:08:10Z",
+ "count": 1993,
  "topics": [
   {
    "name": "available",
@@ -49,6 +49,26 @@
    ]
   },
   {
+   "name": "credentials",
+   "threads": 6,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-09T16:05:16Z",
+   "items": [
+    "hn:50409231",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+    "blog:https://isc.sans.edu/diary/rss/33492",
+    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+   ]
+  },
+  {
    "name": "Traversal",
    "threads": 6,
    "repos": 0,
@@ -83,18 +103,17 @@
    ]
   },
   {
-   "name": "sshole",
-   "threads": 4,
+   "name": "OpenSSH",
+   "threads": 3,
    "repos": 0,
-   "points": 13,
+   "points": 195,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-09T13:28:25Z",
+   "last_seen": "2026-11-06T15:21:49Z",
    "items": [
+    "hn:50377221",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50382093",
-    "blog:https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
    ]
   },
@@ -217,22 +236,6 @@
     "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
     "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
     "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
-   ]
-  },
-  {
-   "name": "Control",
-   "threads": 4,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T05:58:54Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
    ]
   },
   {
@@ -370,6 +373,21 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-05T16:24:43Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-853/"
+   ]
+  },
+  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -417,28 +435,77 @@
     "hn:50357772",
     "hn:50396504"
    ]
-  },
-  {
-   "name": "Unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436",
-    "CVE-2026-100300"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://seclists.org/oss-sec/2026/q4/486"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+   "source": "bluesky",
+   "title": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T16:05:16Z",
+   "label": "exploited_reported",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-09T16:05:16Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T16:08:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.",
+    "at": "2026-11-09T16:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "lobsters:vghqe8",
+   "source": "lobsters",
+   "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
+   "url": "https://terminal2shell.com/",
+   "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-11-09T09:41:50.359-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T15:41:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-09T16:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
+    "at": "2026-11-09T16:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
    "source": "thehackernews.com",
@@ -23308,7 +23375,7 @@
    "title": "woshigenm/CVE-2026-98260: Android LPE (CVE-2026-98260) on Honor MagicPad3 Pro 13.3 (YLP-W00), kernel 6.12.38 — PoC/EXP, uid-0 shell, KernelSU app",
    "url": "https://github.com/woshigenm/CVE-2026-98260",
    "discussion": "https://github.com/woshigenm/CVE-2026-98260",
-   "points": 50,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-26T16:49:03Z",
    "label": "public_exploit_reported",
