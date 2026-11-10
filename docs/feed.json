@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T22:08:10Z",
- "count": 2123,
+ "generated": "2026-11-10T22:38:10Z",
+ "count": 2128,
  "topics": [
   {
    "name": "Heap-based",
@@ -83,7 +83,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 17,
+   "points": 19,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -415,6 +415,23 @@
    ]
   },
   {
+   "name": "GitLab",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-105437"
+   ],
+   "last_seen": "2026-11-10T22:23:46Z",
+   "items": [
+    "hn:50380348",
+    "hn:50447147",
+    "gitlab:patch-release-gitlab-19-5-4-released"
+   ]
+  },
+  {
    "name": "Orchestra",
    "threads": 3,
    "repos": 0,
@@ -428,24 +445,77 @@
     "hn:50438830",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
    ]
-  },
-  {
-   "name": "N-Able",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:20:34Z",
-   "items": [
-    "hn:50435133",
-    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50447147",
+   "source": "hackernews",
+   "title": "GitLab patch release 19.5.4 fixes CVE-2026-105437 (vulnerability in Git)",
+   "url": "https://gitlab.com/gitlab-org/release/patch-release-blogs/-/blob/main/doc/releases/patch-release-gitlab-19-5-4-released.md",
+   "discussion": "https://news.ycombinator.com/item?id=50447147",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T22:23:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-105437"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T22:23:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "GitLab patch release 19.5.4 fixes CVE-2026-105437 (vulnerability in Git)",
+    "at": "2026-11-10T22:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyhyiigns2q",
+   "source": "bluesky",
+   "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T22:20:37Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T22:20:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:38:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
+    "at": "2026-11-10T22:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "lobsters:rfacq5",
    "source": "lobsters",
@@ -526,6 +596,69 @@
    ]
   },
   {
+   "id": "github-advisory:GHSA-fgfw-85w4-gx99",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability (nuget/Aspire.Cli)",
+   "url": "https://github.com/advisories/GHSA-fgfw-85w4-gx99",
+   "discussion": "https://github.com/advisories/GHSA-fgfw-85w4-gx99",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:33:44Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:33:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-hfpm-4fc4-g2wc",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability (nuget/Aspire.Cli)",
+   "url": "https://github.com/advisories/GHSA-hfpm-4fc4-g2wc",
+   "discussion": "https://github.com/advisories/GHSA-hfpm-4fc4-g2wc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:33:43Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:33:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-95x6-7hq8-2c37",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability (nuget/Microsoft.AspNetCore.App.Runtime.win-arm64)",
+   "url": "https://github.com/advisories/GHSA-95x6-7hq8-2c37",
+   "discussion": "https://github.com/advisories/GHSA-95x6-7hq8-2c37",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:52Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-49q5-vjx7-5gwr",
    "source": "github-advisory",
    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.Server.HttpSys)",
@@ -596,8 +729,8 @@
    "title": "Windows Search RCE Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
-   "points": 3,
-   "comments": 0,
+   "points": 5,
+   "comments": 1,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
    "cves": [],
@@ -925,7 +1058,7 @@
    "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
    "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/",
    "discussion": "https://news.ycombinator.com/item?id=50444972",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-11-10T19:22:41Z",
    "label": "security_news",
@@ -22904,7 +23037,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 82,
+   "points": 83,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
