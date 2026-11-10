@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T14:38:10Z",
- "count": 2056,
+ "generated": "2026-11-10T15:08:09Z",
+ "count": 2057,
  "topics": [
   {
    "name": "Ubuntu",
@@ -45,26 +45,6 @@
    ]
   },
   {
-   "name": "commands",
-   "threads": 6,
-   "repos": 0,
-   "points": 7,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-09T16:05:16Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
-   ]
-  },
-  {
    "name": "OpenSSH",
    "threads": 4,
    "repos": 0,
@@ -81,6 +61,41 @@
    ]
   },
   {
+   "name": "Scans",
+   "threads": 5,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-09T16:05:16Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
+    "blog:https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 4,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:23:22Z",
+   "items": [
+    "hn:50440821",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50409957"
+   ]
+  },
+  {
    "name": "Node.js",
    "threads": 4,
    "repos": 0,
@@ -94,22 +109,6 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 4,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:23:22Z",
-   "items": [
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50440821",
-    "hn:50409957"
    ]
   },
   {
@@ -428,20 +427,18 @@
    ]
   },
   {
-   "name": "authentication",
+   "name": "N-Able",
    "threads": 3,
    "repos": 0,
    "points": 2,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-74756"
-   ],
-   "last_seen": "2026-11-10T11:29:43Z",
+   "cves": [],
+   "last_seen": "2026-11-10T14:20:34Z",
    "items": [
-    "hn:50438830",
-    "blog:https://seclists.org/oss-sec/2026/q4/549",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/"
+    "hn:50435133",
+    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
    ]
   }
  ],
@@ -452,7 +449,7 @@
    "title": "The Linux TCP RCE is worse than we thought",
    "url": "https://www.firezone.dev/blog/linux-tcp-flaw",
    "discussion": "https://news.ycombinator.com/item?id=50440821",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-10T14:23:22Z",
    "label": "security_news",
@@ -476,6 +473,39 @@
     },
     "consensus": "not_exploited",
     "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+   "source": "rapid7.com",
+   "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown",
+   "url": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+   "discussion": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T14:20:34Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T14:20:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T15:08:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown",
+    "at": "2026-11-10T15:08:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.55
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
     "rubric": 2
    }
   },
@@ -2033,7 +2063,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 127,
+   "points": 130,
    "comments": 33,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -13586,7 +13616,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
