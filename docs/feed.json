@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T12:38:10Z",
- "count": 2053,
+ "generated": "2026-11-10T13:08:10Z",
+ "count": 2054,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -164,25 +164,6 @@
    ]
   },
   {
-   "name": "WordPress",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-93389",
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-11-09T06:07:26Z",
-   "items": [
-    "hn:50375988",
-    "hn:50421656",
-    "blog:https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
-   ]
-  },
-  {
    "name": "Path",
    "threads": 4,
    "repos": 0,
@@ -215,25 +196,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Apache",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119078",
-    "CVE-2026-118196"
-   ],
-   "last_seen": "2026-11-09T21:52:54Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/609",
-    "blog:https://seclists.org/oss-sec/2026/q4/565",
-    "blog:https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/516"
    ]
   },
   {
@@ -396,6 +358,23 @@
    ]
   },
   {
+   "name": "strings",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114627"
+   ],
+   "last_seen": "2026-11-04T16:00:15Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/512"
+   ]
+  },
+  {
    "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
@@ -443,9 +422,60 @@
     "hn:50357772",
     "hn:50396504"
    ]
+  },
+  {
+   "name": "WordPress",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-93389",
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-11-09T06:07:26Z",
+   "items": [
+    "hn:50375988",
+    "hn:50421656",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "source": "thehackernews.com",
+   "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "discussion": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T12:15:31Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T12:15:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T13:08:10Z",
+     "label": "unpatched_reported"
+    }
+   ],
+   "llm": {
+    "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+    "at": "2026-11-10T13:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxfpzlokb2l",
    "source": "bluesky",
@@ -1934,7 +1964,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 120,
+   "points": 123,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -3305,7 +3335,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 52,
+   "points": 53,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -3393,7 +3423,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
