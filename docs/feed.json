@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T22:38:10Z",
- "count": 2128,
+ "generated": "2026-11-10T23:08:10Z",
+ "count": 2132,
  "topics": [
   {
    "name": "Heap-based",
@@ -60,30 +60,10 @@
    ]
   },
   {
-   "name": "execute",
-   "threads": 6,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-10T19:23:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
-   ]
-  },
-  {
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 19,
+   "points": 20,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -92,8 +72,8 @@
    "last_seen": "2026-11-10T21:10:27Z",
    "items": [
     "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "hn:50446357",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
@@ -119,6 +99,25 @@
    ]
   },
   {
+   "name": "Scans",
+   "threads": 5,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-10T19:23:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
+    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
@@ -131,22 +130,6 @@
     "hn:50377221",
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-   ]
-  },
-  {
-   "name": "Node.js",
-   "threads": 4,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": true,
-   "cves": [],
-   "last_seen": "2026-11-05T10:34:27Z",
-   "items": [
-    "hn:50364454",
-    "hn:50377530",
-    "blog:https://seclists.org/oss-sec/2026/q4/510",
-    "nodejs:november-2026-security-releases"
    ]
   },
   {
@@ -445,9 +428,140 @@
     "hn:50438830",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
    ]
+  },
+  {
+   "name": "N-Able",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:20:34Z",
+   "items": [
+    "hn:50435133",
+    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-x33c-w48q-qrgc",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114149 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.App.Runtime.linux-arm)",
+   "url": "https://github.com/advisories/GHSA-x33c-w48q-qrgc",
+   "discussion": "https://github.com/advisories/GHSA-x33c-w48q-qrgc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T23:06:32Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114149"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T23:06:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T23:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-xqc2-xf4c-x3h3",
+   "source": "github-advisory",
+   "title": "React: Unauthenticated Remote Code Execution in React Server Components (npm/react-server-dom-parcel)",
+   "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+   "discussion": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T22:44:12Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-126187"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T22:44:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T23:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/649",
+   "source": "seclists.org",
+   "title": "CPython: [CVE-2026-115559] imaplib STARTTLS serves plaintext bytes buffered before the handshake as if they came over TLS",
+   "url": "https://seclists.org/oss-sec/2026/q4/649",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/649",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T22:34:37Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115559"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T22:34:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T23:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CPython: [CVE-2026-115559] imaplib STARTTLS serves plaintext bytes buffered before the handshake as if they came over TLS",
+    "at": "2026-11-10T23:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/648",
+   "source": "seclists.org",
+   "title": "CPython: [CVE-2026-115791] Prevent shadowing stdlib in gzip/tarfile/zipfile CLI",
+   "url": "https://seclists.org/oss-sec/2026/q4/648",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/648",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T22:32:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115791"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T22:32:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T23:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CPython: [CVE-2026-115791] Prevent shadowing stdlib in gzip/tarfile/zipfile CLI",
+    "at": "2026-11-10T23:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50447147",
    "source": "hackernews",
@@ -489,7 +603,7 @@
    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
-   "points": 0,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
@@ -729,7 +843,7 @@
    "title": "Windows Search RCE Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
