@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T19:38:10Z",
- "count": 2102,
+ "generated": "2026-11-10T20:08:10Z",
+ "count": 2104,
  "topics": [
   {
    "name": "Heap-based",
@@ -79,6 +79,26 @@
    ]
   },
   {
+   "name": "Windows",
+   "threads": 4,
+   "repos": 1,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-50679",
+    "CVE-2025-15603"
+   ],
+   "last_seen": "2026-11-10T20:04:51Z",
+   "items": [
+    "ghpoc:h4urek/CVE-2026-50679",
+    "hn:50383612",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+    "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
    "name": "Linux",
    "threads": 4,
    "repos": 0,
@@ -111,6 +131,27 @@
    ]
   },
   {
+   "name": "injection",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121265",
+    "CVE-2026-120761",
+    "CVE-2026-108500"
+   ],
+   "last_seen": "2026-11-07T18:53:17Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/574",
+    "blog:https://seclists.org/oss-sec/2026/q4/556",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+    "blog:https://seclists.org/oss-sec/2026/q4/491"
+   ]
+  },
+  {
    "name": "Ashlar-Vellum",
    "threads": 5,
    "repos": 0,
@@ -125,24 +166,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/"
-   ]
-  },
-  {
-   "name": "arbitrary",
-   "threads": 3,
-   "repos": 0,
-   "points": 75,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102703",
-    "CVE-2026-102704"
-   ],
-   "last_seen": "2026-11-04T12:46:58Z",
-   "items": [
-    "hn:50364814",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
-    "blog:https://seclists.org/oss-sec/2026/q4/481"
    ]
   },
   {
@@ -181,25 +204,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 3,
-   "repos": 1,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-50679",
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-10T18:33:47Z",
-   "items": [
-    "ghpoc:h4urek/CVE-2026-50679",
-    "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
   },
   {
@@ -254,27 +258,6 @@
    ]
   },
   {
-   "name": "Multiple",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-73095",
-    "CVE-2026-73117",
-    "CVE-2026-102706",
-    "CVE-2026-102707"
-   ],
-   "last_seen": "2026-11-10T19:03:38Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/642",
-    "blog:https://seclists.org/oss-sec/2026/q4/631",
-    "blog:https://seclists.org/oss-sec/2026/q4/514",
-    "blog:https://seclists.org/oss-sec/2026/q4/482"
-   ]
-  },
-  {
    "name": "Airflow",
    "threads": 4,
    "repos": 0,
@@ -296,26 +279,7 @@
    ]
   },
   {
-   "name": "injection",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121265",
-    "CVE-2026-120761"
-   ],
-   "last_seen": "2026-11-07T18:53:17Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/574",
-    "blog:https://seclists.org/oss-sec/2026/q4/556",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
-   ]
-  },
-  {
-   "name": "Denial",
+   "name": "James",
    "threads": 4,
    "repos": 0,
    "points": 0,
@@ -324,15 +288,15 @@
    "cves": [
     "CVE-2026-85111",
     "CVE-2026-85108",
-    "CVE-2026-100302",
-    "CVE-2026-100300"
+    "CVE-2026-49939",
+    "CVE-2025-66621"
    ],
    "last_seen": "2026-11-06T17:03:40Z",
    "items": [
     "blog:https://seclists.org/oss-sec/2026/q4/553",
     "blog:https://seclists.org/oss-sec/2026/q4/552",
-    "blog:https://seclists.org/oss-sec/2026/q4/487",
-    "blog:https://seclists.org/oss-sec/2026/q4/486"
+    "blog:https://seclists.org/oss-sec/2026/q4/548",
+    "blog:https://seclists.org/oss-sec/2026/q4/547"
    ]
   },
   {
@@ -447,9 +411,98 @@
     "hn:50357772",
     "hn:50396504"
    ]
+  },
+  {
+   "name": "Orchestra",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T18:12:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
+    "hn:50438830",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+   ]
+  },
+  {
+   "name": "WordPress",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-93389",
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-11-09T06:07:26Z",
+   "items": [
+    "hn:50375988",
+    "hn:50421656",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+   "source": "bluesky",
+   "title": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and chan",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T20:04:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T20:04:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T20:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and chan",
+    "at": "2026-11-10T20:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-gg4r-jv3p-qx3c",
+   "source": "github-advisory",
+   "title": "Mongoose: Connection-level sanitizeFilter not applied (npm/mongoose)",
+   "url": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
+   "discussion": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:56:12Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-125119"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T19:56:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T20:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-pcrw-h46h-c93h",
    "source": "github-advisory",
@@ -535,7 +588,7 @@
    "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
    "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/",
    "discussion": "https://news.ycombinator.com/item?id=50444972",
-   "points": 1,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-10T19:22:41Z",
    "label": "security_news",
@@ -916,7 +969,7 @@
    "title": "Git 2.56.1 fixes six vulnerabilities, including RCE on recursive clone",
    "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
    "discussion": "https://news.ycombinator.com/item?id=50443941",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-10T18:10:27Z",
    "label": "security_news",
@@ -3459,7 +3512,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 137,
+   "points": 138,
    "comments": 34,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
