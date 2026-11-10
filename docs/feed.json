@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T15:08:09Z",
- "count": 2057,
+ "generated": "2026-11-10T15:38:09Z",
+ "count": 2059,
  "topics": [
   {
    "name": "Ubuntu",
@@ -444,6 +444,72 @@
  ],
  "items": [
   {
+   "id": "hn:50441795",
+   "source": "hackernews",
+   "title": "Ory Continuous Security License: (CVE) Patch Subscription for OSS",
+   "url": "https://www.ory.com/ory-continuous-security-license",
+   "discussion": "https://news.ycombinator.com/item?id=50441795",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-10T15:31:56Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T15:31:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T15:38:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Ory Continuous Security License: (CVE) Patch Subscription for OSS",
+    "at": "2026-11-10T15:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50441506",
+   "source": "hackernews",
+   "title": "The Large Project Bias of CVEs",
+   "url": "https://changelog.complete.org/archives/45097-the-large-project-bias-of-cves",
+   "discussion": "https://news.ycombinator.com/item?id=50441506",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T15:11:30Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T15:11:30Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T15:38:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Large Project Bias of CVEs",
+    "at": "2026-11-10T15:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50440821",
    "source": "hackernews",
    "title": "The Linux TCP RCE is worse than we thought",
@@ -747,7 +813,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "points": 10,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -20931,7 +20997,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 81,
+   "points": 82,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
