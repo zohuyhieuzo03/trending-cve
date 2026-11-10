@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T02:38:11Z",
+ "generated": "2026-11-10T03:08:10Z",
  "count": 2039,
  "topics": [
   {
@@ -1534,7 +1534,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 81,
+   "points": 83,
    "comments": 23,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -2881,7 +2881,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
