@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T09:38:11Z",
- "count": 2048,
+ "generated": "2026-11-10T10:07:09Z",
+ "count": 2049,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -43,6 +43,26 @@
    ]
   },
   {
+   "name": "commands",
+   "threads": 6,
+   "repos": 0,
+   "points": 6,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-09T16:05:16Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
+    "hn:50409231",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 4,
    "repos": 0,
@@ -59,22 +79,19 @@
    ]
   },
   {
-   "name": "Scans",
-   "threads": 5,
+   "name": "Android",
+   "threads": 4,
    "repos": 0,
-   "points": 3,
-   "kev": true,
+   "points": 17,
+   "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-09T16:05:16Z",
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
    "items": [
-    "hn:50409231",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -163,24 +180,6 @@
    ]
   },
   {
-   "name": "Ubuntu",
-   "threads": 4,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
-   "items": [
-    "hn:50375876",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
-   ]
-  },
-  {
    "name": "WordPress",
    "threads": 4,
    "repos": 0,
@@ -217,21 +216,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -413,6 +397,23 @@
    ]
   },
   {
+   "name": "Ubuntu",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "hn:50375876",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+   ]
+  },
+  {
    "name": "Cloud",
    "threads": 3,
    "repos": 0,
@@ -444,6 +445,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "source": "thehackernews.com",
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "discussion": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T10:02:40Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T10:02:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T10:07:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "at": "2026-11-10T10:07:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
    "source": "bluesky",
@@ -1767,7 +1801,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 104,
+   "points": 107,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -3138,7 +3172,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 50,
+   "points": 51,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -20635,7 +20669,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 76,
+   "points": 77,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
