@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T08:08:10Z",
- "count": 2045,
+ "generated": "2026-11-10T08:37:10Z",
+ "count": 2047,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -23,23 +23,23 @@
    ]
   },
   {
-   "name": "commands",
+   "name": "available",
    "threads": 6,
    "repos": 0,
-   "points": 6,
-   "kev": true,
+   "points": 14,
+   "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-123158"
+    "CVE-2026-98432"
    ],
-   "last_seen": "2026-11-09T16:05:16Z",
+   "last_seen": "2026-11-06T17:04:44Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
-    "hn:50409231",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
+    "hn:50351808",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50367454",
+    "hn:50353777",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "lobsters:5cmg1k"
    ]
   },
   {
@@ -56,6 +56,25 @@
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+   ]
+  },
+  {
+   "name": "Scans",
+   "threads": 5,
+   "repos": 0,
+   "points": 3,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-09T16:05:16Z",
+   "items": [
+    "hn:50409231",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -128,23 +147,6 @@
    ]
   },
   {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -197,21 +199,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -289,6 +276,27 @@
    ]
   },
   {
+   "name": "Denial",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-85111",
+    "CVE-2026-85108",
+    "CVE-2026-100302",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T17:03:40Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/553",
+    "blog:https://seclists.org/oss-sec/2026/q4/552",
+    "blog:https://seclists.org/oss-sec/2026/q4/487",
+    "blog:https://seclists.org/oss-sec/2026/q4/486"
+   ]
+  },
+  {
    "name": "authorization",
    "threads": 4,
    "repos": 0,
@@ -355,23 +363,6 @@
    ]
   },
   {
-   "name": "CVE-2026-98432",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "last_seen": "2026-11-04T15:58:09Z",
-   "items": [
-    "hn:50367454",
-    "hn:50349491",
-    "hn:50353777"
-   ]
-  },
-  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -421,26 +412,105 @@
    ]
   },
   {
-   "name": "Unauthenticated",
+   "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436",
-    "CVE-2026-100300"
+    "CVE-2026-109518"
    ],
-   "last_seen": "2026-11-06T16:49:15Z",
+   "last_seen": "2026-11-05T06:28:03Z",
    "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://seclists.org/oss-sec/2026/q4/486"
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T06:52:54Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50437593",
+   "source": "hackernews",
+   "title": "Show HN: Track known vulnerabilities in the firmware your devices run",
+   "url": "https://pinscope.dev/cra",
+   "discussion": "https://news.ycombinator.com/item?id=50437593",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T08:35:18Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T08:35:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T08:37:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Show HN: Track known vulnerabilities in the firmware your devices run",
+    "at": "2026-11-10T08:37:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50437552",
+   "source": "hackernews",
+   "title": "Show HN: Patchlag – Kernel CVE fix delay: Debian 13 median 12 days, Ubuntu 109",
+   "url": "https://thewingthewong.github.io/patchlag/",
+   "discussion": "https://news.ycombinator.com/item?id=50437552",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T08:28:50Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T08:28:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T08:37:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Show HN: Patchlag – Kernel CVE fix delay: Debian 13 median 12 days, Ubuntu 109",
+    "at": "2026-11-10T08:37:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/623",
    "source": "seclists.org",
@@ -1665,7 +1735,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 96,
+   "points": 98,
    "comments": 27,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -3036,7 +3106,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -20533,7 +20603,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 74,
+   "points": 75,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
