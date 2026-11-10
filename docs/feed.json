@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T21:08:10Z",
- "count": 2115,
+ "generated": "2026-11-10T21:38:10Z",
+ "count": 2119,
  "topics": [
   {
    "name": "Heap-based",
@@ -99,17 +99,15 @@
   {
    "name": "Windows",
    "threads": 4,
-   "repos": 1,
+   "repos": 0,
    "points": 14,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-50679",
     "CVE-2025-15603"
    ],
    "last_seen": "2026-11-10T20:04:51Z",
    "items": [
-    "ghpoc:h4urek/CVE-2026-50679",
     "hn:50383612",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
@@ -202,43 +200,6 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
-   ]
-  },
-  {
-   "name": "Path",
-   "threads": 4,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123776",
-    "CVE-2026-76168",
-    "CVE-2026-59264"
-   ],
-   "last_seen": "2026-11-07T18:55:08Z",
-   "items": [
-    "hn:50403927",
-    "blog:https://seclists.org/oss-sec/2026/q4/575",
-    "blog:https://seclists.org/oss-sec/2026/q4/550",
-    "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
    ]
   },
   {
@@ -446,9 +407,121 @@
     "hn:50438830",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
    ]
+  },
+  {
+   "name": "N-Able",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:20:34Z",
+   "items": [
+    "hn:50435133",
+    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
+  },
+  {
+   "name": "Path",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123776",
+    "CVE-2026-76168"
+   ],
+   "last_seen": "2026-11-07T18:55:08Z",
+   "items": [
+    "hn:50403927",
+    "blog:https://seclists.org/oss-sec/2026/q4/575",
+    "blog:https://seclists.org/oss-sec/2026/q4/550"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-8474-xrp6-wh69",
+   "source": "github-advisory",
+   "title": "Active Support: Possible DoS vulnerability in Active Support safe_constantize (rubygems/activesupport)",
+   "url": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
+   "discussion": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:34:11Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-126080"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:34:11Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-2gff-2mmg-m73p",
+   "source": "github-advisory",
+   "title": "Action Pack: Possible IP spoofing in Action Dispatch RemoteIp (rubygems/actionpack)",
+   "url": "https://github.com/advisories/GHSA-2gff-2mmg-m73p",
+   "discussion": "https://github.com/advisories/GHSA-2gff-2mmg-m73p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:20:06Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-126083"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:20:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50446357",
+   "source": "hackernews",
+   "title": "Windows Search RCE Vulnerability",
+   "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
+   "discussion": "https://news.ycombinator.com/item?id=50446357",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-10T21:10:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T21:10:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Windows Search RCE Vulnerability",
+    "at": "2026-11-10T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "github-advisory:GHSA-8332-j7wj-wjw4",
    "source": "github-advisory",
@@ -751,7 +824,7 @@
    "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
    "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/",
    "discussion": "https://news.ycombinator.com/item?id=50444972",
-   "points": 6,
+   "points": 7,
    "comments": 0,
    "created": "2026-11-10T19:22:41Z",
    "label": "security_news",
@@ -1132,7 +1205,7 @@
    "title": "Git 2.56.1 fixes six vulnerabilities, including RCE on recursive clone",
    "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
    "discussion": "https://news.ycombinator.com/item?id=50443941",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T18:10:27Z",
    "label": "security_news",
@@ -2794,6 +2867,29 @@
    ]
   },
   {
+   "id": "gitlab:patch-release-gitlab-19-5-4-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.5.4, 19.4.6, 19.3.8",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-4-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-4-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-105437"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/618",
    "source": "seclists.org",
    "title": "krb5-1.22.3 is released, with fixes for 21 CVEs",
@@ -3819,7 +3915,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 139,
+   "points": 140,
    "comments": 34,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
