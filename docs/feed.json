@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T21:38:10Z",
- "count": 2119,
+ "generated": "2026-11-10T22:08:10Z",
+ "count": 2123,
  "topics": [
   {
    "name": "Heap-based",
@@ -43,6 +43,62 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 5,
+   "repos": 0,
+   "points": 69,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:23:22Z",
+   "items": [
+    "hn:50372929",
+    "hn:50440821",
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50409957"
+   ]
+  },
+  {
+   "name": "execute",
+   "threads": 6,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-10T19:23:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
+    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
+   "name": "Windows",
+   "threads": 5,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-15603"
+   ],
+   "last_seen": "2026-11-10T21:10:27Z",
+   "items": [
+    "hn:50383612",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
+    "hn:50446357",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+    "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
    "name": "WordPress",
    "threads": 5,
    "repos": 0,
@@ -63,25 +119,6 @@
    ]
   },
   {
-   "name": "Scans",
-   "threads": 5,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-10T19:23:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://isc.sans.edu/diary/rss/33492"
-   ]
-  },
-  {
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
@@ -94,40 +131,6 @@
     "hn:50377221",
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 4,
-   "repos": 0,
-   "points": 14,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-10T20:04:51Z",
-   "items": [
-    "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 4,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:23:22Z",
-   "items": [
-    "hn:50440821",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50409957"
    ]
   },
   {
@@ -144,6 +147,28 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "Airflow",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111453",
+    "CVE-2026-111421",
+    "CVE-2026-76185",
+    "CVE-2026-68982"
+   ],
+   "last_seen": "2026-11-09T07:26:21Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/596",
+    "blog:https://seclists.org/oss-sec/2026/q4/594",
+    "blog:https://seclists.org/oss-sec/2026/q4/586",
+    "blog:https://seclists.org/oss-sec/2026/q4/585",
+    "blog:https://seclists.org/oss-sec/2026/q4/583"
    ]
   },
   {
@@ -203,6 +228,23 @@
    ]
   },
   {
+   "name": "Chrome",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-10T20:12:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -236,27 +278,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/643",
     "blog:https://seclists.org/oss-sec/2026/q4/544",
     "blog:https://seclists.org/oss-sec/2026/q4/543"
-   ]
-  },
-  {
-   "name": "Airflow",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111453",
-    "CVE-2026-111421",
-    "CVE-2026-76185",
-    "CVE-2026-68982"
-   ],
-   "last_seen": "2026-11-09T07:26:21Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/596",
-    "blog:https://seclists.org/oss-sec/2026/q4/594",
-    "blog:https://seclists.org/oss-sec/2026/q4/586",
-    "blog:https://seclists.org/oss-sec/2026/q4/585"
    ]
   },
   {
@@ -422,27 +443,65 @@
     "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
     "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
    ]
-  },
-  {
-   "name": "Path",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123776",
-    "CVE-2026-76168"
-   ],
-   "last_seen": "2026-11-07T18:55:08Z",
-   "items": [
-    "hn:50403927",
-    "blog:https://seclists.org/oss-sec/2026/q4/575",
-    "blog:https://seclists.org/oss-sec/2026/q4/550"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "lobsters:rfacq5",
+   "source": "lobsters",
+   "title": "Finding a vulnerability in Star Wars Episode I: Racer",
+   "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
+   "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T15:58:18.818-06:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T21:58:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
+    "at": "2026-11-10T22:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-v924-7rp8-4mxh",
+   "source": "github-advisory",
+   "title": "Active Storage: Possible arbitrary file read and remote code execution in video previews, analysis and image processing (rubygems/activestorage)",
+   "url": "https://github.com/advisories/GHSA-v924-7rp8-4mxh",
+   "discussion": "https://github.com/advisories/GHSA-v924-7rp8-4mxh",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:38:55Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-126186"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:38:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-8474-xrp6-wh69",
    "source": "github-advisory",
@@ -462,6 +521,48 @@
    "label_history": [
     {
      "at": "2026-11-10T21:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-49q5-vjx7-5gwr",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.Server.HttpSys)",
+   "url": "https://github.com/advisories/GHSA-49q5-vjx7-5gwr",
+   "discussion": "https://github.com/advisories/GHSA-49q5-vjx7-5gwr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-gxg8-5rwf-cg43",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.SignalR.StackExchangeRedis)",
+   "url": "https://github.com/advisories/GHSA-gxg8-5rwf-cg43",
+   "discussion": "https://github.com/advisories/GHSA-gxg8-5rwf-cg43",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T22:08:10Z",
      "label": "vendor_advisory"
     }
    ]
@@ -824,7 +925,7 @@
    "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
    "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/",
    "discussion": "https://news.ycombinator.com/item?id=50444972",
-   "points": 7,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-10T19:22:41Z",
    "label": "security_news",
@@ -1508,7 +1609,7 @@
    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
-   "points": 6,
+   "points": 7,
    "comments": 0,
    "created": "2026-11-10T15:59:39Z",
    "label": "security_news",
