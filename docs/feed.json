@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T05:08:10Z",
- "count": 2040,
+ "generated": "2026-11-10T05:38:10Z",
+ "count": 2041,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -24,10 +24,10 @@
    ]
   },
   {
-   "name": "credentials",
+   "name": "commands",
    "threads": 6,
    "repos": 0,
-   "points": 3,
+   "points": 6,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -35,12 +35,12 @@
    ],
    "last_seen": "2026-11-09T16:05:16Z",
    "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
     "hn:50409231",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
     "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-896/",
-    "blog:https://isc.sans.edu/diary/rss/33492",
-    "blog:https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -164,6 +164,23 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
+   ]
+  },
+  {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -418,23 +435,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
-  },
-  {
-   "name": "upgrade-window",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
-   "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
    ]
   }
  ],
@@ -1531,8 +1531,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 87,
-   "comments": 23,
+   "points": 89,
+   "comments": 25,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -13432,6 +13432,28 @@
    ]
   },
   {
+   "id": "ghpoc:googlesky/CVE-2026-98432",
+   "source": "github-poc",
+   "title": "googlesky/CVE-2026-98432: PoC for CVE-2026-98432 (Linux kernel IPv4 TCP inet_opt/ireq_opt use-after-free, CVSS 9.8): KASAN-verified UAF reproduction in inet_csk_route",
+   "url": "https://github.com/googlesky/CVE-2026-98432",
+   "discussion": "https://github.com/googlesky/CVE-2026-98432",
+   "points": 9,
+   "comments": 0,
+   "created": "2026-10-31T16:04:50Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T16:04:50Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T05:38:10Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz6mov5sdn2o",
    "source": "bluesky",
    "title": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882,",
@@ -15186,7 +15208,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 26,
+   "points": 27,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
