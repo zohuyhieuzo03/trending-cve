@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T20:37:10Z",
- "count": 2112,
+ "generated": "2026-11-10T21:08:10Z",
+ "count": 2115,
  "topics": [
   {
    "name": "Heap-based",
@@ -43,26 +43,6 @@
    ]
   },
   {
-   "name": "execute",
-   "threads": 6,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-10T19:23:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
-   ]
-  },
-  {
    "name": "WordPress",
    "threads": 5,
    "repos": 0,
@@ -80,6 +60,25 @@
     "hn:50421656",
     "hn:50396504",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+   ]
+  },
+  {
+   "name": "Scans",
+   "threads": 5,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-10T19:23:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
+    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -147,6 +146,27 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "injection",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-101031",
+    "CVE-2026-121265",
+    "CVE-2026-120761"
+   ],
+   "last_seen": "2026-11-09T07:17:42Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/591",
+    "blog:https://seclists.org/oss-sec/2026/q4/574",
+    "blog:https://seclists.org/oss-sec/2026/q4/556",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
    ]
   },
   {
@@ -279,25 +299,6 @@
    ]
   },
   {
-   "name": "injection",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121265",
-    "CVE-2026-120761"
-   ],
-   "last_seen": "2026-11-07T18:53:17Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/574",
-    "blog:https://seclists.org/oss-sec/2026/q4/556",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
-   ]
-  },
-  {
    "name": "James",
    "threads": 4,
    "repos": 0,
@@ -383,6 +384,23 @@
    ]
   },
   {
+   "name": "strings",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-114627"
+   ],
+   "last_seen": "2026-11-04T16:00:15Z",
+   "items": [
+    "lobsters:sfzkeb",
+    "hn:50363481",
+    "blog:https://seclists.org/oss-sec/2026/q4/512"
+   ]
+  },
+  {
    "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
@@ -428,24 +446,100 @@
     "hn:50438830",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
    ]
-  },
-  {
-   "name": "N-Able",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:20:34Z",
-   "items": [
-    "hn:50435133",
-    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-8332-j7wj-wjw4",
+   "source": "github-advisory",
+   "title": "Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and shared schema state (npm/mongoose)",
+   "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+   "discussion": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T20:56:16Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-125117"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T20:56:16Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
+   "source": "blog.qualys.com",
+   "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
+   "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
+   "discussion": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T20:39:54Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T20:39:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
+    "at": "2026-11-10T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/647",
+   "source": "seclists.org",
+   "title": "CVE-2026-122096: Apache DataSketches Java: Uncontrolled resource consumption when deserializing crafted sketch images",
+   "url": "https://seclists.org/oss-sec/2026/q4/647",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/647",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T20:33:05Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-122096"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T20:33:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T21:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-122096: Apache DataSketches Java: Uncontrolled resource consumption when deserializing crafted sketch images",
+    "at": "2026-11-10T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/646",
    "source": "seclists.org",
@@ -1341,7 +1435,7 @@
    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-10T15:59:39Z",
    "label": "security_news",
