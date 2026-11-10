@@ -1,27 +1,25 @@
 {
- "generated": "2026-11-10T15:38:09Z",
- "count": 2059,
+ "generated": "2026-11-10T16:07:40Z",
+ "count": 2079,
  "topics": [
   {
-   "name": "Ubuntu",
-   "threads": 7,
+   "name": "Heap-based",
+   "threads": 8,
    "repos": 0,
-   "points": 14,
+   "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-98432",
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
+   "cves": [],
+   "last_seen": "2026-11-10T06:00:00Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50375876",
-    "hn:50367454",
-    "hn:50353777",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
    ]
   },
   {
@@ -292,42 +290,6 @@
    ]
   },
   {
-   "name": "authorization",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-49939",
-    "CVE-2026-108500",
-    "CVE-2026-100252"
-   ],
-   "last_seen": "2026-11-06T16:54:09Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/548",
-    "blog:https://seclists.org/oss-sec/2026/q4/491",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
-   ]
-  },
-  {
-   "name": "Heap-based",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
    "name": "switches",
    "threads": 3,
    "repos": 0,
@@ -360,6 +322,23 @@
    ]
   },
   {
+   "name": "available",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "last_seen": "2026-11-06T17:04:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50367454",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+   ]
+  },
+  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -374,6 +353,23 @@
     "lobsters:sfzkeb",
     "hn:50363481",
     "blog:https://seclists.org/oss-sec/2026/q4/512"
+   ]
+  },
+  {
+   "name": "Ubuntu",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "hn:50375876",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -443,6 +439,269 @@
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxspbevpo27",
+   "source": "bluesky",
+   "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:59:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T15:59:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-xwgp-w3pj-q5h3",
+   "source": "github-advisory",
+   "title": "OHIF Viewers: DOM-Based Cross Site Scripting (XSS) through MIME type of document (npm/@ohif/extension-dicom-pdf)",
+   "url": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
+   "discussion": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:51Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118670"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rhr8-3pm8-cq29",
+   "source": "github-advisory",
+   "title": "Forge: ASN.1 resource exhaustion via BIT STRING decoding in asn1.fromDer (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-rhr8-3pm8-cq29",
+   "discussion": "https://github.com/advisories/GHSA-rhr8-3pm8-cq29",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:41Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119191"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-6qrw-m8cv-hcxf",
+   "source": "github-advisory",
+   "title": "Forge: RSA PKCS#1 v1.5 signature forgery via non-canonical DigestInfo encoding (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-6qrw-m8cv-hcxf",
+   "discussion": "https://github.com/advisories/GHSA-6qrw-m8cv-hcxf",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:34Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119192"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8vv3-6qpc-gpw6",
+   "source": "github-advisory",
+   "title": "bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list (npm/bitcoinjs-lib)",
+   "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6",
+   "discussion": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:25Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-107846"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T15:57:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-3hch-x692-6qj3",
+   "source": "github-advisory",
+   "title": "GPUStack: Missing authorization on several cluster and resource endpoints allows cross-user access and cluster takeover (pip/gpustack)",
+   "url": "https://github.com/advisories/GHSA-3hch-x692-6qj3",
+   "discussion": "https://github.com/advisories/GHSA-3hch-x692-6qj3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:20Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-103002"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-2h4w-29cv-2cmv",
+   "source": "github-advisory",
+   "title": "AG2: Newline injection in SandboxShellTool bypasses allowed=[...] and readonly=True, enabling arbitrary command execution (pip/ag2)",
+   "url": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
+   "discussion": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:17Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-113663"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-62m9-f875-rqw6",
+   "source": "github-advisory",
+   "title": "GPUStack: SAML callback trusts an unverified SAMLResponse, allowing authentication bypass and account takeover (pip/gpustack)",
+   "url": "https://github.com/advisories/GHSA-62m9-f875-rqw6",
+   "discussion": "https://github.com/advisories/GHSA-62m9-f875-rqw6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:15Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102894"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T15:57:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-xxrh-5hgg-gj4h",
+   "source": "github-advisory",
+   "title": "Nuxt Content: Unauthenticated SQLite Function DoS via Content Query API (npm/@nuxt/content)",
+   "url": "https://github.com/advisories/GHSA-xxrh-5hgg-gj4h",
+   "discussion": "https://github.com/advisories/GHSA-xxrh-5hgg-gj4h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:57:12Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102650"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:57:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-ghwv-vrp2-2975",
+   "source": "github-advisory",
+   "title": "Cocos AI Intra-handshake attested TLS implementation is vulnerable to TOCTOU Attacks (go/github.com/ultravioletrs/cocos)",
+   "url": "https://github.com/advisories/GHSA-ghwv-vrp2-2975",
+   "discussion": "https://github.com/advisories/GHSA-ghwv-vrp2-2975",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:56:54Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119345"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T15:56:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-xggf-m53x-jc3f",
+   "source": "github-advisory",
+   "title": "node-opcua: Namespace-Level RBAC Fail-Open - Anonymous Write/Call Bypass via Unbound `DefaultRolePermissions (npm/node-opcua)",
+   "url": "https://github.com/advisories/GHSA-xggf-m53x-jc3f",
+   "discussion": "https://github.com/advisories/GHSA-xggf-m53x-jc3f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T15:56:52Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-95860"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T15:56:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "hn:50441795",
    "source": "hackernews",
@@ -1036,6 +1295,264 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-906: X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-906: X.Org Server libX11 XkbGetMap Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-905: X.Org Server libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-905: X.Org Server libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-904/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-904: NVIDIA Megatron-LM Checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-904/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-904/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-904: NVIDIA Megatron-LM Checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-903: X.Org Server Font Alias Resolution Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-903/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-903: X.Org Server Font Alias Resolution Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-902/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-902: X.Org Server XkbResizeKeySyms Integer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-902/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-902/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-902: X.Org Server XkbResizeKeySyms Integer Overflow Privilege Escalation Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-901: X.Org Server ProcDRI2GetBuffers Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-901: X.Org Server ProcDRI2GetBuffers Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "at": "2026-11-10T16:07:40Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-900/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-900: Wireshark SMB Object Export Integer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-900/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-900/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-899/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-899: Wireshark LBMC Fragment Reassembly Integer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-899/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-899/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-898/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-898: Wireshark LoRaWAN Decryption Numeric Truncation Error Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-898/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-898/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:07:40Z",
+     "label": "security_news"
+    }
+   ]
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/620",
@@ -2129,7 +2646,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 130,
+   "points": 131,
    "comments": 33,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -13682,7 +14199,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 13,
+   "points": 14,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
