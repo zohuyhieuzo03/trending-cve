@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T18:38:10Z",
- "count": 2089,
+ "generated": "2026-11-10T19:07:13Z",
+ "count": 2092,
  "topics": [
   {
    "name": "Heap-based",
@@ -148,7 +148,7 @@
    "name": "bypass",
    "threads": 3,
    "repos": 0,
-   "points": 72,
+   "points": 73,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -216,25 +216,10 @@
    ]
   },
   {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T08:54:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
-   ]
-  },
-  {
    "name": "Windows",
    "threads": 3,
    "repos": 1,
-   "points": 9,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -247,6 +232,21 @@
     "hn:50383612",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -444,12 +444,117 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/640",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 525 v1 (CVE-2024-36350,CVE-2024-36357,CVE-2026-0004) - x86: Transient Scheduler Attacks (update)",
+   "url": "https://seclists.org/oss-sec/2026/q4/640",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/640",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T18:59:19Z",
+   "label": "related",
+   "cves": [
+    "CVE-2024-36350",
+    "CVE-2024-36357",
+    "CVE-2026-0004"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T18:59:19Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:07:13Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 525 v1 (CVE-2024-36350,CVE-2024-36357,CVE-2026-0004) - x86: Transient Scheduler Attacks (update)",
+    "at": "2026-11-10T19:07:13Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/639",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 524 v1 (CVE-2024-21963) - AMD IOMMU Out-of-Bounds Device Table Read",
+   "url": "https://seclists.org/oss-sec/2026/q4/639",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/639",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T18:57:00Z",
+   "label": "related",
+   "cves": [
+    "CVE-2024-21963"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T18:57:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:07:13Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 524 v1 (CVE-2024-21963) - AMD IOMMU Out-of-Bounds Device Table Read",
+    "at": "2026-11-10T19:07:13Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/638",
+   "source": "seclists.org",
+   "title": "sqlparse 0.6.1 fixes two vulnerabilities, announces EOL",
+   "url": "https://seclists.org/oss-sec/2026/q4/638",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/638",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T18:45:24Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T18:45:24Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:07:13Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "sqlparse 0.6.1 fixes two vulnerabilities, announces EOL",
+    "at": "2026-11-10T19:07:13Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
    "source": "bluesky",
    "title": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and ad",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
-   "points": 2,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T18:33:47Z",
    "label": "security_news",
@@ -1412,7 +1517,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "points": 11,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
    "cves": [],
@@ -7887,7 +7992,7 @@
    "title": "SourceHut disabled registration bypass | CVE-2026-121728",
    "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
    "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
-   "points": 63,
+   "points": 64,
    "comments": 1,
    "created": "2026-11-05T12:34:41.907-06:00",
    "label": "related",
