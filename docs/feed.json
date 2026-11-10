@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T17:37:10Z",
- "count": 2082,
+ "generated": "2026-11-10T18:08:10Z",
+ "count": 2087,
  "topics": [
   {
    "name": "Heap-based",
@@ -356,23 +356,6 @@
    ]
   },
   {
-   "name": "strings",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-114627"
-   ],
-   "last_seen": "2026-11-04T16:00:15Z",
-   "items": [
-    "lobsters:sfzkeb",
-    "hn:50363481",
-    "blog:https://seclists.org/oss-sec/2026/q4/512"
-   ]
-  },
-  {
    "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
@@ -438,9 +421,195 @@
     "hn:50421656",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
+  },
+  {
+   "name": "N-Able",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:20:34Z",
+   "items": [
+    "hn:50435133",
+    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+   "source": "github.blog",
+   "title": "Git security vulnerabilities announced",
+   "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+   "discussion": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T18:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T18:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T18:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Git security vulnerabilities announced",
+    "at": "2026-11-10T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/635",
+   "source": "seclists.org",
+   "title": "CVE-2026-120212: Web::Simple versions before 0.037 for Perl do not escape single quotes in HTML::Tags output",
+   "url": "https://seclists.org/oss-sec/2026/q4/635",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/635",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T17:59:17Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-120212"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T17:59:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T18:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-120212: Web::Simple versions before 0.037 for Perl do not escape single quotes in HTML::Tags output",
+    "at": "2026-11-10T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/634",
+   "source": "seclists.org",
+   "title": "CVE-2026-125729: Plack::Middleware::CSP versions before 0.03 for Perl send the Content Security Policy under the wrong header name, so browsers never enforce it",
+   "url": "https://seclists.org/oss-sec/2026/q4/634",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/634",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T17:57:14Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-125729"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T17:57:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T18:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-125729: Plack::Middleware::CSP versions before 0.03 for Perl send the Content Security Policy under the wrong header name, so browsers never enforce it",
+    "at": "2026-11-10T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/633",
+   "source": "seclists.org",
+   "title": "CVE-2026-124308: VVdeC/vvdecapp: Heap Use-After-Free in DecLibRecon::createSubPicRefBufs after Aborted Picture Decoding",
+   "url": "https://seclists.org/oss-sec/2026/q4/633",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/633",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T17:55:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124308"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T17:55:11Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T18:08:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124308: VVdeC/vvdecapp: Heap Use-After-Free in DecLibRecon::createSubPicRefBufs after Aborted Picture Decoding",
+    "at": "2026-11-10T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/631",
+   "source": "seclists.org",
+   "title": "Fwd: X.Org Security Advisory: multiple security issues in X.Org X server",
+   "url": "https://seclists.org/oss-sec/2026/q4/631",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/631",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T17:50:17Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T17:50:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T18:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Fwd: X.Org Security Advisory: multiple security issues in X.Org X server",
+    "at": "2026-11-10T18:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50443320",
    "source": "hackernews",
@@ -546,7 +715,7 @@
    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T15:59:39Z",
    "label": "security_news",
@@ -25124,7 +25293,7 @@
    "title": "Ping-2o/CVE-2026-112611-cg-shading: CVE-2026-112611/112610: CoreGraphics PDF out-of-bounds writes (fixed in iOS 27.2) — fix-diff analysis, on-device proof, methodology, and PoC",
    "url": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
    "discussion": "https://github.com/Ping-2o/CVE-2026-112611-cg-shading",
-   "points": 20,
+   "points": 21,
    "comments": 0,
    "created": "2026-10-27T09:46:42Z",
    "label": "public_exploit_reported",
