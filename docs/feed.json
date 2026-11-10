@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T06:08:10Z",
+ "generated": "2026-11-10T06:38:10Z",
  "count": 2041,
  "topics": [
   {
@@ -23,10 +23,10 @@
    ]
   },
   {
-   "name": "Scans",
-   "threads": 5,
+   "name": "commands",
+   "threads": 6,
    "repos": 0,
-   "points": 3,
+   "points": 6,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -34,6 +34,7 @@
    ],
    "last_seen": "2026-11-09T16:05:16Z",
    "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
     "hn:50409231",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
     "blog:https://isc.sans.edu/diary/rss/33498",
@@ -123,6 +124,23 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
+   ]
+  },
+  {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -415,25 +433,6 @@
     "hn:50377979",
     "hn:50357772",
     "hn:50396504"
-   ]
-  },
-  {
-   "name": "Unauthenticated",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116366",
-    "CVE-2026-90436",
-    "CVE-2026-100300"
-   ],
-   "last_seen": "2026-11-06T16:49:15Z",
-   "items": [
-    "hn:50349501",
-    "blog:https://seclists.org/oss-sec/2026/q4/546",
-    "blog:https://seclists.org/oss-sec/2026/q4/486"
    ]
   }
  ],
@@ -1530,7 +1529,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 89,
+   "points": 92,
    "comments": 26,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -2901,7 +2900,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
