@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T17:07:35Z",
- "count": 2081,
+ "generated": "2026-11-10T17:37:10Z",
+ "count": 2082,
  "topics": [
   {
    "name": "Heap-based",
@@ -441,6 +441,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50443320",
+   "source": "hackernews",
+   "title": "Grok Bot secrets extraction vulnerability",
+   "url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
+   "discussion": "https://news.ycombinator.com/item?id=50443320",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-11-10T17:20:42Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T17:20:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T17:37:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Grok Bot secrets extraction vulnerability",
+    "at": "2026-11-10T17:37:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
    "source": "bluesky",
@@ -2753,7 +2786,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 132,
+   "points": 134,
    "comments": 33,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -4124,7 +4157,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -14306,7 +14339,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 14,
+   "points": 15,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
@@ -16430,7 +16463,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 28,
+   "points": 29,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
