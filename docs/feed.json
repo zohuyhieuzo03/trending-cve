@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T14:08:10Z",
- "count": 2055,
+ "generated": "2026-11-10T14:38:10Z",
+ "count": 2056,
  "topics": [
   {
    "name": "Ubuntu",
@@ -94,6 +94,22 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
+   ]
+  },
+  {
+   "name": "Linux",
+   "threads": 4,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:23:22Z",
+   "items": [
+    "hn:50374787",
+    "hn:50388417",
+    "hn:50440821",
+    "hn:50409957"
    ]
   },
   {
@@ -204,7 +220,7 @@
    "name": "Google",
    "threads": 3,
    "repos": 0,
-   "points": 9,
+   "points": 10,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -310,21 +326,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
-   "name": "Linux",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-08T02:30:08Z",
-   "items": [
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50409957"
    ]
   },
   {
@@ -446,12 +447,45 @@
  ],
  "items": [
   {
+   "id": "hn:50440821",
+   "source": "hackernews",
+   "title": "The Linux TCP RCE is worse than we thought",
+   "url": "https://www.firezone.dev/blog/linux-tcp-flaw",
+   "discussion": "https://news.ycombinator.com/item?id=50440821",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-10T14:23:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T14:23:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T14:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The Linux TCP RCE is worse than we thought",
+    "at": "2026-11-10T14:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50439813",
    "source": "hackernews",
    "title": "Worse_query iOS Critical Vulnerability",
    "url": "https://twitter.com/binance/status/2120093246399430770",
    "discussion": "https://news.ycombinator.com/item?id=50439813",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T13:10:51Z",
    "label": "security_news",
@@ -616,7 +650,7 @@
    "title": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
-   "points": 3,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T10:12:15Z",
    "label": "security_news",
@@ -682,7 +716,7 @@
    "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
@@ -1999,8 +2033,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 125,
-   "comments": 31,
+   "points": 127,
+   "comments": 33,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -3370,7 +3404,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -16236,7 +16270,7 @@
    "title": "tc4dy/CVE-2026-98432-PoC-Exploit: CVE-2026-98432 (CVSS 9.8) Linux IPv4 TCP use-after-free Red/Blue team toolkit. Kernel exposure checks, live marker-based race proof, KASLR s",
    "url": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
    "discussion": "https://github.com/tc4dy/CVE-2026-98432-PoC-Exploit",
-   "points": 41,
+   "points": 42,
    "comments": 0,
    "created": "2026-10-30T13:11:26Z",
    "label": "public_exploit_reported",
@@ -19206,7 +19240,7 @@
    "title": "Feiman55/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-10-29T04:23:27Z",
    "label": "public_exploit_reported",
@@ -20867,7 +20901,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 80,
+   "points": 81,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
