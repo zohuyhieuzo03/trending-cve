@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T23:08:10Z",
- "count": 2132,
+ "generated": "2026-11-10T23:38:10Z",
+ "count": 2133,
  "topics": [
   {
    "name": "Heap-based",
@@ -63,7 +63,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 20,
+   "points": 21,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -71,31 +71,11 @@
    ],
    "last_seen": "2026-11-10T21:10:27Z",
    "items": [
-    "hn:50383612",
     "hn:50446357",
+    "hn:50383612",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
-   ]
-  },
-  {
-   "name": "WordPress",
-   "threads": 5,
-   "repos": 0,
-   "points": 6,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-93389",
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-11-09T06:07:26Z",
-   "items": [
-    "hn:50377979",
-    "hn:50375988",
-    "hn:50421656",
-    "hn:50396504",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
   },
   {
@@ -208,23 +188,6 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
-   ]
-  },
-  {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
    ]
   },
   {
@@ -430,6 +393,24 @@
    ]
   },
   {
+   "name": "WordPress",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-93389",
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-11-09T06:07:26Z",
+   "items": [
+    "hn:50375988",
+    "hn:50421656",
+    "hn:50396504"
+   ]
+  },
+  {
    "name": "N-Able",
    "threads": 3,
    "repos": 0,
@@ -443,9 +424,47 @@
     "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
     "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
    ]
+  },
+  {
+   "name": "CISA",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T06:31:42Z",
+   "items": [
+    "hn:50377979",
+    "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-f7vh-h5g3-7jrh",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-120006 - Aspire Elevation of Privilege Vulnerability (nuget/Aspire.Hosting.AppHost)",
+   "url": "https://github.com/advisories/GHSA-f7vh-h5g3-7jrh",
+   "discussion": "https://github.com/advisories/GHSA-f7vh-h5g3-7jrh",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T23:24:48Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-120006"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T23:24:48Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T23:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-x33c-w48q-qrgc",
    "source": "github-advisory",
@@ -843,7 +862,7 @@
    "title": "Windows Search RCE Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
@@ -4264,7 +4283,7 @@
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
    "points": 140,
-   "comments": 34,
+   "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
