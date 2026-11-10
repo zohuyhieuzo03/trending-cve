@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T01:38:11Z",
- "count": 2037,
+ "generated": "2026-11-10T02:08:11Z",
+ "count": 2038,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -218,21 +218,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -441,9 +426,57 @@
     "blog:https://seclists.org/oss-sec/2026/q4/538",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
    ]
+  },
+  {
+   "name": "GPT-6",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T20:24:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
+    "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50435133",
+   "source": "hackernews",
+   "title": "N-Able Disables Cloud Services Following Disclosure of Able2Shell Exploit Chains",
+   "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains",
+   "discussion": "https://news.ycombinator.com/item?id=50435133",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-11-10T02:00:13Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T02:00:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T02:08:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "N-Able Disables Cloud Services Following Disclosure of Able2Shell Exploit Chains",
+    "at": "2026-11-10T02:08:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/618",
    "source": "seclists.org",
@@ -1471,7 +1504,7 @@
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
    "points": 79,
-   "comments": 21,
+   "comments": 22,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -2905,7 +2938,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
