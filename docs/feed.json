@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T07:08:02Z",
- "count": 2042,
+ "generated": "2026-11-10T07:38:10Z",
+ "count": 2045,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -127,23 +127,6 @@
    ]
   },
   {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -199,6 +182,36 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
+   "name": "zero",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-04T02:36:23Z",
+   "items": [
+    "hn:50349249",
+    "hn:50352299",
+    "hn:50360901"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -211,41 +224,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 12,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T07:46:15Z",
-   "items": [
-    "hn:50349249",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
-   ]
-  },
-  {
-   "name": "request",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115864",
-    "CVE-2026-120367",
-    "CVE-2026-123770"
-   ],
-   "last_seen": "2026-11-09T21:58:30Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/612",
-    "blog:https://seclists.org/oss-sec/2026/q4/560",
-    "blog:https://seclists.org/oss-sec/2026/q4/559",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-897/"
    ]
   },
   {
@@ -408,6 +386,21 @@
    ]
   },
   {
+   "name": "Cloud",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T06:44:36Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "hn:50435133",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
+  },
+  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -442,6 +435,105 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/623",
+   "source": "seclists.org",
+   "title": "\"Malicious\" public disclosure is a lot better than other ways of misusing 0-days (Was: [oss-security] Home Assistant: the password is not the key — token secrets in cleartext, two token classes never expire, password change revokes none (2026.11.0, live-proven))",
+   "url": "https://seclists.org/oss-sec/2026/q4/623",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/623",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T07:11:15Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T07:11:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T07:38:10Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "\"Malicious\" public disclosure is a lot better than other ways of misusing 0-days (Was: [oss-security] Home Assistant: the password is not the key — token secrets in cleartext, two token classes never expire, password change revokes none (2026.11.0, live-proven))",
+    "at": "2026-11-10T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "source": "thehackernews.com",
+   "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+   "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "discussion": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:52:54Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:52:54Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T07:38:10Z",
+     "label": "zero_day_reported"
+    }
+   ],
+   "llm": {
+    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+    "at": "2026-11-10T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "source": "thehackernews.com",
+   "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+   "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "discussion": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T06:44:36Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T06:44:36Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T07:38:10Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+    "at": "2026-11-10T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
    "source": "thehackernews.com",
    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
@@ -459,7 +551,20 @@
      "at": "2026-11-10T07:08:02Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+    "at": "2026-11-10T07:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.45
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/620",
@@ -1553,8 +1658,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 93,
-   "comments": 26,
+   "points": 95,
+   "comments": 27,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
