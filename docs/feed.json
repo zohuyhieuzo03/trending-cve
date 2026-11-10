@@ -1,7 +1,29 @@
 {
- "generated": "2026-11-10T13:08:10Z",
- "count": 2054,
+ "generated": "2026-11-10T13:38:10Z",
+ "count": 2055,
  "topics": [
+  {
+   "name": "Ubuntu",
+   "threads": 7,
+   "repos": 0,
+   "points": 14,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432",
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50375876",
+    "hn:50367454",
+    "hn:50353777",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
   {
    "name": "Out-Of-Bounds",
    "threads": 8,
@@ -20,26 +42,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/"
-   ]
-  },
-  {
-   "name": "available",
-   "threads": 6,
-   "repos": 0,
-   "points": 14,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "last_seen": "2026-11-06T17:04:44Z",
-   "items": [
-    "hn:50351808",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50367454",
-    "hn:50353777",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-    "lobsters:5cmg1k"
    ]
   },
   {
@@ -375,23 +377,6 @@
    ]
   },
   {
-   "name": "Ubuntu",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
-   "items": [
-    "hn:50375876",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -440,9 +425,59 @@
     "hn:50421656",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
+  },
+  {
+   "name": "authentication",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-74756"
+   ],
+   "last_seen": "2026-11-10T11:29:43Z",
+   "items": [
+    "hn:50438830",
+    "blog:https://seclists.org/oss-sec/2026/q4/549",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50439813",
+   "source": "hackernews",
+   "title": "Worse_query iOS Critical Vulnerability",
+   "url": "https://twitter.com/binance/status/2120093246399430770",
+   "discussion": "https://news.ycombinator.com/item?id=50439813",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T13:10:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T13:10:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T13:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Worse_query iOS Critical Vulnerability",
+    "at": "2026-11-10T13:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
    "source": "thehackernews.com",
@@ -1964,8 +1999,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 123,
-   "comments": 28,
+   "points": 125,
+   "comments": 29,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -3335,7 +3370,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 53,
+   "points": 52,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -24122,7 +24157,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
