@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T07:38:10Z",
+ "generated": "2026-11-10T08:08:10Z",
  "count": 2045,
  "topics": [
   {
@@ -23,6 +23,26 @@
    ]
   },
   {
+   "name": "commands",
+   "threads": 6,
+   "repos": 0,
+   "points": 6,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-09T16:05:16Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
+    "hn:50409231",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 4,
    "repos": 0,
@@ -36,25 +56,6 @@
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-   ]
-  },
-  {
-   "name": "Scans",
-   "threads": 5,
-   "repos": 0,
-   "points": 3,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-09T16:05:16Z",
-   "items": [
-    "hn:50409231",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -127,6 +128,23 @@
    ]
   },
   {
+   "name": "Debian",
+   "threads": 3,
+   "repos": 0,
+   "points": 72,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-05T06:28:03Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
+  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -193,22 +211,7 @@
    "items": [
     "hn:50403884",
     "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
-   ]
-  },
-  {
-   "name": "zero",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T02:36:23Z",
-   "items": [
-    "hn:50349249",
-    "hn:50352299",
-    "hn:50360901"
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -386,21 +389,6 @@
    ]
   },
   {
-   "name": "Cloud",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T06:44:36Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "hn:50435133",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
-  },
-  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -430,6 +418,25 @@
     "hn:50377979",
     "hn:50357772",
     "hn:50396504"
+   ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://seclists.org/oss-sec/2026/q4/486"
    ]
   }
  ],
@@ -1658,7 +1665,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 95,
+   "points": 96,
    "comments": 27,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -20526,7 +20533,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 73,
+   "points": 74,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
