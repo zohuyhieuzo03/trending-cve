@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T00:38:11Z",
+ "generated": "2026-11-10T01:08:11Z",
  "count": 2037,
  "topics": [
   {
@@ -1471,7 +1471,7 @@
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
    "points": 78,
-   "comments": 20,
+   "comments": 21,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
