@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T08:37:10Z",
- "count": 2047,
+ "generated": "2026-11-10T09:07:11Z",
+ "count": 2048,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -59,6 +59,24 @@
    ]
   },
   {
+   "name": "Debian",
+   "threads": 4,
+   "repos": 0,
+   "points": 73,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
+  {
    "name": "Scans",
    "threads": 5,
    "repos": 0,
@@ -75,6 +93,22 @@
     "blog:https://isc.sans.edu/diary/rss/33498",
     "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
     "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 4,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -380,6 +414,21 @@
    ]
   },
   {
+   "name": "Cloud",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T06:44:36Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
+    "hn:50435133",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
+  },
+  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -393,58 +442,42 @@
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
-  },
-  {
-   "name": "upgrade-window",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
-   "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
-   ]
-  },
-  {
-   "name": "Ubuntu",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T06:52:54Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+   "source": "bluesky",
+   "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-10T08:54:15Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T08:54:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T09:07:11Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
+    "at": "2026-11-10T09:07:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50437593",
    "source": "hackernews",
@@ -1735,7 +1768,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 98,
+   "points": 101,
    "comments": 27,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
