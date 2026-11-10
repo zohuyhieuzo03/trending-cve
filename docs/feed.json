@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:08:10Z",
+ "generated": "2026-11-10T12:38:10Z",
  "count": 2053,
  "topics": [
   {
@@ -464,7 +464,20 @@
      "at": "2026-11-10T12:08:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gatewa",
+    "at": "2026-11-10T12:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50438830",
@@ -484,7 +497,20 @@
      "at": "2026-11-10T11:38:09Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Critical Xen Orchestra authentication bypass is being actively exploited",
+    "at": "2026-11-10T12:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
@@ -1908,7 +1934,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 118,
+   "points": 120,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -3367,7 +3393,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 42,
+   "points": 43,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
