@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T10:07:09Z",
- "count": 2049,
+ "generated": "2026-11-10T10:37:51Z",
+ "count": 2050,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -76,6 +76,24 @@
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+   ]
+  },
+  {
+   "name": "Debian",
+   "threads": 4,
+   "repos": 0,
+   "points": 73,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "hn:50366575",
+    "hn:50375876",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
    ]
   },
   {
@@ -397,23 +415,6 @@
    ]
   },
   {
-   "name": "Ubuntu",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
-   "items": [
-    "hn:50375876",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
-   ]
-  },
-  {
    "name": "Cloud",
    "threads": 3,
    "repos": 0,
@@ -445,6 +446,39 @@
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
+   "source": "bluesky",
+   "title": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T10:12:15Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T10:12:15Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T10:37:51Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let ",
+    "at": "2026-11-10T10:37:51Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
    "source": "thehackernews.com",
@@ -1801,7 +1835,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 107,
+   "points": 110,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
