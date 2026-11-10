@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T11:08:10Z",
- "count": 2051,
+ "generated": "2026-11-10T11:38:09Z",
+ "count": 2052,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -76,40 +76,6 @@
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-   ]
-  },
-  {
-   "name": "Debian",
-   "threads": 4,
-   "repos": 0,
-   "points": 73,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 4,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -234,6 +200,21 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550",
     "blog:https://seclists.org/oss-sec/2026/q4/497"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -415,6 +396,23 @@
    ]
   },
   {
+   "name": "Ubuntu",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109518"
+   ],
+   "last_seen": "2026-11-10T08:28:50Z",
+   "items": [
+    "hn:50375876",
+    "hn:50437552",
+    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+   ]
+  },
+  {
    "name": "Cloud",
    "threads": 3,
    "repos": 0,
@@ -446,6 +444,26 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50438830",
+   "source": "hackernews",
+   "title": "Critical Xen Orchestra authentication bypass is being actively exploited",
+   "url": "https://docs.vates.tech/security-advisories/advisories/2026/vates-sa-2026-062/",
+   "discussion": "https://news.ycombinator.com/item?id=50438830",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T11:29:43Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T11:29:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T11:38:09Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
    "source": "thehackernews.com",
@@ -485,7 +503,7 @@
    "title": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-10T10:12:15Z",
    "label": "security_news",
@@ -551,7 +569,7 @@
    "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
-   "points": 5,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
@@ -1868,7 +1886,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 113,
+   "points": 116,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -13421,7 +13439,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 11,
+   "points": 12,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
