@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T13:38:10Z",
+ "generated": "2026-11-10T14:08:10Z",
  "count": 2055,
  "topics": [
   {
@@ -201,6 +201,21 @@
    ]
   },
   {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
    "name": "Airflow",
    "threads": 4,
    "repos": 0,
@@ -295,21 +310,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T08:54:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -682,7 +682,7 @@
    "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
@@ -2000,7 +2000,7 @@
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
    "points": 125,
-   "comments": 29,
+   "comments": 31,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -3370,7 +3370,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 52,
+   "points": 53,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -3458,7 +3458,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 44,
+   "points": 45,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -20867,7 +20867,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 79,
+   "points": 80,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
