@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-10T05:38:10Z",
+ "generated": "2026-11-10T06:08:10Z",
  "count": 2041,
  "topics": [
   {
    "name": "Out-Of-Bounds",
-   "threads": 9,
+   "threads": 8,
    "repos": 0,
    "points": 0,
    "kev": false,
@@ -19,15 +19,14 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-879/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-878/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-877/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-867/"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-876/"
    ]
   },
   {
-   "name": "commands",
-   "threads": 6,
+   "name": "Scans",
+   "threads": 5,
    "repos": 0,
-   "points": 6,
+   "points": 3,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -35,30 +34,11 @@
    ],
    "last_seen": "2026-11-09T16:05:16Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
     "hn:50409231",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
     "blog:https://isc.sans.edu/diary/rss/33498",
     "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
     "blog:https://isc.sans.edu/diary/rss/33492"
-   ]
-  },
-  {
-   "name": "Traversal",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-03T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-860/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-858/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-857/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-856/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-855/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-852/"
    ]
   },
   {
@@ -90,27 +70,6 @@
     "hn:50377530",
     "blog:https://seclists.org/oss-sec/2026/q4/510",
     "nodejs:november-2026-security-releases"
-   ]
-  },
-  {
-   "name": "authorization",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-49939",
-    "CVE-2026-108500",
-    "CVE-2026-100252"
-   ],
-   "last_seen": "2026-11-06T16:54:09Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/548",
-    "blog:https://seclists.org/oss-sec/2026/q4/491",
-    "blog:https://seclists.org/oss-sec/2026/q4/485",
-    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-859/"
    ]
   },
   {
@@ -167,23 +126,6 @@
    ]
   },
   {
-   "name": "Debian",
-   "threads": 3,
-   "repos": 0,
-   "points": 72,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-05T06:28:03Z",
-   "items": [
-    "hn:50366575",
-    "hn:50375876",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "deploy",
    "threads": 4,
    "repos": 0,
@@ -200,18 +142,38 @@
    ]
   },
   {
-   "name": "Local",
+   "name": "Path",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123776",
+    "CVE-2026-76168",
+    "CVE-2026-59264"
+   ],
+   "last_seen": "2026-11-07T18:55:08Z",
+   "items": [
+    "hn:50403927",
+    "blog:https://seclists.org/oss-sec/2026/q4/575",
+    "blog:https://seclists.org/oss-sec/2026/q4/550",
+    "blog:https://seclists.org/oss-sec/2026/q4/497"
+   ]
+  },
+  {
+   "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 57,
+   "points": 17,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-04T23:33:14Z",
+   "last_seen": "2026-11-07T18:12:57Z",
    "items": [
-    "hn:50372929",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-865/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-863/"
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -312,14 +274,35 @@
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-121265"
+    "CVE-2026-121265",
+    "CVE-2026-120761"
    ],
    "last_seen": "2026-11-07T18:53:17Z",
    "items": [
     "blog:https://seclists.org/oss-sec/2026/q4/574",
+    "blog:https://seclists.org/oss-sec/2026/q4/556",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-866/"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
+   ]
+  },
+  {
+   "name": "authorization",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-49939",
+    "CVE-2026-108500",
+    "CVE-2026-100252"
+   ],
+   "last_seen": "2026-11-06T16:54:09Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/548",
+    "blog:https://seclists.org/oss-sec/2026/q4/491",
+    "blog:https://seclists.org/oss-sec/2026/q4/485",
+    "blog:https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
    ]
   },
   {
@@ -403,26 +386,6 @@
    ]
   },
   {
-   "name": "Windows",
-   "threads": 3,
-   "repos": 1,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-50679",
-    "CVE-2025-15603",
-    "CVE-2026-59264"
-   ],
-   "last_seen": "2026-11-06T04:58:46Z",
-   "items": [
-    "ghpoc:h4urek/CVE-2026-50679",
-    "hn:50383612",
-    "blog:https://seclists.org/oss-sec/2026/q4/538",
-    "blog:https://seclists.org/oss-sec/2026/q4/497"
-   ]
-  },
-  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -435,6 +398,42 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "upgrade-window",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-06T18:43:23Z",
+   "items": [
+    "hn:50377979",
+    "hn:50357772",
+    "hn:50396504"
+   ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116366",
+    "CVE-2026-90436",
+    "CVE-2026-100300"
+   ],
+   "last_seen": "2026-11-06T16:49:15Z",
+   "items": [
+    "hn:50349501",
+    "blog:https://seclists.org/oss-sec/2026/q4/546",
+    "blog:https://seclists.org/oss-sec/2026/q4/486"
    ]
   }
  ],
@@ -1532,7 +1531,7 @@
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
    "points": 89,
-   "comments": 25,
+   "comments": 26,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
