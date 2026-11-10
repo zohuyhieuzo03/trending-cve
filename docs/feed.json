@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T10:37:51Z",
- "count": 2050,
+ "generated": "2026-11-10T11:08:10Z",
+ "count": 2051,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -46,7 +46,7 @@
    "name": "commands",
    "threads": 6,
    "repos": 0,
-   "points": 6,
+   "points": 7,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -55,8 +55,8 @@
    "last_seen": "2026-11-09T16:05:16Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzg4hwjpzt2o",
-    "hn:50409231",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
     "blog:https://isc.sans.edu/diary/rss/33498",
     "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
     "blog:https://isc.sans.edu/diary/rss/33492"
@@ -146,6 +146,22 @@
    ]
   },
   {
+   "name": "backdoor",
+   "threads": 4,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T14:31:29Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
+    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+   ]
+  },
+  {
    "name": "arbitrary",
    "threads": 3,
    "repos": 0,
@@ -179,22 +195,6 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
-   ]
-  },
-  {
-   "name": "deploy",
-   "threads": 4,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-09T14:31:29Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "blog:https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
    ]
   },
   {
@@ -447,12 +447,45 @@
  ],
  "items": [
   {
+   "id": "blog:https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "source": "thehackernews.com",
+   "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+   "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "discussion": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T10:16:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T10:16:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T11:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "at": "2026-11-10T11:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
    "source": "bluesky",
    "title": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx7c2wepm2h",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T10:12:15Z",
    "label": "security_news",
@@ -518,7 +551,7 @@
    "title": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the ye",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzx2wlsy3g2w",
-   "points": 3,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T08:54:15Z",
    "label": "zero_day_mention",
@@ -1794,7 +1827,7 @@
    "title": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzvckfnpn52h",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-09T16:05:16Z",
    "label": "kev_exploited",
@@ -1835,7 +1868,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 110,
+   "points": 113,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -3206,7 +3239,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 51,
+   "points": 52,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -20703,7 +20736,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 77,
+   "points": 78,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
@@ -23993,7 +24026,7 @@
    "title": "YuKongA/CVE-2026-98260: 6.12.69-android16-6-g242e1a07f878",
    "url": "https://github.com/YuKongA/CVE-2026-98260",
    "discussion": "https://github.com/YuKongA/CVE-2026-98260",
-   "points": 51,
+   "points": 53,
    "comments": 0,
    "created": "2026-10-27T12:53:47Z",
    "label": "public_exploit_reported",
