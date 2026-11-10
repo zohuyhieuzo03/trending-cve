@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T03:38:12Z",
+ "generated": "2026-11-10T04:08:11Z",
  "count": 2040,
  "topics": [
   {
@@ -218,21 +218,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -436,6 +421,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "upgrade-window",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-06T18:43:23Z",
+   "items": [
+    "hn:50377979",
+    "hn:50357772",
+    "hn:50396504"
    ]
   }
  ],
@@ -2903,7 +2905,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 46,
+   "points": 47,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -15187,7 +15189,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 25,
+   "points": 26,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
@@ -20378,7 +20380,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 69,
+   "points": 71,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
