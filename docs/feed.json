@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T16:07:40Z",
- "count": 2079,
+ "generated": "2026-11-10T16:38:10Z",
+ "count": 2081,
  "topics": [
   {
    "name": "Heap-based",
@@ -127,22 +127,6 @@
    ]
   },
   {
-   "name": "backdoor",
-   "threads": 4,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-09T14:31:29Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzgundaya32k",
-    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
-   ]
-  },
-  {
    "name": "arbitrary",
    "threads": 3,
    "repos": 0,
@@ -176,6 +160,24 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
+   ]
+  },
+  {
+   "name": "authentication",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-74756"
+   ],
+   "last_seen": "2026-11-10T16:17:34Z",
+   "items": [
+    "hn:50438830",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
+    "blog:https://seclists.org/oss-sec/2026/q4/549",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/"
    ]
   },
   {
@@ -339,6 +341,21 @@
    ]
   },
   {
+   "name": "deploy",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T14:31:29Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+   ]
+  },
+  {
    "name": "strings",
    "threads": 3,
    "repos": 0,
@@ -421,31 +438,82 @@
     "hn:50421656",
     "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
    ]
-  },
-  {
-   "name": "N-Able",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:20:34Z",
-   "items": [
-    "hn:50435133",
-    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
+   "source": "bluesky",
+   "title": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeo",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
+   "points": 0,
+   "comments": 1,
+   "created": "2026-11-10T16:17:34Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T16:17:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:38:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeo",
+    "at": "2026-11-10T16:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "source": "thehackernews.com",
+   "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "discussion": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T16:00:55Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T16:00:55Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T16:38:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "at": "2026-11-10T16:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxspbevpo27",
    "source": "bluesky",
    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
-   "points": 0,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T15:59:39Z",
    "label": "security_news",
@@ -1512,7 +1580,20 @@
      "at": "2026-11-10T16:07:40Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-900: Wireshark SMB Object Export Integer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-899/",
@@ -1532,7 +1613,20 @@
      "at": "2026-11-10T16:07:40Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-899: Wireshark LBMC Fragment Reassembly Integer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-898/",
@@ -1552,7 +1646,20 @@
      "at": "2026-11-10T16:07:40Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-898: Wireshark LoRaWAN Decryption Numeric Truncation Error Remote Code Execution Vulnerability",
+    "at": "2026-11-10T16:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/620",
