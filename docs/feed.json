@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T19:07:13Z",
- "count": 2092,
+ "generated": "2026-11-10T19:38:10Z",
+ "count": 2102,
  "topics": [
   {
    "name": "Heap-based",
@@ -43,6 +43,26 @@
    ]
   },
   {
+   "name": "execute",
+   "threads": 6,
+   "repos": 0,
+   "points": 4,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "last_seen": "2026-11-10T19:23:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
+    "hn:50409231",
+    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "blog:https://isc.sans.edu/diary/rss/33498",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "blog:https://isc.sans.edu/diary/rss/33492"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 4,
    "repos": 0,
@@ -56,25 +76,6 @@
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-   ]
-  },
-  {
-   "name": "Scans",
-   "threads": 5,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-09T16:05:16Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -163,24 +164,6 @@
    ]
   },
   {
-   "name": "authentication",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-74756"
-   ],
-   "last_seen": "2026-11-10T16:17:34Z",
-   "items": [
-    "hn:50438830",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
-    "blog:https://seclists.org/oss-sec/2026/q4/549",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-892/"
-   ]
-  },
-  {
    "name": "Path",
    "threads": 4,
    "repos": 0,
@@ -201,25 +184,10 @@
    ]
   },
   {
-   "name": "accounts",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-09T17:51:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50405744",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
    "name": "Windows",
    "threads": 3,
    "repos": 1,
-   "points": 12,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -235,6 +203,21 @@
    ]
   },
   {
+   "name": "accounts",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T17:51:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50405744",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
    "name": "Google",
    "threads": 3,
    "repos": 0,
@@ -247,6 +230,48 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
     "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
     "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
+   "name": "xen-netback",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-99287",
+    "CVE-2026-99286",
+    "CVE-2026-100081",
+    "CVE-2026-100080"
+   ],
+   "last_seen": "2026-11-10T19:08:01Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/644",
+    "blog:https://seclists.org/oss-sec/2026/q4/643",
+    "blog:https://seclists.org/oss-sec/2026/q4/544",
+    "blog:https://seclists.org/oss-sec/2026/q4/543"
+   ]
+  },
+  {
+   "name": "Multiple",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-73095",
+    "CVE-2026-73117",
+    "CVE-2026-102706",
+    "CVE-2026-102707"
+   ],
+   "last_seen": "2026-11-10T19:03:38Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/642",
+    "blog:https://seclists.org/oss-sec/2026/q4/631",
+    "blog:https://seclists.org/oss-sec/2026/q4/514",
+    "blog:https://seclists.org/oss-sec/2026/q4/482"
    ]
   },
   {
@@ -422,27 +447,298 @@
     "hn:50357772",
     "hn:50396504"
    ]
-  },
-  {
-   "name": "WordPress",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-93389",
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-11-09T06:07:26Z",
-   "items": [
-    "hn:50375988",
-    "hn:50421656",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-pcrw-h46h-c93h",
+   "source": "github-advisory",
+   "title": "Mongoose: sanitizeFilter not applied on countDocuments (npm/mongoose)",
+   "url": "https://github.com/advisories/GHSA-pcrw-h46h-c93h",
+   "discussion": "https://github.com/advisories/GHSA-pcrw-h46h-c93h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:37:32Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-125120"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-11-10T19:37:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-5v64-555j-wjxm",
+   "source": "github-advisory",
+   "title": "Rack: Multipart parsing allows DoS via unbounded scan buffer growth (rubygems/rack)",
+   "url": "https://github.com/advisories/GHSA-5v64-555j-wjxm",
+   "discussion": "https://github.com/advisories/GHSA-5v64-555j-wjxm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:35:49Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-125111"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T19:35:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "source": "thehackernews.com",
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "discussion": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:23:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T19:23:10Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50444972",
+   "source": "hackernews",
+   "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
+   "url": "https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/",
+   "discussion": "https://news.ycombinator.com/item?id=50444972",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-10T19:22:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T19:22:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "source": "thehackernews.com",
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "discussion": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:19:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T19:19:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/644",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 532 v1 (CVE-2026-99287) - Linux xen-netback: guest can trigger double unmap of memory",
+   "url": "https://seclists.org/oss-sec/2026/q4/644",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/644",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:08:01Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99287"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T19:08:01Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 532 v1 (CVE-2026-99287) - Linux xen-netback: guest can trigger double unmap of memory",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/643",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 531 v1 (CVE-2026-99286) - Linux xen-netback: guest can trigger use-after-free for network statistics reads",
+   "url": "https://seclists.org/oss-sec/2026/q4/643",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/643",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:06:05Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99286"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T19:06:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 531 v1 (CVE-2026-99286) - Linux xen-netback: guest can trigger use-after-free for network statistics reads",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/642",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 530 v2 (CVE-2026-102706,CVE-2026-102707,CVE-2026-102708,CVE-2026-119779,CVE-2026-119780) - XAPI: Multiple RBAC issues (update)",
+   "url": "https://seclists.org/oss-sec/2026/q4/642",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/642",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:03:38Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-102706",
+    "CVE-2026-102707",
+    "CVE-2026-102708",
+    "CVE-2026-119779",
+    "CVE-2026-119780"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T19:03:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 530 v2 (CVE-2026-102706,CVE-2026-102707,CVE-2026-102708,CVE-2026-119779,CVE-2026-119780) - XAPI: Multiple RBAC issues (update)",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/641",
+   "source": "seclists.org",
+   "title": "Xen Security Advisory 529 v2 (CVE-2026-102705) - XAPI: data-dependent compare function used for Pool Secret",
+   "url": "https://seclists.org/oss-sec/2026/q4/641",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/641",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T19:01:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-102705"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-10T19:01:18Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Xen Security Advisory 529 v2 (CVE-2026-102705) - XAPI: data-dependent compare function used for Pool Secret",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/640",
    "source": "seclists.org",
@@ -554,7 +850,7 @@
    "title": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and ad",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-10T18:33:47Z",
    "label": "security_news",
@@ -582,12 +878,45 @@
    }
   },
   {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T18:12:21Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T18:12:21Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T19:38:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "at": "2026-11-10T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50443941",
    "source": "hackernews",
    "title": "Git 2.56.1 fixes six vulnerabilities, including RCE on recursive clone",
    "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
    "discussion": "https://news.ycombinator.com/item?id=50443941",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T18:10:27Z",
    "label": "security_news",
@@ -824,7 +1153,7 @@
    "title": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeo",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
-   "points": 1,
+   "points": 2,
    "comments": 1,
    "created": "2026-11-10T16:17:34Z",
    "label": "exploited_reported",
@@ -3130,8 +3459,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 135,
-   "comments": 33,
+   "points": 137,
+   "comments": 34,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
