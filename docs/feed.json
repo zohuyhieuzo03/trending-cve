@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T03:08:10Z",
- "count": 2039,
+ "generated": "2026-11-10T03:38:12Z",
+ "count": 2040,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -218,6 +218,21 @@
    ]
   },
   {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -421,23 +436,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
-  },
-  {
-   "name": "upgrade-window",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119977"
-   ],
-   "last_seen": "2026-11-06T18:43:23Z",
-   "items": [
-    "hn:50377979",
-    "hn:50357772",
-    "hn:50396504"
    ]
   }
  ],
@@ -1534,7 +1532,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 83,
+   "points": 82,
    "comments": 23,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -2635,6 +2633,30 @@
    ]
   },
   {
+   "id": "kev:CVE-2026-123218",
+   "source": "cisa-kev",
+   "title": "CVE-2026-123218: IBM Aspera Faspex - IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-123218"
+   ],
+   "kev": [
+    "CVE-2026-123218"
+   ],
+   "first_seen": "2026-11-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T03:38:12Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:50418651",
    "source": "hackernews",
    "title": "AI to find vulnerabilities in global legislation (on Git)",
@@ -2969,7 +2991,7 @@
    "title": "UnsignedChad/CVE-2026-21155-SVE-2026-3546: Writeup CVE-2026-21155",
    "url": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
    "discussion": "https://github.com/UnsignedChad/CVE-2026-21155-SVE-2026-3546",
-   "points": 41,
+   "points": 42,
    "comments": 0,
    "created": "2026-11-07T20:19:05Z",
    "label": "public_exploit_reported",
@@ -13063,7 +13085,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 10,
+   "points": 11,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
@@ -15165,7 +15187,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 24,
+   "points": 25,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
@@ -20356,7 +20378,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 68,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
