@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T23:37:11Z",
- "count": 2032,
+ "generated": "2026-11-10T00:08:11Z",
+ "count": 2037,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -444,6 +444,39 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/618",
+   "source": "seclists.org",
+   "title": "krb5-1.22.3 is released, with fixes for 21 CVEs",
+   "url": "https://seclists.org/oss-sec/2026/q4/618",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/618",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-09T23:56:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-09T23:56:23Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T00:08:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "krb5-1.22.3 is released, with fixes for 21 CVEs",
+    "at": "2026-11-10T00:08:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "github-advisory:GHSA-ghgh-57qv-h687",
    "source": "github-advisory",
@@ -1437,8 +1470,8 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 69,
-   "comments": 19,
+   "points": 74,
+   "comments": 20,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
    "cves": [],
@@ -12961,6 +12994,28 @@
    }
   },
   {
+   "id": "ghpoc:yoro1836/SamTimer",
+   "source": "github-poc",
+   "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
+   "url": "https://github.com/yoro1836/SamTimer",
+   "discussion": "https://github.com/yoro1836/SamTimer",
+   "points": 10,
+   "comments": 0,
+   "created": "2026-11-01T10:00:01Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T10:00:01Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T00:08:11Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50323831",
    "source": "hackernews",
    "title": "TeamViewer RCE Vulnerability (CVE-2026-111585)",
@@ -13494,6 +13549,32 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:shellharbor/php-7.4-cve-2026-docker",
+   "source": "github-poc",
+   "title": "shellharbor/php-7.4-cve-2026-docker: PHP 7.4.33 CLI/FPM Docker image with pinned backports for CVE-2026-109618 and CVE-2026-109619, plus updated native libraries. Documented bui",
+   "url": "https://github.com/shellharbor/php-7.4-cve-2026-docker",
+   "discussion": "https://github.com/shellharbor/php-7.4-cve-2026-docker",
+   "points": 11,
+   "comments": 0,
+   "created": "2026-10-31T10:22:33Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "first_seen": "2026-10-31T10:22:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T00:08:11Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "hn:50314397",
@@ -14830,6 +14911,28 @@
     "votes": 1,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:akamai/cve-2026-98432-validation-mitigation",
+   "source": "github-poc",
+   "title": "akamai/cve-2026-98432-validation-mitigation: Read-only patch-state and exposure check for CVE-2026-98432 (Linux kernel IPv4 TCP use-after-free, CVSS 9.8), with opt-in interim mitigation",
+   "url": "https://github.com/akamai/cve-2026-98432-validation-mitigation",
+   "discussion": "https://github.com/akamai/cve-2026-98432-validation-mitigation",
+   "points": 9,
+   "comments": 0,
+   "created": "2026-10-30T19:54:26Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T19:54:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T00:08:11Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "github-advisory:GHSA-jm85-8cpp-9cjc",
@@ -18518,6 +18621,28 @@
    "label_history": [
     {
      "at": "2026-10-30T08:34:34Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
+   "id": "ghpoc:Feiman55/CVE-2026-98260-GhostKey",
+   "source": "github-poc",
+   "title": "Feiman55/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
+   "url": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
+   "discussion": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-10-29T04:23:27Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T04:23:27Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T00:08:11Z",
      "label": "public_exploit_reported"
     }
    ]
