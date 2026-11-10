@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T11:38:09Z",
- "count": 2052,
+ "generated": "2026-11-10T12:08:10Z",
+ "count": 2053,
  "topics": [
   {
    "name": "Out-Of-Bounds",
@@ -203,21 +203,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -349,6 +334,21 @@
    ]
   },
   {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+   ]
+  },
+  {
    "name": "Linux",
    "threads": 3,
    "repos": 0,
@@ -413,21 +413,6 @@
    ]
   },
   {
-   "name": "Cloud",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T06:44:36Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzfsfrup3l2u",
-    "hn:50435133",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
-  },
-  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -441,17 +426,54 @@
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
+  },
+  {
+   "name": "upgrade-window",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "last_seen": "2026-11-06T18:43:23Z",
+   "items": [
+    "hn:50377979",
+    "hn:50357772",
+    "hn:50396504"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxfpzlokb2l",
+   "source": "bluesky",
+   "title": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gatewa",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxfpzlokb2l",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxfpzlokb2l",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T12:07:24Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-10T12:07:24Z",
+   "label_history": [
+    {
+     "at": "2026-11-10T12:08:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "hn:50438830",
    "source": "hackernews",
    "title": "Critical Xen Orchestra authentication bypass is being actively exploited",
    "url": "https://docs.vates.tech/security-advisories/advisories/2026/vates-sa-2026-062/",
    "discussion": "https://news.ycombinator.com/item?id=50438830",
-   "points": 1,
-   "comments": 0,
+   "points": 2,
+   "comments": 1,
    "created": "2026-11-10T11:29:43Z",
    "label": "exploited_reported",
    "cves": [],
@@ -1886,7 +1908,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 116,
+   "points": 118,
    "comments": 28,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -20754,7 +20776,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 78,
+   "points": 79,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
