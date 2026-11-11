@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T00:37:10Z",
- "count": 2149,
+ "generated": "2026-11-11T01:08:10Z",
+ "count": 2153,
  "topics": [
   {
    "name": "Heap-based",
@@ -172,6 +172,23 @@
    ]
   },
   {
+   "name": "Chrome",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-10T20:12:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -184,21 +201,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T08:54:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -438,6 +440,52 @@
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-x8x8-p968-x646",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-x8x8-p968-x646",
+   "discussion": "https://github.com/advisories/GHSA-x8x8-p968-x646",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:47:20Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118745"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:47:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T01:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-xf35-v9jh-g65w",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
+   "discussion": "https://github.com/advisories/GHSA-xf35-v9jh-g65w",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:46:12Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114152"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:46:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T01:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-fpxj-5c99-g7vj",
    "source": "github-advisory",
@@ -928,6 +976,27 @@
    ]
   },
   {
+   "id": "github-advisory:GHSA-cfv6-4v53-fff6",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-cfv6-4v53-fff6",
+   "discussion": "https://github.com/advisories/GHSA-cfv6-4v53-fff6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:33:10Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:33:10Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T01:08:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-95x6-7hq8-2c37",
    "source": "github-advisory",
    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114157 - ASP.NET Core Security Feature Bypass Vulnerability (nuget/Microsoft.AspNetCore.App.Runtime.win-arm64)",
@@ -1049,6 +1118,27 @@
    "label_history": [
     {
      "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-hm4p-mv9w-4w8f",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114152 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-hm4p-mv9w-4w8f",
+   "discussion": "https://github.com/advisories/GHSA-hm4p-mv9w-4w8f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T01:08:10Z",
      "label": "vendor_advisory"
     }
    ]
@@ -4544,7 +4634,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 142,
+   "points": 143,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -18335,7 +18425,7 @@
    "title": "Alucard0x1/cve-2026-98432: Proof-only PoC for CVE-2026-98432 (Linux IPv4/TCP ireq_opt use-after-free): race trigger, heap-reuse oracle, no code execution",
    "url": "https://github.com/Alucard0x1/cve-2026-98432",
    "discussion": "https://github.com/Alucard0x1/cve-2026-98432",
-   "points": 29,
+   "points": 30,
    "comments": 0,
    "created": "2026-10-30T16:36:43Z",
    "label": "public_exploit_reported",
