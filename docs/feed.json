@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:07:10Z",
+ "generated": "2026-11-11T22:38:11Z",
  "count": 2251,
  "topics": [
   {
@@ -343,7 +343,7 @@
    "name": "assign_headers",
    "threads": 3,
    "repos": 0,
-   "points": 26,
+   "points": 27,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -1573,7 +1573,7 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 23,
+   "points": 24,
    "comments": 9,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -3303,7 +3303,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-911: (0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T22:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-910/",
@@ -3323,7 +3336,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-910: (0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T22:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-909/",
@@ -3343,7 +3369,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-909: (0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T22:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-908/",
@@ -3363,7 +3402,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-908: (0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T22:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-907/",
@@ -3383,7 +3435,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-907: (0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T22:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/654",
@@ -4013,7 +4078,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 445,
+   "points": 446,
    "comments": 216,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
@@ -9005,7 +9070,7 @@
    "title": "briskets/CVE-2026-126187-poc: CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 / GHSA-673q-mjm6-r5xr",
    "url": "https://github.com/briskets/CVE-2026-126187-poc",
    "discussion": "https://github.com/briskets/CVE-2026-126187-poc",
-   "points": 11,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-08T22:51:41Z",
    "label": "public_exploit_reported",
