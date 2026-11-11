@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T12:08:08Z",
- "count": 2168,
+ "generated": "2026-11-11T12:38:10Z",
+ "count": 2169,
  "topics": [
   {
    "name": "Buffer",
@@ -64,7 +64,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 21,
+   "points": 23,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -92,6 +92,22 @@
     "hn:50377221",
     "hn:50429715",
     "blog:https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+   ]
+  },
+  {
+   "name": "Tuesday",
+   "threads": 4,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T01:41:17Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+    "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
    ]
   },
   {
@@ -138,22 +154,6 @@
    ]
   },
   {
-   "name": "Tuesday",
-   "threads": 4,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T01:41:17Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
-    "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
-    "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
-   ]
-  },
-  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
@@ -194,15 +194,30 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 14,
+   "points": 16,
    "kev": false,
    "vendor": false,
    "cves": [],
    "last_seen": "2026-11-11T10:12:24Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h"
+   ]
+  },
+  {
+   "name": "management",
+   "threads": 3,
+   "repos": 0,
+   "points": 14,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T12:32:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24"
    ]
   },
   {
@@ -329,6 +344,21 @@
    ]
   },
   {
+   "name": "Orchestra",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T18:12:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
+    "hn:50438830",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+   ]
+  },
+  {
    "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
@@ -358,36 +388,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
-  },
-  {
-   "name": "Orchestra",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T18:12:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
-    "hn:50438830",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
-   ]
-  },
-  {
-   "name": "N-Able",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T14:20:34Z",
-   "items": [
-    "hn:50435133",
-    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
    ]
   },
   {
@@ -444,12 +444,45 @@
  ],
  "items": [
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24",
+   "source": "bluesky",
+   "title": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over th",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzxm7caak24",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzxm7caak24",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-11T12:32:44Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T12:32:44Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T12:38:10Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over th",
+    "at": "2026-11-11T12:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzztmdgwjl2c",
    "source": "bluesky",
    "title": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-11T11:21:14Z",
    "label": "security_news",
@@ -482,7 +515,7 @@
    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
-   "points": 3,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-11T10:12:24Z",
    "label": "exploited_reported",
@@ -515,7 +548,7 @@
    "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-11T09:07:43Z",
    "label": "security_news",
@@ -1269,7 +1302,7 @@
    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
@@ -1302,8 +1335,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 412,
-   "comments": 198,
+   "points": 418,
+   "comments": 202,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1883,7 +1916,7 @@
    "title": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and chan",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-10T20:04:51Z",
    "label": "security_news",
@@ -2333,7 +2366,7 @@
    "title": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and ad",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzy3cuzmed2h",
-   "points": 6,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-10T18:33:47Z",
    "label": "security_news",
@@ -2636,7 +2669,7 @@
    "title": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeo",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
-   "points": 2,
+   "points": 3,
    "comments": 1,
    "created": "2026-11-10T16:17:34Z",
    "label": "exploited_reported",
@@ -2702,7 +2735,7 @@
    "title": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, i",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxspbevpo27",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-10T15:59:39Z",
    "label": "security_news",
@@ -24390,7 +24423,7 @@
    "title": "MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak: Independent discovery & coordinated disclosure: CoreMedia bytestream XPC (mediaplaybackd) vended live file descriptors for protected paths t",
    "url": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
    "discussion": "https://github.com/MchinaMd57764/CVE-2026-112706-CoreMedia-fd-leak",
-   "points": 24,
+   "points": 25,
    "comments": 0,
    "created": "2026-10-28T12:03:22Z",
    "label": "public_exploit_reported",
