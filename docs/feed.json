@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T12:38:10Z",
- "count": 2169,
+ "generated": "2026-11-11T13:08:10Z",
+ "count": 2170,
  "topics": [
   {
    "name": "Buffer",
@@ -443,6 +443,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50452810",
+   "source": "hackernews",
+   "title": "Finding a Vulnerability in Star Wars Episode I: Racer",
+   "url": "https://www.synacktiv.com/en/publications/star-wars-episode-i-racer",
+   "discussion": "https://news.ycombinator.com/item?id=50452810",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-11T12:51:33Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T12:51:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T13:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Finding a Vulnerability in Star Wars Episode I: Racer",
+    "at": "2026-11-11T13:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24",
    "source": "bluesky",
@@ -1335,8 +1368,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 418,
-   "comments": 202,
+   "points": 422,
+   "comments": 203,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -24146,7 +24179,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 88,
+   "points": 89,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
