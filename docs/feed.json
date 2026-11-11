@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T14:07:11Z",
- "count": 2171,
+ "generated": "2026-11-11T14:38:10Z",
+ "count": 2174,
  "topics": [
   {
    "name": "Buffer",
@@ -191,21 +191,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-07T18:12:57Z",
-   "items": [
-    "hn:50403884",
-    "lobsters:c99mdx",
-    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-   ]
-  },
-  {
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
@@ -310,6 +295,21 @@
    ]
   },
   {
+   "name": "Apple",
+   "threads": 3,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T15:59:39Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxspbevpo27",
+    "blog:https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
+   ]
+  },
+  {
    "name": "switches",
    "threads": 3,
    "repos": 0,
@@ -339,6 +339,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
     "hn:50398020",
     "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+   ]
+  },
+  {
+   "name": "available",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "last_seen": "2026-11-06T17:04:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50367454",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
    ]
   },
   {
@@ -422,34 +439,82 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550"
    ]
-  },
-  {
-   "name": "CVE-2026-116606",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116606",
-    "CVE-2026-111560"
-   ],
-   "last_seen": "2026-11-06T07:29:25Z",
-   "items": [
-    "hn:50385065",
-    "lobsters:hhagfv",
-    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50453944",
+   "source": "hackernews",
+   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+   "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+   "discussion": "https://news.ycombinator.com/item?id=50453944",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-11T14:34:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T14:34:38Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T14:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+    "at": "2026-11-11T14:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "discussion": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T14:01:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T14:01:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T14:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "at": "2026-11-11T14:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50453368",
    "source": "hackernews",
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -484,7 +549,7 @@
    "title": "Finding a Vulnerability in Star Wars Episode I: Racer",
    "url": "https://www.synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://news.ycombinator.com/item?id=50452810",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-11T12:51:33Z",
    "label": "security_news",
@@ -1403,8 +1468,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 430,
-   "comments": 202,
+   "points": 433,
+   "comments": 205,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -6388,6 +6453,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:briskets/CVE-2026-126187-poc",
+   "source": "github-poc",
+   "title": "briskets/CVE-2026-126187-poc: CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 / GHSA-673q-mjm6-r5xr",
+   "url": "https://github.com/briskets/CVE-2026-126187-poc",
+   "discussion": "https://github.com/briskets/CVE-2026-126187-poc",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-11-08T22:51:41Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-126187"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-08T22:51:41Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T14:38:10Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "ghpoc:MocLG/Time-My-Galaxy",
