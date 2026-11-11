@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T03:38:09Z",
+ "generated": "2026-11-11T04:07:10Z",
  "count": 2159,
  "topics": [
   {
@@ -172,23 +172,6 @@
    ]
   },
   {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -201,6 +184,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
