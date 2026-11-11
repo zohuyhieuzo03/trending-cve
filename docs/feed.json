@@ -1,7 +1,40 @@
 {
- "generated": "2026-11-11T16:38:10Z",
- "count": 2178,
+ "generated": "2026-11-11T17:07:10Z",
+ "count": 2229,
  "topics": [
+  {
+   "name": "YAML",
+   "threads": 21,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-914/"
+   ]
+  },
   {
    "name": "Buffer",
    "threads": 9,
@@ -80,6 +113,121 @@
    ]
   },
   {
+   "name": "FAIRChem",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-945/"
+   ]
+  },
+  {
+   "name": "Untrusted",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-904/"
+   ]
+  },
+  {
+   "name": "fairseq",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-913/"
+   ]
+  },
+  {
+   "name": "Detectron2",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-907/"
+   ]
+  },
+  {
+   "name": "Airflow",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111453",
+    "CVE-2026-111421",
+    "CVE-2026-101031",
+    "CVE-2026-76185"
+   ],
+   "last_seen": "2026-11-09T07:26:21Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/596",
+    "blog:https://seclists.org/oss-sec/2026/q4/594",
+    "blog:https://seclists.org/oss-sec/2026/q4/591",
+    "blog:https://seclists.org/oss-sec/2026/q4/586",
+    "blog:https://seclists.org/oss-sec/2026/q4/585",
+    "blog:https://seclists.org/oss-sec/2026/q4/583"
+   ]
+  },
+  {
+   "name": "bypass",
+   "threads": 4,
+   "repos": 0,
+   "points": 73,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-121728",
+    "CVE-2026-65339",
+    "CVE-2026-82337"
+   ],
+   "last_seen": "2026-11-09T20:17:12Z",
+   "items": [
+    "lobsters:x2hcss",
+    "hn:50431351",
+    "hn:50389343",
+    "blog:https://seclists.org/oss-sec/2026/q4/587"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
@@ -108,67 +256,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
     "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
     "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
-   ]
-  },
-  {
-   "name": "Airflow",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111453",
-    "CVE-2026-111421",
-    "CVE-2026-76185",
-    "CVE-2026-68982"
-   ],
-   "last_seen": "2026-11-09T07:26:21Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/596",
-    "blog:https://seclists.org/oss-sec/2026/q4/594",
-    "blog:https://seclists.org/oss-sec/2026/q4/586",
-    "blog:https://seclists.org/oss-sec/2026/q4/585",
-    "blog:https://seclists.org/oss-sec/2026/q4/583"
-   ]
-  },
-  {
-   "name": "injection",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-101031",
-    "CVE-2026-121265",
-    "CVE-2026-120761"
-   ],
-   "last_seen": "2026-11-09T07:17:42Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/591",
-    "blog:https://seclists.org/oss-sec/2026/q4/574",
-    "blog:https://seclists.org/oss-sec/2026/q4/556",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
-   ]
-  },
-  {
-   "name": "bypass",
-   "threads": 3,
-   "repos": 0,
-   "points": 73,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-121728",
-    "CVE-2026-65339"
-   ],
-   "last_seen": "2026-11-09T20:17:12Z",
-   "items": [
-    "lobsters:x2hcss",
-    "hn:50431351",
-    "hn:50389343"
    ]
   },
   {
@@ -372,77 +459,76 @@
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
    ]
-  },
-  {
-   "name": "available",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T06:04:02Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "blog:https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
-   ]
-  },
-  {
-   "name": "N-central",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T12:32:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24",
-    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
-    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-   ]
-  },
-  {
-   "name": "Multiple",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102706",
-    "CVE-2026-102707",
-    "CVE-2026-102708",
-    "CVE-2026-119779"
-   ],
-   "last_seen": "2026-11-11T16:08:14Z",
-   "items": [
-    "hn:50455031",
-    "blog:https://seclists.org/oss-sec/2026/q4/642",
-    "blog:https://seclists.org/oss-sec/2026/q4/631"
-   ]
-  },
-  {
-   "name": "Path",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123776",
-    "CVE-2026-76168"
-   ],
-   "last_seen": "2026-11-07T18:55:08Z",
-   "items": [
-    "hn:50403927",
-    "blog:https://seclists.org/oss-sec/2026/q4/575",
-    "blog:https://seclists.org/oss-sec/2026/q4/550"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/662",
+   "source": "seclists.org",
+   "title": "CVE-2026-119618: Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers",
+   "url": "https://seclists.org/oss-sec/2026/q4/662",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/662",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:40:14Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T16:40:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/661",
+   "source": "seclists.org",
+   "title": "CVE-2026-109163: Apache HTTP Server: mod_vhost_alias 1 byte stack buffer overwrite (after CVE-2026-63292)",
+   "url": "https://seclists.org/oss-sec/2026/q4/661",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/661",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:37:22Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109163",
+    "CVE-2026-63292"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T16:37:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/660",
+   "source": "seclists.org",
+   "title": "CVE-2026-106023: Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash",
+   "url": "https://seclists.org/oss-sec/2026/q4/660",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/660",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:34:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-106023"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T16:34:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "related"
+    }
+   ]
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/659",
    "source": "seclists.org",
@@ -482,6 +568,26 @@
     {
      "at": "2026-11-11T16:38:10Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+   "source": "thehackernews.com",
+   "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+   "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+   "discussion": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:12:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T16:12:46Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "security_news"
     }
    ]
   },
@@ -597,7 +703,7 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 3,
+   "points": 4,
    "comments": 1,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -922,6 +1028,946 @@
     "votes": 1,
     "rubric": 2
    }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-953: (0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-952: (0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-951: (0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-950: (0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-949: (0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-948: (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-947: (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-946: (0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-945: (0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-944: (0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-943: (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-942: (0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-941: (0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-940: (0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-939: (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-938: (0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-937: (0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-936: (0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-935: (0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-934: (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-933: (0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-932: (0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-931: (0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-930: (0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-929: (0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-928: (0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-927: (0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-926: (0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-925: (0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-924: (0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-923: (0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-922: (0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-921: (0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-920: (0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-919: (0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-918: (0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-917: (0Day) Meta fairseq load_speaker Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-916: (0Day) Meta fairseq split_by_lang Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-915: (0Day) Meta fairseq FilterNamesDataset Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-914: (0Day) Meta fairseq Wav2VecModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-913: (0Day) Meta fairseq load_audio_path Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-912: (0Day) Meta Detectron2 detection_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-911: (0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-910: (0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-909: (0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-908: (0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-907: (0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:07:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/654",
@@ -1551,8 +2597,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 437,
-   "comments": 209,
+   "points": 438,
+   "comments": 210,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -3346,7 +4392,7 @@
    "title": "Worse_query iOS Critical Vulnerability",
    "url": "https://twitter.com/binance/status/2120093246399430770",
    "discussion": "https://news.ycombinator.com/item?id=50439813",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-10T13:10:51Z",
    "label": "security_news",
@@ -6565,7 +7611,7 @@
    "title": "MocLG/Time-My-Galaxy: CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung",
    "url": "https://github.com/MocLG/Time-My-Galaxy",
    "discussion": "https://github.com/MocLG/Time-My-Galaxy",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-08T21:07:31Z",
    "label": "public_exploit_reported",
@@ -11245,7 +12291,7 @@
    "title": "starriv/CVE-2026-98260-Xiaomi-17-Pro-Max: CVE-2026-98260 在小米 17 Pro Max 的工程化利用一键 root",
    "url": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
    "discussion": "https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max",
-   "points": 22,
+   "points": 23,
    "comments": 0,
    "created": "2026-11-05T03:16:47Z",
    "label": "public_exploit_reported",
