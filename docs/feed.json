@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T20:37:52Z",
- "count": 2245,
+ "generated": "2026-11-11T21:08:10Z",
+ "count": 2246,
  "topics": [
   {
    "name": "YAML",
@@ -93,6 +93,28 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzztmdgwjl2c",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
+   "name": "Multiple",
+   "threads": 5,
+   "repos": 0,
+   "points": 19,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102706",
+    "CVE-2026-102707",
+    "CVE-2026-102708",
+    "CVE-2026-119779"
+   ],
+   "last_seen": "2026-11-11T16:08:14Z",
+   "items": [
+    "hn:50455031",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
+    "blog:https://seclists.org/oss-sec/2026/q4/642",
+    "blog:https://seclists.org/oss-sec/2026/q4/631",
+    "blog:https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/"
    ]
   },
   {
@@ -349,26 +371,6 @@
    ]
   },
   {
-   "name": "Multiple",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102706",
-    "CVE-2026-102707",
-    "CVE-2026-102708",
-    "CVE-2026-119779"
-   ],
-   "last_seen": "2026-11-11T16:08:14Z",
-   "items": [
-    "hn:50455031",
-    "blog:https://seclists.org/oss-sec/2026/q4/642",
-    "blog:https://seclists.org/oss-sec/2026/q4/631"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -384,24 +386,20 @@
    ]
   },
   {
-   "name": "xen-netback",
-   "threads": 4,
+   "name": "network",
+   "threads": 3,
    "repos": 0,
-   "points": 0,
+   "points": 9,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-99287",
-    "CVE-2026-99286",
-    "CVE-2026-100081",
-    "CVE-2026-100080"
+    "CVE-2026-99286"
    ],
-   "last_seen": "2026-11-10T19:08:01Z",
+   "last_seen": "2026-11-10T19:06:05Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/644",
+    "hn:50424396",
     "blog:https://seclists.org/oss-sec/2026/q4/643",
-    "blog:https://seclists.org/oss-sec/2026/q4/544",
-    "blog:https://seclists.org/oss-sec/2026/q4/543"
+    "blog:https://www.rapid7.com/blog/post/pt-metasploit-wrapup-unauth-rce-modules-in-network-perimeter-devices-and-much-more"
    ]
   },
   {
@@ -417,21 +415,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxspbevpo27",
     "blog:https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
-   ]
-  },
-  {
-   "name": "switches",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T12:37:39Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzjameegdc2r",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznfkf4cew2x",
-    "blog:https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/"
    ]
   },
   {
@@ -467,9 +450,57 @@
     "hn:50447147",
     "gitlab:patch-release-gitlab-19-5-4-released"
    ]
+  },
+  {
+   "name": "Orchestra",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T18:12:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
+    "hn:50438830",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50458653",
+   "source": "hackernews",
+   "title": "Reprogramming Dormant Neurons to Backdoor AI Agents",
+   "url": "https://x.com/dimitrispapail/status/2120245027804705121?a=yp1VXtQi8Dep0GmUnxo",
+   "discussion": "https://news.ycombinator.com/item?id=50458653",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-11T21:06:05Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T21:06:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Reprogramming Dormant Neurons to Backdoor AI Agents",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50457987",
    "source": "hackernews",
@@ -2501,7 +2532,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-929: (0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-928/",
@@ -2521,7 +2565,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-928: (0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-927/",
@@ -2541,7 +2598,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-927: (0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-926/",
@@ -2561,7 +2631,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-926: (0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-925/",
@@ -2581,7 +2664,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-925: (0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-924/",
@@ -2601,7 +2697,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-924: (0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-923/",
@@ -3571,7 +3680,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 443,
+   "points": 445,
    "comments": 216,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
@@ -8563,7 +8672,7 @@
    "title": "briskets/CVE-2026-126187-poc: CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 / GHSA-673q-mjm6-r5xr",
    "url": "https://github.com/briskets/CVE-2026-126187-poc",
    "discussion": "https://github.com/briskets/CVE-2026-126187-poc",
-   "points": 9,
+   "points": 11,
    "comments": 0,
    "created": "2026-11-08T22:51:41Z",
    "label": "public_exploit_reported",
