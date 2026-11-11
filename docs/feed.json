@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T05:08:10Z",
+ "generated": "2026-11-11T05:38:10Z",
  "count": 2161,
  "topics": [
   {
@@ -172,6 +172,23 @@
    ]
   },
   {
+   "name": "Chrome",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-10T20:12:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -184,21 +201,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T08:54:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -1066,8 +1068,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 357,
-   "comments": 164,
+   "points": 363,
+   "comments": 165,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -4895,7 +4897,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 147,
+   "points": 148,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
