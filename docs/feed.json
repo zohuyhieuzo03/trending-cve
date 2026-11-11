@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T13:08:10Z",
+ "generated": "2026-11-11T13:38:10Z",
  "count": 2170,
  "topics": [
   {
@@ -188,6 +188,21 @@
     "hn:50375988",
     "hn:50421656",
     "hn:50396504"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -424,21 +439,6 @@
     "hn:50385065",
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
-  },
-  {
-   "name": "Expose",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T08:17:53Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-    "blog:https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "blog:https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
    ]
   }
  ],
@@ -1368,7 +1368,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 422,
+   "points": 428,
    "comments": 203,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
