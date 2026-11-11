@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T00:08:10Z",
- "count": 2137,
+ "generated": "2026-11-11T00:37:10Z",
+ "count": 2149,
  "topics": [
   {
    "name": "Heap-based",
@@ -63,7 +63,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 21,
+   "points": 22,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -172,23 +172,6 @@
    ]
   },
   {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -201,6 +184,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -441,6 +439,167 @@
  ],
  "items": [
   {
+   "id": "github-advisory:GHSA-fpxj-5c99-g7vj",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
+   "discussion": "https://github.com/advisories/GHSA-fpxj-5c99-g7vj",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:35:02Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114151"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:35:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-r8h3-p8p6-ggp7",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
+   "discussion": "https://github.com/advisories/GHSA-r8h3-p8p6-ggp7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:34:13Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114158"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:34:13Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-3cgx-w6gm-fqrx",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
+   "discussion": "https://github.com/advisories/GHSA-3cgx-w6gm-fqrx",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:32:59Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114159"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:32:59Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q6jf-24jf-m3cg",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability (nuget/Aspire.Cli)",
+   "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
+   "discussion": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:31:23Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-120792"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:31:23Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-m63f-xhvm-6mv5",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability (nuget/Aspire.Cli)",
+   "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
+   "discussion": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:30:06Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-120778"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:30:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-wr8v-9x5q-ggcm",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114147 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.SignalR.StackExchangeRedis)",
+   "url": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
+   "discussion": "https://github.com/advisories/GHSA-wr8v-9x5q-ggcm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:23:32Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114147"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:23:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-67wp-ghc2-fw2g",
+   "source": "github-advisory",
+   "title": "Microsoft Security Advisory CVE-2026-114146 - ASP.NET Core Elevation of Privilege Vulnerability (nuget/Microsoft.AspNetCore.Http.Connections)",
+   "url": "https://github.com/advisories/GHSA-67wp-ghc2-fw2g",
+   "discussion": "https://github.com/advisories/GHSA-67wp-ghc2-fw2g",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T00:21:56Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114146"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-11T00:21:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-f7vh-h5g3-7jrh",
    "source": "github-advisory",
    "title": "Microsoft Security Advisory CVE-2026-120006 - Aspire Elevation of Privilege Vulnerability (nuget/Aspire.Hosting.AppHost)",
@@ -653,7 +812,7 @@
    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
@@ -790,6 +949,27 @@
    ]
   },
   {
+   "id": "github-advisory:GHSA-cjjx-gv54-83qh",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114158 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-cjjx-gv54-83qh",
+   "discussion": "https://github.com/advisories/GHSA-cjjx-gv54-83qh",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:52Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:52Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-49q5-vjx7-5gwr",
    "source": "github-advisory",
    "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114154 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.Server.HttpSys)",
@@ -832,6 +1012,90 @@
    ]
   },
   {
+   "id": "github-advisory:GHSA-6rff-vv3p-7mrw",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114159 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-6rff-vv3p-7mrw",
+   "discussion": "https://github.com/advisories/GHSA-6rff-vv3p-7mrw",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mqcg-252r-5fj7",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-114151 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
+   "url": "https://github.com/advisories/GHSA-mqcg-252r-5fj7",
+   "discussion": "https://github.com/advisories/GHSA-mqcg-252r-5fj7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:51Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:51Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-wrm2-c2h2-4w82",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-109478 - ASP.NET Core Denial of Service Vulnerability (nuget/Microsoft.AspNetCore.App.Runtime.linux-arm)",
+   "url": "https://github.com/advisories/GHSA-wrm2-c2h2-4w82",
+   "discussion": "https://github.com/advisories/GHSA-wrm2-c2h2-4w82",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:29Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-r33q-3g5w-gqx6",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-105544 - .NET Elevation of Privilege Vulnerability (nuget/Microsoft.TestPlatform.CLI)",
+   "url": "https://github.com/advisories/GHSA-r33q-3g5w-gqx6",
+   "discussion": "https://github.com/advisories/GHSA-r33q-3g5w-gqx6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-10T21:32:22Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-11-10T21:32:22Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:37:10Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-2gff-2mmg-m73p",
    "source": "github-advisory",
    "title": "Action Pack: Possible IP spoofing in Action Dispatch RemoteIp (rubygems/actionpack)",
@@ -860,7 +1124,7 @@
    "title": "Windows Search RCE Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
-   "points": 7,
+   "points": 8,
    "comments": 1,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
@@ -4280,7 +4544,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 140,
+   "points": 142,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -21601,7 +21865,7 @@
    "title": "Feiman55/CVE-2026-98260-GhostKey: GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
    "url": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
    "discussion": "https://github.com/Feiman55/CVE-2026-98260-GhostKey",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-10-29T04:23:27Z",
    "label": "public_exploit_reported",
