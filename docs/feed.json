@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:38:10Z",
+ "generated": "2026-11-11T19:08:10Z",
  "count": 2244,
  "topics": [
   {
@@ -332,25 +332,10 @@
    ]
   },
   {
-   "name": "accounts",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-09T17:51:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
-    "hn:50405744",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
    "name": "corruption",
    "threads": 3,
    "repos": 0,
-   "points": 12,
+   "points": 14,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -367,7 +352,7 @@
    "name": "Multiple",
    "threads": 3,
    "repos": 0,
-   "points": 9,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -381,6 +366,21 @@
     "hn:50455031",
     "blog:https://seclists.org/oss-sec/2026/q4/642",
     "blog:https://seclists.org/oss-sec/2026/q4/631"
+   ]
+  },
+  {
+   "name": "accounts",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-09T17:51:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
+    "hn:50405744",
+    "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
    ]
   },
   {
@@ -486,7 +486,20 @@
      "at": "2026-11-11T18:38:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "US vs. China, last 20 days of VC: the US bets on AI agents, China bets on robots",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50456204",
@@ -506,7 +519,20 @@
      "at": "2026-11-11T18:08:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Chrome zero-day whack-a-mole continues as 2026 tally hits 8",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "zero_day",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/674",
@@ -548,7 +574,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-124310: VVdeC/vvdecapp: Out-of-Bounds Read in Slice::getRefPic via Overlapping Slice CTU Coverage",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/672",
@@ -570,7 +609,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-124312: VVdeC/vvdecapp: Heap Out-of-Bounds Read in CodingStructure::getColInfo with a Smaller Collocated Picture",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/671",
@@ -592,7 +644,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-123765: Apache Sling XSS: SLING-13406",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/670",
@@ -614,7 +679,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-89326: Apache XML Graphics Batik: Check url protocol when loading document",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/669",
@@ -636,7 +714,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-90993: Apache XML Graphics Batik: Harden validation in SAXDocumentFactory",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/668",
@@ -658,7 +749,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-71395: Apache XML Graphics FOP: CWE-502 unsafe deserialization in hyphenation loading",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/667",
@@ -744,7 +848,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Node.js Security Release",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/664",
@@ -917,7 +1034,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/655",
@@ -945,8 +1075,8 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 9,
-   "comments": 1,
+   "points": 13,
+   "comments": 3,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
    "cves": [],
@@ -957,7 +1087,20 @@
      "at": "2026-11-11T16:38:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50453944",
@@ -1031,8 +1174,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 12,
-   "comments": 2,
+   "points": 14,
+   "comments": 3,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -1375,7 +1518,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-953: (0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-952/",
@@ -1395,7 +1551,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-952: (0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-951/",
@@ -1415,7 +1584,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-951: (0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-950/",
@@ -1435,7 +1617,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-950: (0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-949/",
@@ -1455,7 +1650,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-949: (0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-948/",
@@ -1475,7 +1683,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-948: (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-947/",
@@ -2926,7 +3147,7 @@
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
    "points": 440,
-   "comments": 213,
+   "comments": 214,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -4226,7 +4447,7 @@
    "title": "Grok Bot secrets extraction vulnerability",
    "url": "https://profero.io/blog/the-rootkit-built-into-grok-bot",
    "discussion": "https://news.ycombinator.com/item?id=50443320",
-   "points": 2,
+   "points": 3,
    "comments": 1,
    "created": "2026-11-10T17:20:42Z",
    "label": "security_news",
