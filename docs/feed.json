@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-11T05:38:10Z",
+ "generated": "2026-11-11T06:07:10Z",
  "count": 2161,
  "topics": [
   {
-   "name": "Heap-based",
-   "threads": 8,
+   "name": "Buffer",
+   "threads": 9,
    "repos": 0,
    "points": 0,
    "kev": false,
@@ -19,6 +19,7 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
    ]
   },
@@ -134,23 +135,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/556",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-891/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/"
-   ]
-  },
-  {
-   "name": "Ashlar-Vellum",
-   "threads": 5,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-04T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-874/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-873/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-870/"
    ]
   },
   {
@@ -424,18 +408,39 @@
    ]
   },
   {
-   "name": "CISA",
+   "name": "Path",
    "threads": 3,
    "repos": 0,
    "points": 2,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T06:31:42Z",
+   "cves": [
+    "CVE-2026-123776",
+    "CVE-2026-76168"
+   ],
+   "last_seen": "2026-11-07T18:55:08Z",
    "items": [
-    "hn:50377979",
-    "blog:https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-    "blog:https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    "hn:50403927",
+    "blog:https://seclists.org/oss-sec/2026/q4/575",
+    "blog:https://seclists.org/oss-sec/2026/q4/550"
+   ]
+  },
+  {
+   "name": "CVE-2026-116606",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116606",
+    "CVE-2026-111560"
+   ],
+   "last_seen": "2026-11-06T07:29:25Z",
+   "items": [
+    "hn:50385065",
+    "lobsters:hhagfv",
+    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
    ]
   }
  ],
@@ -1068,8 +1073,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 363,
-   "comments": 165,
+   "points": 368,
+   "comments": 168,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1102,7 +1107,7 @@
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
    "points": 3,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
    "cves": [],
@@ -3193,7 +3198,7 @@
    "title": "ylh440104/cve-2026-98432-chain: CVE-2026-98432 exploitation notes and stage skeletons (all kernel offsets redacted)",
    "url": "https://github.com/ylh440104/cve-2026-98432-chain",
    "discussion": "https://github.com/ylh440104/cve-2026-98432-chain",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-10T07:22:32Z",
    "label": "public_exploit_reported",
