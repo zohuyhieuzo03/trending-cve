@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T20:07:17Z",
- "count": 2244,
+ "generated": "2026-11-11T20:37:52Z",
+ "count": 2245,
  "topics": [
   {
    "name": "YAML",
@@ -317,6 +317,23 @@
    ]
   },
   {
+   "name": "assign_headers",
+   "threads": 3,
+   "repos": 0,
+   "points": 22,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "last_seen": "2026-11-11T20:09:56Z",
+   "items": [
+    "hn:50453368",
+    "hn:50457987",
+    "blog:https://seclists.org/oss-sec/2026/q4/662"
+   ]
+  },
+  {
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
@@ -332,27 +349,10 @@
    ]
   },
   {
-   "name": "corruption",
-   "threads": 3,
-   "repos": 0,
-   "points": 17,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-119618"
-   ],
-   "last_seen": "2026-11-11T16:40:14Z",
-   "items": [
-    "hn:50453368",
-    "blog:https://seclists.org/oss-sec/2026/q4/662",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
-   ]
-  },
-  {
    "name": "Multiple",
    "threads": 3,
    "repos": 0,
-   "points": 15,
+   "points": 16,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -470,6 +470,39 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50457987",
+   "source": "hackernews",
+   "title": "Mod_HTTP2: Heap Corruption and RCE in Assign_headers",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-119618",
+   "discussion": "https://news.ycombinator.com/item?id=50457987",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-11T20:09:56Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T20:09:56Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T20:37:52Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Mod_HTTP2: Heap Corruption and RCE in Assign_headers",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50456753",
    "source": "hackernews",
@@ -1233,7 +1266,7 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 15,
+   "points": 16,
    "comments": 4,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
@@ -1332,8 +1365,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 17,
-   "comments": 6,
+   "points": 19,
+   "comments": 8,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -2270,7 +2303,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-935: (0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-934/",
@@ -2290,7 +2336,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-934: (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-933/",
@@ -2310,7 +2369,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-933: (0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-932/",
@@ -2330,7 +2402,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-932: (0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-931/",
@@ -2350,7 +2435,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-931: (0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-930/",
@@ -2370,7 +2468,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-930: (0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:37:52Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-929/",
@@ -3460,8 +3571,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 440,
-   "comments": 214,
+   "points": 443,
+   "comments": 216,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
