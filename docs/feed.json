@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T02:08:10Z",
+ "generated": "2026-11-11T02:38:10Z",
  "count": 2154,
  "topics": [
   {
@@ -63,7 +63,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 23,
+   "points": 24,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -1426,7 +1426,7 @@
    "title": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and chan",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyafqhjqv2c",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T20:04:51Z",
    "label": "security_news",
@@ -9094,7 +9094,7 @@
    "title": "gabrielunknown/CVE-2026-123158_SSHole: CVE-2026-123158 SSHole — OpenSSH authentication bypass via musl crypt() overflow on Alpine Linux (Exploit PoC)",
    "url": "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
    "discussion": "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-05T22:51:12Z",
    "label": "kev_exploited",
@@ -19485,7 +19485,7 @@
    "title": "MchinaMd57764/AVETemporalPoC-CVE-2026-112705: PoC & panic evidence for CVE-2026-112705: AppleAVE2 kernel OOB write on iOS 27.0.1 (fixed in 27.2) via VideoToolbox NumberOfTemporalLayers. ",
    "url": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
    "discussion": "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705",
-   "points": 66,
+   "points": 65,
    "comments": 0,
    "created": "2026-10-30T09:29:03Z",
    "label": "public_exploit_reported",
@@ -23634,7 +23634,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 84,
+   "points": 85,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
