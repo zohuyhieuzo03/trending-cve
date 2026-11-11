@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:38:10Z",
+ "generated": "2026-11-11T10:07:10Z",
  "count": 2166,
  "topics": [
   {
@@ -295,6 +295,23 @@
    ]
   },
   {
+   "name": "GitLab",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-105437"
+   ],
+   "last_seen": "2026-11-10T22:23:46Z",
+   "items": [
+    "hn:50380348",
+    "hn:50447147",
+    "gitlab:patch-release-gitlab-19-5-4-released"
+   ]
+  },
+  {
    "name": "Ubuntu",
    "threads": 3,
    "repos": 0,
@@ -324,23 +341,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-105437"
-   ],
-   "last_seen": "2026-11-10T22:23:46Z",
-   "items": [
-    "hn:50380348",
-    "hn:50447147",
-    "gitlab:patch-release-gitlab-19-5-4-released"
    ]
   },
   {
@@ -1169,7 +1169,7 @@
    "title": "GitLab patch release 19.5.4 fixes CVE-2026-105437 (vulnerability in Git)",
    "url": "https://gitlab.com/gitlab-org/release/patch-release-blogs/-/blob/main/doc/releases/patch-release-gitlab-19-5-4-released.md",
    "discussion": "https://news.ycombinator.com/item?id=50447147",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-11-10T22:23:46Z",
    "label": "related",
@@ -1237,7 +1237,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 398,
+   "points": 400,
    "comments": 190,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
