@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T08:08:10Z",
- "count": 2163,
+ "generated": "2026-11-11T08:38:11Z",
+ "count": 2165,
  "topics": [
   {
    "name": "Buffer",
@@ -427,26 +427,55 @@
    ]
   },
   {
-   "name": "worker",
+   "name": "Expose",
    "threads": 3,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-124495",
-    "CVE-2026-94125",
-    "CVE-2026-115864"
-   ],
-   "last_seen": "2026-11-11T03:23:20Z",
+   "cves": [],
+   "last_seen": "2026-11-11T08:17:53Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/653",
-    "blog:https://seclists.org/oss-sec/2026/q4/652",
-    "blog:https://seclists.org/oss-sec/2026/q4/612"
+    "blog:https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+    "blog:https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+    "blog:https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "source": "thehackernews.com",
+   "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "discussion": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T08:17:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T08:17:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T08:38:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "at": "2026-11-11T08:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50450743",
    "source": "hackernews",
@@ -477,6 +506,39 @@
     },
     "consensus": "not_exploited",
     "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "source": "thehackernews.com",
+   "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "discussion": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T07:21:05Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T07:21:05Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T08:38:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+    "at": "2026-11-11T08:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
     "rubric": 2
    }
   },
@@ -1141,8 +1203,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 392,
-   "comments": 181,
+   "points": 393,
+   "comments": 183,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
