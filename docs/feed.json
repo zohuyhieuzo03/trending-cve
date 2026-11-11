@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T19:38:10Z",
+ "generated": "2026-11-11T20:07:17Z",
  "count": 2244,
  "topics": [
   {
@@ -335,7 +335,7 @@
    "name": "corruption",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 17,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -452,18 +452,20 @@
    ]
   },
   {
-   "name": "Control",
+   "name": "GitLab",
    "threads": 3,
    "repos": 0,
-   "points": 6,
+   "points": 5,
    "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T06:00:00Z",
+   "vendor": true,
+   "cves": [
+    "CVE-2026-105437"
+   ],
+   "last_seen": "2026-11-10T22:23:46Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
-    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
+    "hn:50380348",
+    "hn:50447147",
+    "gitlab:patch-release-gitlab-19-5-4-released"
    ]
   }
  ],
@@ -552,7 +554,20 @@
      "at": "2026-11-11T18:08:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Re: Node.js security release pre-alert",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/673",
@@ -1028,7 +1043,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-109163: Apache HTTP Server: mod_vhost_alias 1 byte stack buffer overwrite (after CVE-2026-63292)",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/660",
@@ -1050,7 +1078,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-106023: Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/659",
@@ -1070,7 +1111,20 @@
      "at": "2026-11-11T16:38:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "git: v2.56.1 and older maintenance release fixes for six vulnerabilitie",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/658",
@@ -1092,7 +1146,20 @@
      "at": "2026-11-11T16:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-123747 pappl-retrofit: Directory traversal in the add-ppdfiles and delete-ppdfiles actions",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
@@ -1145,7 +1212,20 @@
      "at": "2026-11-11T16:38:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Apache Roller: 15 CVEs fixed in 6.1.7",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50455031",
@@ -1252,8 +1332,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 16,
-   "comments": 4,
+   "points": 17,
+   "comments": 6,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -1992,7 +2072,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-941: (0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-940/",
@@ -2012,7 +2105,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-940: (0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-939/",
@@ -2032,7 +2138,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-939: (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-938/",
@@ -2052,7 +2171,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-938: (0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-937/",
@@ -2072,7 +2204,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-937: (0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-936/",
@@ -2092,7 +2237,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-936: (0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T20:07:17Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-935/",
