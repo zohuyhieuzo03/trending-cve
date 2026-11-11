@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:38:11Z",
+ "generated": "2026-11-11T23:08:10Z",
  "count": 2251,
  "topics": [
   {
@@ -101,7 +101,7 @@
    "name": "Multiple",
    "threads": 5,
    "repos": 0,
-   "points": 20,
+   "points": 21,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -651,7 +651,7 @@
    "title": "Reprogramming Dormant Neurons to Backdoor AI Agents",
    "url": "https://x.com/dimitrispapail/status/2120245027804705121?a=yp1VXtQi8Dep0GmUnxo",
    "discussion": "https://news.ycombinator.com/item?id=50458653",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-11T21:06:05Z",
    "label": "security_news",
@@ -1474,7 +1474,7 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 17,
+   "points": 18,
    "comments": 4,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
@@ -4078,8 +4078,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 446,
-   "comments": 216,
+   "points": 447,
+   "comments": 217,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -26931,7 +26931,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 90,
+   "points": 91,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
