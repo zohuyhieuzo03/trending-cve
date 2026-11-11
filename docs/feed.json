@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T04:07:10Z",
+ "generated": "2026-11-11T04:37:24Z",
  "count": 2159,
  "topics": [
   {
@@ -4840,7 +4840,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 146,
+   "points": 147,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
