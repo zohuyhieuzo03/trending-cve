@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T10:07:10Z",
- "count": 2166,
+ "generated": "2026-11-11T10:37:10Z",
+ "count": 2167,
  "topics": [
   {
    "name": "Buffer",
@@ -44,26 +44,6 @@
    ]
   },
   {
-   "name": "Windows",
-   "threads": 6,
-   "repos": 0,
-   "points": 26,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-11T09:07:43Z",
-   "items": [
-    "hn:50446357",
-    "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
-   ]
-  },
-  {
    "name": "Linux",
    "threads": 5,
    "repos": 0,
@@ -78,6 +58,24 @@
     "hn:50374787",
     "hn:50388417",
     "hn:50409957"
+   ]
+  },
+  {
+   "name": "Windows",
+   "threads": 4,
+   "repos": 0,
+   "points": 18,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-15603"
+   ],
+   "last_seen": "2026-11-11T09:07:43Z",
+   "items": [
+    "hn:50446357",
+    "hn:50383612",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
+    "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
   },
   {
@@ -139,6 +137,22 @@
    ]
   },
   {
+   "name": "Tuesday",
+   "threads": 4,
+   "repos": 0,
+   "points": 8,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T01:41:17Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+    "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
+   ]
+  },
+  {
    "name": "bypass",
    "threads": 3,
    "repos": 0,
@@ -154,6 +168,40 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
+   ]
+  },
+  {
+   "name": "WordPress",
+   "threads": 4,
+   "repos": 0,
+   "points": 6,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-93389",
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-11-09T06:07:26Z",
+   "items": [
+    "hn:50377979",
+    "hn:50375988",
+    "hn:50421656",
+    "hn:50396504"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-07T18:12:57Z",
+   "items": [
+    "hn:50403884",
+    "lobsters:c99mdx",
+    "blog:https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
    ]
   },
   {
@@ -186,6 +234,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
+   "name": "Cybersecurity",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T10:12:24Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z"
    ]
   },
   {
@@ -246,23 +309,6 @@
    ]
   },
   {
-   "name": "available",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "last_seen": "2026-11-11T06:04:02Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50367454",
-    "blog:https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
-   ]
-  },
-  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -277,21 +323,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
     "hn:50398020",
     "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
-   ]
-  },
-  {
-   "name": "deploy",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-09T14:31:29Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "blog:https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "blog:https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
    ]
   },
   {
@@ -359,24 +390,6 @@
    ]
   },
   {
-   "name": "WordPress",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-93389",
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-11-09T06:07:26Z",
-   "items": [
-    "hn:50375988",
-    "hn:50421656",
-    "hn:50396504"
-   ]
-  },
-  {
    "name": "N-Able",
    "threads": 3,
    "repos": 0,
@@ -426,24 +439,42 @@
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
    ]
-  },
-  {
-   "name": "Expose",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T08:17:53Z",
-   "items": [
-    "blog:https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-    "blog:https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-    "blog:https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z",
+   "source": "bluesky",
+   "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T10:12:24Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T10:12:24Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T10:37:10Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
+    "at": "2026-11-11T10:37:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
    "source": "bluesky",
@@ -1237,8 +1268,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 400,
-   "comments": 190,
+   "points": 401,
+   "comments": 192,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1270,7 +1301,7 @@
    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
-   "points": 4,
+   "points": 5,
    "comments": 1,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
@@ -24048,7 +24079,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 86,
+   "points": 87,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
