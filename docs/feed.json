@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T01:37:10Z",
- "count": 2153,
+ "generated": "2026-11-11T02:08:10Z",
+ "count": 2154,
  "topics": [
   {
    "name": "Heap-based",
@@ -439,6 +439,26 @@
  ],
  "items": [
   {
+   "id": "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+   "source": "blog.talosintelligence.com",
+   "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+   "discussion": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T01:41:17Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T01:41:17Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T02:08:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-x8x8-p968-x646",
    "source": "github-advisory",
    "title": "Microsoft Security Advisory CVE-2026-118745 - Visual Studio Remote Code Execution Vulnerability (nuget/Microsoft.NETCore.App.Runtime.win-x86)",
@@ -825,7 +845,7 @@
    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
@@ -4632,7 +4652,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 144,
+   "points": 145,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
@@ -6025,7 +6045,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 55,
+   "points": 56,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
