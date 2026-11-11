@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T08:38:11Z",
- "count": 2165,
+ "generated": "2026-11-11T09:08:10Z",
+ "count": 2166,
  "topics": [
   {
    "name": "Buffer",
@@ -44,6 +44,26 @@
    ]
   },
   {
+   "name": "Windows",
+   "threads": 6,
+   "repos": 0,
+   "points": 25,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-15603"
+   ],
+   "last_seen": "2026-11-11T09:07:43Z",
+   "items": [
+    "hn:50446357",
+    "hn:50383612",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
+    "blog:https://seclists.org/oss-sec/2026/q4/538"
+   ]
+  },
+  {
    "name": "Linux",
    "threads": 5,
    "repos": 0,
@@ -58,25 +78,6 @@
     "hn:50374787",
     "hn:50388417",
     "hn:50409957"
-   ]
-  },
-  {
-   "name": "Windows",
-   "threads": 5,
-   "repos": 0,
-   "points": 25,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-15603"
-   ],
-   "last_seen": "2026-11-10T21:10:27Z",
-   "items": [
-    "hn:50446357",
-    "hn:50383612",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
-    "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
   },
   {
@@ -443,6 +444,39 @@
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
+   "source": "bluesky",
+   "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T09:07:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T09:07:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T09:08:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
+    "at": "2026-11-11T09:08:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
    "source": "thehackernews.com",
@@ -1203,8 +1237,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 393,
-   "comments": 183,
+   "points": 396,
+   "comments": 187,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -6513,7 +6547,7 @@
    "title": "djad04/php2shell-deep-dive: A deep technical walkthrough of PHP2Shell from memory visualization of a real exploit against PHP 8.4.26's Steal My Bitcoin challenge, to PH",
    "url": "https://github.com/djad04/php2shell-deep-dive",
    "discussion": "https://github.com/djad04/php2shell-deep-dive",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-07T23:40:49Z",
    "label": "kev_exploited",
