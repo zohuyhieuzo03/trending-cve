@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T18:08:10Z",
- "count": 2243,
+ "generated": "2026-11-11T18:38:10Z",
+ "count": 2244,
  "topics": [
   {
    "name": "YAML",
@@ -350,7 +350,7 @@
    "name": "corruption",
    "threads": 3,
    "repos": 0,
-   "points": 11,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -361,6 +361,26 @@
     "hn:50453368",
     "blog:https://seclists.org/oss-sec/2026/q4/662",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
+   ]
+  },
+  {
+   "name": "Multiple",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102706",
+    "CVE-2026-102707",
+    "CVE-2026-102708",
+    "CVE-2026-119779"
+   ],
+   "last_seen": "2026-11-11T16:08:14Z",
+   "items": [
+    "hn:50455031",
+    "blog:https://seclists.org/oss-sec/2026/q4/642",
+    "blog:https://seclists.org/oss-sec/2026/q4/631"
    ]
   },
   {
@@ -445,29 +465,29 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
     "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
    ]
-  },
-  {
-   "name": "Multiple",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-102706",
-    "CVE-2026-102707",
-    "CVE-2026-102708",
-    "CVE-2026-119779"
-   ],
-   "last_seen": "2026-11-11T16:08:14Z",
-   "items": [
-    "hn:50455031",
-    "blog:https://seclists.org/oss-sec/2026/q4/642",
-    "blog:https://seclists.org/oss-sec/2026/q4/631"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50456753",
+   "source": "hackernews",
+   "title": "US vs. China, last 20 days of VC: the US bets on AI agents, China bets on robots",
+   "url": "https://justraised.io/blog/us-vs-china-agents-vs-robots",
+   "discussion": "https://news.ycombinator.com/item?id=50456753",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-11T18:29:35Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T18:29:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T18:38:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "hn:50456204",
    "source": "hackernews",
@@ -925,8 +945,8 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 5,
-   "comments": 0,
+   "points": 9,
+   "comments": 1,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
    "cves": [],
@@ -945,7 +965,7 @@
    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
    "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
    "discussion": "https://news.ycombinator.com/item?id=50453944",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-11T14:34:38Z",
    "label": "security_news",
@@ -1011,7 +1031,7 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 11,
+   "points": 12,
    "comments": 2,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -2905,8 +2925,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 439,
-   "comments": 211,
+   "points": 440,
+   "comments": 213,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
