@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:08:10Z",
+ "generated": "2026-11-11T09:38:10Z",
  "count": 2166,
  "topics": [
   {
@@ -47,7 +47,7 @@
    "name": "Windows",
    "threads": 6,
    "repos": 0,
-   "points": 25,
+   "points": 26,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -450,7 +450,7 @@
    "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-11-11T09:07:43Z",
    "label": "security_news",
@@ -1237,8 +1237,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 396,
-   "comments": 187,
+   "points": 398,
+   "comments": 190,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -6459,7 +6459,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 59,
+   "points": 60,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
