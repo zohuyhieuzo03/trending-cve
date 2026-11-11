@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T13:38:10Z",
- "count": 2170,
+ "generated": "2026-11-11T14:07:11Z",
+ "count": 2171,
  "topics": [
   {
    "name": "Buffer",
@@ -443,6 +443,41 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50453368",
+   "source": "hackernews",
+   "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
+   "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
+   "discussion": "https://news.ycombinator.com/item?id=50453368",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-11T13:47:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T13:47:26Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T14:07:11Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
+    "at": "2026-11-11T14:07:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50452810",
    "source": "hackernews",
@@ -1335,7 +1370,7 @@
    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
@@ -1368,8 +1403,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 428,
-   "comments": 203,
+   "points": 430,
+   "comments": 202,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
