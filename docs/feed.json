@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T14:38:10Z",
+ "generated": "2026-11-11T15:08:08Z",
  "count": 2174,
  "topics": [
   {
@@ -206,21 +206,6 @@
    ]
   },
   {
-   "name": "management",
-   "threads": 3,
-   "repos": 0,
-   "points": 14,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T12:32:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzilmbi3v725",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24"
-   ]
-  },
-  {
    "name": "Chrome",
    "threads": 3,
    "repos": 0,
@@ -423,6 +408,21 @@
    ]
   },
   {
+   "name": "N-central",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T12:32:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzxm7caak24",
+    "blog:https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+    "blog:https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
+   ]
+  },
+  {
    "name": "Path",
    "threads": 3,
    "repos": 0,
@@ -448,7 +448,7 @@
    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
    "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
    "discussion": "https://news.ycombinator.com/item?id=50453944",
-   "points": 2,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-11T14:34:38Z",
    "label": "security_news",
@@ -515,7 +515,7 @@
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
    "points": 3,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -582,7 +582,7 @@
    "title": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over th",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzxm7caak24",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzxm7caak24",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T12:32:44Z",
    "label": "zero_day_mention",
@@ -1468,8 +1468,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 433,
-   "comments": 205,
+   "points": 434,
+   "comments": 207,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
