@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T19:08:10Z",
+ "generated": "2026-11-11T19:38:10Z",
  "count": 2244,
  "topics": [
   {
@@ -335,7 +335,7 @@
    "name": "corruption",
    "threads": 3,
    "repos": 0,
-   "points": 14,
+   "points": 16,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -352,7 +352,7 @@
    "name": "Multiple",
    "threads": 3,
    "repos": 0,
-   "points": 13,
+   "points": 15,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -784,7 +784,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-49236: Apache XML Graphics Batik: SVG color-profile xml:base bypasses Batik external resource same-origin checks",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/666",
@@ -806,7 +819,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-44929: SSRF Vulnerability in Apache Batik",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/665",
@@ -828,7 +854,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-40853: Apache XML Graphics Batik: Cross-Site Scripting via Unencoded Font Metadata in Apache Batik SVGFont",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50455777",
@@ -883,7 +922,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-126627: Apache XML Graphics FOP: TemporaryFolder on unix-like systems does not limitaccess to created files",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/663",
@@ -905,7 +957,20 @@
      "at": "2026-11-11T17:38:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-111792: Apache XML Graphics Batik: Denial of Service via SVG Element Reference Resolution",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/662",
@@ -927,7 +992,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-119618: Apache HTTP Server: mod_http2: heap corruption and RCE in assign_headers",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/661",
@@ -1075,8 +1153,8 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 13,
-   "comments": 3,
+   "points": 15,
+   "comments": 4,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
    "cves": [],
@@ -1174,8 +1252,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 14,
-   "comments": 3,
+   "points": 16,
+   "comments": 4,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -1716,7 +1794,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-947: (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-946/",
@@ -1736,7 +1827,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-946: (0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-945/",
@@ -1756,7 +1860,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-945: (0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-944/",
@@ -1776,7 +1893,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-944: (0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-943/",
@@ -1796,7 +1926,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-943: (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-942/",
@@ -1816,7 +1959,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-942: (0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T19:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-941/",
