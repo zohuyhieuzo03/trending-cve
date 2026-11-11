@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T16:08:10Z",
- "count": 2174,
+ "generated": "2026-11-11T16:38:10Z",
+ "count": 2178,
  "topics": [
   {
    "name": "Buffer",
@@ -404,6 +404,26 @@
    ]
   },
   {
+   "name": "Multiple",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102706",
+    "CVE-2026-102707",
+    "CVE-2026-102708",
+    "CVE-2026-119779"
+   ],
+   "last_seen": "2026-11-11T16:08:14Z",
+   "items": [
+    "hn:50455031",
+    "blog:https://seclists.org/oss-sec/2026/q4/642",
+    "blog:https://seclists.org/oss-sec/2026/q4/631"
+   ]
+  },
+  {
    "name": "Path",
    "threads": 3,
    "repos": 0,
@@ -420,27 +440,91 @@
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550"
    ]
-  },
-  {
-   "name": "CVE-2026-116606",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116606",
-    "CVE-2026-111560"
-   ],
-   "last_seen": "2026-11-06T07:29:25Z",
-   "items": [
-    "hn:50385065",
-    "lobsters:hhagfv",
-    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/659",
+   "source": "seclists.org",
+   "title": "git: v2.56.1 and older maintenance release fixes for six vulnerabilitie",
+   "url": "https://seclists.org/oss-sec/2026/q4/659",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/659",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:21:58Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T16:21:58Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T16:38:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/658",
+   "source": "seclists.org",
+   "title": "CVE-2026-123747 pappl-retrofit: Directory traversal in the add-ppdfiles and delete-ppdfiles actions",
+   "url": "https://seclists.org/oss-sec/2026/q4/658",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/658",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:19:28Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123747"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T16:19:28Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T16:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/655",
+   "source": "seclists.org",
+   "title": "Apache Roller: 15 CVEs fixed in 6.1.7",
+   "url": "https://seclists.org/oss-sec/2026/q4/655",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/655",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T16:12:12Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T16:12:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T16:38:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50455031",
+   "source": "hackernews",
+   "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
+   "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
+   "discussion": "https://news.ycombinator.com/item?id=50455031",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-11T16:08:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T16:08:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T16:38:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "hn:50453944",
    "source": "hackernews",
