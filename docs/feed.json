@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T02:38:10Z",
+ "generated": "2026-11-11T03:07:25Z",
  "count": 2154,
  "topics": [
   {
@@ -172,6 +172,23 @@
    ]
   },
   {
+   "name": "Chrome",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-10T20:12:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+   ]
+  },
+  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -184,21 +201,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Google",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T08:54:15Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -845,7 +847,7 @@
    "title": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
@@ -878,7 +880,7 @@
    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
@@ -4652,7 +4654,7 @@
    "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
    "url": "https://terminal2shell.com/",
    "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-   "points": 145,
+   "points": 146,
    "comments": 35,
    "created": "2026-11-09T09:41:50.359-06:00",
    "label": "security_news",
