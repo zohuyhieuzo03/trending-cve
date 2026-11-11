@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T17:07:10Z",
- "count": 2229,
+ "generated": "2026-11-11T17:38:10Z",
+ "count": 2241,
  "topics": [
   {
    "name": "YAML",
@@ -36,29 +36,8 @@
    ]
   },
   {
-   "name": "Buffer",
+   "name": "Write",
    "threads": 9,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T06:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-903/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
-   ]
-  },
-  {
-   "name": "Out-Of-Bounds",
-   "threads": 8,
    "repos": 0,
    "points": 0,
    "kev": false,
@@ -66,6 +45,7 @@
    "cves": [],
    "last_seen": "2026-11-06T06:00:00Z",
    "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-890/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-886/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-884/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-882/",
@@ -77,20 +57,23 @@
    ]
   },
   {
-   "name": "Linux",
-   "threads": 5,
+   "name": "Buffer",
+   "threads": 8,
    "repos": 0,
-   "points": 69,
+   "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-11-10T14:23:22Z",
+   "last_seen": "2026-11-10T06:00:00Z",
    "items": [
-    "hn:50372929",
-    "hn:50440821",
-    "hn:50374787",
-    "hn:50388417",
-    "hn:50409957"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-906/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-905/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-901/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-875/"
    ]
   },
   {
@@ -228,6 +211,22 @@
    ]
   },
   {
+   "name": "Linux",
+   "threads": 4,
+   "repos": 0,
+   "points": 68,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T14:23:22Z",
+   "items": [
+    "hn:50372929",
+    "hn:50440821",
+    "hn:50374787",
+    "hn:50388417"
+   ]
+  },
+  {
    "name": "OpenSSH",
    "threads": 3,
    "repos": 0,
@@ -256,6 +255,28 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
     "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
     "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review"
+   ]
+  },
+  {
+   "name": "vvdecapp",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-124310",
+    "CVE-2026-124312",
+    "CVE-2026-124308",
+    "CVE-2026-124311"
+   ],
+   "last_seen": "2026-11-11T17:28:04Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/673",
+    "blog:https://seclists.org/oss-sec/2026/q4/672",
+    "blog:https://seclists.org/oss-sec/2026/q4/633",
+    "blog:https://seclists.org/oss-sec/2026/q4/602",
+    "blog:https://seclists.org/oss-sec/2026/q4/601"
    ]
   },
   {
@@ -346,27 +367,6 @@
    ]
   },
   {
-   "name": "James",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-85111",
-    "CVE-2026-85108",
-    "CVE-2026-49939",
-    "CVE-2025-66621"
-   ],
-   "last_seen": "2026-11-06T17:03:40Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/553",
-    "blog:https://seclists.org/oss-sec/2026/q4/552",
-    "blog:https://seclists.org/oss-sec/2026/q4/548",
-    "blog:https://seclists.org/oss-sec/2026/q4/547"
-   ]
-  },
-  {
    "name": "Apple",
    "threads": 3,
    "repos": 0,
@@ -414,6 +414,38 @@
    ]
   },
   {
+   "name": "Control",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-06T06:00:00Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlbri76na2r",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+    "blog:https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
+   ]
+  },
+  {
+   "name": "corruption",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "last_seen": "2026-11-11T16:40:14Z",
+   "items": [
+    "hn:50453368",
+    "blog:https://seclists.org/oss-sec/2026/q4/662",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
+   ]
+  },
+  {
    "name": "GitLab",
    "threads": 3,
    "repos": 0,
@@ -429,39 +461,271 @@
     "hn:50447147",
     "gitlab:patch-release-gitlab-19-5-4-released"
    ]
-  },
-  {
-   "name": "Orchestra",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T18:12:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
-    "hn:50438830",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
-   ]
-  },
-  {
-   "name": "GPT-6",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-06T20:24:37Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
-    "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/673",
+   "source": "seclists.org",
+   "title": "CVE-2026-124310: VVdeC/vvdecapp: Out-of-Bounds Read in Slice::getRefPic via Overlapping Slice CTU Coverage",
+   "url": "https://seclists.org/oss-sec/2026/q4/673",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/673",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:28:04Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124310"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:28:04Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/672",
+   "source": "seclists.org",
+   "title": "CVE-2026-124312: VVdeC/vvdecapp: Heap Out-of-Bounds Read in CodingStructure::getColInfo with a Smaller Collocated Picture",
+   "url": "https://seclists.org/oss-sec/2026/q4/672",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/672",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:25:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124312"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:25:43Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/671",
+   "source": "seclists.org",
+   "title": "CVE-2026-123765: Apache Sling XSS: SLING-13406",
+   "url": "https://seclists.org/oss-sec/2026/q4/671",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/671",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:23:30Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-123765"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:23:30Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/670",
+   "source": "seclists.org",
+   "title": "CVE-2026-89326: Apache XML Graphics Batik: Check url protocol when loading document",
+   "url": "https://seclists.org/oss-sec/2026/q4/670",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/670",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:21:34Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-89326"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:21:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/669",
+   "source": "seclists.org",
+   "title": "CVE-2026-90993: Apache XML Graphics Batik: Harden validation in SAXDocumentFactory",
+   "url": "https://seclists.org/oss-sec/2026/q4/669",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/669",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:19:40Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-90993"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:19:40Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/668",
+   "source": "seclists.org",
+   "title": "CVE-2026-71395: Apache XML Graphics FOP: CWE-502 unsafe deserialization in hyphenation loading",
+   "url": "https://seclists.org/oss-sec/2026/q4/668",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/668",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:17:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-71395"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:17:42Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/667",
+   "source": "seclists.org",
+   "title": "CVE-2026-49236: Apache XML Graphics Batik: SVG color-profile xml:base bypasses Batik external resource same-origin checks",
+   "url": "https://seclists.org/oss-sec/2026/q4/667",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/667",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:15:31Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49236"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:15:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/666",
+   "source": "seclists.org",
+   "title": "CVE-2026-44929: SSRF Vulnerability in Apache Batik",
+   "url": "https://seclists.org/oss-sec/2026/q4/666",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/666",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:13:14Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-44929"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:13:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/665",
+   "source": "seclists.org",
+   "title": "CVE-2026-40853: Apache XML Graphics Batik: Cross-Site Scripting via Unencoded Font Metadata in Apache Batik SVGFont",
+   "url": "https://seclists.org/oss-sec/2026/q4/665",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/665",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:10:39Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-40853"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:10:39Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50455777",
+   "source": "hackernews",
+   "title": "Node.js Security Release",
+   "url": "https://nodejs.org/en/blog/release/v26.13.1",
+   "discussion": "https://news.ycombinator.com/item?id=50455777",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-11-11T17:09:37Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T17:09:37Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/664",
+   "source": "seclists.org",
+   "title": "CVE-2026-126627: Apache XML Graphics FOP: TemporaryFolder on unix-like systems does not limitaccess to created files",
+   "url": "https://seclists.org/oss-sec/2026/q4/664",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/664",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:07:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-126627"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:07:35Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/663",
+   "source": "seclists.org",
+   "title": "CVE-2026-111792: Apache XML Graphics Batik: Denial of Service via SVG Element Reference Resolution",
+   "url": "https://seclists.org/oss-sec/2026/q4/663",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/663",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:04:31Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111792"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T17:04:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T17:38:10Z",
+     "label": "related"
+    }
+   ]
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/662",
    "source": "seclists.org",
@@ -617,7 +881,7 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
@@ -703,7 +967,7 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 4,
+   "points": 5,
    "comments": 1,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -2598,7 +2862,7 @@
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
    "points": 438,
-   "comments": 210,
+   "comments": 211,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -7589,7 +7853,7 @@
    "title": "briskets/CVE-2026-126187-poc: CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 / GHSA-673q-mjm6-r5xr",
    "url": "https://github.com/briskets/CVE-2026-126187-poc",
    "discussion": "https://github.com/briskets/CVE-2026-126187-poc",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-08T22:51:41Z",
    "label": "public_exploit_reported",
@@ -13915,7 +14179,27 @@
    "comments": 0,
    "created": "2026-11-03T23:00:00Z",
    "label": "vendor_advisory",
-   "cves": [],
+   "cves": [
+    "CVE-2024-27983",
+    "CVE-2026-106071",
+    "CVE-2026-123828",
+    "CVE-2026-123829",
+    "CVE-2026-123862",
+    "CVE-2026-123863",
+    "CVE-2026-123864",
+    "CVE-2026-123865",
+    "CVE-2026-123866",
+    "CVE-2026-123867",
+    "CVE-2026-123868",
+    "CVE-2026-123871",
+    "CVE-2026-123872",
+    "CVE-2026-123874",
+    "CVE-2026-123875",
+    "CVE-2026-123877",
+    "CVE-2026-126051",
+    "CVE-2026-48615",
+    "CVE-2026-48937"
+   ],
    "kev": [],
    "severity": "high",
    "first_seen": "2026-11-03T23:00:00Z",
