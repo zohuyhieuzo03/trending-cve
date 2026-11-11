@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T06:07:10Z",
- "count": 2161,
+ "generated": "2026-11-11T06:37:11Z",
+ "count": 2162,
  "topics": [
   {
    "name": "Buffer",
@@ -156,23 +156,6 @@
    ]
   },
   {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -245,6 +228,23 @@
    ]
   },
   {
+   "name": "available",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "last_seen": "2026-11-11T06:04:02Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50367454",
+    "blog:https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+   ]
+  },
+  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -259,23 +259,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzolqntpah2x",
     "hn:50398020",
     "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
-   ]
-  },
-  {
-   "name": "available",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "last_seen": "2026-11-06T17:04:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50367454",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
    ]
   },
   {
@@ -442,9 +425,61 @@
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
    ]
+  },
+  {
+   "name": "worker",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-124495",
+    "CVE-2026-94125",
+    "CVE-2026-115864"
+   ],
+   "last_seen": "2026-11-11T03:23:20Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/653",
+    "blog:https://seclists.org/oss-sec/2026/q4/652",
+    "blog:https://seclists.org/oss-sec/2026/q4/612"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source": "thehackernews.com",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "discussion": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T06:04:02Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T06:04:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T06:37:11Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "at": "2026-11-11T06:37:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/654",
    "source": "seclists.org",
@@ -1073,8 +1108,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 368,
-   "comments": 168,
+   "points": 375,
+   "comments": 175,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1461,7 +1496,7 @@
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
    "points": 10,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
    "cves": [],
@@ -1513,7 +1548,7 @@
   {
    "id": "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
    "source": "blog.qualys.com",
-   "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
+   "title": "Microsoft and Adobe Patch Tuesday, November 2026 Security Update Review",
    "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
    "discussion": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review",
    "points": 0,
@@ -1530,8 +1565,8 @@
     }
    ],
    "llm": {
-    "title": "Microsoft Patch Tuesday, November 2026 Security Update Review",
-    "at": "2026-11-10T21:08:10Z",
+    "title": "Microsoft and Adobe Patch Tuesday, November 2026 Security Update Review",
+    "at": "2026-11-11T06:37:11Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
@@ -3198,7 +3233,7 @@
    "title": "ylh440104/cve-2026-98432-chain: CVE-2026-98432 exploitation notes and stage skeletons (all kernel offsets redacted)",
    "url": "https://github.com/ylh440104/cve-2026-98432-chain",
    "discussion": "https://github.com/ylh440104/cve-2026-98432-chain",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-10T07:22:32Z",
    "label": "public_exploit_reported",
