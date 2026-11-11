@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T11:08:10Z",
- "count": 2167,
+ "generated": "2026-11-11T11:38:11Z",
+ "count": 2168,
  "topics": [
   {
    "name": "Buffer",
@@ -62,19 +62,20 @@
   },
   {
    "name": "Windows",
-   "threads": 4,
+   "threads": 5,
    "repos": 0,
-   "points": 18,
+   "points": 21,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2025-15603"
    ],
-   "last_seen": "2026-11-11T09:07:43Z",
+   "last_seen": "2026-11-11T11:21:14Z",
    "items": [
     "hn:50446357",
     "hn:50383612",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzztmdgwjl2c",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
    ]
   },
@@ -205,6 +206,21 @@
    ]
   },
   {
+   "name": "Cybersecurity",
+   "threads": 3,
+   "repos": 0,
+   "points": 14,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T10:12:24Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z"
+   ]
+  },
+  {
    "name": "Chrome",
    "threads": 3,
    "repos": 0,
@@ -234,21 +250,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-   ]
-  },
-  {
-   "name": "Cybersecurity",
-   "threads": 3,
-   "repos": 0,
-   "points": 11,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-11T10:12:24Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z"
    ]
   },
   {
@@ -443,12 +444,45 @@
  ],
  "items": [
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzztmdgwjl2c",
+   "source": "bluesky",
+   "title": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-11-11T11:21:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T11:21:14Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T11:38:11Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September",
+    "at": "2026-11-11T11:38:11Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z",
    "source": "bluesky",
    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
-   "points": 0,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T10:12:24Z",
    "label": "exploited_reported",
@@ -481,7 +515,7 @@
    "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
-   "points": 1,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T09:07:43Z",
    "label": "security_news",
@@ -1268,8 +1302,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 407,
-   "comments": 192,
+   "points": 408,
+   "comments": 195,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1301,7 +1335,7 @@
    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
@@ -24079,7 +24113,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 87,
+   "points": 88,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
