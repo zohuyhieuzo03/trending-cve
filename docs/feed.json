@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T21:08:10Z",
- "count": 2246,
+ "generated": "2026-11-11T21:38:10Z",
+ "count": 2251,
  "topics": [
   {
    "name": "YAML",
@@ -79,15 +79,17 @@
   {
    "name": "Windows",
    "threads": 5,
-   "repos": 0,
+   "repos": 1,
    "points": 26,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2026-50679",
     "CVE-2025-15603"
    ],
    "last_seen": "2026-11-11T11:21:14Z",
    "items": [
+    "ghpoc:h4urek/CVE-2026-50679",
     "hn:50446357",
     "hn:50383612",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzm5mb2432k",
@@ -190,29 +192,6 @@
    ]
   },
   {
-   "name": "Airflow",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111453",
-    "CVE-2026-111421",
-    "CVE-2026-101031",
-    "CVE-2026-76185"
-   ],
-   "last_seen": "2026-11-09T07:26:21Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/596",
-    "blog:https://seclists.org/oss-sec/2026/q4/594",
-    "blog:https://seclists.org/oss-sec/2026/q4/591",
-    "blog:https://seclists.org/oss-sec/2026/q4/586",
-    "blog:https://seclists.org/oss-sec/2026/q4/585",
-    "blog:https://seclists.org/oss-sec/2026/q4/583"
-   ]
-  },
-  {
    "name": "bypass",
    "threads": 4,
    "repos": 0,
@@ -298,25 +277,47 @@
    ]
   },
   {
-   "name": "vvdecapp",
+   "name": "Read",
    "threads": 5,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [
+    "CVE-2026-124309",
     "CVE-2026-124310",
     "CVE-2026-124312",
-    "CVE-2026-124308",
-    "CVE-2026-124311"
+    "CVE-2024-21963"
    ],
-   "last_seen": "2026-11-11T17:28:04Z",
+   "last_seen": "2026-11-11T21:19:32Z",
    "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/677",
     "blog:https://seclists.org/oss-sec/2026/q4/673",
     "blog:https://seclists.org/oss-sec/2026/q4/672",
-    "blog:https://seclists.org/oss-sec/2026/q4/633",
-    "blog:https://seclists.org/oss-sec/2026/q4/602",
-    "blog:https://seclists.org/oss-sec/2026/q4/601"
+    "blog:https://seclists.org/oss-sec/2026/q4/639",
+    "blog:https://seclists.org/oss-sec/2026/q4/597"
+   ]
+  },
+  {
+   "name": "Airflow",
+   "threads": 5,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111453",
+    "CVE-2026-111421",
+    "CVE-2026-76185",
+    "CVE-2026-68982"
+   ],
+   "last_seen": "2026-11-09T07:26:21Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/596",
+    "blog:https://seclists.org/oss-sec/2026/q4/594",
+    "blog:https://seclists.org/oss-sec/2026/q4/586",
+    "blog:https://seclists.org/oss-sec/2026/q4/585",
+    "blog:https://seclists.org/oss-sec/2026/q4/583"
    ]
   },
   {
@@ -342,7 +343,7 @@
    "name": "assign_headers",
    "threads": 3,
    "repos": 0,
-   "points": 22,
+   "points": 24,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -386,6 +387,26 @@
    ]
   },
   {
+   "name": "vvdecapp",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-124308",
+    "CVE-2026-124311",
+    "CVE-2026-124307"
+   ],
+   "last_seen": "2026-11-11T21:21:32Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/678",
+    "blog:https://seclists.org/oss-sec/2026/q4/633",
+    "blog:https://seclists.org/oss-sec/2026/q4/602",
+    "blog:https://seclists.org/oss-sec/2026/q4/601"
+   ]
+  },
+  {
    "name": "network",
    "threads": 3,
    "repos": 0,
@@ -418,6 +439,21 @@
    ]
   },
   {
+   "name": "available",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T21:14:53Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "hn:50458759",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+   ]
+  },
+  {
    "name": "SonicOS",
    "threads": 3,
    "repos": 0,
@@ -433,48 +469,189 @@
     "hn:50398020",
     "blog:https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
    ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-105437"
-   ],
-   "last_seen": "2026-11-10T22:23:46Z",
-   "items": [
-    "hn:50380348",
-    "hn:50447147",
-    "gitlab:patch-release-gitlab-19-5-4-released"
-   ]
-  },
-  {
-   "name": "Orchestra",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-11-10T18:12:21Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzxtpcvev42h",
-    "hn:50438830",
-    "blog:https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/678",
+   "source": "seclists.org",
+   "title": "CVE-2026-124308: VVdeC/vvdecapp: Heap Use-After-Free in DecLibRecon::createSubPicRefBufs during Subpicture Reconstruction",
+   "url": "https://seclists.org/oss-sec/2026/q4/678",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/678",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T21:21:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124308"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T21:21:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124308: VVdeC/vvdecapp: Heap Use-After-Free in DecLibRecon::createSubPicRefBufs during Subpicture Reconstruction",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/677",
+   "source": "seclists.org",
+   "title": "CVE-2026-124309: VVdeC/vvdecapp: Heap Out-of-Bounds Read in HRD::setBufferingPeriodSEI via Scalable-Nesting SEI",
+   "url": "https://seclists.org/oss-sec/2026/q4/677",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/677",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T21:19:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124309"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T21:19:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124309: VVdeC/vvdecapp: Heap Out-of-Bounds Read in HRD::setBufferingPeriodSEI via Scalable-Nesting SEI",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/676",
+   "source": "seclists.org",
+   "title": "CVE-2026-108472 - xfs_admin allows for OS command injection",
+   "url": "https://seclists.org/oss-sec/2026/q4/676",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/676",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T21:17:33Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-108472"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T21:17:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-108472 - xfs_admin allows for OS command injection",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/675",
+   "source": "seclists.org",
+   "title": "CVE-2026-93404: rsyslog 8.1901.0 through pre-2026-11-11 daily stable omclickhouse SQL injection",
+   "url": "https://seclists.org/oss-sec/2026/q4/675",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/675",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T21:15:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-93404"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T21:15:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:38:10Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-93404: rsyslog 8.1901.0 through pre-2026-11-11 daily stable omclickhouse SQL injection",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50458759",
+   "source": "hackernews",
+   "title": "Node.js security updates are now available",
+   "url": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+   "discussion": "https://news.ycombinator.com/item?id=50458759",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-11-11T21:14:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T21:14:53Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T21:38:10Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Node.js security updates are now available",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50458653",
    "source": "hackernews",
    "title": "Reprogramming Dormant Neurons to Backdoor AI Agents",
    "url": "https://x.com/dimitrispapail/status/2120245027804705121?a=yp1VXtQi8Dep0GmUnxo",
    "discussion": "https://news.ycombinator.com/item?id=50458653",
-   "points": 1,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-11T21:06:05Z",
    "label": "security_news",
@@ -1396,8 +1573,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 19,
-   "comments": 8,
+   "points": 21,
+   "comments": 9,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -2730,7 +2907,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-923: (0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-922/",
@@ -2750,7 +2940,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-922: (0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-921/",
@@ -2770,7 +2973,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-921: (0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-920/",
@@ -2790,7 +3006,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-920: (0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-919/",
@@ -2810,7 +3039,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-919: (0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-918/",
@@ -2830,7 +3072,20 @@
      "at": "2026-11-11T17:07:10Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-918: (0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "at": "2026-11-11T21:38:10Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-917/",
@@ -19218,7 +19473,7 @@
    "title": "yoro1836/SamTimer: One-tap Android root for Samsung Galaxy devices, built around the CVE-2026-98260 timer exploit.",
    "url": "https://github.com/yoro1836/SamTimer",
    "discussion": "https://github.com/yoro1836/SamTimer",
-   "points": 15,
+   "points": 16,
    "comments": 0,
    "created": "2026-11-01T10:00:01Z",
    "label": "public_exploit_reported",
