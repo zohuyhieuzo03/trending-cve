@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T03:07:25Z",
- "count": 2154,
+ "generated": "2026-11-11T03:38:09Z",
+ "count": 2159,
  "topics": [
   {
    "name": "Heap-based",
@@ -63,7 +63,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 24,
+   "points": 25,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -441,6 +441,181 @@
  ],
  "items": [
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/654",
+   "source": "seclists.org",
+   "title": "CVE-2026-124496: Apache Storm: DRPC HTTP doAsUser bypasses the impersonation authorizer",
+   "url": "https://seclists.org/oss-sec/2026/q4/654",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/654",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T03:25:06Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124496"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T03:25:06Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T03:38:09Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124496: Apache Storm: DRPC HTTP doAsUser bypasses the impersonation authorizer",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/653",
+   "source": "seclists.org",
+   "title": "CVE-2026-124495: Apache Storm: Logviewer follows worker symlinks across topology ACLs",
+   "url": "https://seclists.org/oss-sec/2026/q4/653",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/653",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T03:23:20Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-124495"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T03:23:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T03:38:09Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-124495: Apache Storm: Logviewer follows worker symlinks across topology ACLs",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/652",
+   "source": "seclists.org",
+   "title": "CVE-2026-94125: Apache Storm: Supervisor page discloses worker placement of other users' topologies",
+   "url": "https://seclists.org/oss-sec/2026/q4/652",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/652",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T03:21:33Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-94125"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T03:21:33Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T03:38:09Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-94125: Apache Storm: Supervisor page discloses worker placement of other users' topologies",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/651",
+   "source": "seclists.org",
+   "title": "Re: Xen Security Advisory 525 v1 (CVE-2024-36350,CVE-2024-36357,CVE-2026-0004) - x86: Transient Scheduler Attacks (update)",
+   "url": "https://seclists.org/oss-sec/2026/q4/651",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/651",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T03:18:34Z",
+   "label": "related",
+   "cves": [
+    "CVE-2024-36350",
+    "CVE-2024-36357",
+    "CVE-2026-0004"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-11T03:18:34Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T03:38:09Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Re: Xen Security Advisory 525 v1 (CVE-2024-36350,CVE-2024-36357,CVE-2026-0004) - x86: Transient Scheduler Attacks (update)",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/650",
+   "source": "seclists.org",
+   "title": "Plone security fix 20261110: remote code execution",
+   "url": "https://seclists.org/oss-sec/2026/q4/650",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/650",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T03:16:25Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T03:16:25Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T03:38:09Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Plone security fix 20261110: remote code execution",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
    "source": "blog.talosintelligence.com",
    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
@@ -458,7 +633,20 @@
      "at": "2026-11-11T02:08:10Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "at": "2026-11-11T03:38:09Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "github-advisory:GHSA-x8x8-p968-x646",
@@ -1234,7 +1422,7 @@
    "title": "Windows Search RCE Vulnerability",
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
-   "points": 9,
+   "points": 10,
    "comments": 1,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
@@ -6047,7 +6235,7 @@
    "title": "Rust505/CVE-2026-112611: CVE-2026-112611: OOB Write in CoreGraphics (PDF ShadingType 5) via /N and /C0 array mismatch. Causes heap overflow (DoS). The Python PoC gen",
    "url": "https://github.com/Rust505/CVE-2026-112611",
    "discussion": "https://github.com/Rust505/CVE-2026-112611",
-   "points": 56,
+   "points": 57,
    "comments": 0,
    "created": "2026-11-08T06:05:17Z",
    "label": "public_exploit_reported",
@@ -10075,7 +10263,7 @@
    "title": "h4urek/CVE-2026-50679: CVE-2026-50679 - Windows Search Heap Buffer Overflow",
    "url": "https://github.com/h4urek/CVE-2026-50679",
    "discussion": "https://github.com/h4urek/CVE-2026-50679",
-   "points": 12,
+   "points": 13,
    "comments": 0,
    "created": "2026-11-05T12:55:47Z",
    "label": "public_exploit_reported",
