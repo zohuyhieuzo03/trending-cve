@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:37:42Z",
+ "generated": "2026-11-11T16:08:10Z",
  "count": 2174,
  "topics": [
   {
@@ -64,7 +64,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 24,
+   "points": 26,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -194,7 +194,7 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 17,
+   "points": 18,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -327,23 +327,6 @@
    ]
   },
   {
-   "name": "available",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-98432"
-   ],
-   "last_seen": "2026-11-06T17:04:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
-    "hn:50367454",
-    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
-   ]
-  },
-  {
    "name": "GitLab",
    "threads": 3,
    "repos": 0,
@@ -388,6 +371,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo7neyas72j",
     "blog:https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
     "blog:https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+   ]
+  },
+  {
+   "name": "available",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-11T06:04:02Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mznuhyp5272k",
+    "blog:https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "blog:https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
    ]
   },
   {
@@ -616,7 +614,7 @@
    "title": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-11T11:21:14Z",
    "label": "security_news",
@@ -649,7 +647,7 @@
    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
-   "points": 6,
+   "points": 7,
    "comments": 0,
    "created": "2026-11-11T10:12:24Z",
    "label": "exploited_reported",
@@ -682,7 +680,7 @@
    "title": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzm5mb2432k",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-11T09:07:43Z",
    "label": "security_news",
@@ -1470,7 +1468,7 @@
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
    "points": 437,
-   "comments": 207,
+   "comments": 209,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
