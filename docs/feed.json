@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T17:38:10Z",
- "count": 2241,
+ "generated": "2026-11-11T18:08:10Z",
+ "count": 2243,
  "topics": [
   {
    "name": "YAML",
@@ -242,6 +242,24 @@
    ]
   },
   {
+   "name": "Chrome",
+   "threads": 4,
+   "repos": 0,
+   "points": 15,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-11T17:47:21Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50456204",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+   ]
+  },
+  {
    "name": "Tuesday",
    "threads": 4,
    "repos": 0,
@@ -314,23 +332,6 @@
    ]
   },
   {
-   "name": "Chrome",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-125350"
-   ],
-   "last_seen": "2026-11-10T20:12:25Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
-    "hn:50445667",
-    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-   ]
-  },
-  {
    "name": "accounts",
    "threads": 3,
    "repos": 0,
@@ -343,6 +344,23 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
+   "name": "corruption",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "last_seen": "2026-11-11T16:40:14Z",
+   "items": [
+    "hn:50453368",
+    "blog:https://seclists.org/oss-sec/2026/q4/662",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
    ]
   },
   {
@@ -429,41 +447,67 @@
    ]
   },
   {
-   "name": "corruption",
+   "name": "Multiple",
    "threads": 3,
    "repos": 0,
    "points": 5,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-119618"
+    "CVE-2026-102706",
+    "CVE-2026-102707",
+    "CVE-2026-102708",
+    "CVE-2026-119779"
    ],
-   "last_seen": "2026-11-11T16:40:14Z",
+   "last_seen": "2026-11-11T16:08:14Z",
    "items": [
-    "hn:50453368",
-    "blog:https://seclists.org/oss-sec/2026/q4/662",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-883/"
-   ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-105437"
-   ],
-   "last_seen": "2026-11-10T22:23:46Z",
-   "items": [
-    "hn:50380348",
-    "hn:50447147",
-    "gitlab:patch-release-gitlab-19-5-4-released"
+    "hn:50455031",
+    "blog:https://seclists.org/oss-sec/2026/q4/642",
+    "blog:https://seclists.org/oss-sec/2026/q4/631"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50456204",
+   "source": "hackernews",
+   "title": "Chrome zero-day whack-a-mole continues as 2026 tally hits 8",
+   "url": "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
+   "discussion": "https://news.ycombinator.com/item?id=50456204",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-11-11T17:47:21Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T17:47:21Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T18:08:10Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/674",
+   "source": "seclists.org",
+   "title": "Re: Node.js security release pre-alert",
+   "url": "https://seclists.org/oss-sec/2026/q4/674",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/674",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-11-11T17:32:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-11-11T17:32:02Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T18:08:10Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/673",
    "source": "seclists.org",
@@ -668,7 +712,7 @@
    "title": "Node.js Security Release",
    "url": "https://nodejs.org/en/blog/release/v26.13.1",
    "discussion": "https://news.ycombinator.com/item?id=50455777",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-11-11T17:09:37Z",
    "label": "security_news",
@@ -881,7 +925,7 @@
    "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
@@ -967,8 +1011,8 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 5,
-   "comments": 1,
+   "points": 11,
+   "comments": 2,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
    "cves": [
@@ -2861,7 +2905,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 438,
+   "points": 439,
    "comments": 211,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
