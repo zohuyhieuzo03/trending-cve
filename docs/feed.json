@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-10T23:38:10Z",
- "count": 2133,
+ "generated": "2026-11-11T00:08:10Z",
+ "count": 2137,
  "topics": [
   {
    "name": "Heap-based",
@@ -76,25 +76,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzy3cuzmed2h",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzyafqhjqv2c",
     "blog:https://seclists.org/oss-sec/2026/q4/538"
-   ]
-  },
-  {
-   "name": "Scans",
-   "threads": 5,
-   "repos": 0,
-   "points": 4,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "last_seen": "2026-11-10T19:23:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzvckfnpn52h",
-    "hn:50409231",
-    "blog:https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-    "blog:https://isc.sans.edu/diary/rss/33498",
-    "blog:https://isc.sans.edu/diary/rss/33492"
    ]
   },
   {
@@ -188,6 +169,23 @@
     "lobsters:x2hcss",
     "hn:50431351",
     "hn:50389343"
+   ]
+  },
+  {
+   "name": "Chrome",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-125350"
+   ],
+   "last_seen": "2026-11-10T20:12:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "hn:50445667",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
    ]
   },
   {
@@ -5440,6 +5438,28 @@
    }
   },
   {
+   "id": "ghpoc:MocLG/Time-My-Galaxy",
+   "source": "github-poc",
+   "title": "MocLG/Time-My-Galaxy: CVE-2026-98260 timerfd exploit and Shizuku launcher for the Samsung",
+   "url": "https://github.com/MocLG/Time-My-Galaxy",
+   "discussion": "https://github.com/MocLG/Time-My-Galaxy",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-11-08T21:07:31Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-98260"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-08T21:07:31Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:08:10Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50415821",
    "source": "hackernews",
    "title": "Open dataset of prompt-injection CVEs with a monthly threat index",
@@ -5734,6 +5754,32 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:djad04/php2shell-deep-dive",
+   "source": "github-poc",
+   "title": "djad04/php2shell-deep-dive: A deep technical walkthrough of PHP2Shell from memory visualization of a real exploit against PHP 8.4.26's Steal My Bitcoin challenge, to PH",
+   "url": "https://github.com/djad04/php2shell-deep-dive",
+   "discussion": "https://github.com/djad04/php2shell-deep-dive",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-11-07T23:40:49Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "first_seen": "2026-11-07T23:40:49Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:08:10Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "ghpoc:UnsignedChad/CVE-2026-21155-SVE-2026-3546",
@@ -8671,6 +8717,30 @@
    ]
   },
   {
+   "id": "ghpoc:gabrielunknown/CVE-2026-123158_SSHole",
+   "source": "github-poc",
+   "title": "gabrielunknown/CVE-2026-123158_SSHole: CVE-2026-123158 SSHole — OpenSSH authentication bypass via musl crypt() overflow on Alpine Linux (Exploit PoC)",
+   "url": "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
+   "discussion": "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-11-05T22:51:12Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "kev": [
+    "CVE-2026-123158"
+   ],
+   "first_seen": "2026-11-05T22:51:12Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:08:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:50385065",
    "source": "hackernews",
    "title": "Barracuda ESG pre-auth remote root (CVE-2026-116606)",
@@ -10795,6 +10865,28 @@
     "votes": 1,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:Aureels/CVE-2026-86596",
+   "source": "github-poc",
+   "title": "Aureels/CVE-2026-86596: CVE-2026-86596 - s2Member <= 260927 Weaponized RCE",
+   "url": "https://github.com/Aureels/CVE-2026-86596",
+   "discussion": "https://github.com/Aureels/CVE-2026-86596",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-11-04T12:19:20Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-86596"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-04T12:19:20Z",
+   "label_history": [
+    {
+     "at": "2026-11-11T00:08:10Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "blog:https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
@@ -23170,7 +23262,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 83,
+   "points": 84,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
