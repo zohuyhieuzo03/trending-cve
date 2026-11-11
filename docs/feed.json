@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:08:08Z",
+ "generated": "2026-11-11T15:37:42Z",
  "count": 2174,
  "topics": [
   {
@@ -64,7 +64,7 @@
    "name": "Windows",
    "threads": 5,
    "repos": 0,
-   "points": 23,
+   "points": 24,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -194,14 +194,14 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 17,
    "kev": false,
    "vendor": false,
    "cves": [],
    "last_seen": "2026-11-11T10:12:24Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzzprbgfab2z",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzo274jwss2x",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx7c2wepm2h"
    ]
   },
@@ -376,23 +376,6 @@
    ]
   },
   {
-   "name": "Ubuntu",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109518"
-   ],
-   "last_seen": "2026-11-10T08:28:50Z",
-   "items": [
-    "hn:50375876",
-    "hn:50437552",
-    "blog:https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-   ]
-  },
-  {
    "name": "GPT-6",
    "threads": 3,
    "repos": 0,
@@ -438,6 +421,24 @@
     "hn:50403927",
     "blog:https://seclists.org/oss-sec/2026/q4/575",
     "blog:https://seclists.org/oss-sec/2026/q4/550"
+   ]
+  },
+  {
+   "name": "CVE-2026-116606",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-116606",
+    "CVE-2026-111560"
+   ],
+   "last_seen": "2026-11-06T07:29:25Z",
+   "items": [
+    "hn:50385065",
+    "lobsters:hhagfv",
+    "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
    ]
   }
  ],
@@ -615,7 +616,7 @@
    "title": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzztmdgwjl2c",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T11:21:14Z",
    "label": "security_news",
@@ -648,7 +649,7 @@
    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-11-11T10:12:24Z",
    "label": "exploited_reported",
@@ -1436,7 +1437,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzyhyiigns2q",
    "points": 6,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-11-10T22:20:37Z",
    "label": "exploited_reported",
    "cves": [],
@@ -1468,7 +1469,7 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 434,
+   "points": 437,
    "comments": 207,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
@@ -2803,7 +2804,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzxtpcvev42h",
    "points": 3,
-   "comments": 1,
+   "comments": 2,
    "created": "2026-11-10T16:17:34Z",
    "label": "exploited_reported",
    "cves": [],
