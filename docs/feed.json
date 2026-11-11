@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T06:37:11Z",
+ "generated": "2026-11-11T07:08:11Z",
  "count": 2162,
  "topics": [
   {
@@ -168,6 +168,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzlgci3o3525",
     "hn:50405744",
     "blog:https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+   ]
+  },
+  {
+   "name": "Google",
+   "threads": 3,
+   "repos": 0,
+   "points": 11,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-11-10T08:54:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mzx2wlsy3g2w",
+    "blog:https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+    "blog:https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
    ]
   },
   {
@@ -424,25 +439,6 @@
     "hn:50385065",
     "lobsters:hhagfv",
     "blog:https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/"
-   ]
-  },
-  {
-   "name": "worker",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-124495",
-    "CVE-2026-94125",
-    "CVE-2026-115864"
-   ],
-   "last_seen": "2026-11-11T03:23:20Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/653",
-    "blog:https://seclists.org/oss-sec/2026/q4/652",
-    "blog:https://seclists.org/oss-sec/2026/q4/612"
    ]
   }
  ],
@@ -1108,8 +1104,8 @@
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
-   "points": 375,
-   "comments": 175,
+   "points": 384,
+   "comments": 177,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
@@ -1141,7 +1137,7 @@
    "title": "Finding a vulnerability in Star Wars Episode I: Racer",
    "url": "https://synacktiv.com/en/publications/star-wars-episode-i-racer",
    "discussion": "https://lobste.rs/s/rfacq5/finding_vulnerability_star_wars_episode",
-   "points": 3,
+   "points": 4,
    "comments": 1,
    "created": "2026-11-10T15:58:18.818-06:00",
    "label": "security_news",
@@ -1496,7 +1492,7 @@
    "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-116928",
    "discussion": "https://news.ycombinator.com/item?id=50446357",
    "points": 10,
-   "comments": 2,
+   "comments": 3,
    "created": "2026-11-10T21:10:27Z",
    "label": "security_news",
    "cves": [],
@@ -23919,7 +23915,7 @@
    "title": "kpgc10kai/TimerRoot: Android front end for CVE-2026-98260: root shell + KernelSU late-load through Shizuku",
    "url": "https://github.com/kpgc10kai/TimerRoot",
    "discussion": "https://github.com/kpgc10kai/TimerRoot",
-   "points": 85,
+   "points": 86,
    "comments": 0,
    "created": "2026-10-28T15:15:02Z",
    "label": "public_exploit_reported",
