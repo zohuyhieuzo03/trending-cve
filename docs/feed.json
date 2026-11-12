@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:08:10Z",
+ "generated": "2026-11-12T00:37:55Z",
  "count": 2253,
  "topics": [
   {
@@ -1506,7 +1506,7 @@
    "title": "MchinaMd57764/CVE-2026-111497-PoC: ",
    "url": "https://github.com/MchinaMd57764/CVE-2026-111497-PoC",
    "discussion": "https://github.com/MchinaMd57764/CVE-2026-111497-PoC",
-   "points": 7,
+   "points": 9,
    "comments": 0,
    "created": "2026-11-11T15:28:32Z",
    "label": "kev_exploited",
@@ -9093,7 +9093,7 @@
    "title": "briskets/CVE-2026-126187-poc: CVE-2026-126187 Unauthenticated RCE in React Server Components - PoC and Docker lab for GHSA-xqc2-xf4c-x3h3 / GHSA-673q-mjm6-r5xr",
    "url": "https://github.com/briskets/CVE-2026-126187-poc",
    "discussion": "https://github.com/briskets/CVE-2026-126187-poc",
-   "points": 13,
+   "points": 14,
    "comments": 0,
    "created": "2026-11-08T22:51:41Z",
    "label": "public_exploit_reported",
