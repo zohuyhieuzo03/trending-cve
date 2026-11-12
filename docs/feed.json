@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:37:55Z",
+ "generated": "2026-11-12T01:08:11Z",
  "count": 2253,
  "topics": [
   {
@@ -1474,7 +1474,7 @@
    "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
    "discussion": "https://news.ycombinator.com/item?id=50455031",
    "points": 18,
-   "comments": 5,
+   "comments": 6,
    "created": "2026-11-11T16:08:14Z",
    "label": "security_news",
    "cves": [],
