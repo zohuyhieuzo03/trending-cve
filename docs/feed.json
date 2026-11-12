@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T01:38:10Z",
+ "generated": "2026-11-12T02:08:10Z",
  "count": 2253,
  "topics": [
   {
@@ -327,7 +327,7 @@
    "name": "assign_headers",
    "threads": 3,
    "repos": 0,
-   "points": 28,
+   "points": 29,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -1596,7 +1596,7 @@
    "title": "CVE-2026-119618 (critical): mod_HTTP2: heap corruption and RCE in assign_headers",
    "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
    "discussion": "https://news.ycombinator.com/item?id=50453368",
-   "points": 25,
+   "points": 26,
    "comments": 9,
    "created": "2026-11-11T13:47:26Z",
    "label": "related",
@@ -4102,7 +4102,7 @@
    "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "discussion": "https://news.ycombinator.com/item?id=50447074",
    "points": 447,
-   "comments": 218,
+   "comments": 219,
    "created": "2026-11-10T22:17:56Z",
    "label": "security_news",
    "cves": [],
