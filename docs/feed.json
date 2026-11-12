@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-11T23:38:10Z",
- "count": 2251,
+ "generated": "2026-11-12T00:08:10Z",
+ "count": 2253,
  "topics": [
   {
    "name": "YAML",
@@ -230,7 +230,7 @@
    "name": "Chrome",
    "threads": 4,
    "repos": 0,
-   "points": 15,
+   "points": 16,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -344,7 +344,7 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 18,
+   "points": 19,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -749,7 +749,7 @@
    "title": "Chrome zero-day whack-a-mole continues as 2026 tally hits 8",
    "url": "https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732",
    "discussion": "https://news.ycombinator.com/item?id=50456204",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-11-11T17:47:21Z",
    "label": "zero_day_mention",
@@ -1501,6 +1501,30 @@
    }
   },
   {
+   "id": "ghpoc:MchinaMd57764/CVE-2026-111497-PoC",
+   "source": "github-poc",
+   "title": "MchinaMd57764/CVE-2026-111497-PoC: ",
+   "url": "https://github.com/MchinaMd57764/CVE-2026-111497-PoC",
+   "discussion": "https://github.com/MchinaMd57764/CVE-2026-111497-PoC",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-11-11T15:28:32Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "first_seen": "2026-11-11T15:28:32Z",
+   "label_history": [
+    {
+     "at": "2026-11-12T00:08:10Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:50453944",
    "source": "hackernews",
    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
@@ -1706,7 +1730,7 @@
    "title": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mzzprbgfab2z",
-   "points": 7,
+   "points": 8,
    "comments": 0,
    "created": "2026-11-11T10:12:24Z",
    "label": "exploited_reported",
@@ -19353,6 +19377,28 @@
     "votes": 0,
     "rubric": 2
    }
+  },
+  {
+   "id": "ghpoc:Mushr00w/CVE-2026-116512",
+   "source": "github-poc",
+   "title": "Mushr00w/CVE-2026-116512: Exploit for CVE-2026-116512 - weDevs Project Manager <= 4.1.1 Unauthenticated RCE. For educational and authorized security testing only.",
+   "url": "https://github.com/Mushr00w/CVE-2026-116512",
+   "discussion": "https://github.com/Mushr00w/CVE-2026-116512",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-11-01T21:02:29Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-116512"
+   ],
+   "kev": [],
+   "first_seen": "2026-11-01T21:02:29Z",
+   "label_history": [
+    {
+     "at": "2026-11-12T00:08:10Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "hn:50328923",
